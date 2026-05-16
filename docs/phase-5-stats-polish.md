@@ -70,26 +70,7 @@ Use `vite-plugin-pwa`. Add to `vite.config.ts`:
 VitePWA({
   registerType: 'autoUpdate',
   workbox: {
-    globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2}'],
-    runtimeCaching: [
-      {
-        urlPattern: /\.webp$/,
-        handler: 'CacheFirst',
-        options: {
-          cacheName: 'images',
-          expiration: { maxEntries: 5000, maxAgeSeconds: 90 * 86400 },
-        },
-      },
-      {
-        urlPattern: ({ url }) => url.host.includes('r2.dev') || url.host.includes('r2.cloudflarestorage.com'),
-        handler: 'CacheFirst',
-        options: {
-          cacheName: 'audio',
-          expiration: { maxEntries: 5000, maxAgeSeconds: 365 * 86400 },
-          rangeRequests: true,
-        },
-      },
-    ],
+    globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,mp3}'],
   },
   manifest: {
     name: 'pt-cards',
@@ -108,12 +89,16 @@ Result: app prompts to install on desktop Chrome/Edge; once installed it runs in
 
 Generate two simple icons (192×192 and 512×512). Suggested: solid color square with a stylized "pt" monogram.
 
-### 2.1 Offline reality check
+### 2.1 Local installation
+
+After build, run `npx serve dist` once, open in Chrome, click Install — then close the serve process. The app keeps working from cache. All assets (images, audio) are served from the same origin and cached by the service worker automatically.
+
+### 2.2 Offline reality check
 
 After PWA installation:
 - App shell loads from cache (no network needed).
 - Word data is in IndexedDB (no network needed).
-- Images and audio: cached after first play. If a card with un-cached audio surfaces offline, the speaker icon shows a small "no internet" overlay and audio is silently skipped.
+- Images and audio are precached from the build output.
 
 Test by toggling DevTools "Offline" and running a full session.
 
@@ -192,8 +177,8 @@ Also add a "did you know" rotation: small tips at the bottom of the dashboard, r
 - [ ] Hardest cards and Upcoming cards lists work.
 - [ ] Export produces a valid JSON dump that can be re-imported to a fresh browser.
 - [ ] Import replaces data after confirmation, without corruption.
-- [ ] PWA install prompt appears on first visit; installed app works offline.
-- [ ] Service worker caches images and audio; verify by inspecting Application tab in DevTools.
+- [ ] PWA installs locally via `npx serve dist` + Chrome Install; app works offline after installation.
+- [ ] Service worker caches all assets; verify by inspecting Application tab in DevTools.
 - [ ] Streak count is correct after multi-day testing.
 - [ ] Theme switcher works (light / dark / system).
 - [ ] All charts re-render correctly on theme switch.
@@ -202,8 +187,7 @@ Also add a "did you know" rotation: small tips at the bottom of the dashboard, r
 
 ## 7. Risks / Things to Watch
 
-- **PWA + Vercel**: ensure `vite-plugin-pwa` config doesn't conflict with Vercel's edge caching. Add `Cache-Control: no-cache` for `index.html` via `vercel.json` headers.
-- **Audio caching from R2**: workbox `CacheFirst` strategy needs CORS configured on R2. In Cloudflare R2 dashboard, set CORS to allow `GET` from the app's origin.
+- **PWA precache size**: at full scale, audio + images in `dist/` can be large. Workbox precaches everything matching `globPatterns`; verify build output size is reasonable and consider splitting audio into runtime caching if it exceeds ~500 MB.
 - **IndexedDB size**: full deck + caches can hit 100+ MB. Browsers have quotas. If user hits storage quota, gracefully degrade — keep words and FSRS state, evict image/audio cache first. Use `navigator.storage.estimate()`.
 - **Charts on tiny screens**: stats page is desktop-first per spec, but if user resizes, charts should at minimum not break the layout. Use responsive containers.
 - **Streak gaming**: Don't let the user "save" their streak by doing one review at 23:59 every day. The 04:00 boundary helps. Also: a 1-card review counts; that's fine, the app is for the user, not a leaderboard.

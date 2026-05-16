@@ -347,11 +347,9 @@ In `/learn`:
 
 ---
 
-## 9. Deployment
+## 9. Local Run
 
-- Push to GitHub.
-- Connect Vercel to the repo (root = `apps/web` or move web to root if monorepo overhead isn't worth it for Phase 1 — your call).
-- Verify deployed URL works.
+- `npm run dev` starts the app in development mode with HMR.
 - Test FSRS scheduling: review a card → "Good" → check IndexedDB in DevTools, confirm `due` is set ~10 minutes out (learning) or 1+ days out (review).
 
 ---
@@ -368,7 +366,7 @@ In `/learn`:
 - [ ] After a session, the dashboard reflects updated streak and remaining due/new counts.
 - [ ] Settings changes persist.
 - [ ] "Reset progress" wipes state and re-seeds tier 10.
-- [ ] App is deployed and accessible at a public Vercel URL.
+- [ ] App runs locally via `npm run dev` without errors.
 
 ---
 
@@ -383,4 +381,4 @@ In `/learn`:
 
 ## 12. Definition of Done
 
-User can review the 10 tier-1 cards, see them scheduled out correctly per FSRS, and the app is live at a Vercel URL the user can bookmark. Stop here, await user approval, before moving to Phase 2.
+User can review the 10 tier-1 cards, see them scheduled out correctly per FSRS, and the app runs locally via `npm run dev`. Stop here, await user approval, before moving to Phase 2.

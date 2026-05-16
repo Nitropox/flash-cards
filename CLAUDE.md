@@ -12,8 +12,7 @@ European Portuguese (pt-PT) vocabulary learning app for a Polish speaker. Image-
 - **Spaced repetition:** ts-fsrs
 - **Routing:** React Router v6+
 - **PWA:** vite-plugin-pwa (Phase 5)
-- **Hosting:** Vercel (static SPA)
-- **Audio hosting:** Cloudflare R2
+- **Distribution:** Local PWA (installed from `npm run build` + local static serve)
 - **Images:** Flux Schnell via fal.ai (build-time)
 - **TTS:** Azure Speech Service, voices `pt-PT-RaquelNeural` and `pt-PT-DuarteNeural` (build-time)
 - **STT:** Web Speech API (`lang="pt-PT"`, runtime)
@@ -92,8 +91,4 @@ FAL_API_KEY          # fal.ai image generation
 AZURE_SPEECH_KEY     # Azure Speech Service TTS
 AZURE_SPEECH_REGION  # e.g. westeurope
 ANTHROPIC_API_KEY    # Claude API for translations
-R2_ACCOUNT_ID       # Cloudflare R2
-R2_ACCESS_KEY_ID
-R2_SECRET_ACCESS_KEY
-R2_BUCKET=pt-cards-audio
 ```

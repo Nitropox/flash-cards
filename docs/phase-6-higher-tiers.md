@@ -17,10 +17,10 @@ This phase is split into two halves: Phase 6a (tier 3000) and Phase 6b (tier 100
 | Tier | New entries | Images | Image cost | Audio chars | Audio cost (if past free tier) |
 |---|---|---|---|---|---|
 | 3000 | 2000 | ~1700 | $5.10 | ~500K | $0–$8 |
-| 10000 | 7000 | ~6000 | $18 | ~1.75M | $20–$28 |
-| **Phase 6 total** | | | **$23** | | **$20–$36** |
+| 10000 | 7000 | ~6000 | $18 | ~1.75M | $0–$10 |
+| **Phase 6 total** | | | **$23** | | **$0–$18** |
 
-Cumulative content cost (all phases): ~$26–$45. Stays under $50 budget. Audio costs are the variable — Azure free tier is 0.5M chars/month, so spreading generation over 4–5 months keeps audio free.
+Cumulative content cost (all phases): ~$26–$30. Well under $50 budget (reduced from original since no hosting costs). Audio costs are the variable — Azure free tier is 0.5M chars/month, so spreading generation over 4–5 months keeps audio free.
 
 ---
 
@@ -30,7 +30,7 @@ The user has two ways to generate higher-tier content.
 
 ### Path A: Local pipeline (recommended)
 
-Same scripts as Phases 2 and 3, with `--tier 3000` or `--tier 10000`. User pulls latest, runs `npm run data:all -- --tier 3000`, commits the resulting JSON + audio manifest + R2 uploads, and pushes. Deploy.
+Same scripts as Phases 2 and 3, with `--tier 3000` or `--tier 10000`. Run `npm run data:all -- --tier 3000`, commit the resulting JSON + audio manifest, rebuild and reinstall the PWA.
 
 This is the cheap, reliable path. The agent should ensure scripts work reliably for batches of this size:
 - Resume from manifest on interruption
@@ -38,15 +38,7 @@ This is the cheap, reliable path. The agent should ensure scripts work reliably 
 - Progress bars and ETA in console
 - Budget guards: scripts must abort if a single run would exceed `--max-cost-usd` (default 25)
 
-### Path B: In-app trigger (optional, only if user is on a different machine)
-
-Build a `/admin` route (not in main nav, but accessible by URL) that:
-- Shows current cumulative content costs (read from `data/manifests/`)
-- Has a button "Generate tier 3000" that triggers a GitHub Action workflow via repository_dispatch event
-
-The GitHub Action runs the same scripts in CI. After completion, deploys to Vercel. Secrets stay in GitHub.
-
-This is bonus complexity — implement only if the user explicitly wants it. By default, ship Path A only.
+Path A is the only path. No remote triggers or CI needed — this is a local-only app.
 
 ---
 
@@ -89,13 +81,6 @@ Validate that:
 
 If any of these regress, optimize before shipping.
 
-### 3.4 Audio cache eviction
-
-At tier 10000, audio total is ~1.6 GB on R2 but locally cached audio could fill browser quota. Update the service worker to:
-- Limit audio cache to 1000 most-recent entries
-- Evict LRU when limit reached
-- Show a "Storage almost full" hint in settings if `navigator.storage.estimate()` > 90% of quota
-
 ---
 
 ## 4. Source Quality at Tiers 3000+
@@ -126,11 +111,11 @@ Opens a local HTML page with 100 random entries shown side-by-side with images a
 
 ### Phase 6b (tier 10000)
 
-- [ ] Tier 10000 content generated across multiple Azure free-tier months if needed; cumulative cost ≤ $45.
+- [ ] Tier 10000 content generated across multiple Azure free-tier months if needed; cumulative cost ≤ $30.
 - [ ] Manual review of 200 random tier-10000 entries: ≥85% pass (relaxed; long tail is noisier).
 - [ ] Session queue builds in <200 ms at full scale.
 - [ ] Browse page handles 10000 entries smoothly.
-- [ ] Audio cache eviction works; no quota errors.
+- [ ] PWA reinstalls cleanly with the larger asset set.
 
 ---
 
@@ -140,13 +125,13 @@ Opens a local HTML page with 100 random entries shown side-by-side with images a
 - **Cost drift**: fal.ai or Azure pricing could change. Build the cost tracker so the agent updates `costs.json` from manifests at every run.
 - **Polish translation drift**: Claude's translations at rank 5000+ may miss nuance for technical or archaic words. Include manual review.
 - **Audio voices**: Azure may deprecate `RaquelNeural` or `DuarteNeural` in the future. Plan B: switch to alternative pt-PT voices (Azure has several). All audio file paths are versioned by voice name, so adding a new voice doesn't break existing cards.
-- **R2 storage costs**: at 10000 words × 4 audio files × 40 KB = 1.6 GB. Within R2 free tier (10 GB). But monitor.
+- **Local disk size**: at 10000 words × 4 audio files × 40 KB = 1.6 GB of audio in `public/`. Acceptable for a local app but `.gitignore` the audio directory and regenerate from manifests on new machines.
 
 ---
 
 ## 7. Definition of Done
 
-The user has access to all 10000 most-frequent European Portuguese words plus curated phrases, with images and audio, scheduled by FSRS. Total content cost is under $50. The app is feature-complete and ready for years of daily use.
+The user has access to all 10000 most-frequent European Portuguese words plus curated phrases, with images and audio, scheduled by FSRS. Total content cost is under $30. The app is feature-complete and ready for years of daily use as a local PWA.
 
 After Phase 6, no further roadmap is committed. Possible future directions (out of scope for this PRD):
 - Cloze-deletion cards from native podcasts/articles

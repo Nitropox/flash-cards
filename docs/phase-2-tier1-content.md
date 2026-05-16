@@ -1,6 +1,6 @@
 # Phase 2 — Content Pipelines & Tier 1 + 100
 
-> **Prerequisites:** Phase 1 complete and deployed. Read `00-overview.md`.
+> **Prerequisites:** Phase 1 complete. Read `00-overview.md`.
 
 ## Goal
 
@@ -8,23 +8,9 @@ Build the four Node.js scripts that generate content (word list, translations, i
 
 ---
 
-## 1. Cloudflare R2 Setup
+## 1. Word List Assembly (`scripts/01-assemble-wordlist.ts`)
 
-Audio for full 10000-word tier eventually exceeds Vercel's free tier (1 GB). Set up R2 now so we never have to migrate.
-
-1. Create a Cloudflare account if needed (free).
-2. Create an R2 bucket named `pt-cards-audio`.
-3. Enable public access (Custom Domain or `r2.dev` public URL).
-4. Add S3-compatible API tokens; put them in `.env.local` (see `00-overview.md` §8).
-5. Set `VITE_AUDIO_BASE_URL` in app env to the public R2 URL (e.g. `https://pub-xxxx.r2.dev`). The app loads audio from `${VITE_AUDIO_BASE_URL}/${audioPt}`.
-
-Images stay in `apps/web/public/images/` and ride along with Vercel deploy (their total size is bounded — see §3.4 budget cap).
-
----
-
-## 2. Word List Assembly (`scripts/01-assemble-wordlist.ts`)
-
-### 2.1 Sources
+### 1.1 Sources
 
 Acquire and place under `data/sources/`:
 
@@ -33,7 +19,7 @@ Acquire and place under `data/sources/`:
 3. **PortuguesePod101 / 101languages.net top 100** — sanity check for beginner relevance.
 4. **A Frequency Dictionary of Portuguese** (Davies & Preto-Bay). Copyrighted — the user must source legitimately. Use only the (word, PoS, gender, example sentence) tuples; do not redistribute raw dictionary content.
 
-### 2.2 Output
+### 1.2 Output
 
 Emit `data/assembled/words-raw.json` — a deduplicated, ranked list of entries with everything we know from sources except translations:
 
@@ -54,13 +40,13 @@ type RawEntry = {
 };
 ```
 
-### 2.3 Phrase ingestion
+### 1.3 Phrase ingestion
 
 Augment the raw list with a manually curated `data/sources/phrases-pt.json` of ~150–300 high-utility European Portuguese phrases (`type: "phrase"`). Examples: *estar com fome*, *ter saudade*, *dar uma volta*, *fazer anos*, *pois é*, *está bem*, *bom proveito*, *de nada*, *com certeza*, *se calhar*. Each entry has its own `frequencyRank` assigned based on perceived utility; place them in tiers 100, 300, 500, or 1000 accordingly.
 
 The agent should generate this `phrases-pt.json` once, programmatically (use Claude API to propose phrases, then dump to JSON) — **but require user review** before continuing. Output a TODO file listing them for the user to skim and accept/reject in one batch.
 
-### 2.4 Tier assignment
+### 1.4 Tier assignment
 
 For ranked entries:
 - Rank 1–10 → tier 10 (override with hand-curated set from Phase 1)
@@ -71,7 +57,7 @@ For ranked entries:
 - 1001–3000 → tier 3000
 - 3001–10000 → tier 10000
 
-### 2.5 European-Portuguese filter
+### 1.5 European-Portuguese filter
 
 If a word appears in source lists but **not** in the Wiktionary pt-PT list, and is in the top 3000, log a warning. Common BR-specific words to demote or replace:
 - `ônibus` → `autocarro`
@@ -89,7 +75,7 @@ Maintain `scripts/lib/pt-br-substitutions.ts` with this mapping and apply at ass
 
 ---
 
-## 3. Image Generation (`scripts/03-generate-images.ts`)
+## 2. Image Generation (`scripts/03-generate-images.ts`)
 
 > Note: numbered 03 not 02 to match `00-overview.md`. Run order: 01 → 02 (translate) → 03 (images) → 04 (audio) → 05 (bundle).
 
@@ -189,7 +175,7 @@ After each run, emit `scripts/output/images-review.html` — a static grid of al
 
 ---
 
-## 4. Translation Pipeline (`scripts/02-translate.ts`)
+## 3. Translation Pipeline (`scripts/02-translate.ts`)
 
 ### 4.1 Strategy
 
@@ -241,9 +227,9 @@ Emit `data/assembled/words-translated.json` — full `WordEntry` shape minus aud
 
 ---
 
-## 5. Audio Generation (`scripts/04-generate-audio.ts`)
+## 4. Audio Generation (`scripts/04-generate-audio.ts`)
 
-### 5.1 Provider
+### 4.1 Provider
 
 **Azure Cognitive Services Speech**, REST API. Free tier: 0.5 M neural characters/month for first 12 months, then 500K free-tier voices.
 
@@ -251,14 +237,14 @@ For full 10000 entries × 2 voices × 2 texts (word + example) at avg 8 chars fo
 
 For Phase 2, only tier 1 + 100 = ~100 entries × ~120 chars × 2 voices ≈ 24 K chars. Free.
 
-### 5.2 Voices
+### 4.2 Voices
 
 - `pt-PT-RaquelNeural` (female, default)
 - `pt-PT-DuarteNeural` (male, alternate)
 
 Generate **both** for every entry so user can switch in settings without regenerating.
 
-### 5.3 SSML
+### 4.3 SSML
 
 ```xml
 <speak version="1.0" xml:lang="pt-PT">
@@ -272,13 +258,11 @@ Generate **both** for every entry so user can switch in settings without regener
 
 For example sentences, use normal rate (no `<prosody>`).
 
-### 5.4 Output
+### 4.4 Output
 
 MP3 16 kHz mono, ~32 kbps. Files at `apps/web/public/audio/{voice}/{wordId}/word.mp3` and `.../example.mp3`.
 
-In parallel, upload each file to R2 under the same path. The app reads from R2 in production; local public/ is for dev only.
-
-### 5.5 Idempotency
+### 4.5 Idempotency
 
 Manifest at `data/manifests/audio.json`:
 
@@ -295,7 +279,7 @@ type AudioManifest = {
 
 Skip on rerun if textHash matches.
 
-### 5.6 Flags
+### 4.6 Flags
 
 ```
 --tier <N>
@@ -307,7 +291,7 @@ Skip on rerun if textHash matches.
 
 ---
 
-## 6. Bundle Script (`scripts/05-bundle-data.ts`)
+## 5. Bundle Script (`scripts/05-bundle-data.ts`)
 
 Combines `data/assembled/words-translated.json` with `data/manifests/{images,audio}.json` into the final per-tier JSON files the app consumes:
 
@@ -326,27 +310,27 @@ Each file contains only entries with that tier value. The app loads them lazily 
 
 ---
 
-## 7. App Integration
+## 6. App Integration
 
-### 7.1 Update seed/ingest logic
+### 6.1 Update seed/ingest logic
 
 `src/lib/ingest.ts`:
 - On first run, ingest `tier-10.json` into `words` and create cards.
 - After user advances tier (or in Phase 2, automatically), ingest the new tier's JSON.
 - Detect already-ingested words by `id` — never duplicate.
 
-### 7.2 Audio playback in session
+### 6.2 Audio playback in session
 
 In `CardView.tsx`, when card flips to back:
 - Read `Settings.ttsVoice` and `Settings.ttsAutoPlay`.
-- If autoPlay, immediately play `${VITE_AUDIO_BASE_URL}/audio/${voice.toLowerCase()}/${wordId}/word.mp3`.
+- If autoPlay, immediately play `/audio/${voice.toLowerCase()}/${wordId}/word.mp3`.
 - Speaker button (icon: 🔊) replays the word audio.
 - Second speaker button (with example icon) plays `example.mp3`.
 - Keyboard: `P` replays word, `Shift+P` replays example.
 
 Handle audio errors gracefully (file missing → toast "Audio not yet available for this word").
 
-### 7.3 Image rendering
+### 6.3 Image rendering
 
 In `CardView.tsx`:
 - If `imageStrategy === "none"`, render the word itself huge (text-6xl) in place of an image with a subtle decoration.
@@ -355,31 +339,31 @@ In `CardView.tsx`:
 
 ---
 
-## 8. Acceptance Criteria
+## 7. Acceptance Criteria
 
 - [ ] All four scripts (01, 02, 03, 04) run from `npm run data:*` and are idempotent.
 - [ ] Manifests in `data/manifests/` are valid JSON and survive re-runs without duplication.
 - [ ] `data:bundle` produces `tier-10.json` and `tier-100.json` with ≥100 valid entries combined.
 - [ ] Every entry has either a valid `imageFile` or `imageStrategy === "none"`.
-- [ ] Every entry has `audioPt` and `audioExamplePt` pointing to files that exist on R2.
+- [ ] Every entry has `audioPt` and `audioExamplePt` pointing to files that exist in `public/audio/`.
 - [ ] Total Phase 2 generation cost recorded ≤ USD 5 (target ≤ $1 for tier 100).
-- [ ] App, deployed: ingests tier 1 + 100 cards on first load.
+- [ ] App ingests tier 1 + 100 cards on first load.
 - [ ] Audio plays correctly in session player for both voices.
 - [ ] Images render correctly; function words show large text instead.
 - [ ] At least 80% of tier-100 entries pass user spot-check (image clearly represents word, audio sounds correct).
 
 ---
 
-## 9. Risks / Things to Watch
+## 8. Risks / Things to Watch
 
 - **Sense ambiguity** (banco = bank/bench, vela = sail/candle). Translation script must emit suffixed IDs (`banco-1`, `banco-2`) when both senses are common. Use Claude to detect.
 - **Phrase image quality**: Flux Schnell can struggle with multi-element scenes. If results are poor for a phrase, set `imageStrategy = "none"` for that entry.
 - **Rate limits**: fal.ai is forgiving; Azure has region-specific limits. Throttle to 5 req/s for both.
 - **PT spelling variants**: pt-PT accepted both pre-1990 and post-1990 spellings (e.g. *acção* vs *ação*, *facto* vs *fato*). Use post-1990 (current standard). If a source has old spelling, normalize.
-- **Audio file size**: 50K+ files in `public/` will slow Vercel deploys. R2 is the source of truth from Phase 2 onward; `public/audio/` can be `.gitignore`d.
+- **Audio file size**: at full scale (10000 words), `public/audio/` can grow large. Consider `.gitignore`ing it and regenerating from manifests.
 
 ---
 
-## 10. Definition of Done
+## 9. Definition of Done
 
-Tier 10 + 100 = 100 words and phrases are fully populated with translations, images (where applicable), and audio in both voices. App on Vercel correctly plays audio and shows images during sessions. Cost stays well under $5. Stop here, await user approval, before moving to Phase 3.
+Tier 10 + 100 = 100 words and phrases are fully populated with translations, images (where applicable), and audio in both voices. App locally plays audio and shows images during sessions. Cost stays well under $5. Stop here, await user approval, before moving to Phase 3.

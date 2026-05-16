@@ -49,8 +49,7 @@ Each phase is independently deployable.
 | Spaced repetition | **ts-fsrs** (npm) | Modern FSRS implementation in TypeScript |
 | Routing | React Router v6+ | Simple SPA routing |
 | PWA | `vite-plugin-pwa` | Offline support, installable as desktop app (Phase 5) |
-| Hosting | Vercel (or Netlify / Cloudflare Pages) | Free tier, zero-config |
-| Asset hosting (audio) | **Cloudflare R2** | Audio bundle exceeds Vercel free tier from Phase 2 onward |
+| Distribution | Local PWA (installed from `npm run build` + local static serve) | No hosting needed; single-user app |
 | Image generation (build-time) | **Flux Schnell via fal.ai** | ~$0.003/image, good quality |
 | TTS pre-generation (build-time) | **Azure Speech Service**, voices `pt-PT-RaquelNeural` and `pt-PT-DuarteNeural` | Free tier covers full need; pt-PT voices are excellent |
 | STT runtime | **Web Speech API** (`lang="pt-PT"`) | Free, browser-native |
@@ -78,14 +77,14 @@ pt-cards/
 │   │   ├── data/                      # Bundled word data (JSON) at build time
 │   │   └── main.tsx
 │   ├── public/
-│   │   ├── images/                    # Generated images (served by Vercel)
-│   │   └── audio/                     # Generated MP3s (mirrored to R2 in Phase 2+)
+│   │   ├── images/                    # Generated images
+│   │   └── audio/                     # Generated MP3s
 │   └── package.json
 ├── scripts/                           # Node.js build-time pipelines
 │   ├── 01-assemble-wordlist.ts        # Merges sources → canonical word list
 │   ├── 02-translate.ts                # PL translations via Claude API
 │   ├── 03-generate-images.ts          # fal.ai Flux Schnell → public/images/
-│   ├── 04-generate-audio.ts           # Azure TTS → public/audio/ + R2
+│   ├── 04-generate-audio.ts           # Azure TTS → public/audio/
 │   ├── 05-bundle-data.ts              # Emits final src/data/*.json
 │   └── lib/                           # Shared script utilities
 ├── data/
@@ -241,10 +240,6 @@ FAL_API_KEY=...                # fal.ai (image generation)
 AZURE_SPEECH_KEY=...           # Azure Speech Service (TTS)
 AZURE_SPEECH_REGION=...        # e.g. westeurope
 ANTHROPIC_API_KEY=...          # Claude API for translations & classification
-R2_ACCOUNT_ID=...              # Cloudflare R2 (Phase 2+)
-R2_ACCESS_KEY_ID=...
-R2_SECRET_ACCESS_KEY=...
-R2_BUCKET=pt-cards-audio
 ```
 
 ---
