@@ -175,45 +175,41 @@ After each run, emit `scripts/output/images-review.html` — a static grid of al
 
 ---
 
-## 3. Translation Pipeline (`scripts/02-translate.ts`)
+## 3. Translation Pipeline (Claude Code in-session)
 
-### 4.1 Strategy
+### 3.1 Strategy
 
-For each `RawEntry` without `pl`, send to Claude API in batches of 50. Prompt:
+Claude Code translates entries in-session (no API key needed), writing results to `data/assembled/words-translated.json` directly. Work in batches of 50 entries.
 
-```
-You are translating Portuguese (European, pt-PT) vocabulary into Polish for a flashcard app.
-For each entry, output JSON with fields:
-  - pl: the most common Polish translation (one word or short phrase, no parenthetical alternatives)
-  - examplePt: the provided example sentence verified to be pt-PT (substitute any pt-BR vocabulary)
-  - examplePl: Polish translation of examplePt
-  - enHint: an English gloss (1-3 words) used internally for image prompts
-  - imageStrategy: "literal" | "scene" | "none" (see definitions)
-  - notes: any pt-PT-specific grammar quirk or sense disambiguation (one sentence max), or null
+For each `RawEntry` without `pl`, Claude Code produces:
+
+- `pl`: the most common Polish translation (one word or short phrase, no parenthetical alternatives)
+- `examplePt`: the provided example sentence verified to be pt-PT (substitute any pt-BR vocabulary)
+- `examplePl`: Polish translation of examplePt
+- `enHint`: an English gloss (1-3 words) used internally for image prompts
+- `imageStrategy`: `"literal" | "scene" | "none"` (see definitions in §2)
+- `notes`: any pt-PT-specific grammar quirk or sense disambiguation (one sentence max), or null
 
 Strict requirements:
-- pl is Polish ONLY, no Portuguese in parentheses
-- For verbs, pl is in infinitive form
-- For nouns, pl is in nominative singular
+- `pl` is Polish ONLY, no Portuguese in parentheses
+- For verbs, `pl` is in infinitive form
+- For nouns, `pl` is in nominative singular
 - If pt has multiple senses, this entry already represents one sense (id suffix indicates which); pick translation matching the example
-- examplePt must be European Portuguese — replace any Brazilian-only vocabulary
+- `examplePt` must be European Portuguese — replace any Brazilian-only vocabulary
 
-Output ONLY a JSON array, no commentary.
-```
+After every 50 entries, show the user a sample for style review before continuing.
 
-Use model `claude-opus-4-7` or current best.
+### 3.2 Example sentence generation
 
-### 4.2 Example sentence generation
-
-If `examplePt` is null (no source provided one), generate it in the same batch by asking the model to produce one:
+If `examplePt` is null (no source provided one), generate it in the same batch:
 - ≤12 words
 - A1–B1 level for tier ≤1000, B2 for higher
 - Clearly demonstrates the word's meaning
 - pt-PT vocabulary only
 
-### 4.3 Validation
+### 3.3 Validation
 
-After receiving translations, validate:
+After producing translations, validate:
 - All required fields present
 - `pl` is not empty and doesn't contain Portuguese characters (no `ã ç õ á é í ó ú`)
 - `examplePt` includes the target word (or a conjugation of it for verbs)
@@ -221,7 +217,7 @@ After receiving translations, validate:
 
 Failed entries → write to `data/output/translation-errors.json` for manual fix. Don't block the batch.
 
-### 4.4 Output
+### 3.4 Output
 
 Emit `data/assembled/words-translated.json` — full `WordEntry` shape minus audio/image paths (which come from later scripts).
 

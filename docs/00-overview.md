@@ -53,7 +53,7 @@ Each phase is independently deployable.
 | Image generation (build-time) | **Flux Schnell via fal.ai** | ~$0.003/image, good quality |
 | TTS pre-generation (build-time) | **Azure Speech Service**, voices `pt-PT-RaquelNeural` and `pt-PT-DuarteNeural` | Free tier covers full need; pt-PT voices are excellent |
 | STT runtime | **Web Speech API** (`lang="pt-PT"`) | Free, browser-native |
-| Translation (build-time) | Anthropic Claude API | Better pt-PT disambiguation than DeepL |
+| Translation (build-time) | Claude Code (uses your Max plan) | No API key needed; translations done in-session |
 
 **Do not introduce a backend server.** Build-time Node.js scripts generate content; the final app is a static SPA + asset bundle + IndexedDB.
 
@@ -239,7 +239,6 @@ Used **only by Node scripts** in `scripts/` at build time. Never bake them into 
 FAL_API_KEY=...                # fal.ai (image generation)
 AZURE_SPEECH_KEY=...           # Azure Speech Service (TTS)
 AZURE_SPEECH_REGION=...        # e.g. westeurope
-ANTHROPIC_API_KEY=...          # Claude API for translations & classification
 ```
 
 ---

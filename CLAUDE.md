@@ -16,7 +16,7 @@ European Portuguese (pt-PT) vocabulary learning app for a Polish speaker. Image-
 - **Images:** Flux Schnell via fal.ai (build-time)
 - **TTS:** Azure Speech Service, voices `pt-PT-RaquelNeural` and `pt-PT-DuarteNeural` (build-time)
 - **STT:** Web Speech API (`lang="pt-PT"`, runtime)
-- **Translation:** Anthropic Claude API (build-time)
+- **Translation:** Claude Code in-session (uses Max plan, no API key needed)
 
 ## Hard Constraints
 
@@ -90,5 +90,4 @@ pt-cards/
 FAL_API_KEY          # fal.ai image generation
 AZURE_SPEECH_KEY     # Azure Speech Service TTS
 AZURE_SPEECH_REGION  # e.g. westeurope
-ANTHROPIC_API_KEY    # Claude API for translations
 ```

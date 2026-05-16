@@ -50,9 +50,11 @@ Implement Phase 2 in this order:
 
 For the tier-10 hand-curated set from Phase 1, generate proper images and audio so those 10 cards become "real". Then generate tier-100 fresh.
 
+Część pracy z fazy 2 to tłumaczenia polskie i klasyfikacja imageStrategy. Nie używaj Anthropic API do tego (nie mam klucza). Zamiast tego rób tłumaczenia jako agentic task wewnątrz tej sesji Claude Code - batchami po 50 słów, zapisując wynik do JSON. Pokazuj mi co 50 słów próbkę, żebym mógł poprawić styl jeśli trzeba.
+
 Before each script run that costs money, print the cost estimate and ask me to confirm. Show running totals.
 
-After implementing, run through acceptance criteria in phase-2-tier1-content.md §8.
+After implementing, run through acceptance criteria in phase-2-tier1-content.md §7.
 ```
 
 ---
