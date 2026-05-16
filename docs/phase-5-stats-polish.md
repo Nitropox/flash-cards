@@ -1,0 +1,215 @@
+# Phase 5 — Stats, PWA, and Polish
+
+> **Prerequisites:** Phases 1–4 complete. Read `00-overview.md`.
+
+## Goal
+
+- Build the Stats page with charts and aggregate retention metrics.
+- Convert the app to a PWA: installable, offline-capable.
+- Polish: streak system, time-of-day heatmap, export/import, theme refinement.
+
+---
+
+## 1. Stats Page (`/stats`)
+
+### 1.1 Top metrics row
+
+Four big number cards:
+
+- **Streak** — current consecutive days with ≥1 review (uses 04:00 day boundary).
+- **Total cards** — count of non-suspended cards.
+- **Mastered** — count of cards with `stability > 90`.
+- **True retention** — last-30-days: of reviews scheduled for `state === "Review"` cards, % that were rated Good or Easy. (Excludes Learning/Relearning.)
+
+### 1.2 Charts
+
+Use a small charting lib (`recharts` or `visx`). All charts should respect light/dark theme.
+
+#### Reviews per day (last 30 days)
+
+Stacked bar chart:
+- X axis: each day
+- Stacked: Again (red) / Hard (orange) / Good (green) / Easy (blue)
+- Tooltip shows totals
+
+#### Retention over time (last 90 days)
+
+Line chart of rolling 7-day true retention. Helps user spot decline before it gets bad.
+
+#### Cards by state (current)
+
+Horizontal stacked bar: New / Learning / Review / Mastered for each tier the user has unlocked.
+
+#### Time-of-day heatmap
+
+7×24 grid (days × hours), cell color = count of reviews at that hour over last 30 days. Reveals when the user actually studies. Useful for self-discovery, not strict scheduling.
+
+### 1.3 Word-level insights
+
+Two collapsible lists:
+
+- **Hardest cards** — top 20 by `lapses` count.
+- **Most-due upcoming** — next 20 cards by `due` ascending.
+
+Each is a click-through to `/word/:id`.
+
+### 1.4 Export
+
+Buttons at bottom of Stats:
+
+- **Export data (JSON)** — dumps full IndexedDB to a JSON file the user can download. Useful for migrating to a new machine or backing up.
+- **Import data (JSON)** — uploads JSON, replaces local data after confirmation modal.
+
+---
+
+## 2. PWA Configuration
+
+Use `vite-plugin-pwa`. Add to `vite.config.ts`:
+
+```ts
+VitePWA({
+  registerType: 'autoUpdate',
+  workbox: {
+    globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2}'],
+    runtimeCaching: [
+      {
+        urlPattern: /\.webp$/,
+        handler: 'CacheFirst',
+        options: {
+          cacheName: 'images',
+          expiration: { maxEntries: 5000, maxAgeSeconds: 90 * 86400 },
+        },
+      },
+      {
+        urlPattern: ({ url }) => url.host.includes('r2.dev') || url.host.includes('r2.cloudflarestorage.com'),
+        handler: 'CacheFirst',
+        options: {
+          cacheName: 'audio',
+          expiration: { maxEntries: 5000, maxAgeSeconds: 365 * 86400 },
+          rangeRequests: true,
+        },
+      },
+    ],
+  },
+  manifest: {
+    name: 'pt-cards',
+    short_name: 'pt-cards',
+    description: 'European Portuguese vocabulary trainer',
+    theme_color: '#1f2937',
+    background_color: '#ffffff',
+    display: 'standalone',
+    start_url: '/',
+    icons: [/* 192x192, 512x512 PNG; generate quick icons */],
+  },
+})
+```
+
+Result: app prompts to install on desktop Chrome/Edge; once installed it runs in a windowed mode without browser chrome; images and audio cache locally for full offline operation after first visit.
+
+Generate two simple icons (192×192 and 512×512). Suggested: solid color square with a stylized "pt" monogram.
+
+### 2.1 Offline reality check
+
+After PWA installation:
+- App shell loads from cache (no network needed).
+- Word data is in IndexedDB (no network needed).
+- Images and audio: cached after first play. If a card with un-cached audio surfaces offline, the speaker icon shows a small "no internet" overlay and audio is silently skipped.
+
+Test by toggling DevTools "Offline" and running a full session.
+
+---
+
+## 3. Streak System
+
+A more thoughtful streak implementation than Phase 1's placeholder:
+
+```ts
+type StreakState = {
+  current: number;          // consecutive days with ≥1 review
+  longest: number;
+  lastReviewDate: string;   // YYYY-MM-DD using 04:00-shifted local time
+};
+```
+
+Stored in `settings` table (or a separate `meta` table).
+
+Logic:
+- On every review, compute "today" (04:00-shifted local date).
+- If `lastReviewDate === today` → no change.
+- If `lastReviewDate === yesterday` → `current += 1`, update `lastReviewDate`.
+- Otherwise → `current = 1`, update.
+- Always update `longest = max(longest, current)`.
+
+Display on dashboard as a flame icon with the number. Don't shame the user when streak resets — small "Welcome back!" instead of "You broke your streak".
+
+---
+
+## 4. Theme Refinement
+
+Implement light/dark/system theme per `Settings.theme`. Use Tailwind's `dark:` variants throughout.
+
+Color palette (suggestions, customize for taste):
+
+| Token | Light | Dark |
+|---|---|---|
+| Background | `#fafaf9` | `#0c0a09` |
+| Surface | `#ffffff` | `#1c1917` |
+| Text primary | `#1c1917` | `#fafaf9` |
+| Text secondary | `#57534e` | `#a8a29e` |
+| Accent (PT) | `#0ea5e9` | `#38bdf8` |
+| Accent (PL) | `#dc2626` | `#f87171` |
+| Again | `#ef4444` | `#dc2626` |
+| Hard | `#f59e0b` | `#d97706` |
+| Good | `#10b981` | `#059669` |
+| Easy | `#3b82f6` | `#2563eb` |
+
+Card images should be on the off-white background generated by Flux — they'll look slightly off in dark mode. Acceptable trade-off.
+
+---
+
+## 5. Recommendation Banner Polish
+
+The banner from Phase 3 ("Ready for Tier 300?") should:
+- Be dismissible (X button). Once dismissed for a given tier, don't show again until the next tier completes.
+- Persist dismissal in settings table.
+
+Also add a "did you know" rotation: small tips at the bottom of the dashboard, rotating daily:
+
+- "Reviewing right before sleep aids memory consolidation."
+- "Two 15-minute sessions beat one 30-minute session."
+- "Watching the audio sentence carefully (`Shift+P`) builds your ear faster than the word alone."
+- "Suspend cards you already know — you don't owe FSRS your time on them."
+
+---
+
+## 6. Acceptance Criteria
+
+- [ ] Stats page renders all four metric cards correctly.
+- [ ] Reviews-per-day chart shows last 30 days with correct color coding.
+- [ ] Retention chart updates daily.
+- [ ] State distribution chart is correct.
+- [ ] Time-of-day heatmap shows reviews at correct hours (verify against ReviewLog).
+- [ ] Hardest cards and Upcoming cards lists work.
+- [ ] Export produces a valid JSON dump that can be re-imported to a fresh browser.
+- [ ] Import replaces data after confirmation, without corruption.
+- [ ] PWA install prompt appears on first visit; installed app works offline.
+- [ ] Service worker caches images and audio; verify by inspecting Application tab in DevTools.
+- [ ] Streak count is correct after multi-day testing.
+- [ ] Theme switcher works (light / dark / system).
+- [ ] All charts re-render correctly on theme switch.
+
+---
+
+## 7. Risks / Things to Watch
+
+- **PWA + Vercel**: ensure `vite-plugin-pwa` config doesn't conflict with Vercel's edge caching. Add `Cache-Control: no-cache` for `index.html` via `vercel.json` headers.
+- **Audio caching from R2**: workbox `CacheFirst` strategy needs CORS configured on R2. In Cloudflare R2 dashboard, set CORS to allow `GET` from the app's origin.
+- **IndexedDB size**: full deck + caches can hit 100+ MB. Browsers have quotas. If user hits storage quota, gracefully degrade — keep words and FSRS state, evict image/audio cache first. Use `navigator.storage.estimate()`.
+- **Charts on tiny screens**: stats page is desktop-first per spec, but if user resizes, charts should at minimum not break the layout. Use responsive containers.
+- **Streak gaming**: Don't let the user "save" their streak by doing one review at 23:59 every day. The 04:00 boundary helps. Also: a 1-card review counts; that's fine, the app is for the user, not a leaderboard.
+
+---
+
+## 8. Definition of Done
+
+The app feels polished and complete: rich stats, offline-capable PWA, working streaks, refined theme. The user could comfortably use this as their daily study tool for months. Stop here, await user approval, before Phase 6.
