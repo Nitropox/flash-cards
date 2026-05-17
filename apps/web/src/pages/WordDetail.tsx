@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { db } from '../lib/db';
 import { makeNewCard } from '../lib/fsrs';
+import { assetUrl } from '../lib/assets';
 import type { Card, WordEntry } from '../lib/types';
 
 export function WordDetailPage() {
@@ -68,7 +69,7 @@ export function WordDetailPage() {
       <div className="mt-6 flex flex-col items-center">
         <div className="w-80 h-80 rounded-xl overflow-hidden bg-stone-100 dark:bg-stone-800 mb-4">
           {word.imageFile ? (
-            <img src={`/${word.imageFile}`} alt="" className="w-full h-full object-cover" />
+            <img src={assetUrl(word.imageFile!)} alt="" className="w-full h-full object-cover" />
           ) : (
             <div className="w-full h-full flex items-center justify-center">
               <span className="text-6xl font-light text-stone-400">{word.pt.charAt(0).toUpperCase()}</span>

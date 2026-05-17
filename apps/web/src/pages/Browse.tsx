@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useVirtualizer } from '@tanstack/react-virtual';
+import { assetUrl } from '../lib/assets';
 import { db } from '../lib/db';
 import type { Card, WordEntry, Settings } from '../lib/types';
 
@@ -172,7 +173,7 @@ export function BrowsePage() {
                   >
                     <div className="w-12 h-12 rounded bg-stone-100 dark:bg-stone-800 shrink-0 overflow-hidden flex items-center justify-center">
                       {w.imageFile ? (
-                        <img src={`/${w.imageFile}`} alt="" className="w-full h-full object-cover" />
+                        <img src={assetUrl(w.imageFile!)} alt="" className="w-full h-full object-cover" />
                       ) : (
                         <span className="text-lg font-light text-stone-400">{w.pt.charAt(0).toUpperCase()}</span>
                       )}

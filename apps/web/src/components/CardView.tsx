@@ -2,6 +2,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
 import { db } from '../lib/db';
 import type { Card, WordEntry } from '../lib/types';
 import { gradeMultiple, type GradeResult } from '../lib/grading';
+import { assetUrl } from '../lib/assets';
 import { isSttAvailable, recognizePortuguese } from '../lib/speech';
 import { RatingButtons } from './RatingButtons';
 
@@ -47,7 +48,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
   const playAudio = useCallback((path: string | undefined) => {
     if (!path) return;
-    const audio = new Audio(`/${path}`);
+    const audio = new Audio(assetUrl(path));
     audio.play().catch(() => {});
     audioRef.current = audio;
   }, []);
@@ -158,7 +159,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     if (word.imageFile) {
       return (
         <div onClick={clickHandler} className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden bg-stone-100 dark:bg-stone-800 ${cursorClass}`}>
-          <img src={`/${word.imageFile}`} alt="" width={640} height={640} loading="lazy" className="w-full h-full object-cover"
+          <img src={assetUrl(word.imageFile)} alt="" width={640} height={640} loading="lazy" className="w-full h-full object-cover"
             onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class="text-6xl font-light text-stone-400 dark:text-stone-600 flex items-center justify-center w-full h-full">${word.pt.charAt(0).toUpperCase()}</span>`; }} />
         </div>
       );
