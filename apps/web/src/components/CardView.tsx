@@ -124,7 +124,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
       {renderImage()}
 
-      <div className="mt-4">
+      <div className="mt-10">
         {!isRevealed ? (
           <h2 className="text-5xl font-semibold">{promptWord}</h2>
         ) : (
