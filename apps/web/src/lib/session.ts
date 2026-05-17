@@ -91,6 +91,7 @@ export async function buildSessionQueue(): Promise<Card[]> {
 
       const eligible = newCards
         .filter(c => wordRankMap.has(c.wordId))
+        .filter(c => !seenWordIds.has(c.wordId))
         .sort((a, b) => {
           const rankA = wordRankMap.get(a.wordId) ?? Infinity;
           const rankB = wordRankMap.get(b.wordId) ?? Infinity;
@@ -98,27 +99,21 @@ export async function buildSessionQueue(): Promise<Card[]> {
           return a.direction === 'pt_to_pl' ? -1 : 1;
         });
 
-      const introduced = new Set<string>();
       const selected: Card[] = [];
 
       for (const card of eligible) {
         if (selected.length >= slotsAvailable) break;
 
+        if (seenWordIds.has(card.wordId)) continue;
+
         if (card.direction === 'pl_to_pt') {
-          const ptCard = queue.find(c => c.wordId === card.wordId && c.direction === 'pt_to_pl')
-            || selected.find(c => c.wordId === card.wordId && c.direction === 'pt_to_pl');
-          if (!ptCard) {
-            const existingPt = await db.cards.get(`${card.wordId}:pt_to_pl`);
-            if (existingPt && existingPt.state === 'New') {
-              continue;
-            }
+          const existingPt = await db.cards.get(`${card.wordId}:pt_to_pl`);
+          if (existingPt && existingPt.state === 'New') {
+            continue;
           }
         }
 
-        if (card.direction === 'pt_to_pl') {
-          introduced.add(card.wordId);
-        }
-
+        seenWordIds.add(card.wordId);
         selected.push(card);
       }
 
