@@ -113,11 +113,11 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   return (
     <div className="relative flex flex-col items-center">
       {showExample && (
-        <div className="absolute left-0 top-0 w-72 bg-stone-100 dark:bg-stone-800 rounded-lg p-4">
-          <p className="text-sm text-stone-600 dark:text-stone-300">{word.examplePt}</p>
-          <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">{word.examplePl}</p>
+        <div className="absolute right-full mr-6 top-0 w-80 bg-stone-100 dark:bg-stone-800 rounded-lg p-5">
+          <p className="text-lg text-stone-700 dark:text-stone-200">{word.examplePt}</p>
+          <p className="text-lg text-stone-500 dark:text-stone-400 mt-3">{word.examplePl}</p>
           {word.notes && (
-            <p className="text-xs text-stone-400 dark:text-stone-500 italic mt-3">{word.notes}</p>
+            <p className="text-sm text-stone-400 dark:text-stone-500 italic mt-4">{word.notes}</p>
           )}
         </div>
       )}
