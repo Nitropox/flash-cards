@@ -13,6 +13,8 @@ const DEFAULT_SETTINGS: Settings = {
   ttsAutoPlay: true,
   showPhonetics: false,
   theme: 'system',
+  autoUnlockTiers: true,
+  pausedTiers: [],
 };
 
 export async function seedIfEmpty() {

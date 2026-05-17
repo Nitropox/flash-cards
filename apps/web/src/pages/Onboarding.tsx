@@ -21,6 +21,8 @@ export function OnboardingPage() {
       ttsAutoPlay: true,
       showPhonetics: false,
       theme: 'system',
+      autoUnlockTiers: true,
+      pausedTiers: [],
     };
     await db.settings.put(settings);
     await loadTierIntoDb(10);

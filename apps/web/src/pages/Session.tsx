@@ -1,15 +1,18 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSessionStore } from '../stores/useSessionStore';
 import { buildSessionQueue } from '../lib/session';
 import { applyReview } from '../lib/fsrs';
 import { db } from '../lib/db';
 import { CardView } from '../components/CardView';
+import { UnlockToast } from '../components/Toast';
+import { checkAndAutoUnlock, pauseTier, type UnlockResult } from '../lib/tierUnlock';
 
 export function Session() {
   const navigate = useNavigate();
   const { queue, cursor, isRevealed, isComplete, setQueue, reveal, advance, reset } = useSessionStore();
   const card = queue[cursor];
+  const [unlockResult, setUnlockResult] = useState<UnlockResult | null>(null);
 
   useEffect(() => {
     buildSessionQueue().then((cards) => {
@@ -21,6 +24,12 @@ export function Session() {
     });
     return () => reset();
   }, [setQueue, reset, navigate]);
+
+  useEffect(() => {
+    if (isComplete) {
+      checkAndAutoUnlock().then(setUnlockResult);
+    }
+  }, [isComplete]);
 
   const handleRate = useCallback(async (rating: 1 | 2 | 3 | 4, mode: 'self_rate' | 'typed' | 'spoken', userAnswer?: string) => {
     if (!card) return;
@@ -85,6 +94,21 @@ export function Session() {
         >
           Back to dashboard
         </button>
+
+        {unlockResult?.action === 'unlocked' && (
+          <UnlockToast
+            tier={unlockResult.tier}
+            wordCount={unlockResult.wordCount}
+            onDismiss={() => setUnlockResult(null)}
+            onPause={() => { pauseTier(unlockResult.tier); setUnlockResult(null); }}
+          />
+        )}
+
+        {unlockResult?.action === 'content_missing' && (
+          <p className="text-sm text-stone-400 mt-4">
+            You've mastered tier {unlockResult.currentTier}! Higher tiers require content generation.
+          </p>
+        )}
       </div>
     );
   }

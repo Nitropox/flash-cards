@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { db } from '../lib/db';
 import { resetProgress } from '../lib/seed';
 import { loadTierIntoDb, isTierAvailable } from '../lib/ingest';
+import { resumeTier } from '../lib/tierUnlock';
 import type { Settings as SettingsType } from '../lib/types';
 
 type TierInfo = { tier: number; available: boolean; wordCount: number; cardStates: Record<string, number> };
@@ -141,6 +142,33 @@ export function SettingsPage() {
       <div className="border-t border-stone-200 dark:border-stone-800 pt-6">
         <h2 className="text-lg font-semibold mb-3">Tiers</h2>
         <p className="text-sm text-stone-500 mb-4">Current tier: {settings.currentTier}</p>
+
+        <label className="flex items-center gap-2 mb-4 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={settings.autoUnlockTiers ?? true}
+            onChange={e => save({ autoUnlockTiers: e.target.checked })}
+            className="accent-stone-800"
+          />
+          <span className="text-sm text-stone-600 dark:text-stone-400">Auto-unlock next tier when ready (recommended)</span>
+        </label>
+
+        {(settings.pausedTiers ?? []).length > 0 && (
+          <div className="mb-4 bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 rounded-lg p-3">
+            <p className="text-sm text-amber-700 dark:text-amber-300 mb-2">Paused tiers:</p>
+            {(settings.pausedTiers ?? []).map(t => (
+              <div key={t} className="flex items-center justify-between">
+                <span className="text-sm">Tier {t}</span>
+                <button
+                  onClick={async () => { await resumeTier(t); await loadTierInfo(); const s = await db.settings.get('current'); if (s) setSettings(s as SettingsType); }}
+                  className="text-xs px-2 py-1 bg-amber-200 dark:bg-amber-800 text-amber-800 dark:text-amber-200 rounded"
+                >
+                  Resume
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
         <div className="space-y-2">
           {tiers.map(t => {
             const isActive = t.tier <= settings.currentTier;

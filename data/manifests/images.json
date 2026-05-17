@@ -9016,5 +9016,491 @@
     "file": "trampolim.webp",
     "generatedAt": "2026-05-17T13:21:44.960Z",
     "costUsd": 0.003
+  },
+  "puzzle": {
+    "promptHash": "5f5a1b9d911f459e",
+    "file": "puzzle.webp",
+    "generatedAt": "2026-05-17T13:21:46.629Z",
+    "costUsd": 0.003
+  },
+  "boneca": {
+    "promptHash": "8a5aa9f738bbec23",
+    "file": "boneca.webp",
+    "generatedAt": "2026-05-17T13:21:48.378Z",
+    "costUsd": 0.003
+  },
+  "peluche": {
+    "promptHash": "9a38b324e94e04d4",
+    "file": "peluche.webp",
+    "generatedAt": "2026-05-17T13:21:50.202Z",
+    "costUsd": 0.003
+  },
+  "patins": {
+    "promptHash": "115b2dc62280ffff",
+    "file": "patins.webp",
+    "generatedAt": "2026-05-17T13:21:51.895Z",
+    "costUsd": 0.003
+  },
+  "trotinete": {
+    "promptHash": "d2f80736c2ecfb74",
+    "file": "trotinete.webp",
+    "generatedAt": "2026-05-17T13:21:53.756Z",
+    "costUsd": 0.003
+  },
+  "capacete": {
+    "promptHash": "d275d3d8adda8ca1",
+    "file": "capacete.webp",
+    "generatedAt": "2026-05-17T13:21:55.666Z",
+    "costUsd": 0.003
+  },
+  "joelheira": {
+    "promptHash": "a9e5ae1a7afa20a3",
+    "file": "joelheira.webp",
+    "generatedAt": "2026-05-17T13:21:57.346Z",
+    "costUsd": 0.003
+  },
+  "touca": {
+    "promptHash": "d06156ed91852c03",
+    "file": "touca.webp",
+    "generatedAt": "2026-05-17T13:21:59.025Z",
+    "costUsd": 0.003
+  },
+  "oculos-de-natacao": {
+    "promptHash": "0546a4d68182228d",
+    "file": "oculos-de-natacao.webp",
+    "generatedAt": "2026-05-17T13:22:00.688Z",
+    "costUsd": 0.003
+  },
+  "prancha": {
+    "promptHash": "829113cdb14e28b8",
+    "file": "prancha.webp",
+    "generatedAt": "2026-05-17T13:22:02.562Z",
+    "costUsd": 0.003
+  },
+  "boia": {
+    "promptHash": "0d50c332663ca195",
+    "file": "boia.webp",
+    "generatedAt": "2026-05-17T13:22:04.517Z",
+    "costUsd": 0.003
+  },
+  "guarda-sol": {
+    "promptHash": "02bd7583b0aa35a2",
+    "file": "guarda-sol.webp",
+    "generatedAt": "2026-05-17T13:22:06.104Z",
+    "costUsd": 0.003
+  },
+  "espreguicadeira": {
+    "promptHash": "54eec50cb5682459",
+    "file": "espreguicadeira.webp",
+    "generatedAt": "2026-05-17T13:22:07.970Z",
+    "costUsd": 0.003
+  },
+  "areia": {
+    "promptHash": "3e4cbf9df8df5260",
+    "file": "areia.webp",
+    "generatedAt": "2026-05-17T13:22:09.640Z",
+    "costUsd": 0.003
+  },
+  "concha": {
+    "promptHash": "68cdaf9fc453fc62",
+    "file": "concha.webp",
+    "generatedAt": "2026-05-17T13:22:11.363Z",
+    "costUsd": 0.003
+  },
+  "corrente": {
+    "promptHash": "e13acabce7a119a4",
+    "file": "corrente.webp",
+    "generatedAt": "2026-05-17T13:22:13.144Z",
+    "costUsd": 0.003
+  },
+  "salva-vidas": {
+    "promptHash": "ffc13ee6f3635938",
+    "file": "salva-vidas.webp",
+    "generatedAt": "2026-05-17T13:22:14.804Z",
+    "costUsd": 0.003
+  },
+  "mergulhar": {
+    "promptHash": "596dcaf8186c7593",
+    "file": "mergulhar.webp",
+    "generatedAt": "2026-05-17T13:22:16.544Z",
+    "costUsd": 0.003
+  },
+  "remar": {
+    "promptHash": "0ccb15b9b439995a",
+    "file": "remar.webp",
+    "generatedAt": "2026-05-17T13:22:18.234Z",
+    "costUsd": 0.003
+  },
+  "pescar": {
+    "promptHash": "644bab1ac06b2968",
+    "file": "pescar.webp",
+    "generatedAt": "2026-05-17T13:22:19.865Z",
+    "costUsd": 0.003
+  },
+  "anzol": {
+    "promptHash": "85c72c2cf7bd568c",
+    "file": "anzol.webp",
+    "generatedAt": "2026-05-17T13:22:21.695Z",
+    "costUsd": 0.003
+  },
+  "isca": {
+    "promptHash": "b546a4187ce74773",
+    "file": "isca.webp",
+    "generatedAt": "2026-05-17T13:22:24.523Z",
+    "costUsd": 0.003
+  },
+  "cana": {
+    "promptHash": "88fe8f49b6fd27df",
+    "file": "cana.webp",
+    "generatedAt": "2026-05-17T13:22:26.189Z",
+    "costUsd": 0.003
+  },
+  "acampar": {
+    "promptHash": "69a29c508cfafd50",
+    "file": "acampar.webp",
+    "generatedAt": "2026-05-17T13:22:28.078Z",
+    "costUsd": 0.003
+  },
+  "tenda": {
+    "promptHash": "0843b283f73b1c19",
+    "file": "tenda.webp",
+    "generatedAt": "2026-05-17T13:22:29.806Z",
+    "costUsd": 0.003
+  },
+  "saco-cama": {
+    "promptHash": "3a1dcb71909a808e",
+    "file": "saco-cama.webp",
+    "generatedAt": "2026-05-17T13:22:31.661Z",
+    "costUsd": 0.003
+  },
+  "fogueira": {
+    "promptHash": "8f1b760b79b5cdf3",
+    "file": "fogueira.webp",
+    "generatedAt": "2026-05-17T13:22:33.655Z",
+    "costUsd": 0.003
+  },
+  "cantil": {
+    "promptHash": "104d8c8b4506fdcd",
+    "file": "cantil.webp",
+    "generatedAt": "2026-05-17T13:22:36.054Z",
+    "costUsd": 0.003
+  },
+  "binoculos": {
+    "promptHash": "55479d370d3d2a46",
+    "file": "binoculos.webp",
+    "generatedAt": "2026-05-17T13:22:37.802Z",
+    "costUsd": 0.003
+  },
+  "penhasco": {
+    "promptHash": "1317d340d6d093f6",
+    "file": "penhasco.webp",
+    "generatedAt": "2026-05-17T13:22:39.521Z",
+    "costUsd": 0.003
+  },
+  "cascata": {
+    "promptHash": "d2b836d4e08bb021",
+    "file": "cascata.webp",
+    "generatedAt": "2026-05-17T13:22:41.359Z",
+    "costUsd": 0.003
+  },
+  "ribeiro": {
+    "promptHash": "d656c3c33cce8901",
+    "file": "ribeiro.webp",
+    "generatedAt": "2026-05-17T13:22:43.135Z",
+    "costUsd": 0.003
+  },
+  "caverna": {
+    "promptHash": "a2365a00831144bd",
+    "file": "caverna.webp",
+    "generatedAt": "2026-05-17T13:22:44.901Z",
+    "costUsd": 0.003
+  },
+  "rochedo": {
+    "promptHash": "094e18d6bd2d99ea",
+    "file": "rochedo.webp",
+    "generatedAt": "2026-05-17T13:22:46.528Z",
+    "costUsd": 0.003
+  },
+  "lama": {
+    "promptHash": "66df3e2e381034e0",
+    "file": "lama.webp",
+    "generatedAt": "2026-05-17T13:22:48.330Z",
+    "costUsd": 0.003
+  },
+  "poeira": {
+    "promptHash": "8141f97caefc4018",
+    "file": "poeira.webp",
+    "generatedAt": "2026-05-17T13:22:50.057Z",
+    "costUsd": 0.003
+  },
+  "socorrer": {
+    "promptHash": "37be3b16a66be631",
+    "file": "socorrer.webp",
+    "generatedAt": "2026-05-17T13:22:51.846Z",
+    "costUsd": 0.003
+  },
+  "evacuar": {
+    "promptHash": "e611c78eb62e224a",
+    "file": "evacuar.webp",
+    "generatedAt": "2026-05-17T13:22:53.558Z",
+    "costUsd": 0.003
+  },
+  "alarme": {
+    "promptHash": "fb017f26daf6c0ff",
+    "file": "alarme.webp",
+    "generatedAt": "2026-05-17T13:22:55.367Z",
+    "costUsd": 0.003
+  },
+  "extintor": {
+    "promptHash": "d5d314eb73e2f904",
+    "file": "extintor.webp",
+    "generatedAt": "2026-05-17T13:22:57.016Z",
+    "costUsd": 0.003
+  },
+  "saida-de-emergencia": {
+    "promptHash": "5d731100380433fc",
+    "file": "saida-de-emergencia.webp",
+    "generatedAt": "2026-05-17T13:22:58.602Z",
+    "costUsd": 0.003
+  },
+  "primeiros-socorros": {
+    "promptHash": "7f50b7403a848cda",
+    "file": "primeiros-socorros.webp",
+    "generatedAt": "2026-05-17T13:23:00.471Z",
+    "costUsd": 0.003
+  },
+  "ligadura": {
+    "promptHash": "2ed8676b48d81b48",
+    "file": "ligadura.webp",
+    "generatedAt": "2026-05-17T13:23:02.098Z",
+    "costUsd": 0.003
+  },
+  "penso": {
+    "promptHash": "52a7137cb99a2731",
+    "file": "penso.webp",
+    "generatedAt": "2026-05-17T13:23:03.863Z",
+    "costUsd": 0.003
+  },
+  "pomada": {
+    "promptHash": "bc7a301e61431b76",
+    "file": "pomada.webp",
+    "generatedAt": "2026-05-17T13:23:05.607Z",
+    "costUsd": 0.003
+  },
+  "seringa": {
+    "promptHash": "fa6cacdd96420582",
+    "file": "seringa.webp",
+    "generatedAt": "2026-05-17T13:23:07.456Z",
+    "costUsd": 0.003
+  },
+  "comprimido": {
+    "promptHash": "d80b853cf04101b9",
+    "file": "comprimido.webp",
+    "generatedAt": "2026-05-17T13:23:09.146Z",
+    "costUsd": 0.003
+  },
+  "xarope": {
+    "promptHash": "cdbe9bb08b6b521f",
+    "file": "xarope.webp",
+    "generatedAt": "2026-05-17T13:23:11.326Z",
+    "costUsd": 0.003
+  },
+  "radiografia": {
+    "promptHash": "6ee5434acfa53d38",
+    "file": "radiografia.webp",
+    "generatedAt": "2026-05-17T13:23:13.591Z",
+    "costUsd": 0.003
+  },
+  "gesso": {
+    "promptHash": "d6617a75f644f4e9",
+    "file": "gesso.webp",
+    "generatedAt": "2026-05-17T13:23:15.270Z",
+    "costUsd": 0.003
+  },
+  "muleta": {
+    "promptHash": "5a87f182777998fb",
+    "file": "muleta.webp",
+    "generatedAt": "2026-05-17T13:23:17.083Z",
+    "costUsd": 0.003
+  },
+  "cadeira-de-rodas": {
+    "promptHash": "6c4f3463420869ac",
+    "file": "cadeira-de-rodas.webp",
+    "generatedAt": "2026-05-17T13:23:18.723Z",
+    "costUsd": 0.003
+  },
+  "febre": {
+    "promptHash": "ad6601f75b2c777a",
+    "file": "febre.webp",
+    "generatedAt": "2026-05-17T13:23:21.082Z",
+    "costUsd": 0.003
+  },
+  "tosse": {
+    "promptHash": "01c3fccae56bbea9",
+    "file": "tosse.webp",
+    "generatedAt": "2026-05-17T13:23:22.902Z",
+    "costUsd": 0.003
+  },
+  "espirro": {
+    "promptHash": "d9d9719b94e47a96",
+    "file": "espirro.webp",
+    "generatedAt": "2026-05-17T13:23:24.613Z",
+    "costUsd": 0.003
+  },
+  "inchaço": {
+    "promptHash": "b21d65558aa51323",
+    "file": "inchaço.webp",
+    "generatedAt": "2026-05-17T13:23:26.214Z",
+    "costUsd": 0.003
+  },
+  "nodoa-negra": {
+    "promptHash": "c072a7cc1ac26400",
+    "file": "nodoa-negra.webp",
+    "generatedAt": "2026-05-17T13:23:27.916Z",
+    "costUsd": 0.003
+  },
+  "cicatriz": {
+    "promptHash": "c827c1d8cdb1aee1",
+    "file": "cicatriz.webp",
+    "generatedAt": "2026-05-17T13:23:29.507Z",
+    "costUsd": 0.003
+  },
+  "entorse": {
+    "promptHash": "0c026d1ca90fdf92",
+    "file": "entorse.webp",
+    "generatedAt": "2026-05-17T13:23:31.141Z",
+    "costUsd": 0.003
+  },
+  "queimadura": {
+    "promptHash": "7af3dffa69a2ddc2",
+    "file": "queimadura.webp",
+    "generatedAt": "2026-05-17T13:23:33.399Z",
+    "costUsd": 0.003
+  },
+  "picada": {
+    "promptHash": "064641ad06fe11c8",
+    "file": "picada.webp",
+    "generatedAt": "2026-05-17T13:23:35.793Z",
+    "costUsd": 0.003
+  },
+  "mordedura": {
+    "promptHash": "20a3b8874096fd58",
+    "file": "mordedura.webp",
+    "generatedAt": "2026-05-17T13:23:37.542Z",
+    "costUsd": 0.003
+  },
+  "desmaiar": {
+    "promptHash": "e043a338e0faba7d",
+    "file": "desmaiar.webp",
+    "generatedAt": "2026-05-17T13:23:39.129Z",
+    "costUsd": 0.003
+  },
+  "engasgar-se": {
+    "promptHash": "ff7d42be714ceb72",
+    "file": "engasgar-se.webp",
+    "generatedAt": "2026-05-17T13:23:40.923Z",
+    "costUsd": 0.003
+  },
+  "inchar": {
+    "promptHash": "d0e26bd5a5eb6319",
+    "file": "inchar.webp",
+    "generatedAt": "2026-05-17T13:23:43.136Z",
+    "costUsd": 0.003
+  },
+  "coçar": {
+    "promptHash": "7078829c324dfd94",
+    "file": "coçar.webp",
+    "generatedAt": "2026-05-17T13:23:44.969Z",
+    "costUsd": 0.003
+  },
+  "sangrar": {
+    "promptHash": "41aa379a679e6a38",
+    "file": "sangrar.webp",
+    "generatedAt": "2026-05-17T13:23:46.588Z",
+    "costUsd": 0.003
+  },
+  "dar-conta": {
+    "promptHash": "6c2352210969802a",
+    "file": "dar-conta.webp",
+    "generatedAt": "2026-05-17T13:23:48.308Z",
+    "costUsd": 0.003
+  },
+  "fazer-falta": {
+    "promptHash": "50748415661fe2b0",
+    "file": "fazer-falta.webp",
+    "generatedAt": "2026-05-17T13:23:50.206Z",
+    "costUsd": 0.003
+  },
+  "ter-pena": {
+    "promptHash": "99cd460f25d3cd8e",
+    "file": "ter-pena.webp",
+    "generatedAt": "2026-05-17T13:23:52.140Z",
+    "costUsd": 0.003
+  },
+  "resmungar": {
+    "promptHash": "380d0479a8d7423a",
+    "file": "resmungar.webp",
+    "generatedAt": "2026-05-17T13:23:53.890Z",
+    "costUsd": 0.003
+  },
+  "assobiar": {
+    "promptHash": "7aef3129c00215ef",
+    "file": "assobiar.webp",
+    "generatedAt": "2026-05-17T13:23:57.334Z",
+    "costUsd": 0.003
+  },
+  "roncar": {
+    "promptHash": "624534eb3bbb7e0d",
+    "file": "roncar.webp",
+    "generatedAt": "2026-05-17T13:23:59.109Z",
+    "costUsd": 0.003
+  },
+  "acenar": {
+    "promptHash": "58768e0cf6d299a0",
+    "file": "acenar.webp",
+    "generatedAt": "2026-05-17T13:24:00.958Z",
+    "costUsd": 0.003
+  },
+  "enrolar": {
+    "promptHash": "bde9cc58b095d42e",
+    "file": "enrolar.webp",
+    "generatedAt": "2026-05-17T13:24:02.708Z",
+    "costUsd": 0.003
+  },
+  "desenrolar": {
+    "promptHash": "59469212d2d9c89a",
+    "file": "desenrolar.webp",
+    "generatedAt": "2026-05-17T13:24:04.497Z",
+    "costUsd": 0.003
+  },
+  "derramar": {
+    "promptHash": "f33b5d3d78ab07ce",
+    "file": "derramar.webp",
+    "generatedAt": "2026-05-17T13:24:06.822Z",
+    "costUsd": 0.003
+  },
+  "entornar": {
+    "promptHash": "742bc97c5eba35d5",
+    "file": "entornar.webp",
+    "generatedAt": "2026-05-17T13:24:08.523Z",
+    "costUsd": 0.003
+  },
+  "rasgar": {
+    "promptHash": "1630918b65350961",
+    "file": "rasgar.webp",
+    "generatedAt": "2026-05-17T13:24:10.117Z",
+    "costUsd": 0.003
+  },
+  "amarrar": {
+    "promptHash": "6f46f5adde77bcd3",
+    "file": "amarrar.webp",
+    "generatedAt": "2026-05-17T13:24:12.007Z",
+    "costUsd": 0.003
+  },
+  "desamarrar": {
+    "promptHash": "d81134d6efcc5268",
+    "file": "desamarrar.webp",
+    "generatedAt": "2026-05-17T13:24:13.806Z",
+    "costUsd": 0.003
   }
 }

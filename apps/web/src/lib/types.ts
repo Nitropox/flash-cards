@@ -64,4 +64,7 @@ export type Settings = {
   ttsAutoPlay: boolean;
   showPhonetics: boolean;
   theme: "light" | "dark" | "system";
+  autoUnlockTiers: boolean;
+  pausedTiers: number[];
+  lastUnlockToastShownFor?: number;
 };
