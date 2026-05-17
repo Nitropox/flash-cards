@@ -32,6 +32,9 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     setGradeResult(null);
     setOverrideRating(null);
     setListening(false);
+    if (card.direction === 'pt_to_pl' && (mode === 'typed' || mode === 'spoken')) {
+      setMode('self_rate');
+    }
   }, [card.wordId, card.direction]);
 
   useEffect(() => {
@@ -266,7 +269,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
       <div className="absolute left-full ml-6 top-0 flex flex-col gap-2">
         {(['self_rate', 'typed', 'spoken'] as const).map(m => {
-          const disabled = m === 'spoken' && !canSpeak;
+          const disabled = (m === 'spoken' && !canSpeak) || (m === 'typed' && card.direction === 'pt_to_pl') || (m === 'spoken' && card.direction === 'pt_to_pl');
           const labels = { self_rate: 'Reveal', typed: 'Type', spoken: 'Speak' };
           const keys = { self_rate: 'R', typed: 'T', spoken: 'M' };
           return (
