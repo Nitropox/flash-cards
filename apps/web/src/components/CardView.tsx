@@ -52,11 +52,6 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     audioRef.current = audio;
   }, []);
 
-  useEffect(() => {
-    if (isRevealed && word && mode === 'self_rate') {
-      playAudio(word.audioPt);
-    }
-  }, [isRevealed, word, playAudio, mode]);
 
   useEffect(() => {
     if (mode === 'typed' && !isRevealed && !gradeResult) {
@@ -110,7 +105,6 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     const result = gradeMultiple(getAcceptedAnswers(), typedInput);
     setGradeResult(result);
     setOverrideRating(result.rating);
-    playAudio(word!.audioPt);
   }
 
   async function handleSpeak() {
@@ -223,14 +217,24 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
       <div className="mt-10">
         {mode === 'self_rate' && !isRevealed && !gradeResult && (
-          <h2 className="text-5xl font-semibold">{promptWord}</h2>
+          <div className="flex items-center justify-center gap-3">
+            <h2 className="text-5xl font-semibold">{promptWord}</h2>
+            {card.direction === 'pt_to_pl' && (
+              <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl" title="Play word (P)">🔊</button>
+            )}
+          </div>
         )}
 
         {mode === 'self_rate' && isRevealed && renderAnswer()}
 
         {mode === 'typed' && !gradeResult && (
           <div className="text-center">
-            <h2 className="text-5xl font-semibold mb-6">{promptWord}</h2>
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <h2 className="text-5xl font-semibold">{promptWord}</h2>
+              {card.direction === 'pt_to_pl' && (
+                <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl" title="Play word (P)">🔊</button>
+              )}
+            </div>
             <form onSubmit={e => { e.preventDefault(); handleTypedSubmit(); }} className="flex gap-2">
               <input
                 ref={inputRef}
@@ -252,7 +256,9 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
         {mode === 'spoken' && !gradeResult && (
           <div className="text-center">
-            <h2 className="text-5xl font-semibold mb-6">{promptWord}</h2>
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <h2 className="text-5xl font-semibold">{promptWord}</h2>
+            </div>
             <button
               onClick={handleSpeak}
               disabled={listening}
