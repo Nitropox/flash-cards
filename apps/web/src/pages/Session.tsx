@@ -51,7 +51,7 @@ export function Session() {
 
     if (!card) return;
 
-    if (!isRevealed && e.key === ' ') {
+    if (e.key === ' ') {
       e.preventDefault();
       reveal();
       return;

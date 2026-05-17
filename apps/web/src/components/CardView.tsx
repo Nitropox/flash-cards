@@ -52,8 +52,8 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   const answerWord = card.direction === 'pt_to_pl' ? word.pl : word.pt;
 
   const renderImage = () => {
-    const clickHandler = !isRevealed ? onReveal : undefined;
-    const cursorClass = !isRevealed ? 'cursor-pointer' : '';
+    const clickHandler = onReveal;
+    const cursorClass = 'cursor-pointer';
 
     if (word.imageStrategy === 'none') {
       return (

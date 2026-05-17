@@ -21,7 +21,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
 
   setQueue: (cards) => set({ queue: cards, cursor: 0, isRevealed: false, isComplete: false }),
 
-  reveal: () => set({ isRevealed: true }),
+  reveal: () => set((s) => ({ isRevealed: !s.isRevealed })),
 
   advance: () => {
     const { cursor, queue } = get();
