@@ -55,7 +55,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   const renderImage = () => {
     if (word.imageStrategy === 'none') {
       return (
-        <div className="w-80 h-80 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6">
+        <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6">
           <span className="text-5xl font-semibold text-stone-600 dark:text-stone-300 text-center px-4 leading-tight">
             {word.pt}
           </span>
@@ -65,12 +65,12 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
     if (word.imageFile) {
       return (
-        <div className="w-80 h-80 rounded-xl overflow-hidden mb-6 bg-stone-100 dark:bg-stone-800">
+        <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden mb-6 bg-stone-100 dark:bg-stone-800">
           <img
             src={`/${word.imageFile}`}
             alt=""
-            width={320}
-            height={320}
+            width={640}
+            height={640}
             loading="lazy"
             className="w-full h-full object-cover"
             onError={(e) => {
@@ -83,7 +83,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     }
 
     return (
-      <div className="w-80 h-80 rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center mb-6">
+      <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center mb-6">
         <span className="text-6xl font-light text-stone-400 dark:text-stone-600 select-none">
           {word.pt.charAt(0).toUpperCase()}
         </span>
