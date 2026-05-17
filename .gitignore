@@ -4,4 +4,3 @@ dist/
 .env
 .DS_Store
 data/sources/
-apps/web/public/audio/

@@ -1308,7 +1308,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to get up",
-    "imageFile": "images/levantar.webp"
+    "imageFile": "images/levantar.webp",
+    "audioPt": "audio/raquel/levantar/word.mp3",
+    "audioExamplePt": "audio/raquel/levantar/example.mp3"
   },
   {
     "id": "beber",
@@ -1322,7 +1324,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to drink",
-    "imageFile": "images/beber.webp"
+    "imageFile": "images/beber.webp",
+    "audioPt": "audio/raquel/beber/word.mp3",
+    "audioExamplePt": "audio/raquel/beber/example.mp3"
   },
   {
     "id": "tomar",
@@ -1336,7 +1340,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to take/have",
-    "imageFile": "images/tomar.webp"
+    "imageFile": "images/tomar.webp",
+    "audioPt": "audio/raquel/tomar/word.mp3",
+    "audioExamplePt": "audio/raquel/tomar/example.mp3"
   },
   {
     "id": "procurar",
@@ -1350,7 +1356,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to look for",
-    "imageFile": "images/procurar.webp"
+    "imageFile": "images/procurar.webp",
+    "audioPt": "audio/raquel/procurar/word.mp3",
+    "audioExamplePt": "audio/raquel/procurar/example.mp3"
   },
   {
     "id": "ganhar",
@@ -1364,7 +1372,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to win/earn",
-    "imageFile": "images/ganhar.webp"
+    "imageFile": "images/ganhar.webp",
+    "audioPt": "audio/raquel/ganhar/word.mp3",
+    "audioExamplePt": "audio/raquel/ganhar/example.mp3"
   },
   {
     "id": "esquecer",
@@ -1379,7 +1389,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to forget",
-    "imageFile": "images/esquecer.webp"
+    "imageFile": "images/esquecer.webp",
+    "audioPt": "audio/raquel/esquecer/word.mp3",
+    "audioExamplePt": "audio/raquel/esquecer/example.mp3"
   },
   {
     "id": "preocupado",
@@ -1393,7 +1405,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "worried",
-    "imageFile": "images/preocupado.webp"
+    "imageFile": "images/preocupado.webp",
+    "audioPt": "audio/raquel/preocupado/word.mp3",
+    "audioExamplePt": "audio/raquel/preocupado/example.mp3"
   },
   {
     "id": "zangado",
@@ -1407,7 +1421,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "angry",
-    "imageFile": "images/zangado.webp"
+    "imageFile": "images/zangado.webp",
+    "audioPt": "audio/raquel/zangado/word.mp3",
+    "audioExamplePt": "audio/raquel/zangado/example.mp3"
   },
   {
     "id": "nervoso",
@@ -1421,7 +1437,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "nervous",
-    "imageFile": "images/nervoso.webp"
+    "imageFile": "images/nervoso.webp",
+    "audioPt": "audio/raquel/nervoso/word.mp3",
+    "audioExamplePt": "audio/raquel/nervoso/example.mp3"
   },
   {
     "id": "doente",
@@ -1435,7 +1453,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "sick",
-    "imageFile": "images/doente.webp"
+    "imageFile": "images/doente.webp",
+    "audioPt": "audio/raquel/doente/word.mp3",
+    "audioExamplePt": "audio/raquel/doente/example.mp3"
   },
   {
     "id": "saudavel",
@@ -1449,7 +1469,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "healthy",
-    "imageFile": "images/saudavel.webp"
+    "imageFile": "images/saudavel.webp",
+    "audioPt": "audio/raquel/saudavel/word.mp3",
+    "audioExamplePt": "audio/raquel/saudavel/example.mp3"
   },
   {
     "id": "feio",
@@ -1463,7 +1485,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "ugly",
-    "imageFile": "images/feio.webp"
+    "imageFile": "images/feio.webp",
+    "audioPt": "audio/raquel/feio/word.mp3",
+    "audioExamplePt": "audio/raquel/feio/example.mp3"
   },
   {
     "id": "gordo",
@@ -1477,7 +1501,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "fat",
-    "imageFile": "images/gordo.webp"
+    "imageFile": "images/gordo.webp",
+    "audioPt": "audio/raquel/gordo/word.mp3",
+    "audioExamplePt": "audio/raquel/gordo/example.mp3"
   },
   {
     "id": "magro",
@@ -1491,7 +1517,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "thin/slim",
-    "imageFile": "images/magro.webp"
+    "imageFile": "images/magro.webp",
+    "audioPt": "audio/raquel/magro/word.mp3",
+    "audioExamplePt": "audio/raquel/magro/example.mp3"
   },
   {
     "id": "sujo",
@@ -1505,7 +1533,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "dirty",
-    "imageFile": "images/sujo.webp"
+    "imageFile": "images/sujo.webp",
+    "audioPt": "audio/raquel/sujo/word.mp3",
+    "audioExamplePt": "audio/raquel/sujo/example.mp3"
   },
   {
     "id": "pesado",
@@ -1519,7 +1549,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "heavy",
-    "imageFile": "images/pesado.webp"
+    "imageFile": "images/pesado.webp",
+    "audioPt": "audio/raquel/pesado/word.mp3",
+    "audioExamplePt": "audio/raquel/pesado/example.mp3"
   },
   {
     "id": "leve",
@@ -1533,7 +1565,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "light (weight)",
-    "imageFile": "images/leve.webp"
+    "imageFile": "images/leve.webp",
+    "audioPt": "audio/raquel/leve/word.mp3",
+    "audioExamplePt": "audio/raquel/leve/example.mp3"
   },
   {
     "id": "fraco",
@@ -1547,7 +1581,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "weak",
-    "imageFile": "images/fraco.webp"
+    "imageFile": "images/fraco.webp",
+    "audioPt": "audio/raquel/fraco/word.mp3",
+    "audioExamplePt": "audio/raquel/fraco/example.mp3"
   },
   {
     "id": "primavera",
@@ -1562,7 +1598,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "spring",
-    "imageFile": "images/primavera.webp"
+    "imageFile": "images/primavera.webp",
+    "audioPt": "audio/raquel/primavera/word.mp3",
+    "audioExamplePt": "audio/raquel/primavera/example.mp3"
   },
   {
     "id": "outono",
@@ -1577,7 +1615,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "autumn",
-    "imageFile": "images/outono.webp"
+    "imageFile": "images/outono.webp",
+    "audioPt": "audio/raquel/outono/word.mp3",
+    "audioExamplePt": "audio/raquel/outono/example.mp3"
   },
   {
     "id": "segunda-feira",
@@ -1591,7 +1631,9 @@
     "frequencyRank": 709,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Monday"
+    "enHint": "Monday",
+    "audioPt": "audio/raquel/segunda-feira/word.mp3",
+    "audioExamplePt": "audio/raquel/segunda-feira/example.mp3"
   },
   {
     "id": "terca-feira",
@@ -1605,7 +1647,9 @@
     "frequencyRank": 710,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Tuesday"
+    "enHint": "Tuesday",
+    "audioPt": "audio/raquel/terca-feira/word.mp3",
+    "audioExamplePt": "audio/raquel/terca-feira/example.mp3"
   },
   {
     "id": "quarta-feira",
@@ -1619,7 +1663,9 @@
     "frequencyRank": 711,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Wednesday"
+    "enHint": "Wednesday",
+    "audioPt": "audio/raquel/quarta-feira/word.mp3",
+    "audioExamplePt": "audio/raquel/quarta-feira/example.mp3"
   },
   {
     "id": "quinta-feira",
@@ -1633,7 +1679,9 @@
     "frequencyRank": 712,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Thursday"
+    "enHint": "Thursday",
+    "audioPt": "audio/raquel/quinta-feira/word.mp3",
+    "audioExamplePt": "audio/raquel/quinta-feira/example.mp3"
   },
   {
     "id": "sexta-feira",
@@ -1647,7 +1695,9 @@
     "frequencyRank": 713,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Friday"
+    "enHint": "Friday",
+    "audioPt": "audio/raquel/sexta-feira/word.mp3",
+    "audioExamplePt": "audio/raquel/sexta-feira/example.mp3"
   },
   {
     "id": "sabado",
@@ -1661,7 +1711,9 @@
     "frequencyRank": 714,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Saturday"
+    "enHint": "Saturday",
+    "audioPt": "audio/raquel/sabado/word.mp3",
+    "audioExamplePt": "audio/raquel/sabado/example.mp3"
   },
   {
     "id": "domingo",
@@ -1675,7 +1727,9 @@
     "frequencyRank": 715,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "Sunday"
+    "enHint": "Sunday",
+    "audioPt": "audio/raquel/domingo/word.mp3",
+    "audioExamplePt": "audio/raquel/domingo/example.mp3"
   },
   {
     "id": "janeiro",
@@ -1689,7 +1743,9 @@
     "frequencyRank": 716,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "January"
+    "enHint": "January",
+    "audioPt": "audio/raquel/janeiro/word.mp3",
+    "audioExamplePt": "audio/raquel/janeiro/example.mp3"
   },
   {
     "id": "fevereiro",
@@ -1703,7 +1759,9 @@
     "frequencyRank": 717,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "February"
+    "enHint": "February",
+    "audioPt": "audio/raquel/fevereiro/word.mp3",
+    "audioExamplePt": "audio/raquel/fevereiro/example.mp3"
   },
   {
     "id": "marco",
@@ -1717,7 +1775,9 @@
     "frequencyRank": 718,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "March"
+    "enHint": "March",
+    "audioPt": "audio/raquel/marco/word.mp3",
+    "audioExamplePt": "audio/raquel/marco/example.mp3"
   },
   {
     "id": "abril",
@@ -1731,7 +1791,9 @@
     "frequencyRank": 719,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "April"
+    "enHint": "April",
+    "audioPt": "audio/raquel/abril/word.mp3",
+    "audioExamplePt": "audio/raquel/abril/example.mp3"
   },
   {
     "id": "maio",
@@ -1745,7 +1807,9 @@
     "frequencyRank": 720,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "May"
+    "enHint": "May",
+    "audioPt": "audio/raquel/maio/word.mp3",
+    "audioExamplePt": "audio/raquel/maio/example.mp3"
   },
   {
     "id": "junho",
@@ -1759,7 +1823,9 @@
     "frequencyRank": 721,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "June"
+    "enHint": "June",
+    "audioPt": "audio/raquel/junho/word.mp3",
+    "audioExamplePt": "audio/raquel/junho/example.mp3"
   },
   {
     "id": "julho",
@@ -1773,7 +1839,9 @@
     "frequencyRank": 722,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "July"
+    "enHint": "July",
+    "audioPt": "audio/raquel/julho/word.mp3",
+    "audioExamplePt": "audio/raquel/julho/example.mp3"
   },
   {
     "id": "agosto",
@@ -1787,7 +1855,9 @@
     "frequencyRank": 723,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "August"
+    "enHint": "August",
+    "audioPt": "audio/raquel/agosto/word.mp3",
+    "audioExamplePt": "audio/raquel/agosto/example.mp3"
   },
   {
     "id": "setembro",
@@ -1801,7 +1871,9 @@
     "frequencyRank": 724,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "September"
+    "enHint": "September",
+    "audioPt": "audio/raquel/setembro/word.mp3",
+    "audioExamplePt": "audio/raquel/setembro/example.mp3"
   },
   {
     "id": "outubro",
@@ -1815,7 +1887,9 @@
     "frequencyRank": 725,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "October"
+    "enHint": "October",
+    "audioPt": "audio/raquel/outubro/word.mp3",
+    "audioExamplePt": "audio/raquel/outubro/example.mp3"
   },
   {
     "id": "novembro",
@@ -1829,7 +1903,9 @@
     "frequencyRank": 726,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "November"
+    "enHint": "November",
+    "audioPt": "audio/raquel/novembro/word.mp3",
+    "audioExamplePt": "audio/raquel/novembro/example.mp3"
   },
   {
     "id": "dezembro",
@@ -1843,7 +1919,9 @@
     "frequencyRank": 727,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "December"
+    "enHint": "December",
+    "audioPt": "audio/raquel/dezembro/word.mp3",
+    "audioExamplePt": "audio/raquel/dezembro/example.mp3"
   },
   {
     "id": "minuto",
@@ -1857,7 +1935,9 @@
     "frequencyRank": 728,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "minute"
+    "enHint": "minute",
+    "audioPt": "audio/raquel/minuto/word.mp3",
+    "audioExamplePt": "audio/raquel/minuto/example.mp3"
   },
   {
     "id": "tarde-adv",
@@ -1870,7 +1950,9 @@
     "frequencyRank": 733,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "late"
+    "enHint": "late",
+    "audioPt": "audio/raquel/tarde-adv/word.mp3",
+    "audioExamplePt": "audio/raquel/tarde-adv/example.mp3"
   },
   {
     "id": "atras",
@@ -1883,7 +1965,9 @@
     "frequencyRank": 744,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "behind"
+    "enHint": "behind",
+    "audioPt": "audio/raquel/atras/word.mp3",
+    "audioExamplePt": "audio/raquel/atras/example.mp3"
   },
   {
     "id": "cima",
@@ -1897,7 +1981,9 @@
     "frequencyRank": 745,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "top/up"
+    "enHint": "top/up",
+    "audioPt": "audio/raquel/cima/word.mp3",
+    "audioExamplePt": "audio/raquel/cima/example.mp3"
   },
   {
     "id": "baixo-adv",
@@ -1910,7 +1996,9 @@
     "frequencyRank": 746,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "below/down"
+    "enHint": "below/down",
+    "audioPt": "audio/raquel/baixo-adv/word.mp3",
+    "audioExamplePt": "audio/raquel/baixo-adv/example.mp3"
   },
   {
     "id": "familia",
@@ -1925,7 +2013,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "family",
-    "imageFile": "images/familia.webp"
+    "imageFile": "images/familia.webp",
+    "audioPt": "audio/raquel/familia/word.mp3",
+    "audioExamplePt": "audio/raquel/familia/example.mp3"
   },
   {
     "id": "avo",
@@ -1940,7 +2030,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "grandfather",
-    "imageFile": "images/avo.webp"
+    "imageFile": "images/avo.webp",
+    "audioPt": "audio/raquel/avo/word.mp3",
+    "audioExamplePt": "audio/raquel/avo/example.mp3"
   },
   {
     "id": "avo-f",
@@ -1955,7 +2047,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "grandmother",
-    "imageFile": "images/avo-f.webp"
+    "imageFile": "images/avo-f.webp",
+    "audioPt": "audio/raquel/avo-f/word.mp3",
+    "audioExamplePt": "audio/raquel/avo-f/example.mp3"
   },
   {
     "id": "tio",
@@ -1970,7 +2064,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "uncle",
-    "imageFile": "images/tio.webp"
+    "imageFile": "images/tio.webp",
+    "audioPt": "audio/raquel/tio/word.mp3",
+    "audioExamplePt": "audio/raquel/tio/example.mp3"
   },
   {
     "id": "tia",
@@ -1985,7 +2081,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "aunt",
-    "imageFile": "images/tia.webp"
+    "imageFile": "images/tia.webp",
+    "audioPt": "audio/raquel/tia/word.mp3",
+    "audioExamplePt": "audio/raquel/tia/example.mp3"
   },
   {
     "id": "primo",
@@ -2000,7 +2098,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "cousin (m)",
-    "imageFile": "images/primo.webp"
+    "imageFile": "images/primo.webp",
+    "audioPt": "audio/raquel/primo/word.mp3",
+    "audioExamplePt": "audio/raquel/primo/example.mp3"
   },
   {
     "id": "marido",
@@ -2015,7 +2115,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "husband",
-    "imageFile": "images/marido.webp"
+    "imageFile": "images/marido.webp",
+    "audioPt": "audio/raquel/marido/word.mp3",
+    "audioExamplePt": "audio/raquel/marido/example.mp3"
   },
   {
     "id": "esposa",
@@ -2030,7 +2132,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "wife",
-    "imageFile": "images/esposa.webp"
+    "imageFile": "images/esposa.webp",
+    "audioPt": "audio/raquel/esposa/word.mp3",
+    "audioExamplePt": "audio/raquel/esposa/example.mp3"
   },
   {
     "id": "namorado",
@@ -2045,7 +2149,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "boyfriend",
-    "imageFile": "images/namorado.webp"
+    "imageFile": "images/namorado.webp",
+    "audioPt": "audio/raquel/namorado/word.mp3",
+    "audioExamplePt": "audio/raquel/namorado/example.mp3"
   },
   {
     "id": "bebe",
@@ -2060,7 +2166,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "baby",
-    "imageFile": "images/bebe.webp"
+    "imageFile": "images/bebe.webp",
+    "audioPt": "audio/raquel/bebe/word.mp3",
+    "audioExamplePt": "audio/raquel/bebe/example.mp3"
   },
   {
     "id": "policia",
@@ -2075,7 +2183,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "police",
-    "imageFile": "images/policia.webp"
+    "imageFile": "images/policia.webp",
+    "audioPt": "audio/raquel/policia/word.mp3",
+    "audioExamplePt": "audio/raquel/policia/example.mp3"
   },
   {
     "id": "passaro",
@@ -2090,7 +2200,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "bird",
-    "imageFile": "images/passaro.webp"
+    "imageFile": "images/passaro.webp",
+    "audioPt": "audio/raquel/passaro/word.mp3",
+    "audioExamplePt": "audio/raquel/passaro/example.mp3"
   },
   {
     "id": "animal",
@@ -2105,7 +2217,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "animal",
-    "imageFile": "images/animal.webp"
+    "imageFile": "images/animal.webp",
+    "audioPt": "audio/raquel/animal/word.mp3",
+    "audioExamplePt": "audio/raquel/animal/example.mp3"
   },
   {
     "id": "cavalo",
@@ -2120,7 +2234,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "horse",
-    "imageFile": "images/cavalo.webp"
+    "imageFile": "images/cavalo.webp",
+    "audioPt": "audio/raquel/cavalo/word.mp3",
+    "audioExamplePt": "audio/raquel/cavalo/example.mp3"
   },
   {
     "id": "vaca",
@@ -2135,7 +2251,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "cow",
-    "imageFile": "images/vaca.webp"
+    "imageFile": "images/vaca.webp",
+    "audioPt": "audio/raquel/vaca/word.mp3",
+    "audioExamplePt": "audio/raquel/vaca/example.mp3"
   },
   {
     "id": "preco",
@@ -2149,7 +2267,9 @@
     "frequencyRank": 780,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "price"
+    "enHint": "price",
+    "audioPt": "audio/raquel/preco/word.mp3",
+    "audioExamplePt": "audio/raquel/preco/example.mp3"
   },
   {
     "id": "camisa",
@@ -2164,7 +2284,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "shirt",
-    "imageFile": "images/camisa.webp"
+    "imageFile": "images/camisa.webp",
+    "audioPt": "audio/raquel/camisa/word.mp3",
+    "audioExamplePt": "audio/raquel/camisa/example.mp3"
   },
   {
     "id": "calcas",
@@ -2179,7 +2301,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "trousers",
-    "imageFile": "images/calcas.webp"
+    "imageFile": "images/calcas.webp",
+    "audioPt": "audio/raquel/calcas/word.mp3",
+    "audioExamplePt": "audio/raquel/calcas/example.mp3"
   },
   {
     "id": "casaco",
@@ -2194,7 +2318,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "jacket/coat",
-    "imageFile": "images/casaco.webp"
+    "imageFile": "images/casaco.webp",
+    "audioPt": "audio/raquel/casaco/word.mp3",
+    "audioExamplePt": "audio/raquel/casaco/example.mp3"
   },
   {
     "id": "chapeu",
@@ -2209,7 +2335,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "hat",
-    "imageFile": "images/chapeu.webp"
+    "imageFile": "images/chapeu.webp",
+    "audioPt": "audio/raquel/chapeu/word.mp3",
+    "audioExamplePt": "audio/raquel/chapeu/example.mp3"
   },
   {
     "id": "saia",
@@ -2224,7 +2352,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "skirt",
-    "imageFile": "images/saia.webp"
+    "imageFile": "images/saia.webp",
+    "audioPt": "audio/raquel/saia/word.mp3",
+    "audioExamplePt": "audio/raquel/saia/example.mp3"
   },
   {
     "id": "vestido",
@@ -2239,7 +2369,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "dress",
-    "imageFile": "images/vestido.webp"
+    "imageFile": "images/vestido.webp",
+    "audioPt": "audio/raquel/vestido/word.mp3",
+    "audioExamplePt": "audio/raquel/vestido/example.mp3"
   },
   {
     "id": "copo",
@@ -2254,7 +2386,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "glass",
-    "imageFile": "images/copo.webp"
+    "imageFile": "images/copo.webp",
+    "audioPt": "audio/raquel/copo/word.mp3",
+    "audioExamplePt": "audio/raquel/copo/example.mp3"
   },
   {
     "id": "prato",
@@ -2269,7 +2403,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "plate",
-    "imageFile": "images/prato.webp"
+    "imageFile": "images/prato.webp",
+    "audioPt": "audio/raquel/prato/word.mp3",
+    "audioExamplePt": "audio/raquel/prato/example.mp3"
   },
   {
     "id": "garfo",
@@ -2284,7 +2420,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "fork",
-    "imageFile": "images/garfo.webp"
+    "imageFile": "images/garfo.webp",
+    "audioPt": "audio/raquel/garfo/word.mp3",
+    "audioExamplePt": "audio/raquel/garfo/example.mp3"
   },
   {
     "id": "faca",
@@ -2299,7 +2437,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "knife",
-    "imageFile": "images/faca.webp"
+    "imageFile": "images/faca.webp",
+    "audioPt": "audio/raquel/faca/word.mp3",
+    "audioExamplePt": "audio/raquel/faca/example.mp3"
   },
   {
     "id": "colher",
@@ -2314,7 +2454,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "spoon",
-    "imageFile": "images/colher.webp"
+    "imageFile": "images/colher.webp",
+    "audioPt": "audio/raquel/colher/word.mp3",
+    "audioExamplePt": "audio/raquel/colher/example.mp3"
   },
   {
     "id": "garrafa",
@@ -2329,7 +2471,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "bottle",
-    "imageFile": "images/garrafa.webp"
+    "imageFile": "images/garrafa.webp",
+    "audioPt": "audio/raquel/garrafa/word.mp3",
+    "audioExamplePt": "audio/raquel/garrafa/example.mp3"
   },
   {
     "id": "chavena",
@@ -2344,7 +2488,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "cup",
-    "imageFile": "images/chavena.webp"
+    "imageFile": "images/chavena.webp",
+    "audioPt": "audio/raquel/chavena/word.mp3",
+    "audioExamplePt": "audio/raquel/chavena/example.mp3"
   },
   {
     "id": "toalha",
@@ -2359,7 +2505,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "towel",
-    "imageFile": "images/toalha.webp"
+    "imageFile": "images/toalha.webp",
+    "audioPt": "audio/raquel/toalha/word.mp3",
+    "audioExamplePt": "audio/raquel/toalha/example.mp3"
   },
   {
     "id": "sabao",
@@ -2374,7 +2522,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "soap",
-    "imageFile": "images/sabao.webp"
+    "imageFile": "images/sabao.webp",
+    "audioPt": "audio/raquel/sabao/word.mp3",
+    "audioExamplePt": "audio/raquel/sabao/example.mp3"
   },
   {
     "id": "espelho",
@@ -2389,7 +2539,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "mirror",
-    "imageFile": "images/espelho.webp"
+    "imageFile": "images/espelho.webp",
+    "audioPt": "audio/raquel/espelho/word.mp3",
+    "audioExamplePt": "audio/raquel/espelho/example.mp3"
   },
   {
     "id": "relogio",
@@ -2404,7 +2556,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "watch/clock",
-    "imageFile": "images/relogio.webp"
+    "imageFile": "images/relogio.webp",
+    "audioPt": "audio/raquel/relogio/word.mp3",
+    "audioExamplePt": "audio/raquel/relogio/example.mp3"
   },
   {
     "id": "mochila",
@@ -2419,7 +2573,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "backpack",
-    "imageFile": "images/mochila.webp"
+    "imageFile": "images/mochila.webp",
+    "audioPt": "audio/raquel/mochila/word.mp3",
+    "audioExamplePt": "audio/raquel/mochila/example.mp3"
   },
   {
     "id": "mala",
@@ -2434,7 +2590,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "suitcase",
-    "imageFile": "images/mala.webp"
+    "imageFile": "images/mala.webp",
+    "audioPt": "audio/raquel/mala/word.mp3",
+    "audioExamplePt": "audio/raquel/mala/example.mp3"
   },
   {
     "id": "guarda-chuva",
@@ -2449,7 +2607,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "umbrella",
-    "imageFile": "images/guarda-chuva.webp"
+    "imageFile": "images/guarda-chuva.webp",
+    "audioPt": "audio/raquel/guarda-chuva/word.mp3",
+    "audioExamplePt": "audio/raquel/guarda-chuva/example.mp3"
   },
   {
     "id": "oculos",
@@ -2464,7 +2624,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "glasses",
-    "imageFile": "images/oculos.webp"
+    "imageFile": "images/oculos.webp",
+    "audioPt": "audio/raquel/oculos/word.mp3",
+    "audioExamplePt": "audio/raquel/oculos/example.mp3"
   },
   {
     "id": "carteira",
@@ -2479,7 +2641,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "wallet",
-    "imageFile": "images/carteira.webp"
+    "imageFile": "images/carteira.webp",
+    "audioPt": "audio/raquel/carteira/word.mp3",
+    "audioExamplePt": "audio/raquel/carteira/example.mp3"
   },
   {
     "id": "fotografia",
@@ -2494,7 +2658,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "photo",
-    "imageFile": "images/fotografia.webp"
+    "imageFile": "images/fotografia.webp",
+    "audioPt": "audio/raquel/fotografia/word.mp3",
+    "audioExamplePt": "audio/raquel/fotografia/example.mp3"
   },
   {
     "id": "ferias",
@@ -2509,7 +2675,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "holidays",
-    "imageFile": "images/ferias.webp"
+    "imageFile": "images/ferias.webp",
+    "audioPt": "audio/raquel/ferias/word.mp3",
+    "audioExamplePt": "audio/raquel/ferias/example.mp3"
   },
   {
     "id": "presente",
@@ -2524,7 +2692,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "gift",
-    "imageFile": "images/presente.webp"
+    "imageFile": "images/presente.webp",
+    "audioPt": "audio/raquel/presente/word.mp3",
+    "audioExamplePt": "audio/raquel/presente/example.mp3"
   },
   {
     "id": "amarelo",
@@ -2538,7 +2708,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "yellow",
-    "imageFile": "images/amarelo.webp"
+    "imageFile": "images/amarelo.webp",
+    "audioPt": "audio/raquel/amarelo/word.mp3",
+    "audioExamplePt": "audio/raquel/amarelo/example.mp3"
   },
   {
     "id": "castanho",
@@ -2552,7 +2724,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "brown",
-    "imageFile": "images/castanho.webp"
+    "imageFile": "images/castanho.webp",
+    "audioPt": "audio/raquel/castanho/word.mp3",
+    "audioExamplePt": "audio/raquel/castanho/example.mp3"
   },
   {
     "id": "cinzento",
@@ -2566,7 +2740,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "grey",
-    "imageFile": "images/cinzento.webp"
+    "imageFile": "images/cinzento.webp",
+    "audioPt": "audio/raquel/cinzento/word.mp3",
+    "audioExamplePt": "audio/raquel/cinzento/example.mp3"
   },
   {
     "id": "rosa",
@@ -2580,7 +2756,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "pink",
-    "imageFile": "images/rosa.webp"
+    "imageFile": "images/rosa.webp",
+    "audioPt": "audio/raquel/rosa/word.mp3",
+    "audioExamplePt": "audio/raquel/rosa/example.mp3"
   },
   {
     "id": "laranja-cor",
@@ -2594,7 +2772,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "orange (color)",
-    "imageFile": "images/laranja-cor.webp"
+    "imageFile": "images/laranja-cor.webp",
+    "audioPt": "audio/raquel/laranja-cor/word.mp3",
+    "audioExamplePt": "audio/raquel/laranja-cor/example.mp3"
   },
   {
     "id": "quatro",
@@ -2607,7 +2787,9 @@
     "frequencyRank": 835,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "four"
+    "enHint": "four",
+    "audioPt": "audio/raquel/quatro/word.mp3",
+    "audioExamplePt": "audio/raquel/quatro/example.mp3"
   },
   {
     "id": "cinco",
@@ -2620,7 +2802,9 @@
     "frequencyRank": 836,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "five"
+    "enHint": "five",
+    "audioPt": "audio/raquel/cinco/word.mp3",
+    "audioExamplePt": "audio/raquel/cinco/example.mp3"
   },
   {
     "id": "seis",
@@ -2633,7 +2817,9 @@
     "frequencyRank": 837,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "six"
+    "enHint": "six",
+    "audioPt": "audio/raquel/seis/word.mp3",
+    "audioExamplePt": "audio/raquel/seis/example.mp3"
   },
   {
     "id": "sete",
@@ -2646,7 +2832,9 @@
     "frequencyRank": 838,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "seven"
+    "enHint": "seven",
+    "audioPt": "audio/raquel/sete/word.mp3",
+    "audioExamplePt": "audio/raquel/sete/example.mp3"
   },
   {
     "id": "oito",
@@ -2659,7 +2847,9 @@
     "frequencyRank": 839,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "eight"
+    "enHint": "eight",
+    "audioPt": "audio/raquel/oito/word.mp3",
+    "audioExamplePt": "audio/raquel/oito/example.mp3"
   },
   {
     "id": "nove",
@@ -2672,7 +2862,9 @@
     "frequencyRank": 840,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "nine"
+    "enHint": "nine",
+    "audioPt": "audio/raquel/nove/word.mp3",
+    "audioExamplePt": "audio/raquel/nove/example.mp3"
   },
   {
     "id": "dez",
@@ -2685,7 +2877,9 @@
     "frequencyRank": 841,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "ten"
+    "enHint": "ten",
+    "audioPt": "audio/raquel/dez/word.mp3",
+    "audioExamplePt": "audio/raquel/dez/example.mp3"
   },
   {
     "id": "vinte",
@@ -2698,7 +2892,9 @@
     "frequencyRank": 842,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "twenty"
+    "enHint": "twenty",
+    "audioPt": "audio/raquel/vinte/word.mp3",
+    "audioExamplePt": "audio/raquel/vinte/example.mp3"
   },
   {
     "id": "cem",
@@ -2711,7 +2907,9 @@
     "frequencyRank": 843,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "hundred"
+    "enHint": "hundred",
+    "audioPt": "audio/raquel/cem/word.mp3",
+    "audioExamplePt": "audio/raquel/cem/example.mp3"
   },
   {
     "id": "mil",
@@ -2724,7 +2922,9 @@
     "frequencyRank": 844,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "thousand"
+    "enHint": "thousand",
+    "audioPt": "audio/raquel/mil/word.mp3",
+    "audioExamplePt": "audio/raquel/mil/example.mp3"
   },
   {
     "id": "qualquer",
@@ -2737,7 +2937,9 @@
     "frequencyRank": 850,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "any/whatever"
+    "enHint": "any/whatever",
+    "audioPt": "audio/raquel/qualquer/word.mp3",
+    "audioExamplePt": "audio/raquel/qualquer/example.mp3"
   },
   {
     "id": "este",
@@ -2751,7 +2953,9 @@
     "frequencyRank": 851,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "this"
+    "enHint": "this",
+    "audioPt": "audio/raquel/este/word.mp3",
+    "audioExamplePt": "audio/raquel/este/example.mp3"
   },
   {
     "id": "aquele",
@@ -2765,7 +2969,9 @@
     "frequencyRank": 852,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "that (far)"
+    "enHint": "that (far)",
+    "audioPt": "audio/raquel/aquele/word.mp3",
+    "audioExamplePt": "audio/raquel/aquele/example.mp3"
   },
   {
     "id": "seu",
@@ -2779,7 +2985,9 @@
     "frequencyRank": 853,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "his/your (formal)"
+    "enHint": "his/your (formal)",
+    "audioPt": "audio/raquel/seu/word.mp3",
+    "audioExamplePt": "audio/raquel/seu/example.mp3"
   },
   {
     "id": "nosso",
@@ -2793,7 +3001,9 @@
     "frequencyRank": 854,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "our"
+    "enHint": "our",
+    "audioPt": "audio/raquel/nosso/word.mp3",
+    "audioExamplePt": "audio/raquel/nosso/example.mp3"
   },
   {
     "id": "dele",
@@ -2806,7 +3016,9 @@
     "frequencyRank": 855,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "his"
+    "enHint": "his",
+    "audioPt": "audio/raquel/dele/word.mp3",
+    "audioExamplePt": "audio/raquel/dele/example.mp3"
   },
   {
     "id": "dela",
@@ -2819,7 +3031,9 @@
     "frequencyRank": 856,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "her"
+    "enHint": "her",
+    "audioPt": "audio/raquel/dela/word.mp3",
+    "audioExamplePt": "audio/raquel/dela/example.mp3"
   },
   {
     "id": "alguem",
@@ -2832,7 +3046,9 @@
     "frequencyRank": 857,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "someone"
+    "enHint": "someone",
+    "audioPt": "audio/raquel/alguem/word.mp3",
+    "audioExamplePt": "audio/raquel/alguem/example.mp3"
   },
   {
     "id": "ninguem",
@@ -2845,7 +3061,9 @@
     "frequencyRank": 858,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "nobody"
+    "enHint": "nobody",
+    "audioPt": "audio/raquel/ninguem/word.mp3",
+    "audioExamplePt": "audio/raquel/ninguem/example.mp3"
   },
   {
     "id": "algo",
@@ -2858,7 +3076,9 @@
     "frequencyRank": 859,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "something"
+    "enHint": "something",
+    "audioPt": "audio/raquel/algo/word.mp3",
+    "audioExamplePt": "audio/raquel/algo/example.mp3"
   },
   {
     "id": "porquee",
@@ -2871,7 +3091,9 @@
     "frequencyRank": 861,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "why"
+    "enHint": "why",
+    "audioPt": "audio/raquel/porquee/word.mp3",
+    "audioExamplePt": "audio/raquel/porquee/example.mp3"
   },
   {
     "id": "demais",
@@ -2884,7 +3106,9 @@
     "frequencyRank": 868,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "too much"
+    "enHint": "too much",
+    "audioPt": "audio/raquel/demais/word.mp3",
+    "audioExamplePt": "audio/raquel/demais/example.mp3"
   },
   {
     "id": "apenas",
@@ -2897,7 +3121,9 @@
     "frequencyRank": 869,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "only/just"
+    "enHint": "only/just",
+    "audioPt": "audio/raquel/apenas/word.mp3",
+    "audioExamplePt": "audio/raquel/apenas/example.mp3"
   },
   {
     "id": "contra",
@@ -2910,7 +3136,9 @@
     "frequencyRank": 875,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "against"
+    "enHint": "against",
+    "audioPt": "audio/raquel/contra/word.mp3",
+    "audioExamplePt": "audio/raquel/contra/example.mp3"
   },
   {
     "id": "segundo-prep",
@@ -2923,7 +3151,9 @@
     "frequencyRank": 876,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "according to"
+    "enHint": "according to",
+    "audioPt": "audio/raquel/segundo-prep/word.mp3",
+    "audioExamplePt": "audio/raquel/segundo-prep/example.mp3"
   },
   {
     "id": "cair",
@@ -2938,7 +3168,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to fall",
-    "imageFile": "images/cair.webp"
+    "imageFile": "images/cair.webp",
+    "audioPt": "audio/raquel/cair/word.mp3",
+    "audioExamplePt": "audio/raquel/cair/example.mp3"
   },
   {
     "id": "chover",
@@ -2952,7 +3184,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to rain",
-    "imageFile": "images/chover.webp"
+    "imageFile": "images/chover.webp",
+    "audioPt": "audio/raquel/chover/word.mp3",
+    "audioExamplePt": "audio/raquel/chover/example.mp3"
   },
   {
     "id": "nevar",
@@ -2966,7 +3200,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to snow",
-    "imageFile": "images/nevar.webp"
+    "imageFile": "images/nevar.webp",
+    "audioPt": "audio/raquel/nevar/word.mp3",
+    "audioExamplePt": "audio/raquel/nevar/example.mp3"
   },
   {
     "id": "desligar",
@@ -2980,7 +3216,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to turn off",
-    "imageFile": "images/desligar.webp"
+    "imageFile": "images/desligar.webp",
+    "audioPt": "audio/raquel/desligar/word.mp3",
+    "audioExamplePt": "audio/raquel/desligar/example.mp3"
   },
   {
     "id": "acender",
@@ -2994,7 +3232,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to turn on (light)",
-    "imageFile": "images/acender.webp"
+    "imageFile": "images/acender.webp",
+    "audioPt": "audio/raquel/acender/word.mp3",
+    "audioExamplePt": "audio/raquel/acender/example.mp3"
   },
   {
     "id": "apagar",
@@ -3008,7 +3248,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to turn off (light)",
-    "imageFile": "images/apagar.webp"
+    "imageFile": "images/apagar.webp",
+    "audioPt": "audio/raquel/apagar/word.mp3",
+    "audioExamplePt": "audio/raquel/apagar/example.mp3"
   },
   {
     "id": "cortar",
@@ -3022,7 +3264,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to cut",
-    "imageFile": "images/cortar.webp"
+    "imageFile": "images/cortar.webp",
+    "audioPt": "audio/raquel/cortar/word.mp3",
+    "audioExamplePt": "audio/raquel/cortar/example.mp3"
   },
   {
     "id": "partir-quebrar",
@@ -3036,7 +3280,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to break",
-    "imageFile": "images/partir-quebrar.webp"
+    "imageFile": "images/partir-quebrar.webp",
+    "audioPt": "audio/raquel/partir-quebrar/word.mp3",
+    "audioExamplePt": "audio/raquel/partir-quebrar/example.mp3"
   },
   {
     "id": "consertar",
@@ -3050,7 +3296,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to fix/repair",
-    "imageFile": "images/consertar.webp"
+    "imageFile": "images/consertar.webp",
+    "audioPt": "audio/raquel/consertar/word.mp3",
+    "audioExamplePt": "audio/raquel/consertar/example.mp3"
   },
   {
     "id": "empurrar",
@@ -3064,7 +3312,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to push",
-    "imageFile": "images/empurrar.webp"
+    "imageFile": "images/empurrar.webp",
+    "audioPt": "audio/raquel/empurrar/word.mp3",
+    "audioExamplePt": "audio/raquel/empurrar/example.mp3"
   },
   {
     "id": "puxar",
@@ -3078,7 +3328,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to pull",
-    "imageFile": "images/puxar.webp"
+    "imageFile": "images/puxar.webp",
+    "audioPt": "audio/raquel/puxar/word.mp3",
+    "audioExamplePt": "audio/raquel/puxar/example.mp3"
   },
   {
     "id": "atirar",
@@ -3092,7 +3344,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to throw",
-    "imageFile": "images/atirar.webp"
+    "imageFile": "images/atirar.webp",
+    "audioPt": "audio/raquel/atirar/word.mp3",
+    "audioExamplePt": "audio/raquel/atirar/example.mp3"
   },
   {
     "id": "apanhar",
@@ -3106,7 +3360,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to catch/take",
-    "imageFile": "images/apanhar.webp"
+    "imageFile": "images/apanhar.webp",
+    "audioPt": "audio/raquel/apanhar/word.mp3",
+    "audioExamplePt": "audio/raquel/apanhar/example.mp3"
   },
   {
     "id": "segurar",
@@ -3120,7 +3376,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to hold",
-    "imageFile": "images/segurar.webp"
+    "imageFile": "images/segurar.webp",
+    "audioPt": "audio/raquel/segurar/word.mp3",
+    "audioExamplePt": "audio/raquel/segurar/example.mp3"
   },
   {
     "id": "mexer",
@@ -3134,7 +3392,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to move/stir",
-    "imageFile": "images/mexer.webp"
+    "imageFile": "images/mexer.webp",
+    "audioPt": "audio/raquel/mexer/word.mp3",
+    "audioExamplePt": "audio/raquel/mexer/example.mp3"
   },
   {
     "id": "gritar",
@@ -3148,7 +3408,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to shout",
-    "imageFile": "images/gritar.webp"
+    "imageFile": "images/gritar.webp",
+    "audioPt": "audio/raquel/gritar/word.mp3",
+    "audioExamplePt": "audio/raquel/gritar/example.mp3"
   },
   {
     "id": "rir",
@@ -3163,7 +3425,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to laugh",
-    "imageFile": "images/rir.webp"
+    "imageFile": "images/rir.webp",
+    "audioPt": "audio/raquel/rir/word.mp3",
+    "audioExamplePt": "audio/raquel/rir/example.mp3"
   },
   {
     "id": "chorar",
@@ -3177,7 +3441,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to cry",
-    "imageFile": "images/chorar.webp"
+    "imageFile": "images/chorar.webp",
+    "audioPt": "audio/raquel/chorar/word.mp3",
+    "audioExamplePt": "audio/raquel/chorar/example.mp3"
   },
   {
     "id": "abracar",
@@ -3191,7 +3457,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to hug",
-    "imageFile": "images/abracar.webp"
+    "imageFile": "images/abracar.webp",
+    "audioPt": "audio/raquel/abracar/word.mp3",
+    "audioExamplePt": "audio/raquel/abracar/example.mp3"
   },
   {
     "id": "beijar",
@@ -3205,7 +3473,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to kiss",
-    "imageFile": "images/beijar.webp"
+    "imageFile": "images/beijar.webp",
+    "audioPt": "audio/raquel/beijar/word.mp3",
+    "audioExamplePt": "audio/raquel/beijar/example.mp3"
   },
   {
     "id": "descansar",
@@ -3219,7 +3489,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to rest",
-    "imageFile": "images/descansar.webp"
+    "imageFile": "images/descansar.webp",
+    "audioPt": "audio/raquel/descansar/word.mp3",
+    "audioExamplePt": "audio/raquel/descansar/example.mp3"
   },
   {
     "id": "passear",
@@ -3233,7 +3505,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to stroll",
-    "imageFile": "images/passear.webp"
+    "imageFile": "images/passear.webp",
+    "audioPt": "audio/raquel/passear/word.mp3",
+    "audioExamplePt": "audio/raquel/passear/example.mp3"
   },
   {
     "id": "desenhar",
@@ -3247,7 +3521,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to draw",
-    "imageFile": "images/desenhar.webp"
+    "imageFile": "images/desenhar.webp",
+    "audioPt": "audio/raquel/desenhar/word.mp3",
+    "audioExamplePt": "audio/raquel/desenhar/example.mp3"
   },
   {
     "id": "pintar",
@@ -3261,7 +3537,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to paint",
-    "imageFile": "images/pintar.webp"
+    "imageFile": "images/pintar.webp",
+    "audioPt": "audio/raquel/pintar/word.mp3",
+    "audioExamplePt": "audio/raquel/pintar/example.mp3"
   },
   {
     "id": "convidar",
@@ -3275,7 +3553,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to invite",
-    "imageFile": "images/convidar.webp"
+    "imageFile": "images/convidar.webp",
+    "audioPt": "audio/raquel/convidar/word.mp3",
+    "audioExamplePt": "audio/raquel/convidar/example.mp3"
   },
   {
     "id": "recusar",
@@ -3289,7 +3569,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to refuse",
-    "imageFile": "images/recusar.webp"
+    "imageFile": "images/recusar.webp",
+    "audioPt": "audio/raquel/recusar/word.mp3",
+    "audioExamplePt": "audio/raquel/recusar/example.mp3"
   },
   {
     "id": "praticar",
@@ -3303,7 +3585,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to practice",
-    "imageFile": "images/praticar.webp"
+    "imageFile": "images/praticar.webp",
+    "audioPt": "audio/raquel/praticar/word.mp3",
+    "audioExamplePt": "audio/raquel/praticar/example.mp3"
   },
   {
     "id": "repetir",
@@ -3317,7 +3601,9 @@
     "frequencyRank": 922,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "to repeat"
+    "enHint": "to repeat",
+    "audioPt": "audio/raquel/repetir/word.mp3",
+    "audioExamplePt": "audio/raquel/repetir/example.mp3"
   },
   {
     "id": "combinar",
@@ -3331,7 +3617,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to arrange",
-    "imageFile": "images/combinar.webp"
+    "imageFile": "images/combinar.webp",
+    "audioPt": "audio/raquel/combinar/word.mp3",
+    "audioExamplePt": "audio/raquel/combinar/example.mp3"
   },
   {
     "id": "lingua-corpo",
@@ -3346,7 +3634,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "tongue",
-    "imageFile": "images/lingua-corpo.webp"
+    "imageFile": "images/lingua-corpo.webp",
+    "audioPt": "audio/raquel/lingua-corpo/word.mp3",
+    "audioExamplePt": "audio/raquel/lingua-corpo/example.mp3"
   },
   {
     "id": "dente",
@@ -3361,7 +3651,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "tooth",
-    "imageFile": "images/dente.webp"
+    "imageFile": "images/dente.webp",
+    "audioPt": "audio/raquel/dente/word.mp3",
+    "audioExamplePt": "audio/raquel/dente/example.mp3"
   },
   {
     "id": "estomago",
@@ -3376,7 +3668,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "stomach",
-    "imageFile": "images/estomago.webp"
+    "imageFile": "images/estomago.webp",
+    "audioPt": "audio/raquel/estomago/word.mp3",
+    "audioExamplePt": "audio/raquel/estomago/example.mp3"
   },
   {
     "id": "sangue",
@@ -3391,7 +3685,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "blood",
-    "imageFile": "images/sangue.webp"
+    "imageFile": "images/sangue.webp",
+    "audioPt": "audio/raquel/sangue/word.mp3",
+    "audioExamplePt": "audio/raquel/sangue/example.mp3"
   },
   {
     "id": "saude",
@@ -3406,7 +3702,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "health",
-    "imageFile": "images/saude.webp"
+    "imageFile": "images/saude.webp",
+    "audioPt": "audio/raquel/saude/word.mp3",
+    "audioExamplePt": "audio/raquel/saude/example.mp3"
   },
   {
     "id": "doenca",
@@ -3421,7 +3719,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "disease",
-    "imageFile": "images/doenca.webp"
+    "imageFile": "images/doenca.webp",
+    "audioPt": "audio/raquel/doenca/word.mp3",
+    "audioExamplePt": "audio/raquel/doenca/example.mp3"
   },
   {
     "id": "dor",
@@ -3436,7 +3736,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "pain",
-    "imageFile": "images/dor.webp"
+    "imageFile": "images/dor.webp",
+    "audioPt": "audio/raquel/dor/word.mp3",
+    "audioExamplePt": "audio/raquel/dor/example.mp3"
   },
   {
     "id": "remedio",
@@ -3451,7 +3753,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "medicine",
-    "imageFile": "images/remedio.webp"
+    "imageFile": "images/remedio.webp",
+    "audioPt": "audio/raquel/remedio/word.mp3",
+    "audioExamplePt": "audio/raquel/remedio/example.mp3"
   },
   {
     "id": "receita",
@@ -3466,7 +3770,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "prescription",
-    "imageFile": "images/receita.webp"
+    "imageFile": "images/receita.webp",
+    "audioPt": "audio/raquel/receita/word.mp3",
+    "audioExamplePt": "audio/raquel/receita/example.mp3"
   },
   {
     "id": "exercicio",
@@ -3481,7 +3787,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "exercise",
-    "imageFile": "images/exercicio.webp"
+    "imageFile": "images/exercicio.webp",
+    "audioPt": "audio/raquel/exercicio/word.mp3",
+    "audioExamplePt": "audio/raquel/exercicio/example.mp3"
   },
   {
     "id": "peso",
@@ -3495,7 +3803,9 @@
     "frequencyRank": 938,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "weight"
+    "enHint": "weight",
+    "audioPt": "audio/raquel/peso/word.mp3",
+    "audioExamplePt": "audio/raquel/peso/example.mp3"
   },
   {
     "id": "tamanho",
@@ -3509,7 +3819,9 @@
     "frequencyRank": 939,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "size"
+    "enHint": "size",
+    "audioPt": "audio/raquel/tamanho/word.mp3",
+    "audioExamplePt": "audio/raquel/tamanho/example.mp3"
   },
   {
     "id": "fim",
@@ -3523,7 +3835,9 @@
     "frequencyRank": 943,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "end"
+    "enHint": "end",
+    "audioPt": "audio/raquel/fim/word.mp3",
+    "audioExamplePt": "audio/raquel/fim/example.mp3"
   },
   {
     "id": "inicio",
@@ -3537,7 +3851,9 @@
     "frequencyRank": 944,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "beginning"
+    "enHint": "beginning",
+    "audioPt": "audio/raquel/inicio/word.mp3",
+    "audioExamplePt": "audio/raquel/inicio/example.mp3"
   },
   {
     "id": "informacao",
@@ -3551,7 +3867,9 @@
     "frequencyRank": 948,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "information"
+    "enHint": "information",
+    "audioPt": "audio/raquel/informacao/word.mp3",
+    "audioExamplePt": "audio/raquel/informacao/example.mp3"
   },
   {
     "id": "diferenca",
@@ -3565,7 +3883,9 @@
     "frequencyRank": 950,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "difference"
+    "enHint": "difference",
+    "audioPt": "audio/raquel/diferenca/word.mp3",
+    "audioExamplePt": "audio/raquel/diferenca/example.mp3"
   },
   {
     "id": "erro",
@@ -3579,7 +3899,9 @@
     "frequencyRank": 951,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "mistake"
+    "enHint": "mistake",
+    "audioPt": "audio/raquel/erro/word.mp3",
+    "audioExamplePt": "audio/raquel/erro/example.mp3"
   },
   {
     "id": "sucesso",
@@ -3594,7 +3916,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "success",
-    "imageFile": "images/sucesso.webp"
+    "imageFile": "images/sucesso.webp",
+    "audioPt": "audio/raquel/sucesso/word.mp3",
+    "audioExamplePt": "audio/raquel/sucesso/example.mp3"
   },
   {
     "id": "sorte",
@@ -3609,7 +3933,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "luck",
-    "imageFile": "images/sorte.webp"
+    "imageFile": "images/sorte.webp",
+    "audioPt": "audio/raquel/sorte/word.mp3",
+    "audioExamplePt": "audio/raquel/sorte/example.mp3"
   },
   {
     "id": "paz",
@@ -3624,7 +3950,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "peace",
-    "imageFile": "images/paz.webp"
+    "imageFile": "images/paz.webp",
+    "audioPt": "audio/raquel/paz/word.mp3",
+    "audioExamplePt": "audio/raquel/paz/example.mp3"
   },
   {
     "id": "guerra",
@@ -3639,7 +3967,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "war",
-    "imageFile": "images/guerra.webp"
+    "imageFile": "images/guerra.webp",
+    "audioPt": "audio/raquel/guerra/word.mp3",
+    "audioExamplePt": "audio/raquel/guerra/example.mp3"
   },
   {
     "id": "mentira",
@@ -3653,7 +3983,9 @@
     "frequencyRank": 957,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "lie"
+    "enHint": "lie",
+    "audioPt": "audio/raquel/mentira/word.mp3",
+    "audioExamplePt": "audio/raquel/mentira/example.mp3"
   },
   {
     "id": "segredo",
@@ -3668,7 +4000,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "secret",
-    "imageFile": "images/segredo.webp"
+    "imageFile": "images/segredo.webp",
+    "audioPt": "audio/raquel/segredo/word.mp3",
+    "audioExamplePt": "audio/raquel/segredo/example.mp3"
   },
   {
     "id": "surpresa",
@@ -3683,7 +4017,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "surprise",
-    "imageFile": "images/surpresa.webp"
+    "imageFile": "images/surpresa.webp",
+    "audioPt": "audio/raquel/surpresa/word.mp3",
+    "audioExamplePt": "audio/raquel/surpresa/example.mp3"
   },
   {
     "id": "sonho",
@@ -3698,7 +4034,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "dream",
-    "imageFile": "images/sonho.webp"
+    "imageFile": "images/sonho.webp",
+    "audioPt": "audio/raquel/sonho/word.mp3",
+    "audioExamplePt": "audio/raquel/sonho/example.mp3"
   },
   {
     "id": "saudade",
@@ -3713,7 +4051,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "longing/nostalgia",
-    "imageFile": "images/saudade.webp"
+    "imageFile": "images/saudade.webp",
+    "audioPt": "audio/raquel/saudade/word.mp3",
+    "audioExamplePt": "audio/raquel/saudade/example.mp3"
   },
   {
     "id": "amor",
@@ -3728,7 +4068,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "love",
-    "imageFile": "images/amor.webp"
+    "imageFile": "images/amor.webp",
+    "audioPt": "audio/raquel/amor/word.mp3",
+    "audioExamplePt": "audio/raquel/amor/example.mp3"
   },
   {
     "id": "amizade",
@@ -3743,7 +4085,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "friendship",
-    "imageFile": "images/amizade.webp"
+    "imageFile": "images/amizade.webp",
+    "audioPt": "audio/raquel/amizade/word.mp3",
+    "audioExamplePt": "audio/raquel/amizade/example.mp3"
   },
   {
     "id": "liberdade",
@@ -3758,7 +4102,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "freedom",
-    "imageFile": "images/liberdade.webp"
+    "imageFile": "images/liberdade.webp",
+    "audioPt": "audio/raquel/liberdade/word.mp3",
+    "audioExamplePt": "audio/raquel/liberdade/example.mp3"
   },
   {
     "id": "impossivel",
@@ -3771,7 +4117,9 @@
     "frequencyRank": 967,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "impossible"
+    "enHint": "impossible",
+    "audioPt": "audio/raquel/impossivel/word.mp3",
+    "audioExamplePt": "audio/raquel/impossivel/example.mp3"
   },
   {
     "id": "igual",
@@ -3784,7 +4132,9 @@
     "frequencyRank": 970,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "same/equal"
+    "enHint": "same/equal",
+    "audioPt": "audio/raquel/igual/word.mp3",
+    "audioExamplePt": "audio/raquel/igual/example.mp3"
   },
   {
     "id": "simples",
@@ -3797,7 +4147,9 @@
     "frequencyRank": 971,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "simple"
+    "enHint": "simple",
+    "audioPt": "audio/raquel/simples/word.mp3",
+    "audioExamplePt": "audio/raquel/simples/example.mp3"
   },
   {
     "id": "complicado",
@@ -3810,7 +4162,9 @@
     "frequencyRank": 972,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "complicated"
+    "enHint": "complicated",
+    "audioPt": "audio/raquel/complicado/word.mp3",
+    "audioExamplePt": "audio/raquel/complicado/example.mp3"
   },
   {
     "id": "correto",
@@ -3823,7 +4177,9 @@
     "frequencyRank": 973,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "correct"
+    "enHint": "correct",
+    "audioPt": "audio/raquel/correto/word.mp3",
+    "audioExamplePt": "audio/raquel/correto/example.mp3"
   },
   {
     "id": "perigoso",
@@ -3837,7 +4193,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "dangerous",
-    "imageFile": "images/perigoso.webp"
+    "imageFile": "images/perigoso.webp",
+    "audioPt": "audio/raquel/perigoso/word.mp3",
+    "audioExamplePt": "audio/raquel/perigoso/example.mp3"
   },
   {
     "id": "favorito",
@@ -3850,7 +4208,9 @@
     "frequencyRank": 977,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "favorite"
+    "enHint": "favorite",
+    "audioPt": "audio/raquel/favorito/word.mp3",
+    "audioExamplePt": "audio/raquel/favorito/example.mp3"
   },
   {
     "id": "interessante",
@@ -3863,7 +4223,9 @@
     "frequencyRank": 978,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "interesting"
+    "enHint": "interesting",
+    "audioPt": "audio/raquel/interessante/word.mp3",
+    "audioExamplePt": "audio/raquel/interessante/example.mp3"
   },
   {
     "id": "aborrecido",
@@ -3877,7 +4239,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "bored/annoyed",
-    "imageFile": "images/aborrecido.webp"
+    "imageFile": "images/aborrecido.webp",
+    "audioPt": "audio/raquel/aborrecido/word.mp3",
+    "audioExamplePt": "audio/raquel/aborrecido/example.mp3"
   },
   {
     "id": "ocupado",
@@ -3891,7 +4255,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "busy",
-    "imageFile": "images/ocupado.webp"
+    "imageFile": "images/ocupado.webp",
+    "audioPt": "audio/raquel/ocupado/word.mp3",
+    "audioExamplePt": "audio/raquel/ocupado/example.mp3"
   },
   {
     "id": "livre",
@@ -3904,7 +4270,9 @@
     "frequencyRank": 981,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "free"
+    "enHint": "free",
+    "audioPt": "audio/raquel/livre/word.mp3",
+    "audioExamplePt": "audio/raquel/livre/example.mp3"
   },
   {
     "id": "sozinho",
@@ -3918,7 +4286,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "alone",
-    "imageFile": "images/sozinho.webp"
+    "imageFile": "images/sozinho.webp",
+    "audioPt": "audio/raquel/sozinho/word.mp3",
+    "audioExamplePt": "audio/raquel/sozinho/example.mp3"
   },
   {
     "id": "juntos",
@@ -3932,7 +4302,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "together",
-    "imageFile": "images/juntos.webp"
+    "imageFile": "images/juntos.webp",
+    "audioPt": "audio/raquel/juntos/word.mp3",
+    "audioExamplePt": "audio/raquel/juntos/example.mp3"
   },
   {
     "id": "normal",
@@ -3945,7 +4317,9 @@
     "frequencyRank": 986,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "normal"
+    "enHint": "normal",
+    "audioPt": "audio/raquel/normal/word.mp3",
+    "audioExamplePt": "audio/raquel/normal/example.mp3"
   },
   {
     "id": "estranho",
@@ -3959,7 +4333,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "strange",
-    "imageFile": "images/estranho.webp"
+    "imageFile": "images/estranho.webp",
+    "audioPt": "audio/raquel/estranho/word.mp3",
+    "audioExamplePt": "audio/raquel/estranho/example.mp3"
   },
   {
     "id": "especial",
@@ -3972,7 +4348,9 @@
     "frequencyRank": 988,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "special"
+    "enHint": "special",
+    "audioPt": "audio/raquel/especial/word.mp3",
+    "audioExamplePt": "audio/raquel/especial/example.mp3"
   },
   {
     "id": "publico",
@@ -3986,7 +4364,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "public",
-    "imageFile": "images/publico.webp"
+    "imageFile": "images/publico.webp",
+    "audioPt": "audio/raquel/publico/word.mp3",
+    "audioExamplePt": "audio/raquel/publico/example.mp3"
   },
   {
     "id": "privado",
@@ -3999,7 +4379,9 @@
     "frequencyRank": 990,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "private"
+    "enHint": "private",
+    "audioPt": "audio/raquel/privado/word.mp3",
+    "audioExamplePt": "audio/raquel/privado/example.mp3"
   },
   {
     "id": "proibido",
@@ -4013,7 +4395,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "forbidden",
-    "imageFile": "images/proibido.webp"
+    "imageFile": "images/proibido.webp",
+    "audioPt": "audio/raquel/proibido/word.mp3",
+    "audioExamplePt": "audio/raquel/proibido/example.mp3"
   },
   {
     "id": "permitido",
@@ -4026,7 +4410,9 @@
     "frequencyRank": 992,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "allowed"
+    "enHint": "allowed",
+    "audioPt": "audio/raquel/permitido/word.mp3",
+    "audioExamplePt": "audio/raquel/permitido/example.mp3"
   },
   {
     "id": "obrigatorio",
@@ -4039,7 +4425,9 @@
     "frequencyRank": 993,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "mandatory"
+    "enHint": "mandatory",
+    "audioPt": "audio/raquel/obrigatorio/word.mp3",
+    "audioExamplePt": "audio/raquel/obrigatorio/example.mp3"
   },
   {
     "id": "gratis",
@@ -4052,7 +4440,9 @@
     "frequencyRank": 994,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "free (no cost)"
+    "enHint": "free (no cost)",
+    "audioPt": "audio/raquel/gratis/word.mp3",
+    "audioExamplePt": "audio/raquel/gratis/example.mp3"
   },
   {
     "id": "antigo",
@@ -4066,7 +4456,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "ancient/old",
-    "imageFile": "images/antigo.webp"
+    "imageFile": "images/antigo.webp",
+    "audioPt": "audio/raquel/antigo/word.mp3",
+    "audioExamplePt": "audio/raquel/antigo/example.mp3"
   },
   {
     "id": "moderno",
@@ -4080,7 +4472,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "modern",
-    "imageFile": "images/moderno.webp"
+    "imageFile": "images/moderno.webp",
+    "audioPt": "audio/raquel/moderno/word.mp3",
+    "audioExamplePt": "audio/raquel/moderno/example.mp3"
   },
   {
     "id": "internacional",
@@ -4093,7 +4487,9 @@
     "frequencyRank": 998,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "international"
+    "enHint": "international",
+    "audioPt": "audio/raquel/internacional/word.mp3",
+    "audioExamplePt": "audio/raquel/internacional/example.mp3"
   },
   {
     "id": "principal",
@@ -4106,7 +4502,9 @@
     "frequencyRank": 999,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "main"
+    "enHint": "main",
+    "audioPt": "audio/raquel/principal/word.mp3",
+    "audioExamplePt": "audio/raquel/principal/example.mp3"
   },
   {
     "id": "completo",
@@ -4119,6 +4517,8 @@
     "frequencyRank": 1000,
     "tier": 1000,
     "imageStrategy": "none",
-    "enHint": "complete/full"
+    "enHint": "complete/full",
+    "audioPt": "audio/raquel/completo/word.mp3",
+    "audioExamplePt": "audio/raquel/completo/example.mp3"
   }
 ]

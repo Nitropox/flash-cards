@@ -11,7 +11,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to take advantage",
-    "imageFile": "images/aproveitar.webp"
+    "imageFile": "images/aproveitar.webp",
+    "audioPt": "audio/raquel/aproveitar/word.mp3",
+    "audioExamplePt": "audio/raquel/aproveitar/example.mp3"
   },
   {
     "id": "desenvolver",
@@ -25,7 +27,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to develop",
-    "imageFile": "images/desenvolver.webp"
+    "imageFile": "images/desenvolver.webp",
+    "audioPt": "audio/raquel/desenvolver/word.mp3",
+    "audioExamplePt": "audio/raquel/desenvolver/example.mp3"
   },
   {
     "id": "garantir",
@@ -38,7 +42,9 @@
     "frequencyRank": 1003,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "to guarantee"
+    "enHint": "to guarantee",
+    "audioPt": "audio/raquel/garantir/word.mp3",
+    "audioExamplePt": "audio/raquel/garantir/example.mp3"
   },
   {
     "id": "exigir",
@@ -52,7 +58,9 @@
     "frequencyRank": 1004,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "to demand"
+    "enHint": "to demand",
+    "audioPt": "audio/raquel/exigir/word.mp3",
+    "audioExamplePt": "audio/raquel/exigir/example.mp3"
   },
   {
     "id": "merecer",
@@ -67,7 +75,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to deserve",
-    "imageFile": "images/merecer.webp"
+    "imageFile": "images/merecer.webp",
+    "audioPt": "audio/raquel/merecer/word.mp3",
+    "audioExamplePt": "audio/raquel/merecer/example.mp3"
   },
   {
     "id": "atingir",
@@ -82,7 +92,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to reach/achieve",
-    "imageFile": "images/atingir.webp"
+    "imageFile": "images/atingir.webp",
+    "audioPt": "audio/raquel/atingir/word.mp3",
+    "audioExamplePt": "audio/raquel/atingir/example.mp3"
   },
   {
     "id": "suportar",
@@ -96,7 +108,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to bear/stand",
-    "imageFile": "images/suportar.webp"
+    "imageFile": "images/suportar.webp",
+    "audioPt": "audio/raquel/suportar/word.mp3",
+    "audioExamplePt": "audio/raquel/suportar/example.mp3"
   },
   {
     "id": "enfrentar",
@@ -110,7 +124,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to face/confront",
-    "imageFile": "images/enfrentar.webp"
+    "imageFile": "images/enfrentar.webp",
+    "audioPt": "audio/raquel/enfrentar/word.mp3",
+    "audioExamplePt": "audio/raquel/enfrentar/example.mp3"
   },
   {
     "id": "insistir",
@@ -124,7 +140,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to insist",
-    "imageFile": "images/insistir.webp"
+    "imageFile": "images/insistir.webp",
+    "audioPt": "audio/raquel/insistir/word.mp3",
+    "audioExamplePt": "audio/raquel/insistir/example.mp3"
   },
   {
     "id": "evitar",
@@ -138,7 +156,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to avoid",
-    "imageFile": "images/evitar.webp"
+    "imageFile": "images/evitar.webp",
+    "audioPt": "audio/raquel/evitar/word.mp3",
+    "audioExamplePt": "audio/raquel/evitar/example.mp3"
   },
   {
     "id": "incluir",
@@ -152,7 +172,9 @@
     "frequencyRank": 1011,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "to include"
+    "enHint": "to include",
+    "audioPt": "audio/raquel/incluir/word.mp3",
+    "audioExamplePt": "audio/raquel/incluir/example.mp3"
   },
   {
     "id": "reduzir",
@@ -167,7 +189,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to reduce",
-    "imageFile": "images/reduzir.webp"
+    "imageFile": "images/reduzir.webp",
+    "audioPt": "audio/raquel/reduzir/word.mp3",
+    "audioExamplePt": "audio/raquel/reduzir/example.mp3"
   },
   {
     "id": "aumentar",
@@ -181,7 +205,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to increase",
-    "imageFile": "images/aumentar.webp"
+    "imageFile": "images/aumentar.webp",
+    "audioPt": "audio/raquel/aumentar/word.mp3",
+    "audioExamplePt": "audio/raquel/aumentar/example.mp3"
   },
   {
     "id": "aplicar",
@@ -195,7 +221,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to apply",
-    "imageFile": "images/aplicar.webp"
+    "imageFile": "images/aplicar.webp",
+    "audioPt": "audio/raquel/aplicar/word.mp3",
+    "audioExamplePt": "audio/raquel/aplicar/example.mp3"
   },
   {
     "id": "confirmar",
@@ -209,7 +237,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to confirm",
-    "imageFile": "images/confirmar.webp"
+    "imageFile": "images/confirmar.webp",
+    "audioPt": "audio/raquel/confirmar/word.mp3",
+    "audioExamplePt": "audio/raquel/confirmar/example.mp3"
   },
   {
     "id": "cancelar",
@@ -223,7 +253,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to cancel",
-    "imageFile": "images/cancelar.webp"
+    "imageFile": "images/cancelar.webp",
+    "audioPt": "audio/raquel/cancelar/word.mp3",
+    "audioExamplePt": "audio/raquel/cancelar/example.mp3"
   },
   {
     "id": "aprovar",
@@ -237,7 +269,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to approve",
-    "imageFile": "images/aprovar.webp"
+    "imageFile": "images/aprovar.webp",
+    "audioPt": "audio/raquel/aprovar/word.mp3",
+    "audioExamplePt": "audio/raquel/aprovar/example.mp3"
   },
   {
     "id": "propor",
@@ -252,7 +286,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to propose",
-    "imageFile": "images/propor.webp"
+    "imageFile": "images/propor.webp",
+    "audioPt": "audio/raquel/propor/word.mp3",
+    "audioExamplePt": "audio/raquel/propor/example.mp3"
   },
   {
     "id": "substituir",
@@ -267,7 +303,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to replace",
-    "imageFile": "images/substituir.webp"
+    "imageFile": "images/substituir.webp",
+    "audioPt": "audio/raquel/substituir/word.mp3",
+    "audioExamplePt": "audio/raquel/substituir/example.mp3"
   },
   {
     "id": "contribuir",
@@ -282,7 +320,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to contribute",
-    "imageFile": "images/contribuir.webp"
+    "imageFile": "images/contribuir.webp",
+    "audioPt": "audio/raquel/contribuir/word.mp3",
+    "audioExamplePt": "audio/raquel/contribuir/example.mp3"
   },
   {
     "id": "investigar",
@@ -296,7 +336,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to investigate",
-    "imageFile": "images/investigar.webp"
+    "imageFile": "images/investigar.webp",
+    "audioPt": "audio/raquel/investigar/word.mp3",
+    "audioExamplePt": "audio/raquel/investigar/example.mp3"
   },
   {
     "id": "publicar",
@@ -310,7 +352,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to publish",
-    "imageFile": "images/publicar.webp"
+    "imageFile": "images/publicar.webp",
+    "audioPt": "audio/raquel/publicar/word.mp3",
+    "audioExamplePt": "audio/raquel/publicar/example.mp3"
   },
   {
     "id": "organizar",
@@ -324,7 +368,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to organize",
-    "imageFile": "images/organizar.webp"
+    "imageFile": "images/organizar.webp",
+    "audioPt": "audio/raquel/organizar/word.mp3",
+    "audioExamplePt": "audio/raquel/organizar/example.mp3"
   },
   {
     "id": "comparar",
@@ -338,7 +384,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to compare",
-    "imageFile": "images/comparar.webp"
+    "imageFile": "images/comparar.webp",
+    "audioPt": "audio/raquel/comparar/word.mp3",
+    "audioExamplePt": "audio/raquel/comparar/example.mp3"
   },
   {
     "id": "construir",
@@ -353,7 +401,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to build",
-    "imageFile": "images/construir.webp"
+    "imageFile": "images/construir.webp",
+    "audioPt": "audio/raquel/construir/word.mp3",
+    "audioExamplePt": "audio/raquel/construir/example.mp3"
   },
   {
     "id": "destruir",
@@ -368,7 +418,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to destroy",
-    "imageFile": "images/destruir.webp"
+    "imageFile": "images/destruir.webp",
+    "audioPt": "audio/raquel/destruir/word.mp3",
+    "audioExamplePt": "audio/raquel/destruir/example.mp3"
   },
   {
     "id": "proteger",
@@ -383,7 +435,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to protect",
-    "imageFile": "images/proteger.webp"
+    "imageFile": "images/proteger.webp",
+    "audioPt": "audio/raquel/proteger/word.mp3",
+    "audioExamplePt": "audio/raquel/proteger/example.mp3"
   },
   {
     "id": "defender",
@@ -397,7 +451,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to defend",
-    "imageFile": "images/defender.webp"
+    "imageFile": "images/defender.webp",
+    "audioPt": "audio/raquel/defender/word.mp3",
+    "audioExamplePt": "audio/raquel/defender/example.mp3"
   },
   {
     "id": "cumprir",
@@ -411,7 +467,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to fulfill",
-    "imageFile": "images/cumprir.webp"
+    "imageFile": "images/cumprir.webp",
+    "audioPt": "audio/raquel/cumprir/word.mp3",
+    "audioExamplePt": "audio/raquel/cumprir/example.mp3"
   },
   {
     "id": "representar",
@@ -425,7 +483,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to represent",
-    "imageFile": "images/representar.webp"
+    "imageFile": "images/representar.webp",
+    "audioPt": "audio/raquel/representar/word.mp3",
+    "audioExamplePt": "audio/raquel/representar/example.mp3"
   },
   {
     "id": "instalar",
@@ -439,7 +499,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to install",
-    "imageFile": "images/instalar.webp"
+    "imageFile": "images/instalar.webp",
+    "audioPt": "audio/raquel/instalar/word.mp3",
+    "audioExamplePt": "audio/raquel/instalar/example.mp3"
   },
   {
     "id": "revelar",
@@ -453,7 +515,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to reveal",
-    "imageFile": "images/revelar.webp"
+    "imageFile": "images/revelar.webp",
+    "audioPt": "audio/raquel/revelar/word.mp3",
+    "audioExamplePt": "audio/raquel/revelar/example.mp3"
   },
   {
     "id": "surpreender",
@@ -467,7 +531,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to surprise",
-    "imageFile": "images/surpreender.webp"
+    "imageFile": "images/surpreender.webp",
+    "audioPt": "audio/raquel/surpreender/word.mp3",
+    "audioExamplePt": "audio/raquel/surpreender/example.mp3"
   },
   {
     "id": "inspirar",
@@ -481,7 +547,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to inspire",
-    "imageFile": "images/inspirar.webp"
+    "imageFile": "images/inspirar.webp",
+    "audioPt": "audio/raquel/inspirar/word.mp3",
+    "audioExamplePt": "audio/raquel/inspirar/example.mp3"
   },
   {
     "id": "atrair",
@@ -496,7 +564,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to attract",
-    "imageFile": "images/atrair.webp"
+    "imageFile": "images/atrair.webp",
+    "audioPt": "audio/raquel/atrair/word.mp3",
+    "audioExamplePt": "audio/raquel/atrair/example.mp3"
   },
   {
     "id": "obrigar",
@@ -510,7 +580,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to force/oblige",
-    "imageFile": "images/obrigar.webp"
+    "imageFile": "images/obrigar.webp",
+    "audioPt": "audio/raquel/obrigar/word.mp3",
+    "audioExamplePt": "audio/raquel/obrigar/example.mp3"
   },
   {
     "id": "queixar-se",
@@ -524,7 +596,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to complain",
-    "imageFile": "images/queixar-se.webp"
+    "imageFile": "images/queixar-se.webp",
+    "audioPt": "audio/raquel/queixar-se/word.mp3",
+    "audioExamplePt": "audio/raquel/queixar-se/example.mp3"
   },
   {
     "id": "hesitar",
@@ -538,7 +612,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to hesitate",
-    "imageFile": "images/hesitar.webp"
+    "imageFile": "images/hesitar.webp",
+    "audioPt": "audio/raquel/hesitar/word.mp3",
+    "audioExamplePt": "audio/raquel/hesitar/example.mp3"
   },
   {
     "id": "convencer",
@@ -553,7 +629,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "to convince",
-    "imageFile": "images/convencer.webp"
+    "imageFile": "images/convencer.webp",
+    "audioPt": "audio/raquel/convencer/word.mp3",
+    "audioExamplePt": "audio/raquel/convencer/example.mp3"
   },
   {
     "id": "engenheiro",
@@ -568,7 +646,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "engineer",
-    "imageFile": "images/engenheiro.webp"
+    "imageFile": "images/engenheiro.webp",
+    "audioPt": "audio/raquel/engenheiro/word.mp3",
+    "audioExamplePt": "audio/raquel/engenheiro/example.mp3"
   },
   {
     "id": "advogado",
@@ -583,7 +663,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "lawyer",
-    "imageFile": "images/advogado.webp"
+    "imageFile": "images/advogado.webp",
+    "audioPt": "audio/raquel/advogado/word.mp3",
+    "audioExamplePt": "audio/raquel/advogado/example.mp3"
   },
   {
     "id": "enfermeiro",
@@ -598,7 +680,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "nurse",
-    "imageFile": "images/enfermeiro.webp"
+    "imageFile": "images/enfermeiro.webp",
+    "audioPt": "audio/raquel/enfermeiro/word.mp3",
+    "audioExamplePt": "audio/raquel/enfermeiro/example.mp3"
   },
   {
     "id": "arquiteto",
@@ -613,7 +697,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "architect",
-    "imageFile": "images/arquiteto.webp"
+    "imageFile": "images/arquiteto.webp",
+    "audioPt": "audio/raquel/arquiteto/word.mp3",
+    "audioExamplePt": "audio/raquel/arquiteto/example.mp3"
   },
   {
     "id": "jornalista",
@@ -628,7 +714,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "journalist",
-    "imageFile": "images/jornalista.webp"
+    "imageFile": "images/jornalista.webp",
+    "audioPt": "audio/raquel/jornalista/word.mp3",
+    "audioExamplePt": "audio/raquel/jornalista/example.mp3"
   },
   {
     "id": "cientista",
@@ -643,7 +731,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "scientist",
-    "imageFile": "images/cientista.webp"
+    "imageFile": "images/cientista.webp",
+    "audioPt": "audio/raquel/cientista/word.mp3",
+    "audioExamplePt": "audio/raquel/cientista/example.mp3"
   },
   {
     "id": "empresario",
@@ -658,7 +748,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "entrepreneur",
-    "imageFile": "images/empresario.webp"
+    "imageFile": "images/empresario.webp",
+    "audioPt": "audio/raquel/empresario/word.mp3",
+    "audioExamplePt": "audio/raquel/empresario/example.mp3"
   },
   {
     "id": "politico",
@@ -673,7 +765,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "politician",
-    "imageFile": "images/politico.webp"
+    "imageFile": "images/politico.webp",
+    "audioPt": "audio/raquel/politico/word.mp3",
+    "audioExamplePt": "audio/raquel/politico/example.mp3"
   },
   {
     "id": "piloto",
@@ -688,7 +782,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "pilot",
-    "imageFile": "images/piloto.webp"
+    "imageFile": "images/piloto.webp",
+    "audioPt": "audio/raquel/piloto/word.mp3",
+    "audioExamplePt": "audio/raquel/piloto/example.mp3"
   },
   {
     "id": "bombeiro",
@@ -703,7 +799,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "firefighter",
-    "imageFile": "images/bombeiro.webp"
+    "imageFile": "images/bombeiro.webp",
+    "audioPt": "audio/raquel/bombeiro/word.mp3",
+    "audioExamplePt": "audio/raquel/bombeiro/example.mp3"
   },
   {
     "id": "cozinheiro",
@@ -718,7 +816,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "cook/chef",
-    "imageFile": "images/cozinheiro.webp"
+    "imageFile": "images/cozinheiro.webp",
+    "audioPt": "audio/raquel/cozinheiro/word.mp3",
+    "audioExamplePt": "audio/raquel/cozinheiro/example.mp3"
   },
   {
     "id": "investigador",
@@ -733,7 +833,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "researcher",
-    "imageFile": "images/investigador.webp"
+    "imageFile": "images/investigador.webp",
+    "audioPt": "audio/raquel/investigador/word.mp3",
+    "audioExamplePt": "audio/raquel/investigador/example.mp3"
   },
   {
     "id": "treinador",
@@ -748,7 +850,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "coach",
-    "imageFile": "images/treinador.webp"
+    "imageFile": "images/treinador.webp",
+    "audioPt": "audio/raquel/treinador/word.mp3",
+    "audioExamplePt": "audio/raquel/treinador/example.mp3"
   },
   {
     "id": "juiz",
@@ -763,7 +867,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "judge",
-    "imageFile": "images/juiz.webp"
+    "imageFile": "images/juiz.webp",
+    "audioPt": "audio/raquel/juiz/word.mp3",
+    "audioExamplePt": "audio/raquel/juiz/example.mp3"
   },
   {
     "id": "psicologo",
@@ -778,7 +884,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "psychologist",
-    "imageFile": "images/psicologo.webp"
+    "imageFile": "images/psicologo.webp",
+    "audioPt": "audio/raquel/psicologo/word.mp3",
+    "audioExamplePt": "audio/raquel/psicologo/example.mp3"
   },
   {
     "id": "cirurgiao",
@@ -793,7 +901,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "surgeon",
-    "imageFile": "images/cirurgiao.webp"
+    "imageFile": "images/cirurgiao.webp",
+    "audioPt": "audio/raquel/cirurgiao/word.mp3",
+    "audioExamplePt": "audio/raquel/cirurgiao/example.mp3"
   },
   {
     "id": "farmaceutico",
@@ -808,7 +918,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "pharmacist",
-    "imageFile": "images/farmaceutico.webp"
+    "imageFile": "images/farmaceutico.webp",
+    "audioPt": "audio/raquel/farmaceutico/word.mp3",
+    "audioExamplePt": "audio/raquel/farmaceutico/example.mp3"
   },
   {
     "id": "eletricista",
@@ -823,7 +935,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "electrician",
-    "imageFile": "images/eletricista.webp"
+    "imageFile": "images/eletricista.webp",
+    "audioPt": "audio/raquel/eletricista/word.mp3",
+    "audioExamplePt": "audio/raquel/eletricista/example.mp3"
   },
   {
     "id": "canalizador",
@@ -838,7 +952,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "plumber",
-    "imageFile": "images/canalizador.webp"
+    "imageFile": "images/canalizador.webp",
+    "audioPt": "audio/raquel/canalizador/word.mp3",
+    "audioExamplePt": "audio/raquel/canalizador/example.mp3"
   },
   {
     "id": "contabilista",
@@ -853,7 +969,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "accountant",
-    "imageFile": "images/contabilista.webp"
+    "imageFile": "images/contabilista.webp",
+    "audioPt": "audio/raquel/contabilista/word.mp3",
+    "audioExamplePt": "audio/raquel/contabilista/example.mp3"
   },
   {
     "id": "futebol",
@@ -868,7 +986,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "football/soccer",
-    "imageFile": "images/futebol.webp"
+    "imageFile": "images/futebol.webp",
+    "audioPt": "audio/raquel/futebol/word.mp3",
+    "audioExamplePt": "audio/raquel/futebol/example.mp3"
   },
   {
     "id": "natacao",
@@ -883,7 +1003,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "swimming",
-    "imageFile": "images/natacao.webp"
+    "imageFile": "images/natacao.webp",
+    "audioPt": "audio/raquel/natacao/word.mp3",
+    "audioExamplePt": "audio/raquel/natacao/example.mp3"
   },
   {
     "id": "atletismo",
@@ -898,7 +1020,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "athletics",
-    "imageFile": "images/atletismo.webp"
+    "imageFile": "images/atletismo.webp",
+    "audioPt": "audio/raquel/atletismo/word.mp3",
+    "audioExamplePt": "audio/raquel/atletismo/example.mp3"
   },
   {
     "id": "ciclismo",
@@ -913,7 +1037,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "cycling",
-    "imageFile": "images/ciclismo.webp"
+    "imageFile": "images/ciclismo.webp",
+    "audioPt": "audio/raquel/ciclismo/word.mp3",
+    "audioExamplePt": "audio/raquel/ciclismo/example.mp3"
   },
   {
     "id": "tenis",
@@ -928,7 +1054,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "tennis",
-    "imageFile": "images/tenis.webp"
+    "imageFile": "images/tenis.webp",
+    "audioPt": "audio/raquel/tenis/word.mp3",
+    "audioExamplePt": "audio/raquel/tenis/example.mp3"
   },
   {
     "id": "basquetebol",
@@ -943,7 +1071,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "basketball",
-    "imageFile": "images/basquetebol.webp"
+    "imageFile": "images/basquetebol.webp",
+    "audioPt": "audio/raquel/basquetebol/word.mp3",
+    "audioExamplePt": "audio/raquel/basquetebol/example.mp3"
   },
   {
     "id": "voleibol",
@@ -958,7 +1088,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "volleyball",
-    "imageFile": "images/voleibol.webp"
+    "imageFile": "images/voleibol.webp",
+    "audioPt": "audio/raquel/voleibol/word.mp3",
+    "audioExamplePt": "audio/raquel/voleibol/example.mp3"
   },
   {
     "id": "campeonato",
@@ -973,7 +1105,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "championship",
-    "imageFile": "images/campeonato.webp"
+    "imageFile": "images/campeonato.webp",
+    "audioPt": "audio/raquel/campeonato/word.mp3",
+    "audioExamplePt": "audio/raquel/campeonato/example.mp3"
   },
   {
     "id": "golos",
@@ -988,7 +1122,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "goal (sports)",
-    "imageFile": "images/golos.webp"
+    "imageFile": "images/golos.webp",
+    "audioPt": "audio/raquel/golos/word.mp3",
+    "audioExamplePt": "audio/raquel/golos/example.mp3"
   },
   {
     "id": "equipa",
@@ -1003,7 +1139,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "team",
-    "imageFile": "images/equipa.webp"
+    "imageFile": "images/equipa.webp",
+    "audioPt": "audio/raquel/equipa/word.mp3",
+    "audioExamplePt": "audio/raquel/equipa/example.mp3"
   },
   {
     "id": "adversario",
@@ -1018,7 +1156,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "opponent",
-    "imageFile": "images/adversario.webp"
+    "imageFile": "images/adversario.webp",
+    "audioPt": "audio/raquel/adversario/word.mp3",
+    "audioExamplePt": "audio/raquel/adversario/example.mp3"
   },
   {
     "id": "arbitro",
@@ -1033,7 +1173,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "referee",
-    "imageFile": "images/arbitro.webp"
+    "imageFile": "images/arbitro.webp",
+    "audioPt": "audio/raquel/arbitro/word.mp3",
+    "audioExamplePt": "audio/raquel/arbitro/example.mp3"
   },
   {
     "id": "ginasio",
@@ -1048,7 +1190,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "gym",
-    "imageFile": "images/ginasio.webp"
+    "imageFile": "images/ginasio.webp",
+    "audioPt": "audio/raquel/ginasio/word.mp3",
+    "audioExamplePt": "audio/raquel/ginasio/example.mp3"
   },
   {
     "id": "piscina",
@@ -1063,7 +1207,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "swimming pool",
-    "imageFile": "images/piscina.webp"
+    "imageFile": "images/piscina.webp",
+    "audioPt": "audio/raquel/piscina/word.mp3",
+    "audioExamplePt": "audio/raquel/piscina/example.mp3"
   },
   {
     "id": "maratona",
@@ -1078,7 +1224,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "marathon",
-    "imageFile": "images/maratona.webp"
+    "imageFile": "images/maratona.webp",
+    "audioPt": "audio/raquel/maratona/word.mp3",
+    "audioExamplePt": "audio/raquel/maratona/example.mp3"
   },
   {
     "id": "ciencia",
@@ -1093,7 +1241,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "science",
-    "imageFile": "images/ciencia.webp"
+    "imageFile": "images/ciencia.webp",
+    "audioPt": "audio/raquel/ciencia/word.mp3",
+    "audioExamplePt": "audio/raquel/ciencia/example.mp3"
   },
   {
     "id": "investigacao",
@@ -1108,7 +1258,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "research",
-    "imageFile": "images/investigacao.webp"
+    "imageFile": "images/investigacao.webp",
+    "audioPt": "audio/raquel/investigacao/word.mp3",
+    "audioExamplePt": "audio/raquel/investigacao/example.mp3"
   },
   {
     "id": "experiencia2",
@@ -1123,7 +1275,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "experiment",
-    "imageFile": "images/experiencia2.webp"
+    "imageFile": "images/experiencia2.webp",
+    "audioPt": "audio/raquel/experiencia2/word.mp3",
+    "audioExamplePt": "audio/raquel/experiencia2/example.mp3"
   },
   {
     "id": "laboratorio",
@@ -1138,7 +1292,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "laboratory",
-    "imageFile": "images/laboratorio.webp"
+    "imageFile": "images/laboratorio.webp",
+    "audioPt": "audio/raquel/laboratorio/word.mp3",
+    "audioExamplePt": "audio/raquel/laboratorio/example.mp3"
   },
   {
     "id": "teoria",
@@ -1152,7 +1308,9 @@
     "frequencyRank": 1080,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "theory"
+    "enHint": "theory",
+    "audioPt": "audio/raquel/teoria/word.mp3",
+    "audioExamplePt": "audio/raquel/teoria/example.mp3"
   },
   {
     "id": "hipotese",
@@ -1166,7 +1324,9 @@
     "frequencyRank": 1081,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "hypothesis"
+    "enHint": "hypothesis",
+    "audioPt": "audio/raquel/hipotese/word.mp3",
+    "audioExamplePt": "audio/raquel/hipotese/example.mp3"
   },
   {
     "id": "resultado",
@@ -1180,7 +1340,9 @@
     "frequencyRank": 1082,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "result"
+    "enHint": "result",
+    "audioPt": "audio/raquel/resultado/word.mp3",
+    "audioExamplePt": "audio/raquel/resultado/example.mp3"
   },
   {
     "id": "descoberta",
@@ -1195,7 +1357,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "discovery",
-    "imageFile": "images/descoberta.webp"
+    "imageFile": "images/descoberta.webp",
+    "audioPt": "audio/raquel/descoberta/word.mp3",
+    "audioExamplePt": "audio/raquel/descoberta/example.mp3"
   },
   {
     "id": "tecnologia",
@@ -1210,7 +1374,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "technology",
-    "imageFile": "images/tecnologia.webp"
+    "imageFile": "images/tecnologia.webp",
+    "audioPt": "audio/raquel/tecnologia/word.mp3",
+    "audioExamplePt": "audio/raquel/tecnologia/example.mp3"
   },
   {
     "id": "dados",
@@ -1224,7 +1390,9 @@
     "frequencyRank": 1085,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "data"
+    "enHint": "data",
+    "audioPt": "audio/raquel/dados/word.mp3",
+    "audioExamplePt": "audio/raquel/dados/example.mp3"
   },
   {
     "id": "formula",
@@ -1239,7 +1407,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "formula",
-    "imageFile": "images/formula.webp"
+    "imageFile": "images/formula.webp",
+    "audioPt": "audio/raquel/formula/word.mp3",
+    "audioExamplePt": "audio/raquel/formula/example.mp3"
   },
   {
     "id": "metodo",
@@ -1253,7 +1423,9 @@
     "frequencyRank": 1087,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "method"
+    "enHint": "method",
+    "audioPt": "audio/raquel/metodo/word.mp3",
+    "audioExamplePt": "audio/raquel/metodo/example.mp3"
   },
   {
     "id": "governo",
@@ -1268,7 +1440,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "government",
-    "imageFile": "images/governo.webp"
+    "imageFile": "images/governo.webp",
+    "audioPt": "audio/raquel/governo/word.mp3",
+    "audioExamplePt": "audio/raquel/governo/example.mp3"
   },
   {
     "id": "eleicao",
@@ -1283,7 +1457,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "election",
-    "imageFile": "images/eleicao.webp"
+    "imageFile": "images/eleicao.webp",
+    "audioPt": "audio/raquel/eleicao/word.mp3",
+    "audioExamplePt": "audio/raquel/eleicao/example.mp3"
   },
   {
     "id": "parlamento",
@@ -1298,7 +1474,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "parliament",
-    "imageFile": "images/parlamento.webp"
+    "imageFile": "images/parlamento.webp",
+    "audioPt": "audio/raquel/parlamento/word.mp3",
+    "audioExamplePt": "audio/raquel/parlamento/example.mp3"
   },
   {
     "id": "democracia",
@@ -1313,7 +1491,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "democracy",
-    "imageFile": "images/democracia.webp"
+    "imageFile": "images/democracia.webp",
+    "audioPt": "audio/raquel/democracia/word.mp3",
+    "audioExamplePt": "audio/raquel/democracia/example.mp3"
   },
   {
     "id": "partido",
@@ -1328,7 +1508,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "political party",
-    "imageFile": "images/partido.webp"
+    "imageFile": "images/partido.webp",
+    "audioPt": "audio/raquel/partido/word.mp3",
+    "audioExamplePt": "audio/raquel/partido/example.mp3"
   },
   {
     "id": "presidente",
@@ -1343,7 +1525,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "president",
-    "imageFile": "images/presidente.webp"
+    "imageFile": "images/presidente.webp",
+    "audioPt": "audio/raquel/presidente/word.mp3",
+    "audioExamplePt": "audio/raquel/presidente/example.mp3"
   },
   {
     "id": "ministro",
@@ -1358,7 +1542,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "minister",
-    "imageFile": "images/ministro.webp"
+    "imageFile": "images/ministro.webp",
+    "audioPt": "audio/raquel/ministro/word.mp3",
+    "audioExamplePt": "audio/raquel/ministro/example.mp3"
   },
   {
     "id": "cidadao",
@@ -1373,7 +1559,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "citizen",
-    "imageFile": "images/cidadao.webp"
+    "imageFile": "images/cidadao.webp",
+    "audioPt": "audio/raquel/cidadao/word.mp3",
+    "audioExamplePt": "audio/raquel/cidadao/example.mp3"
   },
   {
     "id": "imposto",
@@ -1387,7 +1575,9 @@
     "frequencyRank": 1096,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "tax"
+    "enHint": "tax",
+    "audioPt": "audio/raquel/imposto/word.mp3",
+    "audioExamplePt": "audio/raquel/imposto/example.mp3"
   },
   {
     "id": "orcamento",
@@ -1401,7 +1591,9 @@
     "frequencyRank": 1097,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "budget"
+    "enHint": "budget",
+    "audioPt": "audio/raquel/orcamento/word.mp3",
+    "audioExamplePt": "audio/raquel/orcamento/example.mp3"
   },
   {
     "id": "constituicao",
@@ -1416,7 +1608,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "constitution",
-    "imageFile": "images/constituicao.webp"
+    "imageFile": "images/constituicao.webp",
+    "audioPt": "audio/raquel/constituicao/word.mp3",
+    "audioExamplePt": "audio/raquel/constituicao/example.mp3"
   },
   {
     "id": "campanha",
@@ -1431,7 +1625,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "campaign",
-    "imageFile": "images/campanha.webp"
+    "imageFile": "images/campanha.webp",
+    "audioPt": "audio/raquel/campanha/word.mp3",
+    "audioExamplePt": "audio/raquel/campanha/example.mp3"
   },
   {
     "id": "debate",
@@ -1446,7 +1642,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "debate",
-    "imageFile": "images/debate.webp"
+    "imageFile": "images/debate.webp",
+    "audioPt": "audio/raquel/debate/word.mp3",
+    "audioExamplePt": "audio/raquel/debate/example.mp3"
   },
   {
     "id": "ingrediente",
@@ -1461,7 +1659,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "ingredient",
-    "imageFile": "images/ingrediente.webp"
+    "imageFile": "images/ingrediente.webp",
+    "audioPt": "audio/raquel/ingrediente/word.mp3",
+    "audioExamplePt": "audio/raquel/ingrediente/example.mp3"
   },
   {
     "id": "tempero",
@@ -1476,7 +1676,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "seasoning",
-    "imageFile": "images/tempero.webp"
+    "imageFile": "images/tempero.webp",
+    "audioPt": "audio/raquel/tempero/word.mp3",
+    "audioExamplePt": "audio/raquel/tempero/example.mp3"
   },
   {
     "id": "forno",
@@ -1491,7 +1693,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "oven",
-    "imageFile": "images/forno.webp"
+    "imageFile": "images/forno.webp",
+    "audioPt": "audio/raquel/forno/word.mp3",
+    "audioExamplePt": "audio/raquel/forno/example.mp3"
   },
   {
     "id": "panela",
@@ -1506,7 +1710,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "pot/pan",
-    "imageFile": "images/panela.webp"
+    "imageFile": "images/panela.webp",
+    "audioPt": "audio/raquel/panela/word.mp3",
+    "audioExamplePt": "audio/raquel/panela/example.mp3"
   },
   {
     "id": "frigideira",
@@ -1521,7 +1727,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "frying pan",
-    "imageFile": "images/frigideira.webp"
+    "imageFile": "images/frigideira.webp",
+    "audioPt": "audio/raquel/frigideira/word.mp3",
+    "audioExamplePt": "audio/raquel/frigideira/example.mp3"
   },
   {
     "id": "travessa",
@@ -1536,7 +1744,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "baking dish",
-    "imageFile": "images/travessa.webp"
+    "imageFile": "images/travessa.webp",
+    "audioPt": "audio/raquel/travessa/word.mp3",
+    "audioExamplePt": "audio/raquel/travessa/example.mp3"
   },
   {
     "id": "colher2",
@@ -1551,7 +1761,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "spoon",
-    "imageFile": "images/colher2.webp"
+    "imageFile": "images/colher2.webp",
+    "audioPt": "audio/raquel/colher2/word.mp3",
+    "audioExamplePt": "audio/raquel/colher2/example.mp3"
   },
   {
     "id": "azeite",
@@ -1566,7 +1778,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "olive oil",
-    "imageFile": "images/azeite.webp"
+    "imageFile": "images/azeite.webp",
+    "audioPt": "audio/raquel/azeite/word.mp3",
+    "audioExamplePt": "audio/raquel/azeite/example.mp3"
   },
   {
     "id": "alho",
@@ -1581,7 +1795,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "garlic",
-    "imageFile": "images/alho.webp"
+    "imageFile": "images/alho.webp",
+    "audioPt": "audio/raquel/alho/word.mp3",
+    "audioExamplePt": "audio/raquel/alho/example.mp3"
   },
   {
     "id": "cebola",
@@ -1596,7 +1812,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "onion",
-    "imageFile": "images/cebola.webp"
+    "imageFile": "images/cebola.webp",
+    "audioPt": "audio/raquel/cebola/word.mp3",
+    "audioExamplePt": "audio/raquel/cebola/example.mp3"
   },
   {
     "id": "farinha",
@@ -1611,7 +1829,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "flour",
-    "imageFile": "images/farinha.webp"
+    "imageFile": "images/farinha.webp",
+    "audioPt": "audio/raquel/farinha/word.mp3",
+    "audioExamplePt": "audio/raquel/farinha/example.mp3"
   },
   {
     "id": "massa",
@@ -1626,7 +1846,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "pasta",
-    "imageFile": "images/massa.webp"
+    "imageFile": "images/massa.webp",
+    "audioPt": "audio/raquel/massa/word.mp3",
+    "audioExamplePt": "audio/raquel/massa/example.mp3"
   },
   {
     "id": "molho",
@@ -1641,7 +1863,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "sauce",
-    "imageFile": "images/molho.webp"
+    "imageFile": "images/molho.webp",
+    "audioPt": "audio/raquel/molho/word.mp3",
+    "audioExamplePt": "audio/raquel/molho/example.mp3"
   },
   {
     "id": "sobremesa",
@@ -1656,7 +1880,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "dessert",
-    "imageFile": "images/sobremesa.webp"
+    "imageFile": "images/sobremesa.webp",
+    "audioPt": "audio/raquel/sobremesa/word.mp3",
+    "audioExamplePt": "audio/raquel/sobremesa/example.mp3"
   },
   {
     "id": "aplicacao",
@@ -1671,7 +1897,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "application/app",
-    "imageFile": "images/aplicacao.webp"
+    "imageFile": "images/aplicacao.webp",
+    "audioPt": "audio/raquel/aplicacao/word.mp3",
+    "audioExamplePt": "audio/raquel/aplicacao/example.mp3"
   },
   {
     "id": "programa",
@@ -1686,7 +1914,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "program/software",
-    "imageFile": "images/programa.webp"
+    "imageFile": "images/programa.webp",
+    "audioPt": "audio/raquel/programa/word.mp3",
+    "audioExamplePt": "audio/raquel/programa/example.mp3"
   },
   {
     "id": "ecra",
@@ -1701,7 +1931,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "screen",
-    "imageFile": "images/ecra.webp"
+    "imageFile": "images/ecra.webp",
+    "audioPt": "audio/raquel/ecra/word.mp3",
+    "audioExamplePt": "audio/raquel/ecra/example.mp3"
   },
   {
     "id": "rede",
@@ -1716,7 +1948,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "network",
-    "imageFile": "images/rede.webp"
+    "imageFile": "images/rede.webp",
+    "audioPt": "audio/raquel/rede/word.mp3",
+    "audioExamplePt": "audio/raquel/rede/example.mp3"
   },
   {
     "id": "palavra-passe",
@@ -1730,7 +1964,9 @@
     "frequencyRank": 1123,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "password"
+    "enHint": "password",
+    "audioPt": "audio/raquel/palavra-passe/word.mp3",
+    "audioExamplePt": "audio/raquel/palavra-passe/example.mp3"
   },
   {
     "id": "ficheiro",
@@ -1745,7 +1981,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "file",
-    "imageFile": "images/ficheiro.webp"
+    "imageFile": "images/ficheiro.webp",
+    "audioPt": "audio/raquel/ficheiro/word.mp3",
+    "audioExamplePt": "audio/raquel/ficheiro/example.mp3"
   },
   {
     "id": "impressora",
@@ -1760,7 +1998,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "printer",
-    "imageFile": "images/impressora.webp"
+    "imageFile": "images/impressora.webp",
+    "audioPt": "audio/raquel/impressora/word.mp3",
+    "audioExamplePt": "audio/raquel/impressora/example.mp3"
   },
   {
     "id": "teclado",
@@ -1775,7 +2015,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "keyboard",
-    "imageFile": "images/teclado.webp"
+    "imageFile": "images/teclado.webp",
+    "audioPt": "audio/raquel/teclado/word.mp3",
+    "audioExamplePt": "audio/raquel/teclado/example.mp3"
   },
   {
     "id": "rato2",
@@ -1790,7 +2032,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "mouse (computer)",
-    "imageFile": "images/rato2.webp"
+    "imageFile": "images/rato2.webp",
+    "audioPt": "audio/raquel/rato2/word.mp3",
+    "audioExamplePt": "audio/raquel/rato2/example.mp3"
   },
   {
     "id": "carregador",
@@ -1805,7 +2049,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "charger",
-    "imageFile": "images/carregador.webp"
+    "imageFile": "images/carregador.webp",
+    "audioPt": "audio/raquel/carregador/word.mp3",
+    "audioExamplePt": "audio/raquel/carregador/example.mp3"
   },
   {
     "id": "orgulho",
@@ -1820,7 +2066,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "pride",
-    "imageFile": "images/orgulho.webp"
+    "imageFile": "images/orgulho.webp",
+    "audioPt": "audio/raquel/orgulho/word.mp3",
+    "audioExamplePt": "audio/raquel/orgulho/example.mp3"
   },
   {
     "id": "vergonha",
@@ -1835,7 +2083,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "shame",
-    "imageFile": "images/vergonha.webp"
+    "imageFile": "images/vergonha.webp",
+    "audioPt": "audio/raquel/vergonha/word.mp3",
+    "audioExamplePt": "audio/raquel/vergonha/example.mp3"
   },
   {
     "id": "ansiedade",
@@ -1850,7 +2100,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "anxiety",
-    "imageFile": "images/ansiedade.webp"
+    "imageFile": "images/ansiedade.webp",
+    "audioPt": "audio/raquel/ansiedade/word.mp3",
+    "audioExamplePt": "audio/raquel/ansiedade/example.mp3"
   },
   {
     "id": "coragem",
@@ -1865,7 +2117,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "courage",
-    "imageFile": "images/coragem.webp"
+    "imageFile": "images/coragem.webp",
+    "audioPt": "audio/raquel/coragem/word.mp3",
+    "audioExamplePt": "audio/raquel/coragem/example.mp3"
   },
   {
     "id": "solidao",
@@ -1880,7 +2134,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "loneliness",
-    "imageFile": "images/solidao.webp"
+    "imageFile": "images/solidao.webp",
+    "audioPt": "audio/raquel/solidao/word.mp3",
+    "audioExamplePt": "audio/raquel/solidao/example.mp3"
   },
   {
     "id": "confianca",
@@ -1895,7 +2151,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "trust/confidence",
-    "imageFile": "images/confianca.webp"
+    "imageFile": "images/confianca.webp",
+    "audioPt": "audio/raquel/confianca/word.mp3",
+    "audioExamplePt": "audio/raquel/confianca/example.mp3"
   },
   {
     "id": "inveja",
@@ -1910,7 +2168,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "envy",
-    "imageFile": "images/inveja.webp"
+    "imageFile": "images/inveja.webp",
+    "audioPt": "audio/raquel/inveja/word.mp3",
+    "audioExamplePt": "audio/raquel/inveja/example.mp3"
   },
   {
     "id": "culpa",
@@ -1925,7 +2185,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "guilt/blame",
-    "imageFile": "images/culpa.webp"
+    "imageFile": "images/culpa.webp",
+    "audioPt": "audio/raquel/culpa/word.mp3",
+    "audioExamplePt": "audio/raquel/culpa/example.mp3"
   },
   {
     "id": "desespero",
@@ -1940,7 +2202,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "despair",
-    "imageFile": "images/desespero.webp"
+    "imageFile": "images/desespero.webp",
+    "audioPt": "audio/raquel/desespero/word.mp3",
+    "audioExamplePt": "audio/raquel/desespero/example.mp3"
   },
   {
     "id": "entusiasmo",
@@ -1955,7 +2219,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "enthusiasm",
-    "imageFile": "images/entusiasmo.webp"
+    "imageFile": "images/entusiasmo.webp",
+    "audioPt": "audio/raquel/entusiasmo/word.mp3",
+    "audioExamplePt": "audio/raquel/entusiasmo/example.mp3"
   },
   {
     "id": "gratidao",
@@ -1970,7 +2236,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "gratitude",
-    "imageFile": "images/gratidao.webp"
+    "imageFile": "images/gratidao.webp",
+    "audioPt": "audio/raquel/gratidao/word.mp3",
+    "audioExamplePt": "audio/raquel/gratidao/example.mp3"
   },
   {
     "id": "frustracao",
@@ -1985,7 +2253,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "frustration",
-    "imageFile": "images/frustracao.webp"
+    "imageFile": "images/frustracao.webp",
+    "audioPt": "audio/raquel/frustracao/word.mp3",
+    "audioExamplePt": "audio/raquel/frustracao/example.mp3"
   },
   {
     "id": "cliente",
@@ -2000,7 +2270,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "client/customer",
-    "imageFile": "images/cliente.webp"
+    "imageFile": "images/cliente.webp",
+    "audioPt": "audio/raquel/cliente/word.mp3",
+    "audioExamplePt": "audio/raquel/cliente/example.mp3"
   },
   {
     "id": "contrato",
@@ -2015,7 +2287,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "contract",
-    "imageFile": "images/contrato.webp"
+    "imageFile": "images/contrato.webp",
+    "audioPt": "audio/raquel/contrato/word.mp3",
+    "audioExamplePt": "audio/raquel/contrato/example.mp3"
   },
   {
     "id": "negocio",
@@ -2030,7 +2304,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "business/deal",
-    "imageFile": "images/negocio.webp"
+    "imageFile": "images/negocio.webp",
+    "audioPt": "audio/raquel/negocio/word.mp3",
+    "audioExamplePt": "audio/raquel/negocio/example.mp3"
   },
   {
     "id": "lucro",
@@ -2045,7 +2321,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "profit",
-    "imageFile": "images/lucro.webp"
+    "imageFile": "images/lucro.webp",
+    "audioPt": "audio/raquel/lucro/word.mp3",
+    "audioExamplePt": "audio/raquel/lucro/example.mp3"
   },
   {
     "id": "prejuizo",
@@ -2060,7 +2338,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "loss/damage",
-    "imageFile": "images/prejuizo.webp"
+    "imageFile": "images/prejuizo.webp",
+    "audioPt": "audio/raquel/prejuizo/word.mp3",
+    "audioExamplePt": "audio/raquel/prejuizo/example.mp3"
   },
   {
     "id": "investimento",
@@ -2075,7 +2355,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "investment",
-    "imageFile": "images/investimento.webp"
+    "imageFile": "images/investimento.webp",
+    "audioPt": "audio/raquel/investimento/word.mp3",
+    "audioExamplePt": "audio/raquel/investimento/example.mp3"
   },
   {
     "id": "reuniao",
@@ -2090,7 +2372,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "meeting",
-    "imageFile": "images/reuniao.webp"
+    "imageFile": "images/reuniao.webp",
+    "audioPt": "audio/raquel/reuniao/word.mp3",
+    "audioExamplePt": "audio/raquel/reuniao/example.mp3"
   },
   {
     "id": "funcionario",
@@ -2105,7 +2389,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "employee",
-    "imageFile": "images/funcionario.webp"
+    "imageFile": "images/funcionario.webp",
+    "audioPt": "audio/raquel/funcionario/word.mp3",
+    "audioExamplePt": "audio/raquel/funcionario/example.mp3"
   },
   {
     "id": "salario",
@@ -2119,7 +2405,9 @@
     "frequencyRank": 1150,
     "tier": 3000,
     "imageStrategy": "none",
-    "enHint": "salary"
+    "enHint": "salary",
+    "audioPt": "audio/raquel/salario/word.mp3",
+    "audioExamplePt": "audio/raquel/salario/example.mp3"
   },
   {
     "id": "fatura",
@@ -2134,7 +2422,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "invoice",
-    "imageFile": "images/fatura.webp"
+    "imageFile": "images/fatura.webp",
+    "audioPt": "audio/raquel/fatura/word.mp3",
+    "audioExamplePt": "audio/raquel/fatura/example.mp3"
   },
   {
     "id": "concorrencia",
@@ -2149,7 +2439,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "competition",
-    "imageFile": "images/concorrencia.webp"
+    "imageFile": "images/concorrencia.webp",
+    "audioPt": "audio/raquel/concorrencia/word.mp3",
+    "audioExamplePt": "audio/raquel/concorrencia/example.mp3"
   },
   {
     "id": "medicamento",
@@ -2164,7 +2456,9 @@
     "tier": 3000,
     "imageStrategy": "literal",
     "enHint": "medication",
-    "imageFile": "images/medicamento.webp"
+    "imageFile": "images/medicamento.webp",
+    "audioPt": "audio/raquel/medicamento/word.mp3",
+    "audioExamplePt": "audio/raquel/medicamento/example.mp3"
   },
   {
     "id": "sintoma",
@@ -2179,7 +2473,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "symptom",
-    "imageFile": "images/sintoma.webp"
+    "imageFile": "images/sintoma.webp",
+    "audioPt": "audio/raquel/sintoma/word.mp3",
+    "audioExamplePt": "audio/raquel/sintoma/example.mp3"
   },
   {
     "id": "tratamento",
@@ -2194,7 +2490,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "treatment",
-    "imageFile": "images/tratamento.webp"
+    "imageFile": "images/tratamento.webp",
+    "audioPt": "audio/raquel/tratamento/word.mp3",
+    "audioExamplePt": "audio/raquel/tratamento/example.mp3"
   },
   {
     "id": "diagnostico",
@@ -2209,7 +2507,9 @@
     "tier": 3000,
     "imageStrategy": "scene",
     "enHint": "diagnosis",
-    "imageFile": "images/diagnostico.webp"
+    "imageFile": "images/diagnostico.webp",
+    "audioPt": "audio/raquel/diagnostico/word.mp3",
+    "audioExamplePt": "audio/raquel/diagnostico/example.mp3"
   },
   {
     "id": "cirurgia",
@@ -10174,7 +10474,8 @@
     "frequencyRank": 1881,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "export"
+    "enHint": "export",
+    "imageFile": "images/exportacao.webp"
   },
   {
     "id": "importacao",
@@ -10188,7 +10489,8 @@
     "frequencyRank": 1882,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "import"
+    "enHint": "import",
+    "imageFile": "images/importacao.webp"
   },
   {
     "id": "arrancar",
@@ -10201,7 +10503,8 @@
     "frequencyRank": 1885,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to start/pull out"
+    "enHint": "to start/pull out",
+    "imageFile": "images/arrancar.webp"
   },
   {
     "id": "abrandar",
@@ -10214,7 +10517,8 @@
     "frequencyRank": 1886,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to slow down"
+    "enHint": "to slow down",
+    "imageFile": "images/abrandar.webp"
   },
   {
     "id": "acelerar",
@@ -10227,7 +10531,8 @@
     "frequencyRank": 1887,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to accelerate"
+    "enHint": "to accelerate",
+    "imageFile": "images/acelerar.webp"
   },
   {
     "id": "travar",
@@ -10240,7 +10545,8 @@
     "frequencyRank": 1888,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to brake"
+    "enHint": "to brake",
+    "imageFile": "images/travar.webp"
   },
   {
     "id": "atropelar",
@@ -10253,7 +10559,8 @@
     "frequencyRank": 1889,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to run over"
+    "enHint": "to run over",
+    "imageFile": "images/atropelar.webp"
   },
   {
     "id": "derrapar",
@@ -10266,7 +10573,8 @@
     "frequencyRank": 1890,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to skid"
+    "enHint": "to skid",
+    "imageFile": "images/derrapar.webp"
   },
   {
     "id": "rebocar",
@@ -10279,7 +10587,8 @@
     "frequencyRank": 1891,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to tow"
+    "enHint": "to tow",
+    "imageFile": "images/rebocar.webp"
   },
   {
     "id": "abastecer",
@@ -10293,7 +10602,8 @@
     "frequencyRank": 1892,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to refuel"
+    "enHint": "to refuel",
+    "imageFile": "images/abastecer.webp"
   },
   {
     "id": "embarcar",
@@ -10306,7 +10616,8 @@
     "frequencyRank": 1895,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to board"
+    "enHint": "to board",
+    "imageFile": "images/embarcar.webp"
   },
   {
     "id": "desembarcar",
@@ -10319,7 +10630,8 @@
     "frequencyRank": 1896,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to disembark"
+    "enHint": "to disembark",
+    "imageFile": "images/desembarcar.webp"
   },
   {
     "id": "alforreca",
@@ -10333,7 +10645,8 @@
     "frequencyRank": 1899,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "jellyfish"
+    "enHint": "jellyfish",
+    "imageFile": "images/alforreca.webp"
   },
   {
     "id": "golfinho",
@@ -10347,7 +10660,8 @@
     "frequencyRank": 1900,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "dolphin"
+    "enHint": "dolphin",
+    "imageFile": "images/golfinho.webp"
   },
   {
     "id": "gaivota",
@@ -10361,7 +10675,8 @@
     "frequencyRank": 1901,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "seagull"
+    "enHint": "seagull",
+    "imageFile": "images/gaivota.webp"
   },
   {
     "id": "cegonha",
@@ -10375,7 +10690,8 @@
     "frequencyRank": 1902,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "stork"
+    "enHint": "stork",
+    "imageFile": "images/cegonha.webp"
   },
   {
     "id": "sobreiro",
@@ -10389,7 +10705,8 @@
     "frequencyRank": 1903,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "cork oak"
+    "enHint": "cork oak",
+    "imageFile": "images/sobreiro.webp"
   },
   {
     "id": "oliveira",
@@ -10403,7 +10720,8 @@
     "frequencyRank": 1904,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "olive tree"
+    "enHint": "olive tree",
+    "imageFile": "images/oliveira.webp"
   },
   {
     "id": "vinha",
@@ -10417,7 +10735,8 @@
     "frequencyRank": 1905,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "vineyard"
+    "enHint": "vineyard",
+    "imageFile": "images/vinha.webp"
   },
   {
     "id": "vindima",
@@ -10431,7 +10750,8 @@
     "frequencyRank": 1906,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "grape harvest"
+    "enHint": "grape harvest",
+    "imageFile": "images/vindima.webp"
   },
   {
     "id": "colheita",
@@ -10445,7 +10765,8 @@
     "frequencyRank": 1907,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "harvest"
+    "enHint": "harvest",
+    "imageFile": "images/colheita.webp"
   },
   {
     "id": "chamine",
@@ -10459,7 +10780,8 @@
     "frequencyRank": 1913,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "chimney"
+    "enHint": "chimney",
+    "imageFile": "images/chamine.webp"
   },
   {
     "id": "cerca",
@@ -10473,7 +10795,8 @@
     "frequencyRank": 1914,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "fence"
+    "enHint": "fence",
+    "imageFile": "images/cerca.webp"
   },
   {
     "id": "portao",
@@ -10487,7 +10810,8 @@
     "frequencyRank": 1915,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "gate"
+    "enHint": "gate",
+    "imageFile": "images/portao.webp"
   },
   {
     "id": "cano",
@@ -10501,7 +10825,8 @@
     "frequencyRank": 1921,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "pipe"
+    "enHint": "pipe",
+    "imageFile": "images/cano.webp"
   },
   {
     "id": "aquecedor",
@@ -10515,7 +10840,8 @@
     "frequencyRank": 1922,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "heater"
+    "enHint": "heater",
+    "imageFile": "images/aquecedor.webp"
   },
   {
     "id": "ventilador",
@@ -10529,7 +10855,8 @@
     "frequencyRank": 1923,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "fan (device)"
+    "enHint": "fan (device)",
+    "imageFile": "images/ventilador.webp"
   },
   {
     "id": "ar-condicionado",
@@ -10543,7 +10870,8 @@
     "frequencyRank": 1924,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "air conditioning"
+    "enHint": "air conditioning",
+    "imageFile": "images/ar-condicionado.webp"
   },
   {
     "id": "ferro-de-engomar",
@@ -10557,7 +10885,8 @@
     "frequencyRank": 1926,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "iron (clothes)"
+    "enHint": "iron (clothes)",
+    "imageFile": "images/ferro-de-engomar.webp"
   },
   {
     "id": "esfregona",
@@ -10571,7 +10900,8 @@
     "frequencyRank": 1928,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "mop"
+    "enHint": "mop",
+    "imageFile": "images/esfregona.webp"
   },
   {
     "id": "detergente",
@@ -10585,7 +10915,8 @@
     "frequencyRank": 1929,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "detergent"
+    "enHint": "detergent",
+    "imageFile": "images/detergente.webp"
   },
   {
     "id": "lixivia",
@@ -10599,7 +10930,8 @@
     "frequencyRank": 1930,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "bleach"
+    "enHint": "bleach",
+    "imageFile": "images/lixivia.webp"
   },
   {
     "id": "eletrodomestico",
@@ -10613,7 +10945,8 @@
     "frequencyRank": 1934,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "appliance"
+    "enHint": "appliance",
+    "imageFile": "images/eletrodomestico.webp"
   },
   {
     "id": "avaria",
@@ -10627,7 +10960,8 @@
     "frequencyRank": 1935,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "breakdown"
+    "enHint": "breakdown",
+    "imageFile": "images/avaria.webp"
   },
   {
     "id": "reparacao",
@@ -10641,7 +10975,8 @@
     "frequencyRank": 1936,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "repair"
+    "enHint": "repair",
+    "imageFile": "images/reparacao.webp"
   },
   {
     "id": "manutencao",
@@ -10655,7 +10990,8 @@
     "frequencyRank": 1937,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "maintenance"
+    "enHint": "maintenance",
+    "imageFile": "images/manutencao.webp"
   },
   {
     "id": "ferramenta",
@@ -10669,7 +11005,8 @@
     "frequencyRank": 1938,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "tool"
+    "enHint": "tool",
+    "imageFile": "images/ferramenta.webp"
   },
   {
     "id": "parafuso",
@@ -10683,7 +11020,8 @@
     "frequencyRank": 1939,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "screw"
+    "enHint": "screw",
+    "imageFile": "images/parafuso.webp"
   },
   {
     "id": "martelo",
@@ -10697,7 +11035,8 @@
     "frequencyRank": 1940,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "hammer"
+    "enHint": "hammer",
+    "imageFile": "images/martelo.webp"
   },
   {
     "id": "chave-de-fendas",
@@ -10711,7 +11050,8 @@
     "frequencyRank": 1941,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "screwdriver"
+    "enHint": "screwdriver",
+    "imageFile": "images/chave-de-fendas.webp"
   },
   {
     "id": "colchao",
@@ -10725,7 +11065,8 @@
     "frequencyRank": 1947,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "mattress"
+    "enHint": "mattress",
+    "imageFile": "images/colchao.webp"
   },
   {
     "id": "lencol",
@@ -10739,7 +11080,8 @@
     "frequencyRank": 1948,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "bed sheet"
+    "enHint": "bed sheet",
+    "imageFile": "images/lencol.webp"
   },
   {
     "id": "coberta",
@@ -10753,7 +11095,8 @@
     "frequencyRank": 1949,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "blanket"
+    "enHint": "blanket",
+    "imageFile": "images/coberta.webp"
   },
   {
     "id": "sabonete",
@@ -10767,7 +11110,8 @@
     "frequencyRank": 1951,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "soap"
+    "enHint": "soap",
+    "imageFile": "images/sabonete.webp"
   },
   {
     "id": "champô",
@@ -10781,7 +11125,8 @@
     "frequencyRank": 1952,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "shampoo"
+    "enHint": "shampoo",
+    "imageFile": "images/champô.webp"
   },
   {
     "id": "secador",
@@ -10795,7 +11140,8 @@
     "frequencyRank": 1953,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "hair dryer"
+    "enHint": "hair dryer",
+    "imageFile": "images/secador.webp"
   },
   {
     "id": "escova-de-dentes",
@@ -10809,7 +11155,8 @@
     "frequencyRank": 1954,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "toothbrush"
+    "enHint": "toothbrush",
+    "imageFile": "images/escova-de-dentes.webp"
   },
   {
     "id": "oculos-de-sol",
@@ -10823,7 +11170,8 @@
     "frequencyRank": 1958,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "sunglasses"
+    "enHint": "sunglasses",
+    "imageFile": "images/oculos-de-sol.webp"
   },
   {
     "id": "protetor-solar",
@@ -10837,7 +11185,8 @@
     "frequencyRank": 1959,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "sunscreen"
+    "enHint": "sunscreen",
+    "imageFile": "images/protetor-solar.webp"
   },
   {
     "id": "mala-de-viagem",
@@ -10851,7 +11200,8 @@
     "frequencyRank": 1960,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "suitcase"
+    "enHint": "suitcase",
+    "imageFile": "images/mala-de-viagem.webp"
   },
   {
     "id": "embrulho",
@@ -10865,7 +11215,8 @@
     "frequencyRank": 1961,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "package"
+    "enHint": "package",
+    "imageFile": "images/embrulho.webp"
   },
   {
     "id": "troco",
@@ -10879,7 +11230,8 @@
     "frequencyRank": 1963,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "change (money)"
+    "enHint": "change (money)",
+    "imageFile": "images/troco.webp"
   },
   {
     "id": "prestacao",
@@ -10893,7 +11245,8 @@
     "frequencyRank": 1967,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "instalment"
+    "enHint": "instalment",
+    "imageFile": "images/prestacao.webp"
   },
   {
     "id": "acao",
@@ -10907,7 +11260,8 @@
     "frequencyRank": 1970,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "share/stock"
+    "enHint": "share/stock",
+    "imageFile": "images/acao.webp"
   },
   {
     "id": "titulo",
@@ -10963,7 +11317,8 @@
     "frequencyRank": 1974,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "summary"
+    "enHint": "summary",
+    "imageFile": "images/resumo.webp"
   },
   {
     "id": "citacao",
@@ -10977,7 +11332,8 @@
     "frequencyRank": 1975,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "quotation"
+    "enHint": "quotation",
+    "imageFile": "images/citacao.webp"
   },
   {
     "id": "vocabulario",
@@ -11005,7 +11361,8 @@
     "frequencyRank": 1977,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "grammar"
+    "enHint": "grammar",
+    "imageFile": "images/gramatica.webp"
   },
   {
     "id": "pronuncia",
@@ -11019,7 +11376,8 @@
     "frequencyRank": 1978,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "pronunciation"
+    "enHint": "pronunciation",
+    "imageFile": "images/pronuncia.webp"
   },
   {
     "id": "sotaque",
@@ -11033,7 +11391,8 @@
     "frequencyRank": 1979,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "accent"
+    "enHint": "accent",
+    "imageFile": "images/sotaque.webp"
   },
   {
     "id": "dialeto",
@@ -11047,7 +11406,8 @@
     "frequencyRank": 1980,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "dialect"
+    "enHint": "dialect",
+    "imageFile": "images/dialeto.webp"
   },
   {
     "id": "expressao",
@@ -11075,7 +11435,8 @@
     "frequencyRank": 1982,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "proverb"
+    "enHint": "proverb",
+    "imageFile": "images/provérbio.webp"
   },
   {
     "id": "bilingue",
@@ -11218,7 +11579,8 @@
     "frequencyRank": 1999,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "vulnerable"
+    "enHint": "vulnerable",
+    "imageFile": "images/vulneravel.webp"
   },
   {
     "id": "autonomo",
@@ -11245,7 +11607,8 @@
     "frequencyRank": 2004,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "relief"
+    "enHint": "relief",
+    "imageFile": "images/alivio.webp"
   },
   {
     "id": "ternura",
@@ -11259,7 +11622,8 @@
     "frequencyRank": 2009,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "tenderness"
+    "enHint": "tenderness",
+    "imageFile": "images/ternura.webp"
   },
   {
     "id": "amargura",
@@ -11273,7 +11637,8 @@
     "frequencyRank": 2010,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "bitterness"
+    "enHint": "bitterness",
+    "imageFile": "images/amargura.webp"
   },
   {
     "id": "ambicioso",
@@ -11286,7 +11651,8 @@
     "frequencyRank": 2012,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ambitious"
+    "enHint": "ambitious",
+    "imageFile": "images/ambicioso.webp"
   },
   {
     "id": "humilde",
@@ -11299,7 +11665,8 @@
     "frequencyRank": 2013,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "humble"
+    "enHint": "humble",
+    "imageFile": "images/humilde.webp"
   },
   {
     "id": "teimoso",
@@ -11312,7 +11679,8 @@
     "frequencyRank": 2014,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "stubborn"
+    "enHint": "stubborn",
+    "imageFile": "images/teimoso.webp"
   },
   {
     "id": "preguicoso",
@@ -11325,7 +11693,8 @@
     "frequencyRank": 2016,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "lazy"
+    "enHint": "lazy",
+    "imageFile": "images/preguicoso.webp"
   },
   {
     "id": "ingrato",
@@ -11338,7 +11707,8 @@
     "frequencyRank": 2018,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ungrateful"
+    "enHint": "ungrateful",
+    "imageFile": "images/ingrato.webp"
   },
   {
     "id": "sensivel",
@@ -11351,7 +11721,8 @@
     "frequencyRank": 2019,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "sensitive"
+    "enHint": "sensitive",
+    "imageFile": "images/sensivel.webp"
   },
   {
     "id": "egoista",
@@ -11364,7 +11735,8 @@
     "frequencyRank": 2020,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "selfish"
+    "enHint": "selfish",
+    "imageFile": "images/egoista.webp"
   },
   {
     "id": "colega",
@@ -11378,7 +11750,8 @@
     "frequencyRank": 2030,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "colleague"
+    "enHint": "colleague",
+    "imageFile": "images/colega.webp"
   },
   {
     "id": "madeira",
@@ -11392,7 +11765,8 @@
     "frequencyRank": 2031,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "wood"
+    "enHint": "wood",
+    "imageFile": "images/madeira.webp"
   },
   {
     "id": "metal",
@@ -11406,7 +11780,8 @@
     "frequencyRank": 2032,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "metal"
+    "enHint": "metal",
+    "imageFile": "images/metal.webp"
   },
   {
     "id": "vidro",
@@ -11420,7 +11795,8 @@
     "frequencyRank": 2033,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "glass"
+    "enHint": "glass",
+    "imageFile": "images/vidro.webp"
   },
   {
     "id": "plastico",
@@ -11434,7 +11810,8 @@
     "frequencyRank": 2034,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "plastic"
+    "enHint": "plastic",
+    "imageFile": "images/plastico.webp"
   },
   {
     "id": "tecido",
@@ -11448,7 +11825,8 @@
     "frequencyRank": 2035,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "fabric"
+    "enHint": "fabric",
+    "imageFile": "images/tecido.webp"
   },
   {
     "id": "ferro",
@@ -11462,7 +11840,8 @@
     "frequencyRank": 2036,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "iron"
+    "enHint": "iron",
+    "imageFile": "images/ferro.webp"
   },
   {
     "id": "pedra",
@@ -11476,7 +11855,8 @@
     "frequencyRank": 2037,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "stone"
+    "enHint": "stone",
+    "imageFile": "images/pedra.webp"
   },
   {
     "id": "tijolo",
@@ -11490,7 +11870,8 @@
     "frequencyRank": 2038,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "brick"
+    "enHint": "brick",
+    "imageFile": "images/tijolo.webp"
   },
   {
     "id": "cimento",
@@ -11504,7 +11885,8 @@
     "frequencyRank": 2039,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "cement"
+    "enHint": "cement",
+    "imageFile": "images/cimento.webp"
   },
   {
     "id": "algodao",
@@ -11518,7 +11900,8 @@
     "frequencyRank": 2040,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "cotton"
+    "enHint": "cotton",
+    "imageFile": "images/algodao.webp"
   },
   {
     "id": "continente",
@@ -11532,7 +11915,8 @@
     "frequencyRank": 2041,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "continent"
+    "enHint": "continent",
+    "imageFile": "images/continente.webp"
   },
   {
     "id": "oceano",
@@ -11546,7 +11930,8 @@
     "frequencyRank": 2042,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "ocean"
+    "enHint": "ocean",
+    "imageFile": "images/oceano.webp"
   },
   {
     "id": "deserto",
@@ -11560,7 +11945,8 @@
     "frequencyRank": 2045,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "desert"
+    "enHint": "desert",
+    "imageFile": "images/deserto.webp"
   },
   {
     "id": "selva",
@@ -11574,7 +11960,8 @@
     "frequencyRank": 2046,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "jungle"
+    "enHint": "jungle",
+    "imageFile": "images/selva.webp"
   },
   {
     "id": "vulcao",
@@ -11588,7 +11975,8 @@
     "frequencyRank": 2047,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "volcano"
+    "enHint": "volcano",
+    "imageFile": "images/vulcao.webp"
   },
   {
     "id": "terramoto",
@@ -11602,7 +11990,8 @@
     "frequencyRank": 2048,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "earthquake"
+    "enHint": "earthquake",
+    "imageFile": "images/terramoto.webp"
   },
   {
     "id": "clima",
@@ -11616,7 +12005,8 @@
     "frequencyRank": 2049,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "climate"
+    "enHint": "climate",
+    "imageFile": "images/clima.webp"
   },
   {
     "id": "hemisferio",
@@ -11630,7 +12020,8 @@
     "frequencyRank": 2050,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "hemisphere"
+    "enHint": "hemisphere",
+    "imageFile": "images/hemisferio.webp"
   },
   {
     "id": "experiencia",
@@ -11644,7 +12035,8 @@
     "frequencyRank": 2051,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "experiment"
+    "enHint": "experiment",
+    "imageFile": "images/experiencia.webp"
   },
   {
     "id": "celula",
@@ -11658,7 +12050,8 @@
     "frequencyRank": 2058,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "cell"
+    "enHint": "cell",
+    "imageFile": "images/celula.webp"
   },
   {
     "id": "molecula",
@@ -11672,7 +12065,8 @@
     "frequencyRank": 2059,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "molecule"
+    "enHint": "molecule",
+    "imageFile": "images/molecula.webp"
   },
   {
     "id": "atomo",
@@ -11686,7 +12080,8 @@
     "frequencyRank": 2060,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "atom"
+    "enHint": "atom",
+    "imageFile": "images/atomo.webp"
   },
   {
     "id": "religiao",
@@ -11700,7 +12095,8 @@
     "frequencyRank": 2063,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "religion"
+    "enHint": "religion",
+    "imageFile": "images/religiao.webp"
   },
   {
     "id": "celebracao",
@@ -11714,7 +12110,8 @@
     "frequencyRank": 2064,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "celebration"
+    "enHint": "celebration",
+    "imageFile": "images/celebracao.webp"
   },
   {
     "id": "crenca",
@@ -11728,7 +12125,8 @@
     "frequencyRank": 2067,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "belief"
+    "enHint": "belief",
+    "imageFile": "images/crenca.webp"
   },
   {
     "id": "mito",
@@ -11742,7 +12140,8 @@
     "frequencyRank": 2068,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "myth"
+    "enHint": "myth",
+    "imageFile": "images/mito.webp"
   },
   {
     "id": "lenda",
@@ -11756,7 +12155,8 @@
     "frequencyRank": 2069,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "legend"
+    "enHint": "legend",
+    "imageFile": "images/lenda.webp"
   },
   {
     "id": "ritual",
@@ -11770,7 +12170,8 @@
     "frequencyRank": 2070,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ritual"
+    "enHint": "ritual",
+    "imageFile": "images/ritual.webp"
   },
   {
     "id": "economia",
@@ -11784,7 +12185,8 @@
     "frequencyRank": 2071,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "economy"
+    "enHint": "economy",
+    "imageFile": "images/economia.webp"
   },
   {
     "id": "comercio",
@@ -11798,7 +12200,8 @@
     "frequencyRank": 2079,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "commerce"
+    "enHint": "commerce",
+    "imageFile": "images/comercio.webp"
   },
   {
     "id": "arranjar",
@@ -11811,7 +12214,8 @@
     "frequencyRank": 2081,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to fix/arrange"
+    "enHint": "to fix/arrange",
+    "imageFile": "images/arranjar.webp"
   },
   {
     "id": "reformar",
@@ -11824,7 +12228,8 @@
     "frequencyRank": 2083,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to renovate"
+    "enHint": "to renovate",
+    "imageFile": "images/reformar.webp"
   },
   {
     "id": "atacar",
@@ -11837,7 +12242,8 @@
     "frequencyRank": 2088,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to attack"
+    "enHint": "to attack",
+    "imageFile": "images/atacar.webp"
   },
   {
     "id": "ocultar",
@@ -11850,7 +12256,8 @@
     "frequencyRank": 2096,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to hide/conceal"
+    "enHint": "to hide/conceal",
+    "imageFile": "images/ocultar.webp"
   },
   {
     "id": "superar",
@@ -11863,7 +12270,8 @@
     "frequencyRank": 2099,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to overcome"
+    "enHint": "to overcome",
+    "imageFile": "images/superar.webp"
   },
   {
     "id": "fracassar",
@@ -11876,7 +12284,8 @@
     "frequencyRank": 2101,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to fail"
+    "enHint": "to fail",
+    "imageFile": "images/fracassar.webp"
   },
   {
     "id": "triunfar",
@@ -11889,7 +12298,8 @@
     "frequencyRank": 2102,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to triumph"
+    "enHint": "to triumph",
+    "imageFile": "images/triunfar.webp"
   },
   {
     "id": "abandonar",
@@ -11902,7 +12312,8 @@
     "frequencyRank": 2103,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to abandon"
+    "enHint": "to abandon",
+    "imageFile": "images/abandonar.webp"
   },
   {
     "id": "resgatar",
@@ -11915,7 +12326,8 @@
     "frequencyRank": 2104,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to rescue"
+    "enHint": "to rescue",
+    "imageFile": "images/resgatar.webp"
   },
   {
     "id": "sacrificar",
@@ -11928,7 +12340,8 @@
     "frequencyRank": 2105,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to sacrifice"
+    "enHint": "to sacrifice",
+    "imageFile": "images/sacrificar.webp"
   },
   {
     "id": "sobreviver",
@@ -11941,7 +12354,8 @@
     "frequencyRank": 2107,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to survive"
+    "enHint": "to survive",
+    "imageFile": "images/sobreviver.webp"
   },
   {
     "id": "envelhecer",
@@ -11954,7 +12368,8 @@
     "frequencyRank": 2108,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to age"
+    "enHint": "to age",
+    "imageFile": "images/envelhecer.webp"
   },
   {
     "id": "amadurecer",
@@ -11967,7 +12382,8 @@
     "frequencyRank": 2109,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to mature"
+    "enHint": "to mature",
+    "imageFile": "images/amadurecer.webp"
   },
   {
     "id": "comprovar",
@@ -11980,7 +12396,8 @@
     "frequencyRank": 2113,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to prove/verify"
+    "enHint": "to prove/verify",
+    "imageFile": "images/comprovar.webp"
   },
   {
     "id": "manipular",
@@ -11993,7 +12410,8 @@
     "frequencyRank": 2115,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to manipulate"
+    "enHint": "to manipulate",
+    "imageFile": "images/manipular.webp"
   },
   {
     "id": "valorizar",
@@ -12006,7 +12424,8 @@
     "frequencyRank": 2118,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to value"
+    "enHint": "to value",
+    "imageFile": "images/valorizar.webp"
   },
   {
     "id": "subestimar",
@@ -12019,7 +12438,8 @@
     "frequencyRank": 2120,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to underestimate"
+    "enHint": "to underestimate",
+    "imageFile": "images/subestimar.webp"
   },
   {
     "id": "latitude",
@@ -12033,7 +12453,8 @@
     "frequencyRank": 2121,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "latitude"
+    "enHint": "latitude",
+    "imageFile": "images/latitude.webp"
   },
   {
     "id": "longitude",
@@ -12047,7 +12468,8 @@
     "frequencyRank": 2122,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "longitude"
+    "enHint": "longitude",
+    "imageFile": "images/longitude.webp"
   },
   {
     "id": "altitude",
@@ -12061,7 +12483,8 @@
     "frequencyRank": 2123,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "altitude"
+    "enHint": "altitude",
+    "imageFile": "images/altitude.webp"
   },
   {
     "id": "horizonte",
@@ -12075,7 +12498,8 @@
     "frequencyRank": 2125,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "horizon"
+    "enHint": "horizon",
+    "imageFile": "images/horizonte.webp"
   },
   {
     "id": "pantano",
@@ -12089,7 +12513,8 @@
     "frequencyRank": 2129,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "swamp"
+    "enHint": "swamp",
+    "imageFile": "images/pantano.webp"
   },
   {
     "id": "fornecedor",
@@ -12103,7 +12528,8 @@
     "frequencyRank": 2134,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "supplier"
+    "enHint": "supplier",
+    "imageFile": "images/fornecedor.webp"
   },
   {
     "id": "faturacao",
@@ -12117,7 +12543,8 @@
     "frequencyRank": 2135,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "turnover/billing"
+    "enHint": "turnover/billing",
+    "imageFile": "images/faturacao.webp"
   },
   {
     "id": "falencia",
@@ -12131,7 +12558,8 @@
     "frequencyRank": 2137,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "bankruptcy"
+    "enHint": "bankruptcy",
+    "imageFile": "images/falencia.webp"
   },
   {
     "id": "moeda",
@@ -12145,7 +12573,8 @@
     "frequencyRank": 2138,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "currency/coin"
+    "enHint": "currency/coin",
+    "imageFile": "images/moeda.webp"
   },
   {
     "id": "prosperidade",
@@ -12159,7 +12588,8 @@
     "frequencyRank": 2145,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "prosperity"
+    "enHint": "prosperity",
+    "imageFile": "images/prosperidade.webp"
   },
   {
     "id": "empregar",
@@ -12172,7 +12602,8 @@
     "frequencyRank": 2149,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to employ"
+    "enHint": "to employ",
+    "imageFile": "images/empregar.webp"
   },
   {
     "id": "compaixao",
@@ -12186,7 +12617,8 @@
     "frequencyRank": 2152,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "compassion"
+    "enHint": "compassion",
+    "imageFile": "images/compaixao.webp"
   },
   {
     "id": "ressentimento",
@@ -12200,7 +12632,8 @@
     "frequencyRank": 2153,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "resentment"
+    "enHint": "resentment",
+    "imageFile": "images/ressentimento.webp"
   },
   {
     "id": "nostalgia",
@@ -12214,7 +12647,8 @@
     "frequencyRank": 2154,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "nostalgia"
+    "enHint": "nostalgia",
+    "imageFile": "images/nostalgia.webp"
   },
   {
     "id": "frustração",
@@ -12228,7 +12662,8 @@
     "frequencyRank": 2156,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "frustration"
+    "enHint": "frustration",
+    "imageFile": "images/frustração.webp"
   },
   {
     "id": "melancolia",
@@ -12242,7 +12677,8 @@
     "frequencyRank": 2157,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "melancholy"
+    "enHint": "melancholy",
+    "imageFile": "images/melancolia.webp"
   },
   {
     "id": "serenidade",
@@ -12256,7 +12692,8 @@
     "frequencyRank": 2158,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "serenity"
+    "enHint": "serenity",
+    "imageFile": "images/serenidade.webp"
   },
   {
     "id": "euforia",
@@ -12270,7 +12707,8 @@
     "frequencyRank": 2159,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "euphoria"
+    "enHint": "euphoria",
+    "imageFile": "images/euforia.webp"
   },
   {
     "id": "angustia",
@@ -12284,7 +12722,8 @@
     "frequencyRank": 2160,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "anguish"
+    "enHint": "anguish",
+    "imageFile": "images/angustia.webp"
   },
   {
     "id": "tolerante",
@@ -12297,7 +12736,8 @@
     "frequencyRank": 2161,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "tolerant"
+    "enHint": "tolerant",
+    "imageFile": "images/tolerante.webp"
   },
   {
     "id": "impaciente",
@@ -12310,7 +12750,8 @@
     "frequencyRank": 2162,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "impatient"
+    "enHint": "impatient",
+    "imageFile": "images/impaciente.webp"
   },
   {
     "id": "persistente",
@@ -12323,7 +12764,8 @@
     "frequencyRank": 2163,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "persistent"
+    "enHint": "persistent",
+    "imageFile": "images/persistente.webp"
   },
   {
     "id": "arrogante",
@@ -12336,7 +12778,8 @@
     "frequencyRank": 2164,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "arrogant"
+    "enHint": "arrogant",
+    "imageFile": "images/arrogante.webp"
   },
   {
     "id": "modesto",
@@ -12349,7 +12792,8 @@
     "frequencyRank": 2165,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "modest"
+    "enHint": "modest",
+    "imageFile": "images/modesto.webp"
   },
   {
     "id": "leal",
@@ -12362,7 +12806,8 @@
     "frequencyRank": 2166,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "loyal"
+    "enHint": "loyal",
+    "imageFile": "images/leal.webp"
   },
   {
     "id": "vingativo",
@@ -12375,7 +12820,8 @@
     "frequencyRank": 2167,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "vindictive"
+    "enHint": "vindictive",
+    "imageFile": "images/vingativo.webp"
   },
   {
     "id": "otimista",
@@ -12388,7 +12834,8 @@
     "frequencyRank": 2168,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "optimistic"
+    "enHint": "optimistic",
+    "imageFile": "images/otimista.webp"
   },
   {
     "id": "pessimista",
@@ -12401,7 +12848,8 @@
     "frequencyRank": 2169,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "pessimistic"
+    "enHint": "pessimistic",
+    "imageFile": "images/pessimista.webp"
   },
   {
     "id": "cauteloso",
@@ -12414,7 +12862,8 @@
     "frequencyRank": 2170,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "cautious"
+    "enHint": "cautious",
+    "imageFile": "images/cauteloso.webp"
   },
   {
     "id": "astronomia",
@@ -12428,7 +12877,8 @@
     "frequencyRank": 2171,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "astronomy"
+    "enHint": "astronomy",
+    "imageFile": "images/astronomia.webp"
   },
   {
     "id": "biologia",
@@ -12442,7 +12892,8 @@
     "frequencyRank": 2172,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "biology"
+    "enHint": "biology",
+    "imageFile": "images/biologia.webp"
   },
   {
     "id": "quimica",
@@ -12456,7 +12907,8 @@
     "frequencyRank": 2173,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "chemistry"
+    "enHint": "chemistry",
+    "imageFile": "images/quimica.webp"
   },
   {
     "id": "fisica",
@@ -12470,7 +12922,8 @@
     "frequencyRank": 2174,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "physics"
+    "enHint": "physics",
+    "imageFile": "images/fisica.webp"
   },
   {
     "id": "geologia",
@@ -12484,7 +12937,8 @@
     "frequencyRank": 2175,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "geology"
+    "enHint": "geology",
+    "imageFile": "images/geologia.webp"
   },
   {
     "id": "gravidade",
@@ -12498,7 +12952,8 @@
     "frequencyRank": 2177,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "gravity"
+    "enHint": "gravity",
+    "imageFile": "images/gravidade.webp"
   },
   {
     "id": "oxigenio",
@@ -12512,7 +12967,8 @@
     "frequencyRank": 2179,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "oxygen"
+    "enHint": "oxygen",
+    "imageFile": "images/oxigenio.webp"
   },
   {
     "id": "carbono",
@@ -12526,7 +12982,8 @@
     "frequencyRank": 2180,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "carbon"
+    "enHint": "carbon",
+    "imageFile": "images/carbono.webp"
   },
   {
     "id": "patrimonio-cultural",
@@ -12540,7 +12997,8 @@
     "frequencyRank": 2181,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "sculpture"
+    "enHint": "sculpture",
+    "imageFile": "images/patrimonio-cultural.webp"
   },
   {
     "id": "arquitetura",
@@ -12554,7 +13012,8 @@
     "frequencyRank": 2183,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "architecture"
+    "enHint": "architecture",
+    "imageFile": "images/arquitetura.webp"
   },
   {
     "id": "filosofia",
@@ -12568,7 +13027,8 @@
     "frequencyRank": 2184,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "philosophy"
+    "enHint": "philosophy",
+    "imageFile": "images/filosofia.webp"
   },
   {
     "id": "ditadura",
@@ -12582,7 +13042,8 @@
     "frequencyRank": 2186,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "dictatorship"
+    "enHint": "dictatorship",
+    "imageFile": "images/ditadura.webp"
   },
   {
     "id": "revolucao",
@@ -12596,7 +13057,8 @@
     "frequencyRank": 2187,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "revolution"
+    "enHint": "revolution",
+    "imageFile": "images/revolucao.webp"
   },
   {
     "id": "eleger",
@@ -12610,7 +13072,8 @@
     "frequencyRank": 2191,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to elect"
+    "enHint": "to elect",
+    "imageFile": "images/eleger.webp"
   },
   {
     "id": "votar",
@@ -12623,7 +13086,8 @@
     "frequencyRank": 2192,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to vote"
+    "enHint": "to vote",
+    "imageFile": "images/votar.webp"
   },
   {
     "id": "legislacao",
@@ -12637,7 +13101,8 @@
     "frequencyRank": 2193,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "legislation"
+    "enHint": "legislation",
+    "imageFile": "images/legislacao.webp"
   },
   {
     "id": "preconceito",
@@ -12651,7 +13116,8 @@
     "frequencyRank": 2199,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "prejudice"
+    "enHint": "prejudice",
+    "imageFile": "images/preconceito.webp"
   },
   {
     "id": "discriminacao",
@@ -12665,7 +13131,8 @@
     "frequencyRank": 2200,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "discrimination"
+    "enHint": "discrimination",
+    "imageFile": "images/discriminacao.webp"
   },
   {
     "id": "transformar",
@@ -12678,7 +13145,8 @@
     "frequencyRank": 2202,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to transform"
+    "enHint": "to transform",
+    "imageFile": "images/transformar.webp"
   },
   {
     "id": "complicar",
@@ -12691,7 +13159,8 @@
     "frequencyRank": 2207,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to complicate"
+    "enHint": "to complicate",
+    "imageFile": "images/complicar.webp"
   },
   {
     "id": "inovar",
@@ -12704,7 +13173,8 @@
     "frequencyRank": 2209,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to innovate"
+    "enHint": "to innovate",
+    "imageFile": "images/inovar.webp"
   },
   {
     "id": "automatizar",
@@ -12717,7 +13187,8 @@
     "frequencyRank": 2210,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to automate"
+    "enHint": "to automate",
+    "imageFile": "images/automatizar.webp"
   },
   {
     "id": "derreter",
@@ -12730,7 +13201,8 @@
     "frequencyRank": 2213,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to melt"
+    "enHint": "to melt",
+    "imageFile": "images/derreter.webp"
   },
   {
     "id": "congelar",
@@ -12743,7 +13215,8 @@
     "frequencyRank": 2214,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to freeze"
+    "enHint": "to freeze",
+    "imageFile": "images/congelar.webp"
   },
   {
     "id": "ferver",
@@ -12756,7 +13229,8 @@
     "frequencyRank": 2215,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to boil"
+    "enHint": "to boil",
+    "imageFile": "images/ferver.webp"
   },
   {
     "id": "evaporar",
@@ -12769,7 +13243,8 @@
     "frequencyRank": 2216,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to evaporate"
+    "enHint": "to evaporate",
+    "imageFile": "images/evaporar.webp"
   },
   {
     "id": "dissolver",
@@ -12782,7 +13257,8 @@
     "frequencyRank": 2217,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to dissolve"
+    "enHint": "to dissolve",
+    "imageFile": "images/dissolver.webp"
   },
   {
     "id": "separar",
@@ -12795,7 +13271,8 @@
     "frequencyRank": 2219,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to separate"
+    "enHint": "to separate",
+    "imageFile": "images/separar.webp"
   },
   {
     "id": "filtrar",
@@ -12808,7 +13285,8 @@
     "frequencyRank": 2220,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to filter"
+    "enHint": "to filter",
+    "imageFile": "images/filtrar.webp"
   },
   {
     "id": "cobre",
@@ -12822,7 +13300,8 @@
     "frequencyRank": 2221,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "copper"
+    "enHint": "copper",
+    "imageFile": "images/cobre.webp"
   },
   {
     "id": "aco",
@@ -12836,7 +13315,8 @@
     "frequencyRank": 2222,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "steel"
+    "enHint": "steel",
+    "imageFile": "images/aco.webp"
   },
   {
     "id": "ouro",
@@ -12850,7 +13330,8 @@
     "frequencyRank": 2223,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "gold"
+    "enHint": "gold",
+    "imageFile": "images/ouro.webp"
   },
   {
     "id": "prata",
@@ -12864,7 +13345,8 @@
     "frequencyRank": 2224,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "silver"
+    "enHint": "silver",
+    "imageFile": "images/prata.webp"
   },
   {
     "id": "diamante",
@@ -12878,7 +13360,8 @@
     "frequencyRank": 2225,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "diamond"
+    "enHint": "diamond",
+    "imageFile": "images/diamante.webp"
   },
   {
     "id": "marmore",
@@ -12892,7 +13375,8 @@
     "frequencyRank": 2226,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "marble"
+    "enHint": "marble",
+    "imageFile": "images/marmore.webp"
   },
   {
     "id": "borracha",
@@ -12906,7 +13390,8 @@
     "frequencyRank": 2227,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "rubber"
+    "enHint": "rubber",
+    "imageFile": "images/borracha.webp"
   },
   {
     "id": "couro",
@@ -12920,7 +13405,8 @@
     "frequencyRank": 2228,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "leather"
+    "enHint": "leather",
+    "imageFile": "images/couro.webp"
   },
   {
     "id": "seda",
@@ -12934,7 +13420,8 @@
     "frequencyRank": 2229,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "silk"
+    "enHint": "silk",
+    "imageFile": "images/seda.webp"
   },
   {
     "id": "ceramica",
@@ -12948,7 +13435,8 @@
     "frequencyRank": 2231,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "ceramics"
+    "enHint": "ceramics",
+    "imageFile": "images/ceramica.webp"
   },
   {
     "id": "concreto",
@@ -12962,7 +13450,8 @@
     "frequencyRank": 2232,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "concrete"
+    "enHint": "concrete",
+    "imageFile": "images/concreto.webp"
   },
   {
     "id": "linho",
@@ -12976,7 +13465,8 @@
     "frequencyRank": 2233,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "linen"
+    "enHint": "linen",
+    "imageFile": "images/linho.webp"
   },
   {
     "id": "espuma",
@@ -12990,7 +13480,8 @@
     "frequencyRank": 2234,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "foam"
+    "enHint": "foam",
+    "imageFile": "images/espuma.webp"
   },
   {
     "id": "arame",
@@ -13004,7 +13495,8 @@
     "frequencyRank": 2235,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "wire"
+    "enHint": "wire",
+    "imageFile": "images/arame.webp"
   },
   {
     "id": "concluir",
@@ -13017,7 +13509,8 @@
     "frequencyRank": 2240,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to conclude"
+    "enHint": "to conclude",
+    "imageFile": "images/concluir.webp"
   },
   {
     "id": "suspender",
@@ -13030,7 +13523,8 @@
     "frequencyRank": 2241,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to suspend"
+    "enHint": "to suspend",
+    "imageFile": "images/suspender.webp"
   },
   {
     "id": "retomar",
@@ -13043,7 +13537,8 @@
     "frequencyRank": 2242,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to resume"
+    "enHint": "to resume",
+    "imageFile": "images/retomar.webp"
   },
   {
     "id": "delegar",
@@ -13056,7 +13551,8 @@
     "frequencyRank": 2243,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to delegate"
+    "enHint": "to delegate",
+    "imageFile": "images/delegar.webp"
   },
   {
     "id": "supervisionar",
@@ -13069,7 +13565,8 @@
     "frequencyRank": 2244,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to supervise"
+    "enHint": "to supervise",
+    "imageFile": "images/supervisionar.webp"
   },
   {
     "id": "coordenar",
@@ -13082,7 +13579,8 @@
     "frequencyRank": 2245,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to coordinate"
+    "enHint": "to coordinate",
+    "imageFile": "images/coordenar.webp"
   },
   {
     "id": "correnteza",
@@ -13096,7 +13594,8 @@
     "frequencyRank": 2246,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "current"
+    "enHint": "current",
+    "imageFile": "images/correnteza.webp"
   },
   {
     "id": "maremoto",
@@ -13110,7 +13609,8 @@
     "frequencyRank": 2247,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "tsunami"
+    "enHint": "tsunami",
+    "imageFile": "images/maremoto.webp"
   },
   {
     "id": "neblina",
@@ -13124,7 +13624,8 @@
     "frequencyRank": 2250,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "fog/mist"
+    "enHint": "fog/mist",
+    "imageFile": "images/neblina.webp"
   },
   {
     "id": "trovao",
@@ -13138,7 +13639,8 @@
     "frequencyRank": 2254,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "thunder"
+    "enHint": "thunder",
+    "imageFile": "images/trovao.webp"
   },
   {
     "id": "furacao",
@@ -13152,7 +13654,8 @@
     "frequencyRank": 2256,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "hurricane"
+    "enHint": "hurricane",
+    "imageFile": "images/furacao.webp"
   },
   {
     "id": "onda",
@@ -13166,7 +13669,8 @@
     "frequencyRank": 2257,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "wave"
+    "enHint": "wave",
+    "imageFile": "images/onda.webp"
   },
   {
     "id": "mare",
@@ -13180,7 +13684,8 @@
     "frequencyRank": 2258,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "tide"
+    "enHint": "tide",
+    "imageFile": "images/mare.webp"
   },
   {
     "id": "afluente",
@@ -13194,7 +13699,8 @@
     "frequencyRank": 2260,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "tributary"
+    "enHint": "tributary",
+    "imageFile": "images/afluente.webp"
   },
   {
     "id": "convincente",
@@ -13207,7 +13713,8 @@
     "frequencyRank": 2261,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "convincing"
+    "enHint": "convincing",
+    "imageFile": "images/convincente.webp"
   },
   {
     "id": "absurdo",
@@ -13220,7 +13727,8 @@
     "frequencyRank": 2262,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "absurd"
+    "enHint": "absurd",
+    "imageFile": "images/absurdo.webp"
   },
   {
     "id": "subtil",
@@ -13233,7 +13741,8 @@
     "frequencyRank": 2264,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "subtle"
+    "enHint": "subtle",
+    "imageFile": "images/subtil.webp"
   },
   {
     "id": "vasto",
@@ -13246,7 +13755,8 @@
     "frequencyRank": 2268,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "vast"
+    "enHint": "vast",
+    "imageFile": "images/vasto.webp"
   },
   {
     "id": "amplo",
@@ -13259,7 +13769,8 @@
     "frequencyRank": 2270,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "spacious/broad"
+    "enHint": "spacious/broad",
+    "imageFile": "images/amplo.webp"
   },
   {
     "id": "denso",
@@ -13272,7 +13783,8 @@
     "frequencyRank": 2271,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "dense"
+    "enHint": "dense",
+    "imageFile": "images/denso.webp"
   },
   {
     "id": "robusto",
@@ -13285,7 +13797,8 @@
     "frequencyRank": 2273,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "robust"
+    "enHint": "robust",
+    "imageFile": "images/robusto.webp"
   },
   {
     "id": "flexivel",
@@ -13298,7 +13811,8 @@
     "frequencyRank": 2274,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "flexible"
+    "enHint": "flexible",
+    "imageFile": "images/flexivel.webp"
   },
   {
     "id": "rigido",
@@ -13311,7 +13825,8 @@
     "frequencyRank": 2275,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "rigid"
+    "enHint": "rigid",
+    "imageFile": "images/rigido.webp"
   },
   {
     "id": "opaco",
@@ -13324,7 +13839,8 @@
     "frequencyRank": 2277,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "opaque"
+    "enHint": "opaque",
+    "imageFile": "images/opaco.webp"
   },
   {
     "id": "brilhante",
@@ -13337,7 +13853,8 @@
     "frequencyRank": 2278,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "brilliant/shiny"
+    "enHint": "brilliant/shiny",
+    "imageFile": "images/brilhante.webp"
   },
   {
     "id": "opaco2",
@@ -13350,7 +13867,8 @@
     "frequencyRank": 2279,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "matte"
+    "enHint": "matte",
+    "imageFile": "images/opaco2.webp"
   },
   {
     "id": "liso",
@@ -13363,7 +13881,8 @@
     "frequencyRank": 2281,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "smooth"
+    "enHint": "smooth",
+    "imageFile": "images/liso.webp"
   },
   {
     "id": "humido",
@@ -13376,7 +13895,8 @@
     "frequencyRank": 2282,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "humid"
+    "enHint": "humid",
+    "imageFile": "images/humido.webp"
   },
   {
     "id": "arido",
@@ -13389,7 +13909,8 @@
     "frequencyRank": 2283,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "arid"
+    "enHint": "arid",
+    "imageFile": "images/arido.webp"
   },
   {
     "id": "fertil",
@@ -13402,7 +13923,8 @@
     "frequencyRank": 2284,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "fertile"
+    "enHint": "fertile",
+    "imageFile": "images/fertil.webp"
   },
   {
     "id": "esteril",
@@ -13415,7 +13937,8 @@
     "frequencyRank": 2285,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "sterile/barren"
+    "enHint": "sterile/barren",
+    "imageFile": "images/esteril.webp"
   },
   {
     "id": "residuos",
@@ -13429,7 +13952,8 @@
     "frequencyRank": 2290,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "waste/residue"
+    "enHint": "waste/residue",
+    "imageFile": "images/residuos.webp"
   },
   {
     "id": "emissao",
@@ -13443,7 +13967,8 @@
     "frequencyRank": 2291,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "emission"
+    "enHint": "emission",
+    "imageFile": "images/emissao.webp"
   },
   {
     "id": "ecossistema",
@@ -13457,7 +13982,8 @@
     "frequencyRank": 2293,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ecosystem"
+    "enHint": "ecosystem",
+    "imageFile": "images/ecossistema.webp"
   },
   {
     "id": "extincao",
@@ -13471,7 +13997,8 @@
     "frequencyRank": 2294,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "extinction"
+    "enHint": "extinction",
+    "imageFile": "images/extincao.webp"
   },
   {
     "id": "habitat",
@@ -13485,7 +14012,8 @@
     "frequencyRank": 2295,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "habitat"
+    "enHint": "habitat",
+    "imageFile": "images/habitat.webp"
   },
   {
     "id": "desmatamento",
@@ -13499,7 +14027,8 @@
     "frequencyRank": 2296,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "deforestation"
+    "enHint": "deforestation",
+    "imageFile": "images/desmatamento.webp"
   },
   {
     "id": "pegada",
@@ -13513,7 +14042,8 @@
     "frequencyRank": 2298,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "footprint"
+    "enHint": "footprint",
+    "imageFile": "images/pegada.webp"
   },
   {
     "id": "conservacao",
@@ -13527,7 +14057,8 @@
     "frequencyRank": 2299,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "conservation"
+    "enHint": "conservation",
+    "imageFile": "images/conservacao.webp"
   },
   {
     "id": "rancor",
@@ -13541,7 +14072,8 @@
     "frequencyRank": 2301,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "rancor"
+    "enHint": "rancor",
+    "imageFile": "images/rancor.webp"
   },
   {
     "id": "afeto",
@@ -13555,7 +14087,8 @@
     "frequencyRank": 2302,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "affection"
+    "enHint": "affection",
+    "imageFile": "images/afeto.webp"
   },
   {
     "id": "desconfianca",
@@ -13569,7 +14102,8 @@
     "frequencyRank": 2303,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "distrust"
+    "enHint": "distrust",
+    "imageFile": "images/desconfianca.webp"
   },
   {
     "id": "lealdade",
@@ -13583,7 +14117,8 @@
     "frequencyRank": 2304,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "loyalty"
+    "enHint": "loyalty",
+    "imageFile": "images/lealdade.webp"
   },
   {
     "id": "hipocrisia",
@@ -13597,7 +14132,8 @@
     "frequencyRank": 2305,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "hypocrisy"
+    "enHint": "hypocrisy",
+    "imageFile": "images/hipocrisia.webp"
   },
   {
     "id": "sinceridade",
@@ -13611,7 +14147,8 @@
     "frequencyRank": 2306,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "sincerity"
+    "enHint": "sincerity",
+    "imageFile": "images/sinceridade.webp"
   },
   {
     "id": "cobardia",
@@ -13625,7 +14162,8 @@
     "frequencyRank": 2308,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "cowardice"
+    "enHint": "cowardice",
+    "imageFile": "images/cobardia.webp"
   },
   {
     "id": "sabedoria",
@@ -13639,7 +14177,8 @@
     "frequencyRank": 2309,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "wisdom"
+    "enHint": "wisdom",
+    "imageFile": "images/sabedoria.webp"
   },
   {
     "id": "ignorancia",
@@ -13653,7 +14192,8 @@
     "frequencyRank": 2310,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ignorance"
+    "enHint": "ignorance",
+    "imageFile": "images/ignorancia.webp"
   },
   {
     "id": "apreciar",
@@ -13666,7 +14206,8 @@
     "frequencyRank": 2311,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to appreciate"
+    "enHint": "to appreciate",
+    "imageFile": "images/apreciar.webp"
   },
   {
     "id": "desprezar2",
@@ -13679,7 +14220,8 @@
     "frequencyRank": 2312,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to belittle"
+    "enHint": "to belittle",
+    "imageFile": "images/desprezar2.webp"
   },
   {
     "id": "desencorajar",
@@ -13692,7 +14234,8 @@
     "frequencyRank": 2316,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to discourage"
+    "enHint": "to discourage",
+    "imageFile": "images/desencorajar.webp"
   },
   {
     "id": "consolar",
@@ -13705,7 +14248,8 @@
     "frequencyRank": 2317,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to console"
+    "enHint": "to console",
+    "imageFile": "images/consolar.webp"
   },
   {
     "id": "provocar",
@@ -13718,7 +14262,8 @@
     "frequencyRank": 2318,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to provoke"
+    "enHint": "to provoke",
+    "imageFile": "images/provocar.webp"
   },
   {
     "id": "humilhar",
@@ -13731,7 +14276,8 @@
     "frequencyRank": 2319,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to humiliate"
+    "enHint": "to humiliate",
+    "imageFile": "images/humilhar.webp"
   },
   {
     "id": "perdoar",
@@ -13744,7 +14290,8 @@
     "frequencyRank": 2320,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to forgive"
+    "enHint": "to forgive",
+    "imageFile": "images/perdoar.webp"
   },
   {
     "id": "trair",
@@ -13757,7 +14304,8 @@
     "frequencyRank": 2321,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to betray"
+    "enHint": "to betray",
+    "imageFile": "images/trair.webp"
   },
   {
     "id": "reconciliar",
@@ -13770,7 +14318,8 @@
     "frequencyRank": 2322,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to reconcile"
+    "enHint": "to reconcile",
+    "imageFile": "images/reconciliar.webp"
   },
   {
     "id": "negociacao",
@@ -13784,7 +14333,8 @@
     "frequencyRank": 2324,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "negotiation"
+    "enHint": "negotiation",
+    "imageFile": "images/negociacao.webp"
   },
   {
     "id": "conflito",
@@ -13798,7 +14348,8 @@
     "frequencyRank": 2326,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "conflict"
+    "enHint": "conflict",
+    "imageFile": "images/conflito.webp"
   },
   {
     "id": "alianca",
@@ -13812,7 +14363,8 @@
     "frequencyRank": 2327,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "alliance"
+    "enHint": "alliance",
+    "imageFile": "images/alianca.webp"
   },
   {
     "id": "diplomacia",
@@ -13826,7 +14378,8 @@
     "frequencyRank": 2328,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "diplomacy"
+    "enHint": "diplomacy",
+    "imageFile": "images/diplomacia.webp"
   },
   {
     "id": "emigrante",
@@ -13840,7 +14393,8 @@
     "frequencyRank": 2332,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "emigrant"
+    "enHint": "emigrant",
+    "imageFile": "images/emigrante.webp"
   },
   {
     "id": "acolher",
@@ -13853,7 +14407,8 @@
     "frequencyRank": 2335,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to welcome"
+    "enHint": "to welcome",
+    "imageFile": "images/acolher.webp"
   },
   {
     "id": "repatriar",
@@ -13866,7 +14421,8 @@
     "frequencyRank": 2336,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to repatriate"
+    "enHint": "to repatriate",
+    "imageFile": "images/repatriar.webp"
   },
   {
     "id": "metabolismo",
@@ -13880,7 +14436,8 @@
     "frequencyRank": 2337,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "metabolism"
+    "enHint": "metabolism",
+    "imageFile": "images/metabolismo.webp"
   },
   {
     "id": "antibiotico",
@@ -13894,7 +14451,8 @@
     "frequencyRank": 2343,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "antibiotic"
+    "enHint": "antibiotic",
+    "imageFile": "images/antibiotico.webp"
   },
   {
     "id": "reabilitacao",
@@ -13908,7 +14466,8 @@
     "frequencyRank": 2345,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "rehabilitation"
+    "enHint": "rehabilitation",
+    "imageFile": "images/reabilitacao.webp"
   },
   {
     "id": "hereditario",
@@ -13921,7 +14480,8 @@
     "frequencyRank": 2348,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "hereditary"
+    "enHint": "hereditary",
+    "imageFile": "images/hereditario.webp"
   },
   {
     "id": "imunidade",
@@ -13935,7 +14495,8 @@
     "frequencyRank": 2349,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "immunity"
+    "enHint": "immunity",
+    "imageFile": "images/imunidade.webp"
   },
   {
     "id": "obesidade",
@@ -13949,7 +14510,8 @@
     "frequencyRank": 2352,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "obesity"
+    "enHint": "obesity",
+    "imageFile": "images/obesidade.webp"
   },
   {
     "id": "nutriente",
@@ -13963,7 +14525,8 @@
     "frequencyRank": 2353,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "nutrient"
+    "enHint": "nutrient",
+    "imageFile": "images/nutriente.webp"
   },
   {
     "id": "vitamina",
@@ -13977,7 +14540,8 @@
     "frequencyRank": 2355,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "vitamin"
+    "enHint": "vitamin",
+    "imageFile": "images/vitamina.webp"
   },
   {
     "id": "colesterol",
@@ -13991,7 +14555,8 @@
     "frequencyRank": 2357,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "cholesterol"
+    "enHint": "cholesterol",
+    "imageFile": "images/colesterol.webp"
   },
   {
     "id": "articulacao",
@@ -14005,7 +14570,8 @@
     "frequencyRank": 2359,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "joint"
+    "enHint": "joint",
+    "imageFile": "images/articulacao.webp"
   },
   {
     "id": "musculo",
@@ -14019,7 +14585,8 @@
     "frequencyRank": 2360,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "muscle"
+    "enHint": "muscle",
+    "imageFile": "images/musculo.webp"
   },
   {
     "id": "esqueleto",
@@ -14033,7 +14600,8 @@
     "frequencyRank": 2361,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "skeleton"
+    "enHint": "skeleton",
+    "imageFile": "images/esqueleto.webp"
   },
   {
     "id": "cerebro",
@@ -14047,7 +14615,8 @@
     "frequencyRank": 2362,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "brain"
+    "enHint": "brain",
+    "imageFile": "images/cerebro.webp"
   },
   {
     "id": "pulmao",
@@ -14061,7 +14630,8 @@
     "frequencyRank": 2363,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "lung"
+    "enHint": "lung",
+    "imageFile": "images/pulmao.webp"
   },
   {
     "id": "figado",
@@ -14075,7 +14645,8 @@
     "frequencyRank": 2364,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "liver"
+    "enHint": "liver",
+    "imageFile": "images/figado.webp"
   },
   {
     "id": "rim",
@@ -14089,7 +14660,8 @@
     "frequencyRank": 2365,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "kidney"
+    "enHint": "kidney",
+    "imageFile": "images/rim.webp"
   },
   {
     "id": "espinha",
@@ -14103,7 +14675,8 @@
     "frequencyRank": 2366,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "spine"
+    "enHint": "spine",
+    "imageFile": "images/espinha.webp"
   },
   {
     "id": "editar",
@@ -14116,7 +14689,8 @@
     "frequencyRank": 2370,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to edit"
+    "enHint": "to edit",
+    "imageFile": "images/editar.webp"
   },
   {
     "id": "redigir",
@@ -14129,7 +14703,8 @@
     "frequencyRank": 2371,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to write/draft"
+    "enHint": "to write/draft",
+    "imageFile": "images/redigir.webp"
   },
   {
     "id": "citar",
@@ -14142,7 +14717,8 @@
     "frequencyRank": 2373,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to quote"
+    "enHint": "to quote",
+    "imageFile": "images/citar.webp"
   },
   {
     "id": "refutar",
@@ -14155,7 +14731,8 @@
     "frequencyRank": 2376,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to refute"
+    "enHint": "to refute",
+    "imageFile": "images/refutar.webp"
   },
   {
     "id": "manuscrito",
@@ -14169,7 +14746,8 @@
     "frequencyRank": 2377,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "manuscript"
+    "enHint": "manuscript",
+    "imageFile": "images/manuscrito.webp"
   },
   {
     "id": "estrof",
@@ -14183,7 +14761,8 @@
     "frequencyRank": 2380,
     "tier": 3000,
     "imageStrategy": "literal",
-    "enHint": "stanza"
+    "enHint": "stanza",
+    "imageFile": "images/estrof.webp"
   },
   {
     "id": "metafora",
@@ -14197,7 +14776,8 @@
     "frequencyRank": 2381,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "metaphor"
+    "enHint": "metaphor",
+    "imageFile": "images/metafora.webp"
   },
   {
     "id": "narrativa",
@@ -14211,7 +14791,8 @@
     "frequencyRank": 2382,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "narrative"
+    "enHint": "narrative",
+    "imageFile": "images/narrativa.webp"
   },
   {
     "id": "enredo",
@@ -14225,7 +14806,8 @@
     "frequencyRank": 2383,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "plot"
+    "enHint": "plot",
+    "imageFile": "images/enredo.webp"
   },
   {
     "id": "personagem",
@@ -14239,7 +14821,8 @@
     "frequencyRank": 2384,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "character"
+    "enHint": "character",
+    "imageFile": "images/personagem.webp"
   },
   {
     "id": "protagonista",
@@ -14253,7 +14836,8 @@
     "frequencyRank": 2385,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "protagonist"
+    "enHint": "protagonist",
+    "imageFile": "images/protagonista.webp"
   },
   {
     "id": "genero-lit",
@@ -14267,7 +14851,8 @@
     "frequencyRank": 2386,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "genre"
+    "enHint": "genre",
+    "imageFile": "images/genero-lit.webp"
   },
   {
     "id": "prosa",
@@ -14281,7 +14866,8 @@
     "frequencyRank": 2387,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "prose"
+    "enHint": "prose",
+    "imageFile": "images/prosa.webp"
   },
   {
     "id": "lirica",
@@ -14295,7 +14881,8 @@
     "frequencyRank": 2388,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "lyric poetry"
+    "enHint": "lyric poetry",
+    "imageFile": "images/lirica.webp"
   },
   {
     "id": "satirico",
@@ -14308,7 +14895,8 @@
     "frequencyRank": 2389,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "satirical"
+    "enHint": "satirical",
+    "imageFile": "images/satirico.webp"
   },
   {
     "id": "ironico",
@@ -14321,7 +14909,8 @@
     "frequencyRank": 2390,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ironic"
+    "enHint": "ironic",
+    "imageFile": "images/ironico.webp"
   },
   {
     "id": "ambiguo",
@@ -14334,7 +14923,8 @@
     "frequencyRank": 2391,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "ambiguous"
+    "enHint": "ambiguous",
+    "imageFile": "images/ambiguo.webp"
   },
   {
     "id": "eloquente",
@@ -14347,7 +14937,8 @@
     "frequencyRank": 2392,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "eloquent"
+    "enHint": "eloquent",
+    "imageFile": "images/eloquente.webp"
   },
   {
     "id": "conciso",
@@ -14360,7 +14951,8 @@
     "frequencyRank": 2393,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "concise"
+    "enHint": "concise",
+    "imageFile": "images/conciso.webp"
   },
   {
     "id": "prolixo",
@@ -14373,7 +14965,8 @@
     "frequencyRank": 2394,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "verbose/wordy"
+    "enHint": "verbose/wordy",
+    "imageFile": "images/prolixo.webp"
   },
   {
     "id": "coerente",
@@ -14386,7 +14979,8 @@
     "frequencyRank": 2395,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "coherent"
+    "enHint": "coherent",
+    "imageFile": "images/coerente.webp"
   },
   {
     "id": "contraditorio",
@@ -14399,7 +14993,8 @@
     "frequencyRank": 2396,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "contradictory"
+    "enHint": "contradictory",
+    "imageFile": "images/contraditorio.webp"
   },
   {
     "id": "plausivel",
@@ -14412,7 +15007,8 @@
     "frequencyRank": 2397,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "plausible"
+    "enHint": "plausible",
+    "imageFile": "images/plausivel.webp"
   },
   {
     "id": "mediocre",
@@ -14425,7 +15021,8 @@
     "frequencyRank": 2398,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "mediocre"
+    "enHint": "mediocre",
+    "imageFile": "images/mediocre.webp"
   },
   {
     "id": "brilhar",
@@ -14438,7 +15035,8 @@
     "frequencyRank": 2399,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to shine"
+    "enHint": "to shine",
+    "imageFile": "images/brilhar.webp"
   },
   {
     "id": "ofuscar",
@@ -14451,7 +15049,8 @@
     "frequencyRank": 2400,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to dazzle"
+    "enHint": "to dazzle",
+    "imageFile": "images/ofuscar.webp"
   },
   {
     "id": "sussurrar",
@@ -14464,7 +15063,8 @@
     "frequencyRank": 2401,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to whisper"
+    "enHint": "to whisper",
+    "imageFile": "images/sussurrar.webp"
   },
   {
     "id": "murmurar",
@@ -14477,7 +15077,8 @@
     "frequencyRank": 2403,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to murmur"
+    "enHint": "to murmur",
+    "imageFile": "images/murmurar.webp"
   },
   {
     "id": "gaguejar",
@@ -14490,7 +15091,8 @@
     "frequencyRank": 2404,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to stutter"
+    "enHint": "to stutter",
+    "imageFile": "images/gaguejar.webp"
   },
   {
     "id": "tossir",
@@ -14503,7 +15105,8 @@
     "frequencyRank": 2405,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to cough"
+    "enHint": "to cough",
+    "imageFile": "images/tossir.webp"
   },
   {
     "id": "espirrar",
@@ -14516,7 +15119,8 @@
     "frequencyRank": 2406,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to sneeze"
+    "enHint": "to sneeze",
+    "imageFile": "images/espirrar.webp"
   },
   {
     "id": "bocejar",
@@ -14529,7 +15133,8 @@
     "frequencyRank": 2407,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to yawn"
+    "enHint": "to yawn",
+    "imageFile": "images/bocejar.webp"
   },
   {
     "id": "solucar",
@@ -14542,7 +15147,8 @@
     "frequencyRank": 2408,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to sob"
+    "enHint": "to sob",
+    "imageFile": "images/solucar.webp"
   },
   {
     "id": "tremer",
@@ -14555,7 +15161,8 @@
     "frequencyRank": 2409,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to tremble"
+    "enHint": "to tremble",
+    "imageFile": "images/tremer.webp"
   },
   {
     "id": "suar",
@@ -14568,7 +15175,8 @@
     "frequencyRank": 2410,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to sweat"
+    "enHint": "to sweat",
+    "imageFile": "images/suar.webp"
   },
   {
     "id": "pestanejar",
@@ -14581,7 +15189,8 @@
     "frequencyRank": 2411,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to blink"
+    "enHint": "to blink",
+    "imageFile": "images/pestanejar.webp"
   },
   {
     "id": "engolir",
@@ -14594,7 +15203,8 @@
     "frequencyRank": 2412,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to swallow"
+    "enHint": "to swallow",
+    "imageFile": "images/engolir.webp"
   },
   {
     "id": "mastigar",
@@ -14607,7 +15217,8 @@
     "frequencyRank": 2413,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to chew"
+    "enHint": "to chew",
+    "imageFile": "images/mastigar.webp"
   },
   {
     "id": "inalar",
@@ -14620,7 +15231,8 @@
     "frequencyRank": 2414,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to inhale"
+    "enHint": "to inhale",
+    "imageFile": "images/inalar.webp"
   },
   {
     "id": "exalar",
@@ -14633,7 +15245,8 @@
     "frequencyRank": 2415,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to exhale"
+    "enHint": "to exhale",
+    "imageFile": "images/exalar.webp"
   },
   {
     "id": "tropecar",
@@ -14646,7 +15259,8 @@
     "frequencyRank": 2416,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to trip/stumble"
+    "enHint": "to trip/stumble",
+    "imageFile": "images/tropecar.webp"
   },
   {
     "id": "escorregar",
@@ -14659,7 +15273,8 @@
     "frequencyRank": 2417,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to slip"
+    "enHint": "to slip",
+    "imageFile": "images/escorregar.webp"
   },
   {
     "id": "agarrar",
@@ -14672,7 +15287,8 @@
     "frequencyRank": 2418,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to grab"
+    "enHint": "to grab",
+    "imageFile": "images/agarrar.webp"
   },
   {
     "id": "largar",
@@ -14685,7 +15301,8 @@
     "frequencyRank": 2419,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to let go"
+    "enHint": "to let go",
+    "imageFile": "images/largar.webp"
   },
   {
     "id": "apertar",
@@ -14698,7 +15315,8 @@
     "frequencyRank": 2420,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to squeeze/tighten"
+    "enHint": "to squeeze/tighten",
+    "imageFile": "images/apertar.webp"
   },
   {
     "id": "afrouxar",
@@ -14711,7 +15329,8 @@
     "frequencyRank": 2421,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to loosen"
+    "enHint": "to loosen",
+    "imageFile": "images/afrouxar.webp"
   },
   {
     "id": "arrastar",
@@ -14724,7 +15343,8 @@
     "frequencyRank": 2424,
     "tier": 3000,
     "imageStrategy": "scene",
-    "enHint": "to drag"
+    "enHint": "to drag",
+    "imageFile": "images/arrastar.webp"
   },
   {
     "id": "abaixar",
