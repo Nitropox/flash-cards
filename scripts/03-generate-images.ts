@@ -28,13 +28,71 @@ type ImageManifest = Record<string, {
 
 const COST_PER_IMAGE = 0.003;
 
+const SCENE_DESCRIPTIONS: Record<string, string> = {
+  'ola': 'two people waving hands at each other in greeting',
+  'obrigado': 'a person bowing slightly with hand on chest showing gratitude',
+  'por-favor': 'a person with hands together in polite request gesture',
+  'sim': 'a person nodding with a thumbs up',
+  'nao': 'a person shaking head with hand up in stop gesture',
+  'bom-dia': 'sunrise over rooftops with a person stretching at window',
+  'desculpe': 'a person with apologetic posture, hand raised slightly',
+  'eu-sou': 'a person pointing at themselves confidently',
+  'como-estas': 'two people meeting, one tilting head with questioning gesture',
+  'adeus': 'a person waving goodbye walking away',
+  'ter': 'a person holding a gift box in both hands',
+  'poder': 'a strong person lifting something heavy easily',
+  'fazer': 'a person crafting something at a workbench with tools',
+  'ir': 'a person walking forward on a path with determination',
+  'dizer': 'a person speaking with speech bubble shape (empty, no text)',
+  'dar': 'one person handing a wrapped gift to another person',
+  'saber': 'a person with a lightbulb appearing above their head',
+  'querer': 'a person reaching toward a shining star',
+  'ver': 'a person looking through binoculars at a landscape',
+  'grande': 'an elephant next to a tiny mouse for scale contrast',
+  'coisa': 'a mystery box with question mark shape on it',
+  'dia': 'bright sun in blue sky over a green meadow',
+  'ano': 'four trees showing four seasons side by side',
+  'casa': 'a cozy small house with chimney and garden',
+  'tempo': 'a clock face with sun and rain clouds around it',
+  'ficar': 'a person sitting comfortably in an armchair at home',
+  'homem': 'a man in casual clothes standing confidently',
+  'vida': 'a winding path through beautiful nature landscape',
+  'vir': 'a person approaching and walking toward the viewer',
+  'novo': 'a shiny new car with sparkles around it',
+  'trabalho': 'a person at a desk with laptop focused on work',
+  'achar': 'a person with finger on chin in thinking pose',
+  'falar': 'two people in animated conversation face to face',
+  'mulher': 'a woman in casual clothes standing confidently',
+  'agua': 'a clear glass of water with droplets on the side',
+  'hora': 'a large clock showing the time',
+  'comer': 'a person at a table eating a meal with fork and knife',
+  'mundo': 'planet earth seen from space with continents visible',
+  'pai': 'a father holding a child on his shoulders',
+  'amigo': 'two friends walking together arm in arm laughing',
+  'precisar': 'a person with empty hands looking at something they need',
+  'noite': 'a crescent moon and stars over a sleeping city',
+  'olhar': 'a person gazing intently at something in the distance',
+  'pensar': 'a person sitting with hand on chin deep in thought',
+  'obrigada': 'a woman bowing slightly with hand on chest showing gratitude',
+  'hoje': 'a calendar page with today highlighted and sun shining',
+  'gostar': 'a person hugging a large heart shape',
+  'cidade': 'a city skyline with buildings and a bridge',
+  'senhor': 'an older gentleman in a suit tipping his hat',
+};
+
 function buildPrompt(entry: Entry): string {
-  const hint = entry.enHint || entry.pt;
-  if (entry.imageStrategy === 'literal') {
-    return `flat illustration, single subject: ${hint}, centered, soft pastel colors, minimalist, plain off-white background, absolutely no text, no words, no letters, no writing, no typography, no labels, no border, vector style, even lighting, no shadows`;
+  const noText = 'textless image, no text anywhere, no words, no letters, no writing, no characters, no symbols, no typography, no labels, no captions';
+  const style = 'flat vector illustration, soft pastel colors, minimalist, plain off-white background, no border, even lighting';
+
+  const sceneDesc = SCENE_DESCRIPTIONS[entry.id];
+
+  if (entry.imageStrategy === 'literal' && !sceneDesc) {
+    const hint = entry.enHint || entry.pt;
+    return `${noText}, ${style}, single centered object: a ${hint}, no shadows`;
   }
-  const desc = entry.examplePt ? entry.examplePt.slice(0, 60) : hint;
-  return `flat illustration, minimal scene depicting "${hint}" (${desc}), one human figure (silhouette), soft pastel colors, minimalist, plain off-white background, absolutely no text, no words, no letters, no writing, no typography, no labels, no border, vector style, even lighting`;
+
+  const desc = sceneDesc || `a scene related to the concept of ${entry.enHint || entry.pt}`;
+  return `${noText}, ${style}, ${desc}`;
 }
 
 function hashPrompt(prompt: string): string {

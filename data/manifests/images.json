@@ -1,296 +1,296 @@
 {
   "ola": {
-    "promptHash": "e71925487f85ec07",
+    "promptHash": "1720a859ed00f4ef",
     "file": "ola.webp",
-    "generatedAt": "2026-05-17T10:16:03.504Z",
+    "generatedAt": "2026-05-17T10:41:32.626Z",
     "costUsd": 0.003
   },
   "obrigado": {
-    "promptHash": "18cef83ea9063511",
+    "promptHash": "8934d2553c49c03d",
     "file": "obrigado.webp",
-    "generatedAt": "2026-05-17T10:16:05.381Z",
+    "generatedAt": "2026-05-17T10:41:34.389Z",
     "costUsd": 0.003
   },
   "por-favor": {
-    "promptHash": "31f308660923d765",
+    "promptHash": "fa5992f0bff0b19d",
     "file": "por-favor.webp",
-    "generatedAt": "2026-05-17T10:16:07.807Z",
+    "generatedAt": "2026-05-17T10:41:36.277Z",
     "costUsd": 0.003
   },
   "sim": {
-    "promptHash": "e4dc1a77c01dc7e8",
+    "promptHash": "9dbc2eb31782ff8f",
     "file": "sim.webp",
-    "generatedAt": "2026-05-17T10:16:09.572Z",
+    "generatedAt": "2026-05-17T10:41:38.109Z",
     "costUsd": 0.003
   },
   "nao": {
-    "promptHash": "8852f25e2afe0f75",
+    "promptHash": "3605890f121ba710",
     "file": "nao.webp",
-    "generatedAt": "2026-05-17T10:16:11.344Z",
+    "generatedAt": "2026-05-17T10:41:39.884Z",
     "costUsd": 0.003
   },
   "bom-dia": {
-    "promptHash": "0525b6ef541cc87c",
+    "promptHash": "eb0b659aca76fbb8",
     "file": "bom-dia.webp",
-    "generatedAt": "2026-05-17T10:16:13.447Z",
+    "generatedAt": "2026-05-17T10:41:41.699Z",
     "costUsd": 0.003
   },
   "desculpe": {
-    "promptHash": "a994d1b09b6c6885",
+    "promptHash": "6105224b5f484bf8",
     "file": "desculpe.webp",
-    "generatedAt": "2026-05-17T10:16:15.172Z",
+    "generatedAt": "2026-05-17T10:41:43.393Z",
     "costUsd": 0.003
   },
   "eu-sou": {
-    "promptHash": "2e1489b88d251a11",
+    "promptHash": "c55afdc639038d4d",
     "file": "eu-sou.webp",
-    "generatedAt": "2026-05-17T10:16:16.832Z",
+    "generatedAt": "2026-05-17T10:41:45.202Z",
     "costUsd": 0.003
   },
   "como-estas": {
-    "promptHash": "b3ce7d68d3e43d4b",
+    "promptHash": "47f1a141216e4ac0",
     "file": "como-estas.webp",
-    "generatedAt": "2026-05-17T10:16:18.554Z",
+    "generatedAt": "2026-05-17T10:41:47.628Z",
     "costUsd": 0.003
   },
   "adeus": {
-    "promptHash": "09e98f8001bc411a",
+    "promptHash": "9aa9352fb465821e",
     "file": "adeus.webp",
-    "generatedAt": "2026-05-17T10:16:20.336Z",
+    "generatedAt": "2026-05-17T10:41:49.351Z",
     "costUsd": 0.003
   },
   "ter": {
-    "promptHash": "f81d257c9ebe08ff",
+    "promptHash": "fc74f50a2a832f2b",
     "file": "ter.webp",
-    "generatedAt": "2026-05-17T10:16:22.077Z",
+    "generatedAt": "2026-05-17T10:41:51.073Z",
     "costUsd": 0.003
   },
   "poder": {
-    "promptHash": "b6fa5717b41626df",
+    "promptHash": "9c5122945a102257",
     "file": "poder.webp",
-    "generatedAt": "2026-05-17T10:16:23.973Z",
+    "generatedAt": "2026-05-17T10:41:52.863Z",
     "costUsd": 0.003
   },
   "fazer": {
-    "promptHash": "cd0bd35095ac1207",
+    "promptHash": "9023eb9a65b77d35",
     "file": "fazer.webp",
-    "generatedAt": "2026-05-17T10:16:25.791Z",
+    "generatedAt": "2026-05-17T10:41:54.650Z",
     "costUsd": 0.003
   },
   "ir": {
-    "promptHash": "25175f245def757a",
+    "promptHash": "1c7980529ef86a08",
     "file": "ir.webp",
-    "generatedAt": "2026-05-17T10:16:27.459Z",
+    "generatedAt": "2026-05-17T10:41:56.321Z",
     "costUsd": 0.003
   },
   "dizer": {
-    "promptHash": "84645c572378f2b0",
+    "promptHash": "9c994531173aeb0f",
     "file": "dizer.webp",
-    "generatedAt": "2026-05-17T10:16:29.090Z",
+    "generatedAt": "2026-05-17T10:41:58.155Z",
     "costUsd": 0.003
   },
   "dar": {
-    "promptHash": "e1797738245fb29c",
+    "promptHash": "cc1b8a5e0c57a271",
     "file": "dar.webp",
-    "generatedAt": "2026-05-17T10:16:31.629Z",
+    "generatedAt": "2026-05-17T10:41:59.882Z",
     "costUsd": 0.003
   },
   "saber": {
-    "promptHash": "71dc88797407472d",
+    "promptHash": "5ff6d0ad1d7a7cb1",
     "file": "saber.webp",
-    "generatedAt": "2026-05-17T10:16:33.342Z",
+    "generatedAt": "2026-05-17T10:42:02.256Z",
     "costUsd": 0.003
   },
   "querer": {
-    "promptHash": "6345ce7091bc9cc6",
+    "promptHash": "7f4afab118ef0868",
     "file": "querer.webp",
-    "generatedAt": "2026-05-17T10:16:35.032Z",
+    "generatedAt": "2026-05-17T10:42:04.089Z",
     "costUsd": 0.003
   },
   "ver": {
-    "promptHash": "a844fde037648eef",
+    "promptHash": "4dca4840ec427e6f",
     "file": "ver.webp",
-    "generatedAt": "2026-05-17T10:16:37.472Z",
+    "generatedAt": "2026-05-17T10:42:05.821Z",
     "costUsd": 0.003
   },
   "grande": {
-    "promptHash": "fa7e8dbca28a8446",
+    "promptHash": "faa754758dfb6414",
     "file": "grande.webp",
-    "generatedAt": "2026-05-17T10:16:39.138Z",
+    "generatedAt": "2026-05-17T10:42:07.585Z",
     "costUsd": 0.003
   },
   "coisa": {
-    "promptHash": "04876274cf36dcfb",
+    "promptHash": "73fc1a1ff260e043",
     "file": "coisa.webp",
-    "generatedAt": "2026-05-17T10:16:40.767Z",
+    "generatedAt": "2026-05-17T10:42:09.922Z",
     "costUsd": 0.003
   },
   "dia": {
-    "promptHash": "0cd07d131c92169b",
+    "promptHash": "3a0bef1b9aea3081",
     "file": "dia.webp",
-    "generatedAt": "2026-05-17T10:16:42.451Z",
+    "generatedAt": "2026-05-17T10:42:11.728Z",
     "costUsd": 0.003
   },
   "ano": {
-    "promptHash": "d9980f093283067e",
+    "promptHash": "5484c46ab0119c72",
     "file": "ano.webp",
-    "generatedAt": "2026-05-17T10:16:44.672Z",
+    "generatedAt": "2026-05-17T10:42:14.289Z",
     "costUsd": 0.003
   },
   "casa": {
-    "promptHash": "0bfded388cf7bc98",
+    "promptHash": "9dcc47fe3135ddad",
     "file": "casa.webp",
-    "generatedAt": "2026-05-17T10:16:46.596Z",
+    "generatedAt": "2026-05-17T10:42:15.958Z",
     "costUsd": 0.003
   },
   "tempo": {
-    "promptHash": "b21635ac2cb3615f",
+    "promptHash": "4a6eeb2e2129f5b2",
     "file": "tempo.webp",
-    "generatedAt": "2026-05-17T10:16:48.238Z",
+    "generatedAt": "2026-05-17T10:42:17.609Z",
     "costUsd": 0.003
   },
   "ficar": {
-    "promptHash": "dde0c0c1ed8b5ae5",
+    "promptHash": "eab5831dce1a7018",
     "file": "ficar.webp",
-    "generatedAt": "2026-05-17T10:16:51.163Z",
+    "generatedAt": "2026-05-17T10:42:19.472Z",
     "costUsd": 0.003
   },
   "homem": {
-    "promptHash": "721876c17c602a04",
+    "promptHash": "d564a1b3d77e9772",
     "file": "homem.webp",
-    "generatedAt": "2026-05-17T10:16:53.493Z",
+    "generatedAt": "2026-05-17T10:42:21.121Z",
     "costUsd": 0.003
   },
   "vida": {
-    "promptHash": "5be99d9aba61bb19",
+    "promptHash": "e7d381f6763b63cc",
     "file": "vida.webp",
-    "generatedAt": "2026-05-17T10:16:55.223Z",
+    "generatedAt": "2026-05-17T10:42:23.052Z",
     "costUsd": 0.003
   },
   "vir": {
-    "promptHash": "183e1171283731fc",
+    "promptHash": "720447727b3e2446",
     "file": "vir.webp",
-    "generatedAt": "2026-05-17T10:16:56.957Z",
+    "generatedAt": "2026-05-17T10:42:24.741Z",
     "costUsd": 0.003
   },
   "novo": {
-    "promptHash": "8cb18dd891332fd4",
+    "promptHash": "b02c9695a28a2979",
     "file": "novo.webp",
-    "generatedAt": "2026-05-17T10:16:59.483Z",
+    "generatedAt": "2026-05-17T10:42:26.492Z",
     "costUsd": 0.003
   },
   "trabalho": {
-    "promptHash": "f81c29e79ea5ad99",
+    "promptHash": "94f961aa49553f22",
     "file": "trabalho.webp",
-    "generatedAt": "2026-05-17T10:17:01.136Z",
+    "generatedAt": "2026-05-17T10:42:28.160Z",
     "costUsd": 0.003
   },
   "achar": {
-    "promptHash": "be0a7a4ac10b648d",
+    "promptHash": "2d352894834911bd",
     "file": "achar.webp",
-    "generatedAt": "2026-05-17T10:17:03.647Z",
+    "generatedAt": "2026-05-17T10:42:30.007Z",
     "costUsd": 0.003
   },
   "falar": {
-    "promptHash": "78026059faf06e41",
+    "promptHash": "3d852b88b8f83804",
     "file": "falar.webp",
-    "generatedAt": "2026-05-17T10:17:05.426Z",
+    "generatedAt": "2026-05-17T10:42:33.368Z",
     "costUsd": 0.003
   },
   "mulher": {
-    "promptHash": "81773b3b4ec34380",
+    "promptHash": "0df5f5c9dc142e8a",
     "file": "mulher.webp",
-    "generatedAt": "2026-05-17T10:17:07.162Z",
+    "generatedAt": "2026-05-17T10:42:35.174Z",
     "costUsd": 0.003
   },
   "agua": {
-    "promptHash": "74ec85287d56aafe",
+    "promptHash": "66d1089406b95db3",
     "file": "agua.webp",
-    "generatedAt": "2026-05-17T10:17:08.871Z",
+    "generatedAt": "2026-05-17T10:42:36.892Z",
     "costUsd": 0.003
   },
   "hora": {
-    "promptHash": "80d7dbebca7de88a",
+    "promptHash": "b373a6580bc1a1fd",
     "file": "hora.webp",
-    "generatedAt": "2026-05-17T10:17:10.729Z",
+    "generatedAt": "2026-05-17T10:42:38.602Z",
     "costUsd": 0.003
   },
   "comer": {
-    "promptHash": "7dbd9e9a8e53efc9",
+    "promptHash": "06bb632b34dd1bcb",
     "file": "comer.webp",
-    "generatedAt": "2026-05-17T10:17:12.527Z",
+    "generatedAt": "2026-05-17T10:42:40.466Z",
     "costUsd": 0.003
   },
   "mundo": {
-    "promptHash": "e0a4064b67cfb0c4",
+    "promptHash": "534a45ef16fdfc5d",
     "file": "mundo.webp",
-    "generatedAt": "2026-05-17T10:17:15.357Z",
+    "generatedAt": "2026-05-17T10:42:42.326Z",
     "costUsd": 0.003
   },
   "pai": {
-    "promptHash": "209b6edc45d61fd6",
+    "promptHash": "caf5830814d3103f",
     "file": "pai.webp",
-    "generatedAt": "2026-05-17T10:17:17.253Z",
+    "generatedAt": "2026-05-17T10:42:44.204Z",
     "costUsd": 0.003
   },
   "amigo": {
-    "promptHash": "cb3dde77bf760226",
+    "promptHash": "b34a5afff82a77fc",
     "file": "amigo.webp",
-    "generatedAt": "2026-05-17T10:17:19.570Z",
+    "generatedAt": "2026-05-17T10:42:46.204Z",
     "costUsd": 0.003
   },
   "precisar": {
-    "promptHash": "8b78d6bcd7be0045",
+    "promptHash": "06804ceac1e2a47d",
     "file": "precisar.webp",
-    "generatedAt": "2026-05-17T10:17:21.355Z",
+    "generatedAt": "2026-05-17T10:42:48.058Z",
     "costUsd": 0.003
   },
   "noite": {
-    "promptHash": "c7d5fa11df2abf4b",
+    "promptHash": "4f13f4c969dc6444",
     "file": "noite.webp",
-    "generatedAt": "2026-05-17T10:17:23.180Z",
+    "generatedAt": "2026-05-17T10:42:49.713Z",
     "costUsd": 0.003
   },
   "olhar": {
-    "promptHash": "ff91b9942b3932ca",
+    "promptHash": "ca2cabe6cba9e560",
     "file": "olhar.webp",
-    "generatedAt": "2026-05-17T10:17:24.957Z",
+    "generatedAt": "2026-05-17T10:42:52.775Z",
     "costUsd": 0.003
   },
   "pensar": {
-    "promptHash": "7f31eeabcb700e46",
+    "promptHash": "c20f2f2878526f4f",
     "file": "pensar.webp",
-    "generatedAt": "2026-05-17T10:17:26.784Z",
+    "generatedAt": "2026-05-17T10:42:55.837Z",
     "costUsd": 0.003
   },
   "obrigada": {
-    "promptHash": "4dccb56231c37284",
+    "promptHash": "f01e7317e5b35dfc",
     "file": "obrigada.webp",
-    "generatedAt": "2026-05-17T10:17:30.646Z",
+    "generatedAt": "2026-05-17T10:42:57.845Z",
     "costUsd": 0.003
   },
   "hoje": {
-    "promptHash": "a80a0f791bdbf03f",
+    "promptHash": "9e5a0fce2ce6b6d9",
     "file": "hoje.webp",
-    "generatedAt": "2026-05-17T10:17:32.302Z",
+    "generatedAt": "2026-05-17T10:42:59.478Z",
     "costUsd": 0.003
   },
   "gostar": {
-    "promptHash": "43a85ddc50f04272",
+    "promptHash": "063048ac8d8fc9ad",
     "file": "gostar.webp",
-    "generatedAt": "2026-05-17T10:17:34.088Z",
+    "generatedAt": "2026-05-17T10:43:01.257Z",
     "costUsd": 0.003
   },
   "cidade": {
-    "promptHash": "72f600e7083e29b0",
+    "promptHash": "07274e8e0c9aed6b",
     "file": "cidade.webp",
-    "generatedAt": "2026-05-17T10:17:35.943Z",
+    "generatedAt": "2026-05-17T10:43:02.894Z",
     "costUsd": 0.003
   },
   "senhor": {
-    "promptHash": "dff45cb1bba05823",
+    "promptHash": "848f66e8ca57d8cd",
     "file": "senhor.webp",
-    "generatedAt": "2026-05-17T10:17:37.696Z",
+    "generatedAt": "2026-05-17T10:43:04.586Z",
     "costUsd": 0.003
   }
 }
