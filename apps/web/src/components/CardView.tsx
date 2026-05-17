@@ -111,9 +111,9 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   };
 
   return (
-    <div className="flex items-start gap-6">
+    <div className="relative flex flex-col items-center">
       {showExample && (
-        <div className="w-72 shrink-0 bg-stone-100 dark:bg-stone-800 rounded-lg p-4 mt-4">
+        <div className="absolute left-0 top-0 w-72 bg-stone-100 dark:bg-stone-800 rounded-lg p-4">
           <p className="text-sm text-stone-600 dark:text-stone-300">{word.examplePt}</p>
           <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">{word.examplePl}</p>
           {word.notes && (
@@ -122,39 +122,37 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
         </div>
       )}
 
-      <div className="flex flex-col items-center flex-1">
-        {renderImage()}
+      {renderImage()}
 
-        <div className="mt-4">
-          {!isRevealed ? (
-            <h2 className="text-5xl font-semibold">{promptWord}</h2>
-          ) : (
-            <div className="w-full text-center">
-              <div className="flex items-center justify-center gap-3 mb-4">
-                <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
-                {card.direction === 'pl_to_pt' && (
-                  <button
-                    onClick={() => playAudio(word.audioPt)}
-                    className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl"
-                    title="Play word (P)"
-                  >
-                    🔊
-                  </button>
-                )}
-              </div>
-              <RatingButtons onRate={onRate} />
+      <div className="mt-4">
+        {!isRevealed ? (
+          <h2 className="text-5xl font-semibold">{promptWord}</h2>
+        ) : (
+          <div className="w-full text-center">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
+              {card.direction === 'pl_to_pt' && (
+                <button
+                  onClick={() => playAudio(word.audioPt)}
+                  className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl"
+                  title="Play word (P)"
+                >
+                  🔊
+                </button>
+              )}
             </div>
-          )}
-        </div>
-
-        <button
-          onClick={() => setShowExample(v => !v)}
-          className="mt-4 text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
-          title="Toggle example (E)"
-        >
-          {showExample ? 'Hide example' : 'Show example (E)'}
-        </button>
+            <RatingButtons onRate={onRate} />
+          </div>
+        )}
       </div>
+
+      <button
+        onClick={() => setShowExample(v => !v)}
+        className="mt-4 text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
+        title="Toggle example (E)"
+      >
+        {showExample ? 'Hide example' : 'Show example (E)'}
+      </button>
     </div>
   );
 }
