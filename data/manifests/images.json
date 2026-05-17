@@ -8602,5 +8602,83 @@
     "file": "esfregar.webp",
     "generatedAt": "2026-05-17T13:19:37.206Z",
     "costUsd": 0.003
+  },
+  "enxaguar": {
+    "promptHash": "d1217da12ce8e93f",
+    "file": "enxaguar.webp",
+    "generatedAt": "2026-05-17T13:19:39.061Z",
+    "costUsd": 0.003
+  },
+  "estender": {
+    "promptHash": "f80a4902aa7bae93",
+    "file": "estender.webp",
+    "generatedAt": "2026-05-17T13:19:40.902Z",
+    "costUsd": 0.003
+  },
+  "engomar": {
+    "promptHash": "04570324b16f360e",
+    "file": "engomar.webp",
+    "generatedAt": "2026-05-17T13:19:42.675Z",
+    "costUsd": 0.003
+  },
+  "aspirar": {
+    "promptHash": "ea09c48715c53876",
+    "file": "aspirar.webp",
+    "generatedAt": "2026-05-17T13:19:44.387Z",
+    "costUsd": 0.003
+  },
+  "regar": {
+    "promptHash": "14b4b71d536a6957",
+    "file": "regar.webp",
+    "generatedAt": "2026-05-17T13:19:46.356Z",
+    "costUsd": 0.003
+  },
+  "podar": {
+    "promptHash": "84721ca4fcb10c06",
+    "file": "podar.webp",
+    "generatedAt": "2026-05-17T13:19:48.195Z",
+    "costUsd": 0.003
+  },
+  "semear": {
+    "promptHash": "bf7ba60c72705b8c",
+    "file": "semear.webp",
+    "generatedAt": "2026-05-17T13:19:49.962Z",
+    "costUsd": 0.003
+  },
+  "colher-verbo": {
+    "promptHash": "deefee42f4556e04",
+    "file": "colher-verbo.webp",
+    "generatedAt": "2026-05-17T13:19:52.326Z",
+    "costUsd": 0.003
+  },
+  "traseira": {
+    "promptHash": "83ba346783847fba",
+    "file": "traseira.webp",
+    "generatedAt": "2026-05-17T13:19:54.031Z",
+    "costUsd": 0.003
+  },
+  "cobertor": {
+    "promptHash": "d833df7e99a7f2b2",
+    "file": "cobertor.webp",
+    "generatedAt": "2026-05-17T13:19:55.963Z",
+    "costUsd": 0.003
+  },
+  "escova": {
+    "promptHash": "cb5a4e5c9e9953f6",
+    "file": "escova.webp",
+    "generatedAt": "2026-05-17T13:19:57.561Z",
+    "costUsd": 0.003
+  },
+  "pente": {
+    "promptHash": "81d9d0fed133007e",
+    "file": "pente.webp",
+    "generatedAt": "2026-05-17T13:20:00.435Z",
+    "costUsd": 0.003
+  },
+  "balde": {
+    "promptHash": "ef63a6ebebf20491",
+    "file": "balde.webp",
+    "generatedAt": "2026-05-17T13:20:02.473Z",
+    "costUsd": 0.003
   }
 }
