@@ -8554,5 +8554,53 @@
     "file": "batizado.webp",
     "generatedAt": "2026-05-17T13:19:23.600Z",
     "costUsd": 0.003
+  },
+  "dar-se-bem": {
+    "promptHash": "26c1819ccd0d7ec3",
+    "file": "dar-se-bem.webp",
+    "generatedAt": "2026-05-17T13:19:25.316Z",
+    "costUsd": 0.003
+  },
+  "ficar-a-saber": {
+    "promptHash": "fc7a6791c103b530",
+    "file": "ficar-a-saber.webp",
+    "generatedAt": "2026-05-17T13:19:26.980Z",
+    "costUsd": 0.003
+  },
+  "ir-embora": {
+    "promptHash": "9b1cf04b281b93c5",
+    "file": "ir-embora.webp",
+    "generatedAt": "2026-05-17T13:19:28.643Z",
+    "costUsd": 0.003
+  },
+  "estar-a-vontade": {
+    "promptHash": "845c4598359388d7",
+    "file": "estar-a-vontade.webp",
+    "generatedAt": "2026-05-17T13:19:30.405Z",
+    "costUsd": 0.003
+  },
+  "rato": {
+    "promptHash": "b2eed808dad33344",
+    "file": "rato.webp",
+    "generatedAt": "2026-05-17T13:19:32.074Z",
+    "costUsd": 0.003
+  },
+  "sacudir": {
+    "promptHash": "19fd88d7386c3bd2",
+    "file": "sacudir.webp",
+    "generatedAt": "2026-05-17T13:19:33.732Z",
+    "costUsd": 0.003
+  },
+  "varrer": {
+    "promptHash": "aae8330d2d977448",
+    "file": "varrer.webp",
+    "generatedAt": "2026-05-17T13:19:35.497Z",
+    "costUsd": 0.003
+  },
+  "esfregar": {
+    "promptHash": "25128b4f824fa000",
+    "file": "esfregar.webp",
+    "generatedAt": "2026-05-17T13:19:37.206Z",
+    "costUsd": 0.003
   }
 }
