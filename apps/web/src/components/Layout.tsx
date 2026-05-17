@@ -19,7 +19,7 @@ export function Layout() {
           </div>
         </nav>
       )}
-      <main className="max-w-2xl mx-auto px-4 py-8">
+      <main className={`mx-auto px-4 py-8 ${isSession ? 'max-w-6xl' : 'max-w-2xl'}`}>
         <Outlet />
       </main>
     </div>

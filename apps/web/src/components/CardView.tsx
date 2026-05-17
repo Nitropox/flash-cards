@@ -12,10 +12,12 @@ type Props = {
 
 export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   const [word, setWord] = useState<WordEntry | null>(null);
+  const [showExample, setShowExample] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     db.words.get(card.wordId).then(w => setWord(w ?? null));
+    setShowExample(false);
   }, [card.wordId]);
 
   const playAudio = useCallback((path: string | undefined) => {
@@ -33,7 +35,13 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
   useEffect(() => {
     function handleKey(e: KeyboardEvent) {
-      if (!isRevealed || !word) return;
+      if (!word) return;
+      if (e.key === 'e' || e.key === 'E') {
+        e.preventDefault();
+        setShowExample(v => !v);
+        return;
+      }
+      if (!isRevealed) return;
       if (e.key === 'p' && !e.shiftKey) {
         e.preventDefault();
         playAudio(word.audioPt);
@@ -59,7 +67,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
       return (
         <div
           onClick={clickHandler}
-          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6 ${cursorClass}`}
+          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center ${cursorClass}`}
         >
           <span className="text-5xl font-semibold text-stone-600 dark:text-stone-300 text-center px-4 leading-tight">
             {word.pt}
@@ -72,7 +80,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
       return (
         <div
           onClick={clickHandler}
-          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden mb-6 bg-stone-100 dark:bg-stone-800 ${cursorClass}`}
+          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden bg-stone-100 dark:bg-stone-800 ${cursorClass}`}
         >
           <img
             src={`/${word.imageFile}`}
@@ -93,7 +101,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     return (
       <div
         onClick={clickHandler}
-        className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center mb-6 ${cursorClass}`}
+        className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center ${cursorClass}`}
       >
         <span className="text-6xl font-light text-stone-400 dark:text-stone-600 select-none">
           {word.pt.charAt(0).toUpperCase()}
@@ -103,47 +111,50 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      {renderImage()}
-
-      {!isRevealed ? (
-        <h2 className="text-5xl font-semibold">{promptWord}</h2>
-      ) : (
-        <div className="mt-2 w-full text-center">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
-            <button
-              onClick={() => playAudio(word.audioPt)}
-              className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl"
-              title="Play word (P)"
-            >
-              🔊
-            </button>
-          </div>
-
-          <div className="bg-stone-100 dark:bg-stone-800 rounded-lg p-4 mb-2 text-left">
-            <div className="flex items-start gap-2">
-              <div className="flex-1">
-                <p className="text-sm text-stone-600 dark:text-stone-300">{word.examplePt}</p>
-                <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">{word.examplePl}</p>
-              </div>
-              <button
-                onClick={() => playAudio(word.audioExamplePt)}
-                className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-sm shrink-0"
-                title="Play example (Shift+P)"
-              >
-                🔊
-              </button>
-            </div>
-          </div>
-
+    <div className="flex items-start gap-6">
+      {showExample && (
+        <div className="w-72 shrink-0 bg-stone-100 dark:bg-stone-800 rounded-lg p-4 mt-4">
+          <p className="text-sm text-stone-600 dark:text-stone-300">{word.examplePt}</p>
+          <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">{word.examplePl}</p>
           {word.notes && (
-            <p className="text-xs text-stone-400 dark:text-stone-500 italic mt-2 mb-2">{word.notes}</p>
+            <p className="text-xs text-stone-400 dark:text-stone-500 italic mt-3">{word.notes}</p>
           )}
-
-          <RatingButtons onRate={onRate} />
         </div>
       )}
+
+      <div className="flex flex-col items-center flex-1">
+        {renderImage()}
+
+        <div className="mt-4">
+          {!isRevealed ? (
+            <h2 className="text-5xl font-semibold">{promptWord}</h2>
+          ) : (
+            <div className="w-full text-center">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
+                {card.direction === 'pl_to_pt' && (
+                  <button
+                    onClick={() => playAudio(word.audioPt)}
+                    className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl"
+                    title="Play word (P)"
+                  >
+                    🔊
+                  </button>
+                )}
+              </div>
+              <RatingButtons onRate={onRate} />
+            </div>
+          )}
+        </div>
+
+        <button
+          onClick={() => setShowExample(v => !v)}
+          className="mt-4 text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
+          title="Toggle example (E)"
+        >
+          {showExample ? 'Hide example' : 'Show example (E)'}
+        </button>
+      </div>
     </div>
   );
 }
