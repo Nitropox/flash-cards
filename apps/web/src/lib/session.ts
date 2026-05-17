@@ -1,6 +1,12 @@
 import { db } from './db';
 import type { Card, Settings } from './types';
 
+const EVENING_CUTOFF_HOUR = 14;
+
+export function isEveningSession(): boolean {
+  return new Date().getHours() >= EVENING_CUTOFF_HOUR;
+}
+
 function getToday(): Date {
   const now = new Date();
   const shifted = new Date(now.getTime() - 4 * 60 * 60 * 1000);
@@ -68,7 +74,9 @@ export async function buildSessionQueue(): Promise<Card[]> {
     queue.push(card);
   }
 
-  if (queue.length < maxReviews) {
+  const evening = isEveningSession();
+
+  if (!evening && queue.length < maxReviews) {
     const newCardsToday = await countNewCardsIntroducedToday();
     const remaining = settings.newCardsPerDay - newCardsToday;
 
@@ -146,6 +154,10 @@ export async function getDueCount(): Promise<{ due: number; newAvailable: number
     .between(['Review', new Date(0)], ['Review', now], true, true)
     .filter(c => !c.suspended)
     .count();
+
+  if (isEveningSession()) {
+    return { due: learningDue + relearningDue + reviewDue, newAvailable: 0 };
+  }
 
   const newCardsToday = await countNewCardsIntroducedToday();
   const newRemaining = Math.max(0, settings.newCardsPerDay - newCardsToday);

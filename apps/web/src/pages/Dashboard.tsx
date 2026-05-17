@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getDueCount, getStreak } from '../lib/session';
+import { getDueCount, getStreak, isEveningSession } from '../lib/session';
 import { seedIfEmpty } from '../lib/seed';
 
 export function Dashboard() {
@@ -8,6 +8,7 @@ export function Dashboard() {
   const [newAvailable, setNewAvailable] = useState(0);
   const [streak, setStreak] = useState(0);
   const [loading, setLoading] = useState(true);
+  const evening = isEveningSession();
 
   useEffect(() => {
     async function init() {
@@ -36,9 +37,21 @@ export function Dashboard() {
       </div>
 
       <div className="bg-white dark:bg-stone-900 rounded-xl p-6 w-full shadow-sm border border-stone-200 dark:border-stone-800">
+        <div className="flex items-center justify-between mb-2">
+          <span className={`text-sm font-medium px-2 py-0.5 rounded ${evening ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300' : 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300'}`}>
+            {evening ? 'Evening session' : 'Morning session'}
+          </span>
+        </div>
         <p className="text-stone-600 dark:text-stone-300">
-          Today: <strong>{due}</strong> reviews due, <strong>{newAvailable}</strong> new cards available
+          <strong>{due}</strong> reviews due
+          {!evening && <>, <strong>{newAvailable}</strong> new cards available</>}
         </p>
+        {evening && newAvailable === 0 && due === 0 && (
+          <p className="text-sm text-stone-400 mt-2">All caught up for today!</p>
+        )}
+        {evening && (
+          <p className="text-xs text-stone-400 mt-2">New cards are reserved for morning sessions.</p>
+        )}
       </div>
 
       <span className="inline-block bg-stone-200 dark:bg-stone-800 text-stone-600 dark:text-stone-300 text-xs font-medium px-3 py-1 rounded-full">

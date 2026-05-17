@@ -4,6 +4,9 @@ import type { Card, CardState } from './types';
 const params = generatorParameters({
   request_retention: 0.90,
   maximum_interval: 36500,
+  enable_short_term: true,
+  learning_steps: ['1m', '10m', '480m'],
+  relearning_steps: ['10m', '480m'],
 });
 
 export const fsrs = new FSRS(params);
