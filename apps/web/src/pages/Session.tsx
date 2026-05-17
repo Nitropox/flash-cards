@@ -22,9 +22,10 @@ export function Session() {
     return () => reset();
   }, [setQueue, reset, navigate]);
 
-  const handleRate = useCallback(async (rating: 1 | 2 | 3 | 4) => {
+  const handleRate = useCallback(async (rating: 1 | 2 | 3 | 4, mode: 'self_rate' | 'typed' | 'spoken', userAnswer?: string) => {
     if (!card) return;
     const now = new Date();
+    const startTime = performance.now();
     const { updatedCard, log } = applyReview(card, rating, now);
 
     await db.cards.put(updatedCard);
@@ -33,8 +34,9 @@ export function Session() {
       rating: log.rating,
       reviewedAt: log.reviewedAt,
       elapsedDaysAtReview: log.elapsedDaysAtReview,
-      answerMode: 'self_rate',
-      durationMs: 0,
+      answerMode: mode,
+      userAnswer,
+      durationMs: Math.round(performance.now() - startTime),
     });
 
     advance();
@@ -52,6 +54,8 @@ export function Session() {
     if (!card) return;
 
     if (e.key === ' ') {
+      const active = document.activeElement;
+      if (active && active.tagName === 'INPUT') return;
       e.preventDefault();
       reveal();
       return;
@@ -60,7 +64,7 @@ export function Session() {
     if (isRevealed) {
       const rating = { '1': 1, '2': 2, '3': 3, '4': 4 }[e.key] as 1 | 2 | 3 | 4 | undefined;
       if (rating) {
-        handleRate(rating);
+        handleRate(rating, 'self_rate');
       }
     }
   }, [card, isRevealed, reveal, handleRate, reset, navigate]);
@@ -96,7 +100,7 @@ export function Session() {
           onClick={() => { if (confirm('Exit session?')) { reset(); navigate('/'); } }}
           className="text-sm text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
         >
-          ← Exit
+          &larr; Exit
         </button>
         <span className="text-sm text-stone-400">
           {cursor + 1} / {queue.length}
