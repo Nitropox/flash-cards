@@ -193,7 +193,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
       <div className="flex items-center justify-center gap-3 mb-4">
         <h2 className={`text-5xl font-semibold ${card.direction === 'pt_to_pl' ? 'text-blue-600 dark:text-blue-400' : 'text-emerald-600 dark:text-emerald-400'}`}>{answerWord}</h2>
         {card.direction === 'pl_to_pt' && (
-          <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl" title="Play word (P)">🔊</button>
+          <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl self-center ml-2 leading-none" title="Play word (P)">🔊</button>
         )}
       </div>
       <RatingButtons onRate={handleFinalRate} activeRating={overrideRating} />
@@ -220,7 +220,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
           <div className="flex items-center justify-center gap-3">
             <h2 className="text-5xl font-semibold">{promptWord}</h2>
             {card.direction === 'pt_to_pl' && (
-              <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl" title="Play word (P)">🔊</button>
+              <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl self-center ml-2 leading-none" title="Play word (P)">🔊</button>
             )}
           </div>
         )}
@@ -232,7 +232,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
             <div className="flex items-center justify-center gap-3 mb-6">
               <h2 className="text-5xl font-semibold">{promptWord}</h2>
               {card.direction === 'pt_to_pl' && (
-                <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl" title="Play word (P)">🔊</button>
+                <button onClick={() => playAudio(word.audioPt)} className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl self-center ml-2 leading-none" title="Play word (P)">🔊</button>
               )}
             </div>
             <form onSubmit={e => { e.preventDefault(); handleTypedSubmit(); }} className="flex gap-2">
