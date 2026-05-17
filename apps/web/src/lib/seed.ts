@@ -1,11 +1,12 @@
 import { db } from './db';
 import { makeNewCard } from './fsrs';
 import type { Card, WordEntry, Settings } from './types';
-import tierData from '../data/tier-10.json';
+import tier10Data from '../data/tier-10.json';
+import tier100Data from '../data/tier-100.json';
 
 const DEFAULT_SETTINGS: Settings = {
   key: 'current',
-  currentTier: 10,
+  currentTier: 100,
   newCardsPerDay: 10,
   maxReviewsPerSession: 30,
   targetRetention: 0.90,
@@ -16,16 +17,16 @@ const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
 };
 
-export async function seedIfEmpty() {
-  const count = await db.words.count();
-  if (count > 0) return;
-
-  const words = tierData as WordEntry[];
+async function ingestWords(words: WordEntry[]) {
   const now = new Date();
   const newCardState = makeNewCard(now);
-
   const cards: Card[] = [];
+
   for (const word of words) {
+    const existing = await db.words.get(word.id);
+    if (existing) continue;
+
+    await db.words.add(word);
     cards.push({
       id: `${word.id}:pt_to_pl`,
       wordId: word.id,
@@ -42,9 +43,18 @@ export async function seedIfEmpty() {
     });
   }
 
-  await db.transaction('rw', db.words, db.cards, db.settings, async () => {
-    await db.words.bulkAdd(words);
+  if (cards.length > 0) {
     await db.cards.bulkAdd(cards);
+  }
+}
+
+export async function seedIfEmpty() {
+  const count = await db.words.count();
+  if (count > 0) return;
+
+  await db.transaction('rw', db.words, db.cards, db.settings, async () => {
+    await ingestWords(tier10Data as WordEntry[]);
+    await ingestWords(tier100Data as WordEntry[]);
     const existing = await db.settings.get('current');
     if (!existing) {
       await db.settings.add(DEFAULT_SETTINGS);

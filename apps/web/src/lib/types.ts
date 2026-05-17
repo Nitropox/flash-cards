@@ -14,8 +14,9 @@ export type WordEntry = {
   imageStrategy: "literal" | "scene" | "none";
   imagePrompt?: string;
   imageFile?: string;
-  audioPt: string;
-  audioExamplePt: string;
+  enHint?: string;
+  audioPt?: string;
+  audioExamplePt?: string;
   notes?: string;
 };
 

@@ -42,7 +42,7 @@ export function Dashboard() {
       </div>
 
       <span className="inline-block bg-stone-200 dark:bg-stone-800 text-stone-600 dark:text-stone-300 text-xs font-medium px-3 py-1 rounded-full">
-        Tier 10
+        Tier 100
       </span>
 
       <Link
