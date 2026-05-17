@@ -264,7 +264,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
         {mode === 'spoken' && gradeResult && renderAnswer()}
       </div>
 
-      <div className="mt-6 flex gap-2">
+      <div className="absolute left-full ml-6 top-0 flex flex-col gap-2">
         {(['self_rate', 'typed', 'spoken'] as const).map(m => {
           const disabled = m === 'spoken' && !canSpeak;
           const labels = { self_rate: 'Reveal', typed: 'Type', spoken: 'Speak' };
