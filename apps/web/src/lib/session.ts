@@ -57,7 +57,16 @@ export async function buildSessionQueue(): Promise<Card[]> {
     .filter(c => !c.suspended)
     .toArray();
 
-  const queue: Card[] = [...learningCards, ...relearningCards, ...reviewCards];
+  const allDue = [...learningCards, ...relearningCards, ...reviewCards];
+
+  // Prevent both directions of the same word in a single session
+  const seenWordIds = new Set<string>();
+  const queue: Card[] = [];
+  for (const card of allDue) {
+    if (seenWordIds.has(card.wordId)) continue;
+    seenWordIds.add(card.wordId);
+    queue.push(card);
+  }
 
   if (queue.length < maxReviews) {
     const newCardsToday = await countNewCardsIntroducedToday();

@@ -31,10 +31,10 @@ const COST_PER_IMAGE = 0.003;
 function buildPrompt(entry: Entry): string {
   const hint = entry.enHint || entry.pt;
   if (entry.imageStrategy === 'literal') {
-    return `flat illustration, single subject: ${hint}, centered, soft pastel colors, minimalist, plain off-white background, no text, no letters, no border, vector style, even lighting, no shadows`;
+    return `flat illustration, single subject: ${hint}, centered, soft pastel colors, minimalist, plain off-white background, absolutely no text, no words, no letters, no writing, no typography, no labels, no border, vector style, even lighting, no shadows`;
   }
   const desc = entry.examplePt ? entry.examplePt.slice(0, 60) : hint;
-  return `flat illustration, minimal scene depicting "${hint}" (${desc}), one human figure (silhouette), soft pastel colors, minimalist, plain off-white background, no text, no letters, no border, vector style, even lighting`;
+  return `flat illustration, minimal scene depicting "${hint}" (${desc}), one human figure (silhouette), soft pastel colors, minimalist, plain off-white background, absolutely no text, no words, no letters, no writing, no typography, no labels, no border, vector style, even lighting`;
 }
 
 function hashPrompt(prompt: string): string {
