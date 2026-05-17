@@ -8482,5 +8482,77 @@
     "file": "cinto.webp",
     "generatedAt": "2026-05-17T13:19:01.740Z",
     "costUsd": 0.003
+  },
+  "botao": {
+    "promptHash": "65f6bb0668748506",
+    "file": "botao.webp",
+    "generatedAt": "2026-05-17T13:19:03.529Z",
+    "costUsd": 0.003
+  },
+  "bolso": {
+    "promptHash": "40ab58d3a0cb5fbf",
+    "file": "bolso.webp",
+    "generatedAt": "2026-05-17T13:19:05.203Z",
+    "costUsd": 0.003
+  },
+  "manga": {
+    "promptHash": "89c5ef40aeea9053",
+    "file": "manga.webp",
+    "generatedAt": "2026-05-17T13:19:06.877Z",
+    "costUsd": 0.003
+  },
+  "lobo": {
+    "promptHash": "5e784e9aebeb9113",
+    "file": "lobo.webp",
+    "generatedAt": "2026-05-17T13:19:09.146Z",
+    "costUsd": 0.003
+  },
+  "raposa": {
+    "promptHash": "d779abea4c2981d9",
+    "file": "raposa.webp",
+    "generatedAt": "2026-05-17T13:19:10.879Z",
+    "costUsd": 0.003
+  },
+  "urso": {
+    "promptHash": "f71379280e1d14ec",
+    "file": "urso.webp",
+    "generatedAt": "2026-05-17T13:19:12.560Z",
+    "costUsd": 0.003
+  },
+  "aguia": {
+    "promptHash": "4d5137dfd84c7306",
+    "file": "aguia.webp",
+    "generatedAt": "2026-05-17T13:19:14.509Z",
+    "costUsd": 0.003
+  },
+  "tubarao": {
+    "promptHash": "07006034d10dd282",
+    "file": "tubarao.webp",
+    "generatedAt": "2026-05-17T13:19:16.337Z",
+    "costUsd": 0.003
+  },
+  "casamento": {
+    "promptHash": "d3dfe9600e89f1b3",
+    "file": "casamento.webp",
+    "generatedAt": "2026-05-17T13:19:18.266Z",
+    "costUsd": 0.003
+  },
+  "divorcio": {
+    "promptHash": "c18ec952124a68a3",
+    "file": "divorcio.webp",
+    "generatedAt": "2026-05-17T13:19:20.078Z",
+    "costUsd": 0.003
+  },
+  "funeral": {
+    "promptHash": "68e1c28439e32671",
+    "file": "funeral.webp",
+    "generatedAt": "2026-05-17T13:19:21.770Z",
+    "costUsd": 0.003
+  },
+  "batizado": {
+    "promptHash": "f75f4cd821bc3998",
+    "file": "batizado.webp",
+    "generatedAt": "2026-05-17T13:19:23.600Z",
+    "costUsd": 0.003
   }
 }
