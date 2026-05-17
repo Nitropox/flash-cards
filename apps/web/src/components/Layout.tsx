@@ -1,0 +1,27 @@
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import { useTheme } from '../lib/useTheme';
+
+export function Layout() {
+  useTheme();
+
+  const location = useLocation();
+  const isSession = location.pathname === '/learn';
+
+  return (
+    <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
+      {!isSession && (
+        <nav className="border-b border-stone-200 dark:border-stone-800 px-4 py-3">
+          <div className="max-w-2xl mx-auto flex items-center justify-between">
+            <Link to="/" className="text-lg font-semibold">pt-cards</Link>
+            <Link to="/settings" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
+              Settings
+            </Link>
+          </div>
+        </nav>
+      )}
+      <main className="max-w-2xl mx-auto px-4 py-8">
+        <Outlet />
+      </main>
+    </div>
+  );
+}
