@@ -110,6 +110,26 @@ export function Dashboard() {
       >
         Start session
       </Link>
+
+      {settings && settings.currentTier >= 1000 && <BudgetTracker />}
+    </div>
+  );
+}
+
+function BudgetTracker() {
+  const [costs, setCosts] = useState<{ total: number; budget: number } | null>(null);
+  useEffect(() => {
+    import('../data/costs.json').then(m => setCosts(m.default as { total: number; budget: number })).catch(() => {});
+  }, []);
+  if (!costs) return null;
+  const pct = Math.min(100, (costs.total / costs.budget) * 100);
+  return (
+    <div className="w-full mt-6 bg-white dark:bg-stone-900 rounded-xl p-4 border border-stone-200 dark:border-stone-800">
+      <p className="text-xs text-stone-500 mb-1">Content generation costs</p>
+      <p className="text-sm font-medium">${costs.total.toFixed(2)} / ${costs.budget.toFixed(2)}</p>
+      <div className="mt-1 h-2 bg-stone-200 dark:bg-stone-800 rounded-full overflow-hidden">
+        <div className="h-full bg-emerald-500 rounded-full" style={{ width: `${pct}%` }} />
+      </div>
     </div>
   );
 }

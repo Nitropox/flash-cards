@@ -54,7 +54,12 @@ export function SettingsPage() {
   }
 
   async function advanceTier(tier: typeof ALL_TIERS[number]) {
-    if (!confirm(`Add tier ${tier} words to your queue?`)) return;
+    const messages: Record<number, string> = {
+      3000: 'Tier 3000 adds ~2000 new words. At 10 new/day, that\'s ~7 months of introduction. Are you sure?',
+      10000: 'Tier 10000 adds ~7000 new words. At 10 new/day, that\'s ~2 years of introduction. Are you sure?',
+    };
+    const msg = messages[tier] || `Add tier ${tier} words to your queue?`;
+    if (!confirm(msg)) return;
     await loadTierIntoDb(tier);
     await save({ currentTier: tier });
     await loadTierInfo();

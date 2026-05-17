@@ -63,6 +63,14 @@ function main() {
   }
 
   console.log(`\nTotal: ${entries.length} entries bundled.`);
+
+  // Emit costs.json
+  const imagesCost = Object.values(imageManifest).reduce(
+    (sum, e) => sum + ((e as unknown as Record<string, number>)['costUsd'] || 0), 0
+  );
+  const costs = { images: Math.round(imagesCost * 1000) / 1000, audio: 0, total: Math.round(imagesCost * 1000) / 1000, budget: 30 };
+  writeFileSync(join(OUTPUT_DIR, 'costs.json'), JSON.stringify(costs, null, 2));
+  console.log(`costs.json: $${costs.total.toFixed(2)} / $${costs.budget}`);
 }
 
 main();
