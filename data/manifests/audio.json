@@ -20998,5 +20998,605 @@
     "file": "audio/duarte/imediatamente/example.mp3",
     "generatedAt": "2026-05-17T13:19:39.928Z",
     "charCount": 25
+  },
+  "raquel/ambiente/word": {
+    "textHash": "c71b8539a930c554",
+    "file": "audio/raquel/ambiente/word.mp3",
+    "generatedAt": "2026-05-17T13:19:40.432Z",
+    "charCount": 8
+  },
+  "raquel/ambiente/example": {
+    "textHash": "17440d794d8deff7",
+    "file": "audio/raquel/ambiente/example.mp3",
+    "generatedAt": "2026-05-17T13:19:41.123Z",
+    "charCount": 28
+  },
+  "duarte/ambiente/word": {
+    "textHash": "c71b8539a930c554",
+    "file": "audio/duarte/ambiente/word.mp3",
+    "generatedAt": "2026-05-17T13:19:41.481Z",
+    "charCount": 8
+  },
+  "duarte/ambiente/example": {
+    "textHash": "17440d794d8deff7",
+    "file": "audio/duarte/ambiente/example.mp3",
+    "generatedAt": "2026-05-17T13:19:41.846Z",
+    "charCount": 28
+  },
+  "raquel/poluicao/word": {
+    "textHash": "c4e8439b53d2ce77",
+    "file": "audio/raquel/poluicao/word.mp3",
+    "generatedAt": "2026-05-17T13:19:42.262Z",
+    "charCount": 8
+  },
+  "raquel/poluicao/example": {
+    "textHash": "ca2c81fa874bb5bc",
+    "file": "audio/raquel/poluicao/example.mp3",
+    "generatedAt": "2026-05-17T13:19:42.747Z",
+    "charCount": 31
+  },
+  "duarte/poluicao/word": {
+    "textHash": "c4e8439b53d2ce77",
+    "file": "audio/duarte/poluicao/word.mp3",
+    "generatedAt": "2026-05-17T13:19:43.107Z",
+    "charCount": 8
+  },
+  "duarte/poluicao/example": {
+    "textHash": "ca2c81fa874bb5bc",
+    "file": "audio/duarte/poluicao/example.mp3",
+    "generatedAt": "2026-05-17T13:19:43.487Z",
+    "charCount": 31
+  },
+  "raquel/reciclagem/word": {
+    "textHash": "0b0fdfe8ba2bf0b5",
+    "file": "audio/raquel/reciclagem/word.mp3",
+    "generatedAt": "2026-05-17T13:19:43.961Z",
+    "charCount": 10
+  },
+  "raquel/reciclagem/example": {
+    "textHash": "f48cf36eda14c16e",
+    "file": "audio/raquel/reciclagem/example.mp3",
+    "generatedAt": "2026-05-17T13:19:44.463Z",
+    "charCount": 26
+  },
+  "duarte/reciclagem/word": {
+    "textHash": "0b0fdfe8ba2bf0b5",
+    "file": "audio/duarte/reciclagem/word.mp3",
+    "generatedAt": "2026-05-17T13:19:44.836Z",
+    "charCount": 10
+  },
+  "duarte/reciclagem/example": {
+    "textHash": "f48cf36eda14c16e",
+    "file": "audio/duarte/reciclagem/example.mp3",
+    "generatedAt": "2026-05-17T13:19:45.207Z",
+    "charCount": 26
+  },
+  "raquel/energia/word": {
+    "textHash": "ff39fd8900d18884",
+    "file": "audio/raquel/energia/word.mp3",
+    "generatedAt": "2026-05-17T13:19:45.616Z",
+    "charCount": 7
+  },
+  "raquel/energia/example": {
+    "textHash": "5e27eccb6bafae33",
+    "file": "audio/raquel/energia/example.mp3",
+    "generatedAt": "2026-05-17T13:19:46.105Z",
+    "charCount": 29
+  },
+  "duarte/energia/word": {
+    "textHash": "ff39fd8900d18884",
+    "file": "audio/duarte/energia/word.mp3",
+    "generatedAt": "2026-05-17T13:19:46.511Z",
+    "charCount": 7
+  },
+  "duarte/energia/example": {
+    "textHash": "5e27eccb6bafae33",
+    "file": "audio/duarte/energia/example.mp3",
+    "generatedAt": "2026-05-17T13:19:46.891Z",
+    "charCount": 29
+  },
+  "raquel/alteracoes-climaticas/word": {
+    "textHash": "f968a8ef7e623d46",
+    "file": "audio/raquel/alteracoes-climaticas/word.mp3",
+    "generatedAt": "2026-05-17T13:19:47.380Z",
+    "charCount": 21
+  },
+  "raquel/alteracoes-climaticas/example": {
+    "textHash": "1506bee6ae70d5aa",
+    "file": "audio/raquel/alteracoes-climaticas/example.mp3",
+    "generatedAt": "2026-05-17T13:19:47.977Z",
+    "charCount": 48
+  },
+  "duarte/alteracoes-climaticas/word": {
+    "textHash": "f968a8ef7e623d46",
+    "file": "audio/duarte/alteracoes-climaticas/word.mp3",
+    "generatedAt": "2026-05-17T13:19:48.335Z",
+    "charCount": 21
+  },
+  "duarte/alteracoes-climaticas/example": {
+    "textHash": "1506bee6ae70d5aa",
+    "file": "audio/duarte/alteracoes-climaticas/example.mp3",
+    "generatedAt": "2026-05-17T13:19:48.722Z",
+    "charCount": 48
+  },
+  "raquel/especie/word": {
+    "textHash": "2ec63e065f41a9d5",
+    "file": "audio/raquel/especie/word.mp3",
+    "generatedAt": "2026-05-17T13:19:49.140Z",
+    "charCount": 7
+  },
+  "raquel/especie/example": {
+    "textHash": "6acfb3c5a3f22711",
+    "file": "audio/raquel/especie/example.mp3",
+    "generatedAt": "2026-05-17T13:19:49.887Z",
+    "charCount": 28
+  },
+  "duarte/especie/word": {
+    "textHash": "2ec63e065f41a9d5",
+    "file": "audio/duarte/especie/word.mp3",
+    "generatedAt": "2026-05-17T13:19:50.254Z",
+    "charCount": 7
+  },
+  "duarte/especie/example": {
+    "textHash": "6acfb3c5a3f22711",
+    "file": "audio/duarte/especie/example.mp3",
+    "generatedAt": "2026-05-17T13:19:50.649Z",
+    "charCount": 28
+  },
+  "raquel/floresta/word": {
+    "textHash": "080b7f174d2baaf6",
+    "file": "audio/raquel/floresta/word.mp3",
+    "generatedAt": "2026-05-17T13:19:51.089Z",
+    "charCount": 8
+  },
+  "raquel/floresta/example": {
+    "textHash": "cec0b34d4d6f2755",
+    "file": "audio/raquel/floresta/example.mp3",
+    "generatedAt": "2026-05-17T13:19:51.676Z",
+    "charCount": 26
+  },
+  "duarte/floresta/word": {
+    "textHash": "080b7f174d2baaf6",
+    "file": "audio/duarte/floresta/word.mp3",
+    "generatedAt": "2026-05-17T13:19:51.993Z",
+    "charCount": 8
+  },
+  "duarte/floresta/example": {
+    "textHash": "cec0b34d4d6f2755",
+    "file": "audio/duarte/floresta/example.mp3",
+    "generatedAt": "2026-05-17T13:19:52.360Z",
+    "charCount": 26
+  },
+  "raquel/residuo/word": {
+    "textHash": "85044f8a9774c410",
+    "file": "audio/raquel/residuo/word.mp3",
+    "generatedAt": "2026-05-17T13:19:52.813Z",
+    "charCount": 7
+  },
+  "raquel/residuo/example": {
+    "textHash": "058dc945202dcc98",
+    "file": "audio/raquel/residuo/example.mp3",
+    "generatedAt": "2026-05-17T13:19:53.361Z",
+    "charCount": 28
+  },
+  "duarte/residuo/word": {
+    "textHash": "85044f8a9774c410",
+    "file": "audio/duarte/residuo/word.mp3",
+    "generatedAt": "2026-05-17T13:19:53.727Z",
+    "charCount": 7
+  },
+  "duarte/residuo/example": {
+    "textHash": "058dc945202dcc98",
+    "file": "audio/duarte/residuo/example.mp3",
+    "generatedAt": "2026-05-17T13:19:54.094Z",
+    "charCount": 28
+  },
+  "raquel/renovavel/word": {
+    "textHash": "8b324ce60f5150fd",
+    "file": "audio/raquel/renovavel/word.mp3",
+    "generatedAt": "2026-05-17T13:19:54.582Z",
+    "charCount": 9
+  },
+  "raquel/renovavel/example": {
+    "textHash": "0d354bfdded99634",
+    "file": "audio/raquel/renovavel/example.mp3",
+    "generatedAt": "2026-05-17T13:19:55.212Z",
+    "charCount": 38
+  },
+  "duarte/renovavel/word": {
+    "textHash": "8b324ce60f5150fd",
+    "file": "audio/duarte/renovavel/word.mp3",
+    "generatedAt": "2026-05-17T13:19:55.626Z",
+    "charCount": 9
+  },
+  "duarte/renovavel/example": {
+    "textHash": "0d354bfdded99634",
+    "file": "audio/duarte/renovavel/example.mp3",
+    "generatedAt": "2026-05-17T13:19:56.009Z",
+    "charCount": 38
+  },
+  "raquel/aquecimento/word": {
+    "textHash": "55633753041623e3",
+    "file": "audio/raquel/aquecimento/word.mp3",
+    "generatedAt": "2026-05-17T13:19:56.475Z",
+    "charCount": 11
+  },
+  "raquel/aquecimento/example": {
+    "textHash": "11e1169f89515d02",
+    "file": "audio/raquel/aquecimento/example.mp3",
+    "generatedAt": "2026-05-17T13:19:57.006Z",
+    "charCount": 44
+  },
+  "duarte/aquecimento/word": {
+    "textHash": "55633753041623e3",
+    "file": "audio/duarte/aquecimento/word.mp3",
+    "generatedAt": "2026-05-17T13:19:57.326Z",
+    "charCount": 11
+  },
+  "duarte/aquecimento/example": {
+    "textHash": "11e1169f89515d02",
+    "file": "audio/duarte/aquecimento/example.mp3",
+    "generatedAt": "2026-05-17T13:19:57.727Z",
+    "charCount": 44
+  },
+  "raquel/compromisso/word": {
+    "textHash": "3b87b9fed3d76ba5",
+    "file": "audio/raquel/compromisso/word.mp3",
+    "generatedAt": "2026-05-17T13:19:58.236Z",
+    "charCount": 11
+  },
+  "raquel/compromisso/example": {
+    "textHash": "98c7bce8ef098427",
+    "file": "audio/raquel/compromisso/example.mp3",
+    "generatedAt": "2026-05-17T13:19:58.750Z",
+    "charCount": 34
+  },
+  "duarte/compromisso/word": {
+    "textHash": "3b87b9fed3d76ba5",
+    "file": "audio/duarte/compromisso/word.mp3",
+    "generatedAt": "2026-05-17T13:19:59.082Z",
+    "charCount": 11
+  },
+  "duarte/compromisso/example": {
+    "textHash": "98c7bce8ef098427",
+    "file": "audio/duarte/compromisso/example.mp3",
+    "generatedAt": "2026-05-17T13:19:59.450Z",
+    "charCount": 34
+  },
+  "raquel/estrategia/word": {
+    "textHash": "4af690ad7653ce6d",
+    "file": "audio/raquel/estrategia/word.mp3",
+    "generatedAt": "2026-05-17T13:19:59.999Z",
+    "charCount": 10
+  },
+  "raquel/estrategia/example": {
+    "textHash": "5ae1709aa256f021",
+    "file": "audio/raquel/estrategia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:00.508Z",
+    "charCount": 34
+  },
+  "duarte/estrategia/word": {
+    "textHash": "4af690ad7653ce6d",
+    "file": "audio/duarte/estrategia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:00.885Z",
+    "charCount": 10
+  },
+  "duarte/estrategia/example": {
+    "textHash": "5ae1709aa256f021",
+    "file": "audio/duarte/estrategia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:01.257Z",
+    "charCount": 34
+  },
+  "raquel/objetivo/word": {
+    "textHash": "dfe62c1beb52d3b3",
+    "file": "audio/raquel/objetivo/word.mp3",
+    "generatedAt": "2026-05-17T13:20:01.715Z",
+    "charCount": 8
+  },
+  "raquel/objetivo/example": {
+    "textHash": "0470ac04dce9efb0",
+    "file": "audio/raquel/objetivo/example.mp3",
+    "generatedAt": "2026-05-17T13:20:02.229Z",
+    "charCount": 36
+  },
+  "duarte/objetivo/word": {
+    "textHash": "dfe62c1beb52d3b3",
+    "file": "audio/duarte/objetivo/word.mp3",
+    "generatedAt": "2026-05-17T13:20:02.597Z",
+    "charCount": 8
+  },
+  "duarte/objetivo/example": {
+    "textHash": "0470ac04dce9efb0",
+    "file": "audio/duarte/objetivo/example.mp3",
+    "generatedAt": "2026-05-17T13:20:02.977Z",
+    "charCount": 36
+  },
+  "raquel/desafio/word": {
+    "textHash": "e2b00f30f6c34597",
+    "file": "audio/raquel/desafio/word.mp3",
+    "generatedAt": "2026-05-17T13:20:03.399Z",
+    "charCount": 7
+  },
+  "raquel/desafio/example": {
+    "textHash": "cff347cabc713a56",
+    "file": "audio/raquel/desafio/example.mp3",
+    "generatedAt": "2026-05-17T13:20:03.888Z",
+    "charCount": 31
+  },
+  "duarte/desafio/word": {
+    "textHash": "e2b00f30f6c34597",
+    "file": "audio/duarte/desafio/word.mp3",
+    "generatedAt": "2026-05-17T13:20:04.226Z",
+    "charCount": 7
+  },
+  "duarte/desafio/example": {
+    "textHash": "cff347cabc713a56",
+    "file": "audio/duarte/desafio/example.mp3",
+    "generatedAt": "2026-05-17T13:20:04.630Z",
+    "charCount": 31
+  },
+  "raquel/vantagem/word": {
+    "textHash": "8f374e16e58a97bc",
+    "file": "audio/raquel/vantagem/word.mp3",
+    "generatedAt": "2026-05-17T13:20:05.103Z",
+    "charCount": 8
+  },
+  "raquel/vantagem/example": {
+    "textHash": "4f784d19b005b7d2",
+    "file": "audio/raquel/vantagem/example.mp3",
+    "generatedAt": "2026-05-17T13:20:05.703Z",
+    "charCount": 30
+  },
+  "duarte/vantagem/word": {
+    "textHash": "8f374e16e58a97bc",
+    "file": "audio/duarte/vantagem/word.mp3",
+    "generatedAt": "2026-05-17T13:20:06.061Z",
+    "charCount": 8
+  },
+  "duarte/vantagem/example": {
+    "textHash": "4f784d19b005b7d2",
+    "file": "audio/duarte/vantagem/example.mp3",
+    "generatedAt": "2026-05-17T13:20:06.511Z",
+    "charCount": 30
+  },
+  "raquel/desvantagem/word": {
+    "textHash": "3d76136d38fea76b",
+    "file": "audio/raquel/desvantagem/word.mp3",
+    "generatedAt": "2026-05-17T13:20:06.996Z",
+    "charCount": 11
+  },
+  "raquel/desvantagem/example": {
+    "textHash": "eaec4c5443829bd0",
+    "file": "audio/raquel/desvantagem/example.mp3",
+    "generatedAt": "2026-05-17T13:20:07.567Z",
+    "charCount": 24
+  },
+  "duarte/desvantagem/word": {
+    "textHash": "3d76136d38fea76b",
+    "file": "audio/duarte/desvantagem/word.mp3",
+    "generatedAt": "2026-05-17T13:20:07.919Z",
+    "charCount": 11
+  },
+  "duarte/desvantagem/example": {
+    "textHash": "eaec4c5443829bd0",
+    "file": "audio/duarte/desvantagem/example.mp3",
+    "generatedAt": "2026-05-17T13:20:08.290Z",
+    "charCount": 24
+  },
+  "raquel/consequencia/word": {
+    "textHash": "9c9ed511a9bb8f6d",
+    "file": "audio/raquel/consequencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:08.835Z",
+    "charCount": 12
+  },
+  "raquel/consequencia/example": {
+    "textHash": "1c0b276c768a9dd7",
+    "file": "audio/raquel/consequencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:09.335Z",
+    "charCount": 27
+  },
+  "duarte/consequencia/word": {
+    "textHash": "9c9ed511a9bb8f6d",
+    "file": "audio/duarte/consequencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:09.709Z",
+    "charCount": 12
+  },
+  "duarte/consequencia/example": {
+    "textHash": "1c0b276c768a9dd7",
+    "file": "audio/duarte/consequencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:10.089Z",
+    "charCount": 27
+  },
+  "raquel/influencia/word": {
+    "textHash": "7450f86211b7f50e",
+    "file": "audio/raquel/influencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:10.584Z",
+    "charCount": 10
+  },
+  "raquel/influencia/example": {
+    "textHash": "260ef06340655353",
+    "file": "audio/raquel/influencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:11.052Z",
+    "charCount": 31
+  },
+  "duarte/influencia/word": {
+    "textHash": "7450f86211b7f50e",
+    "file": "audio/duarte/influencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:11.397Z",
+    "charCount": 10
+  },
+  "duarte/influencia/example": {
+    "textHash": "260ef06340655353",
+    "file": "audio/duarte/influencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:11.763Z",
+    "charCount": 31
+  },
+  "raquel/tendencia/word": {
+    "textHash": "994171d909485159",
+    "file": "audio/raquel/tendencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:12.200Z",
+    "charCount": 9
+  },
+  "raquel/tendencia/example": {
+    "textHash": "e53b4e60fe2481ee",
+    "file": "audio/raquel/tendencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:12.811Z",
+    "charCount": 26
+  },
+  "duarte/tendencia/word": {
+    "textHash": "994171d909485159",
+    "file": "audio/duarte/tendencia/word.mp3",
+    "generatedAt": "2026-05-17T13:20:13.159Z",
+    "charCount": 9
+  },
+  "duarte/tendencia/example": {
+    "textHash": "e53b4e60fe2481ee",
+    "file": "audio/duarte/tendencia/example.mp3",
+    "generatedAt": "2026-05-17T13:20:13.523Z",
+    "charCount": 26
+  },
+  "raquel/evolucao/word": {
+    "textHash": "1fe5359e94bd262b",
+    "file": "audio/raquel/evolucao/word.mp3",
+    "generatedAt": "2026-05-17T13:20:13.965Z",
+    "charCount": 8
+  },
+  "raquel/evolucao/example": {
+    "textHash": "f931e32ac3b60a00",
+    "file": "audio/raquel/evolucao/example.mp3",
+    "generatedAt": "2026-05-17T13:20:14.429Z",
+    "charCount": 29
+  },
+  "duarte/evolucao/word": {
+    "textHash": "1fe5359e94bd262b",
+    "file": "audio/duarte/evolucao/word.mp3",
+    "generatedAt": "2026-05-17T13:20:14.789Z",
+    "charCount": 8
+  },
+  "duarte/evolucao/example": {
+    "textHash": "f931e32ac3b60a00",
+    "file": "audio/duarte/evolucao/example.mp3",
+    "generatedAt": "2026-05-17T13:20:15.170Z",
+    "charCount": 29
+  },
+  "raquel/capacidade/word": {
+    "textHash": "e02091fe39123276",
+    "file": "audio/raquel/capacidade/word.mp3",
+    "generatedAt": "2026-05-17T13:20:15.622Z",
+    "charCount": 10
+  },
+  "raquel/capacidade/example": {
+    "textHash": "00767c4cb399746a",
+    "file": "audio/raquel/capacidade/example.mp3",
+    "generatedAt": "2026-05-17T13:20:16.136Z",
+    "charCount": 32
+  },
+  "duarte/capacidade/word": {
+    "textHash": "e02091fe39123276",
+    "file": "audio/duarte/capacidade/word.mp3",
+    "generatedAt": "2026-05-17T13:20:16.498Z",
+    "charCount": 10
+  },
+  "duarte/capacidade/example": {
+    "textHash": "00767c4cb399746a",
+    "file": "audio/duarte/capacidade/example.mp3",
+    "generatedAt": "2026-05-17T13:20:16.848Z",
+    "charCount": 32
+  },
+  "raquel/atitude/word": {
+    "textHash": "9c3eea63c195de8c",
+    "file": "audio/raquel/atitude/word.mp3",
+    "generatedAt": "2026-05-17T13:20:17.344Z",
+    "charCount": 7
+  },
+  "raquel/atitude/example": {
+    "textHash": "2447d62fd7ca594a",
+    "file": "audio/raquel/atitude/example.mp3",
+    "generatedAt": "2026-05-17T13:20:17.817Z",
+    "charCount": 31
+  },
+  "duarte/atitude/word": {
+    "textHash": "9c3eea63c195de8c",
+    "file": "audio/duarte/atitude/word.mp3",
+    "generatedAt": "2026-05-17T13:20:18.133Z",
+    "charCount": 7
+  },
+  "duarte/atitude/example": {
+    "textHash": "2447d62fd7ca594a",
+    "file": "audio/duarte/atitude/example.mp3",
+    "generatedAt": "2026-05-17T13:20:18.491Z",
+    "charCount": 31
+  },
+  "raquel/comportamento/word": {
+    "textHash": "5132a16013f22fbb",
+    "file": "audio/raquel/comportamento/word.mp3",
+    "generatedAt": "2026-05-17T13:20:18.919Z",
+    "charCount": 13
+  },
+  "raquel/comportamento/example": {
+    "textHash": "b529f7207d45eac2",
+    "file": "audio/raquel/comportamento/example.mp3",
+    "generatedAt": "2026-05-17T13:20:19.479Z",
+    "charCount": 32
+  },
+  "duarte/comportamento/word": {
+    "textHash": "5132a16013f22fbb",
+    "file": "audio/duarte/comportamento/word.mp3",
+    "generatedAt": "2026-05-17T13:20:19.882Z",
+    "charCount": 13
+  },
+  "duarte/comportamento/example": {
+    "textHash": "b529f7207d45eac2",
+    "file": "audio/duarte/comportamento/example.mp3",
+    "generatedAt": "2026-05-17T13:20:20.241Z",
+    "charCount": 32
+  },
+  "raquel/personalidade/word": {
+    "textHash": "b0aaa3f6a3304e21",
+    "file": "audio/raquel/personalidade/word.mp3",
+    "generatedAt": "2026-05-17T13:20:20.719Z",
+    "charCount": 13
+  },
+  "raquel/personalidade/example": {
+    "textHash": "d47e274d96e9eff4",
+    "file": "audio/raquel/personalidade/example.mp3",
+    "generatedAt": "2026-05-17T13:20:21.200Z",
+    "charCount": 32
+  },
+  "duarte/personalidade/word": {
+    "textHash": "b0aaa3f6a3304e21",
+    "file": "audio/duarte/personalidade/word.mp3",
+    "generatedAt": "2026-05-17T13:20:21.568Z",
+    "charCount": 13
+  },
+  "duarte/personalidade/example": {
+    "textHash": "d47e274d96e9eff4",
+    "file": "audio/duarte/personalidade/example.mp3",
+    "generatedAt": "2026-05-17T13:20:21.933Z",
+    "charCount": 32
+  },
+  "raquel/caracter/word": {
+    "textHash": "f1eb9b61eef4eb77",
+    "file": "audio/raquel/caracter/word.mp3",
+    "generatedAt": "2026-05-17T13:20:22.502Z",
+    "charCount": 8
+  },
+  "raquel/caracter/example": {
+    "textHash": "d131723335863f9e",
+    "file": "audio/raquel/caracter/example.mp3",
+    "generatedAt": "2026-05-17T13:20:23.142Z",
+    "charCount": 27
+  },
+  "duarte/caracter/word": {
+    "textHash": "f1eb9b61eef4eb77",
+    "file": "audio/duarte/caracter/word.mp3",
+    "generatedAt": "2026-05-17T13:20:23.502Z",
+    "charCount": 8
+  },
+  "duarte/caracter/example": {
+    "textHash": "d131723335863f9e",
+    "file": "audio/duarte/caracter/example.mp3",
+    "generatedAt": "2026-05-17T13:20:23.857Z",
+    "charCount": 27
   }
 }

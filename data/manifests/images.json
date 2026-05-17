@@ -8680,5 +8680,185 @@
     "file": "balde.webp",
     "generatedAt": "2026-05-17T13:20:02.473Z",
     "costUsd": 0.003
+  },
+  "contentor": {
+    "promptHash": "da120689affb6cd1",
+    "file": "contentor.webp",
+    "generatedAt": "2026-05-17T13:20:04.068Z",
+    "costUsd": 0.003
+  },
+  "muro": {
+    "promptHash": "9b8e3bb73e383371",
+    "file": "muro.webp",
+    "generatedAt": "2026-05-17T13:20:05.612Z",
+    "costUsd": 0.003
+  },
+  "vedacao": {
+    "promptHash": "97ae45d7d6996f64",
+    "file": "vedacao.webp",
+    "generatedAt": "2026-05-17T13:20:07.668Z",
+    "costUsd": 0.003
+  },
+  "relvado": {
+    "promptHash": "cbcd937a4204b79a",
+    "file": "relvado.webp",
+    "generatedAt": "2026-05-17T13:20:09.476Z",
+    "costUsd": 0.003
+  },
+  "mangueira": {
+    "promptHash": "e93f96f302eff323",
+    "file": "mangueira.webp",
+    "generatedAt": "2026-05-17T13:20:11.265Z",
+    "costUsd": 0.003
+  },
+  "regador": {
+    "promptHash": "e75c9276a0c0aa67",
+    "file": "regador.webp",
+    "generatedAt": "2026-05-17T13:20:13.081Z",
+    "costUsd": 0.003
+  },
+  "vaso": {
+    "promptHash": "7646c410ec98187a",
+    "file": "vaso.webp",
+    "generatedAt": "2026-05-17T13:20:14.628Z",
+    "costUsd": 0.003
+  },
+  "semente": {
+    "promptHash": "64c13e7f2b5a0870",
+    "file": "semente.webp",
+    "generatedAt": "2026-05-17T13:20:16.327Z",
+    "costUsd": 0.003
+  },
+  "raiz": {
+    "promptHash": "c6f6d8579dc29ae8",
+    "file": "raiz.webp",
+    "generatedAt": "2026-05-17T13:20:19.514Z",
+    "costUsd": 0.003
+  },
+  "ramo": {
+    "promptHash": "819001fdae1d9277",
+    "file": "ramo.webp",
+    "generatedAt": "2026-05-17T13:20:21.258Z",
+    "costUsd": 0.003
+  },
+  "tronco": {
+    "promptHash": "23b3c1eeb092c399",
+    "file": "tronco.webp",
+    "generatedAt": "2026-05-17T13:20:23.131Z",
+    "costUsd": 0.003
+  },
+  "relva": {
+    "promptHash": "e9ef461d62553eb7",
+    "file": "relva.webp",
+    "generatedAt": "2026-05-17T13:20:25.407Z",
+    "costUsd": 0.003
+  },
+  "erva": {
+    "promptHash": "22edb32ae3d45c26",
+    "file": "erva.webp",
+    "generatedAt": "2026-05-17T13:20:27.156Z",
+    "costUsd": 0.003
+  },
+  "arbusto": {
+    "promptHash": "47c29ac328697d59",
+    "file": "arbusto.webp",
+    "generatedAt": "2026-05-17T13:20:28.919Z",
+    "costUsd": 0.003
+  },
+  "canteiro": {
+    "promptHash": "f742d28409aab28f",
+    "file": "canteiro.webp",
+    "generatedAt": "2026-05-17T13:20:31.408Z",
+    "costUsd": 0.003
+  },
+  "adubo": {
+    "promptHash": "4fb87778d6a4255b",
+    "file": "adubo.webp",
+    "generatedAt": "2026-05-17T13:20:33.137Z",
+    "costUsd": 0.003
+  },
+  "podador": {
+    "promptHash": "044bc2822f77f3dd",
+    "file": "podador.webp",
+    "generatedAt": "2026-05-17T13:20:35.129Z",
+    "costUsd": 0.003
+  },
+  "rastelo": {
+    "promptHash": "d5f959b90e49a5a4",
+    "file": "rastelo.webp",
+    "generatedAt": "2026-05-17T13:20:36.822Z",
+    "costUsd": 0.003
+  },
+  "pa": {
+    "promptHash": "466b01967b54cf07",
+    "file": "pa.webp",
+    "generatedAt": "2026-05-17T13:20:38.490Z",
+    "costUsd": 0.003
+  },
+  "tesoura": {
+    "promptHash": "995348fdc09fd9f5",
+    "file": "tesoura.webp",
+    "generatedAt": "2026-05-17T13:20:40.112Z",
+    "costUsd": 0.003
+  },
+  "berbequim": {
+    "promptHash": "22723d309134e775",
+    "file": "berbequim.webp",
+    "generatedAt": "2026-05-17T13:20:41.858Z",
+    "costUsd": 0.003
+  },
+  "fita-cola": {
+    "promptHash": "604b404ef1c2ee05",
+    "file": "fita-cola.webp",
+    "generatedAt": "2026-05-17T13:20:43.576Z",
+    "costUsd": 0.003
+  },
+  "cola": {
+    "promptHash": "52ca5cc3c8ea2ac2",
+    "file": "cola.webp",
+    "generatedAt": "2026-05-17T13:20:45.296Z",
+    "costUsd": 0.003
+  },
+  "corda": {
+    "promptHash": "84b0670e9faf0c7c",
+    "file": "corda.webp",
+    "generatedAt": "2026-05-17T13:20:47.013Z",
+    "costUsd": 0.003
+  },
+  "fuga": {
+    "promptHash": "2d2f3027b21e814e",
+    "file": "fuga.webp",
+    "generatedAt": "2026-05-17T13:20:48.907Z",
+    "costUsd": 0.003
+  },
+  "carpinteiro": {
+    "promptHash": "12fa889cc47b52f1",
+    "file": "carpinteiro.webp",
+    "generatedAt": "2026-05-17T13:20:50.679Z",
+    "costUsd": 0.003
+  },
+  "pintor": {
+    "promptHash": "33101bf9f54e00d6",
+    "file": "pintor.webp",
+    "generatedAt": "2026-05-17T13:20:52.398Z",
+    "costUsd": 0.003
+  },
+  "pedreiro": {
+    "promptHash": "54f29c34f2f41915",
+    "file": "pedreiro.webp",
+    "generatedAt": "2026-05-17T13:20:54.117Z",
+    "costUsd": 0.003
+  },
+  "factura": {
+    "promptHash": "9aea9f31808476e2",
+    "file": "factura.webp",
+    "generatedAt": "2026-05-17T13:20:55.899Z",
+    "costUsd": 0.003
+  },
+  "inspecao": {
+    "promptHash": "1ce6ff0a420f93c1",
+    "file": "inspecao.webp",
+    "generatedAt": "2026-05-17T13:20:57.568Z",
+    "costUsd": 0.003
   }
 }
