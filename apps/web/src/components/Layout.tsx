@@ -17,6 +17,9 @@ export function Layout() {
               <Link to="/browse" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
                 Browse
               </Link>
+              <Link to="/stats" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
+                Stats
+              </Link>
               <Link to="/settings" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
                 Settings
               </Link>

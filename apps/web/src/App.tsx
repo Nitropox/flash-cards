@@ -6,6 +6,7 @@ import { SettingsPage } from './pages/Settings';
 import { BrowsePage } from './pages/Browse';
 import { WordDetailPage } from './pages/WordDetail';
 import { OnboardingPage } from './pages/Onboarding';
+import { StatsPage } from './pages/Stats';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/browse" element={<BrowsePage />} />
           <Route path="/word/:id" element={<WordDetailPage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
+          <Route path="/stats" element={<StatsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
