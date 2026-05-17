@@ -12,7 +12,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "foot",
-    "imageFile": "images/pe.webp"
+    "imageFile": "images/pe.webp",
+    "audioPt": "audio/raquel/pe/word.mp3",
+    "audioExamplePt": "audio/raquel/pe/example.mp3"
   },
   {
     "id": "braco",
@@ -27,7 +29,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "arm",
-    "imageFile": "images/braco.webp"
+    "imageFile": "images/braco.webp",
+    "audioPt": "audio/raquel/braco/word.mp3",
+    "audioExamplePt": "audio/raquel/braco/example.mp3"
   },
   {
     "id": "perna",
@@ -42,7 +46,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "leg",
-    "imageFile": "images/perna.webp"
+    "imageFile": "images/perna.webp",
+    "audioPt": "audio/raquel/perna/word.mp3",
+    "audioExamplePt": "audio/raquel/perna/example.mp3"
   },
   {
     "id": "boca",
@@ -57,7 +63,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "mouth",
-    "imageFile": "images/boca.webp"
+    "imageFile": "images/boca.webp",
+    "audioPt": "audio/raquel/boca/word.mp3",
+    "audioExamplePt": "audio/raquel/boca/example.mp3"
   },
   {
     "id": "nariz",
@@ -72,7 +80,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "nose",
-    "imageFile": "images/nariz.webp"
+    "imageFile": "images/nariz.webp",
+    "audioPt": "audio/raquel/nariz/word.mp3",
+    "audioExamplePt": "audio/raquel/nariz/example.mp3"
   },
   {
     "id": "orelha",
@@ -87,7 +97,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "ear",
-    "imageFile": "images/orelha.webp"
+    "imageFile": "images/orelha.webp",
+    "audioPt": "audio/raquel/orelha/word.mp3",
+    "audioExamplePt": "audio/raquel/orelha/example.mp3"
   },
   {
     "id": "dedo",
@@ -102,7 +114,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "finger",
-    "imageFile": "images/dedo.webp"
+    "imageFile": "images/dedo.webp",
+    "audioPt": "audio/raquel/dedo/word.mp3",
+    "audioExamplePt": "audio/raquel/dedo/example.mp3"
   },
   {
     "id": "pescoco",
@@ -117,7 +131,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "neck",
-    "imageFile": "images/pescoco.webp"
+    "imageFile": "images/pescoco.webp",
+    "audioPt": "audio/raquel/pescoco/word.mp3",
+    "audioExamplePt": "audio/raquel/pescoco/example.mp3"
   },
   {
     "id": "ombro",
@@ -132,7 +148,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "shoulder",
-    "imageFile": "images/ombro.webp"
+    "imageFile": "images/ombro.webp",
+    "audioPt": "audio/raquel/ombro/word.mp3",
+    "audioExamplePt": "audio/raquel/ombro/example.mp3"
   },
   {
     "id": "joelho",
@@ -147,7 +165,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "knee",
-    "imageFile": "images/joelho.webp"
+    "imageFile": "images/joelho.webp",
+    "audioPt": "audio/raquel/joelho/word.mp3",
+    "audioExamplePt": "audio/raquel/joelho/example.mp3"
   },
   {
     "id": "cabelo",
@@ -162,7 +182,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "hair",
-    "imageFile": "images/cabelo.webp"
+    "imageFile": "images/cabelo.webp",
+    "audioPt": "audio/raquel/cabelo/word.mp3",
+    "audioExamplePt": "audio/raquel/cabelo/example.mp3"
   },
   {
     "id": "pele",
@@ -177,7 +199,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "skin",
-    "imageFile": "images/pele.webp"
+    "imageFile": "images/pele.webp",
+    "audioPt": "audio/raquel/pele/word.mp3",
+    "audioExamplePt": "audio/raquel/pele/example.mp3"
   },
   {
     "id": "carne",
@@ -192,7 +216,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "meat",
-    "imageFile": "images/carne.webp"
+    "imageFile": "images/carne.webp",
+    "audioPt": "audio/raquel/carne/word.mp3",
+    "audioExamplePt": "audio/raquel/carne/example.mp3"
   },
   {
     "id": "fruta",
@@ -207,7 +233,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "fruit",
-    "imageFile": "images/fruta.webp"
+    "imageFile": "images/fruta.webp",
+    "audioPt": "audio/raquel/fruta/word.mp3",
+    "audioExamplePt": "audio/raquel/fruta/example.mp3"
   },
   {
     "id": "leite",
@@ -222,7 +250,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "milk",
-    "imageFile": "images/leite.webp"
+    "imageFile": "images/leite.webp",
+    "audioPt": "audio/raquel/leite/word.mp3",
+    "audioExamplePt": "audio/raquel/leite/example.mp3"
   },
   {
     "id": "arroz",
@@ -237,7 +267,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "rice",
-    "imageFile": "images/arroz.webp"
+    "imageFile": "images/arroz.webp",
+    "audioPt": "audio/raquel/arroz/word.mp3",
+    "audioExamplePt": "audio/raquel/arroz/example.mp3"
   },
   {
     "id": "peixe",
@@ -252,7 +284,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "fish",
-    "imageFile": "images/peixe.webp"
+    "imageFile": "images/peixe.webp",
+    "audioPt": "audio/raquel/peixe/word.mp3",
+    "audioExamplePt": "audio/raquel/peixe/example.mp3"
   },
   {
     "id": "ovo",
@@ -267,7 +301,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "egg",
-    "imageFile": "images/ovo.webp"
+    "imageFile": "images/ovo.webp",
+    "audioPt": "audio/raquel/ovo/word.mp3",
+    "audioExamplePt": "audio/raquel/ovo/example.mp3"
   },
   {
     "id": "queijo",
@@ -282,7 +318,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "cheese",
-    "imageFile": "images/queijo.webp"
+    "imageFile": "images/queijo.webp",
+    "audioPt": "audio/raquel/queijo/word.mp3",
+    "audioExamplePt": "audio/raquel/queijo/example.mp3"
   },
   {
     "id": "sal",
@@ -297,7 +335,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "salt",
-    "imageFile": "images/sal.webp"
+    "imageFile": "images/sal.webp",
+    "audioPt": "audio/raquel/sal/word.mp3",
+    "audioExamplePt": "audio/raquel/sal/example.mp3"
   },
   {
     "id": "acucar",
@@ -312,7 +352,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "sugar",
-    "imageFile": "images/acucar.webp"
+    "imageFile": "images/acucar.webp",
+    "audioPt": "audio/raquel/acucar/word.mp3",
+    "audioExamplePt": "audio/raquel/acucar/example.mp3"
   },
   {
     "id": "manteiga",
@@ -327,7 +369,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "butter",
-    "imageFile": "images/manteiga.webp"
+    "imageFile": "images/manteiga.webp",
+    "audioPt": "audio/raquel/manteiga/word.mp3",
+    "audioExamplePt": "audio/raquel/manteiga/example.mp3"
   },
   {
     "id": "sopa",
@@ -342,7 +386,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "soup",
-    "imageFile": "images/sopa.webp"
+    "imageFile": "images/sopa.webp",
+    "audioPt": "audio/raquel/sopa/word.mp3",
+    "audioExamplePt": "audio/raquel/sopa/example.mp3"
   },
   {
     "id": "salada",
@@ -357,7 +403,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "salad",
-    "imageFile": "images/salada.webp"
+    "imageFile": "images/salada.webp",
+    "audioPt": "audio/raquel/salada/word.mp3",
+    "audioExamplePt": "audio/raquel/salada/example.mp3"
   },
   {
     "id": "bolo",
@@ -372,7 +420,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "cake",
-    "imageFile": "images/bolo.webp"
+    "imageFile": "images/bolo.webp",
+    "audioPt": "audio/raquel/bolo/word.mp3",
+    "audioExamplePt": "audio/raquel/bolo/example.mp3"
   },
   {
     "id": "cerveja",
@@ -387,7 +437,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "beer",
-    "imageFile": "images/cerveja.webp"
+    "imageFile": "images/cerveja.webp",
+    "audioPt": "audio/raquel/cerveja/word.mp3",
+    "audioExamplePt": "audio/raquel/cerveja/example.mp3"
   },
   {
     "id": "vinho",
@@ -402,7 +454,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "wine",
-    "imageFile": "images/vinho.webp"
+    "imageFile": "images/vinho.webp",
+    "audioPt": "audio/raquel/vinho/word.mp3",
+    "audioExamplePt": "audio/raquel/vinho/example.mp3"
   },
   {
     "id": "sumo",
@@ -417,7 +471,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "juice",
-    "imageFile": "images/sumo.webp"
+    "imageFile": "images/sumo.webp",
+    "audioPt": "audio/raquel/sumo/word.mp3",
+    "audioExamplePt": "audio/raquel/sumo/example.mp3"
   },
   {
     "id": "cha",
@@ -432,7 +488,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "tea",
-    "imageFile": "images/cha.webp"
+    "imageFile": "images/cha.webp",
+    "audioPt": "audio/raquel/cha/word.mp3",
+    "audioExamplePt": "audio/raquel/cha/example.mp3"
   },
   {
     "id": "pequeno-almoco",
@@ -447,7 +505,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "breakfast",
-    "imageFile": "images/pequeno-almoco.webp"
+    "imageFile": "images/pequeno-almoco.webp",
+    "audioPt": "audio/raquel/pequeno-almoco/word.mp3",
+    "audioExamplePt": "audio/raquel/pequeno-almoco/example.mp3"
   },
   {
     "id": "almoco",
@@ -462,7 +522,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "lunch",
-    "imageFile": "images/almoco.webp"
+    "imageFile": "images/almoco.webp",
+    "audioPt": "audio/raquel/almoco/word.mp3",
+    "audioExamplePt": "audio/raquel/almoco/example.mp3"
   },
   {
     "id": "jantar",
@@ -477,7 +539,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "dinner",
-    "imageFile": "images/jantar.webp"
+    "imageFile": "images/jantar.webp",
+    "audioPt": "audio/raquel/jantar/word.mp3",
+    "audioExamplePt": "audio/raquel/jantar/example.mp3"
   },
   {
     "id": "mercado",
@@ -492,7 +556,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "market",
-    "imageFile": "images/mercado.webp"
+    "imageFile": "images/mercado.webp",
+    "audioPt": "audio/raquel/mercado/word.mp3",
+    "audioExamplePt": "audio/raquel/mercado/example.mp3"
   },
   {
     "id": "farmacia",
@@ -507,7 +573,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "pharmacy",
-    "imageFile": "images/farmacia.webp"
+    "imageFile": "images/farmacia.webp",
+    "audioPt": "audio/raquel/farmacia/word.mp3",
+    "audioExamplePt": "audio/raquel/farmacia/example.mp3"
   },
   {
     "id": "aeroporto",
@@ -522,7 +590,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "airport",
-    "imageFile": "images/aeroporto.webp"
+    "imageFile": "images/aeroporto.webp",
+    "audioPt": "audio/raquel/aeroporto/word.mp3",
+    "audioExamplePt": "audio/raquel/aeroporto/example.mp3"
   },
   {
     "id": "parque",
@@ -537,7 +607,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "park",
-    "imageFile": "images/parque.webp"
+    "imageFile": "images/parque.webp",
+    "audioPt": "audio/raquel/parque/word.mp3",
+    "audioExamplePt": "audio/raquel/parque/example.mp3"
   },
   {
     "id": "praca",
@@ -552,7 +624,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "square (place)",
-    "imageFile": "images/praca.webp"
+    "imageFile": "images/praca.webp",
+    "audioPt": "audio/raquel/praca/word.mp3",
+    "audioExamplePt": "audio/raquel/praca/example.mp3"
   },
   {
     "id": "ponte",
@@ -567,7 +641,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "bridge",
-    "imageFile": "images/ponte.webp"
+    "imageFile": "images/ponte.webp",
+    "audioPt": "audio/raquel/ponte/word.mp3",
+    "audioExamplePt": "audio/raquel/ponte/example.mp3"
   },
   {
     "id": "museu",
@@ -582,7 +658,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "museum",
-    "imageFile": "images/museu.webp"
+    "imageFile": "images/museu.webp",
+    "audioPt": "audio/raquel/museu/word.mp3",
+    "audioExamplePt": "audio/raquel/museu/example.mp3"
   },
   {
     "id": "aviao",
@@ -597,7 +675,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "airplane",
-    "imageFile": "images/aviao.webp"
+    "imageFile": "images/aviao.webp",
+    "audioPt": "audio/raquel/aviao/word.mp3",
+    "audioExamplePt": "audio/raquel/aviao/example.mp3"
   },
   {
     "id": "bicicleta",
@@ -612,7 +692,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "bicycle",
-    "imageFile": "images/bicicleta.webp"
+    "imageFile": "images/bicicleta.webp",
+    "audioPt": "audio/raquel/bicicleta/word.mp3",
+    "audioExamplePt": "audio/raquel/bicicleta/example.mp3"
   },
   {
     "id": "barco",
@@ -627,7 +709,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "boat",
-    "imageFile": "images/barco.webp"
+    "imageFile": "images/barco.webp",
+    "audioPt": "audio/raquel/barco/word.mp3",
+    "audioExamplePt": "audio/raquel/barco/example.mp3"
   },
   {
     "id": "metro",
@@ -642,7 +726,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "subway",
-    "imageFile": "images/metro.webp"
+    "imageFile": "images/metro.webp",
+    "audioPt": "audio/raquel/metro/word.mp3",
+    "audioExamplePt": "audio/raquel/metro/example.mp3"
   },
   {
     "id": "taxi",
@@ -657,7 +743,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "taxi",
-    "imageFile": "images/taxi.webp"
+    "imageFile": "images/taxi.webp",
+    "audioPt": "audio/raquel/taxi/word.mp3",
+    "audioExamplePt": "audio/raquel/taxi/example.mp3"
   },
   {
     "id": "ceu",
@@ -672,7 +760,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "sky",
-    "imageFile": "images/ceu.webp"
+    "imageFile": "images/ceu.webp",
+    "audioPt": "audio/raquel/ceu/word.mp3",
+    "audioExamplePt": "audio/raquel/ceu/example.mp3"
   },
   {
     "id": "montanha",
@@ -687,7 +777,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "mountain",
-    "imageFile": "images/montanha.webp"
+    "imageFile": "images/montanha.webp",
+    "audioPt": "audio/raquel/montanha/word.mp3",
+    "audioExamplePt": "audio/raquel/montanha/example.mp3"
   },
   {
     "id": "vento",
@@ -702,7 +794,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "wind",
-    "imageFile": "images/vento.webp"
+    "imageFile": "images/vento.webp",
+    "audioPt": "audio/raquel/vento/word.mp3",
+    "audioExamplePt": "audio/raquel/vento/example.mp3"
   },
   {
     "id": "estrela",
@@ -717,7 +811,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "star",
-    "imageFile": "images/estrela.webp"
+    "imageFile": "images/estrela.webp",
+    "audioPt": "audio/raquel/estrela/word.mp3",
+    "audioExamplePt": "audio/raquel/estrela/example.mp3"
   },
   {
     "id": "lua",
@@ -732,7 +828,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "moon",
-    "imageFile": "images/lua.webp"
+    "imageFile": "images/lua.webp",
+    "audioPt": "audio/raquel/lua/word.mp3",
+    "audioExamplePt": "audio/raquel/lua/example.mp3"
   },
   {
     "id": "praia-de-areia",
@@ -747,7 +845,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "sand",
-    "imageFile": "images/praia-de-areia.webp"
+    "imageFile": "images/praia-de-areia.webp",
+    "audioPt": "audio/raquel/praia-de-areia/word.mp3",
+    "audioExamplePt": "audio/raquel/praia-de-areia/example.mp3"
   },
   {
     "id": "lago",
@@ -762,7 +862,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "lake",
-    "imageFile": "images/lago.webp"
+    "imageFile": "images/lago.webp",
+    "audioPt": "audio/raquel/lago/word.mp3",
+    "audioExamplePt": "audio/raquel/lago/example.mp3"
   },
   {
     "id": "campo",
@@ -777,7 +879,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "field",
-    "imageFile": "images/campo.webp"
+    "imageFile": "images/campo.webp",
+    "audioPt": "audio/raquel/campo/word.mp3",
+    "audioExamplePt": "audio/raquel/campo/example.mp3"
   },
   {
     "id": "sala",
@@ -792,7 +896,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "living room",
-    "imageFile": "images/sala.webp"
+    "imageFile": "images/sala.webp",
+    "audioPt": "audio/raquel/sala/word.mp3",
+    "audioExamplePt": "audio/raquel/sala/example.mp3"
   },
   {
     "id": "casa-de-banho",
@@ -807,7 +913,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "bathroom",
-    "imageFile": "images/casa-de-banho.webp"
+    "imageFile": "images/casa-de-banho.webp",
+    "audioPt": "audio/raquel/casa-de-banho/word.mp3",
+    "audioExamplePt": "audio/raquel/casa-de-banho/example.mp3"
   },
   {
     "id": "cadeira",
@@ -822,7 +930,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "chair",
-    "imageFile": "images/cadeira.webp"
+    "imageFile": "images/cadeira.webp",
+    "audioPt": "audio/raquel/cadeira/word.mp3",
+    "audioExamplePt": "audio/raquel/cadeira/example.mp3"
   },
   {
     "id": "escada",
@@ -837,7 +947,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "stairs",
-    "imageFile": "images/escada.webp"
+    "imageFile": "images/escada.webp",
+    "audioPt": "audio/raquel/escada/word.mp3",
+    "audioExamplePt": "audio/raquel/escada/example.mp3"
   },
   {
     "id": "chao",
@@ -852,7 +964,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "floor",
-    "imageFile": "images/chao.webp"
+    "imageFile": "images/chao.webp",
+    "audioPt": "audio/raquel/chao/word.mp3",
+    "audioExamplePt": "audio/raquel/chao/example.mp3"
   },
   {
     "id": "telhado",
@@ -867,7 +981,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "roof",
-    "imageFile": "images/telhado.webp"
+    "imageFile": "images/telhado.webp",
+    "audioPt": "audio/raquel/telhado/word.mp3",
+    "audioExamplePt": "audio/raquel/telhado/example.mp3"
   },
   {
     "id": "frigorifico",
@@ -882,7 +998,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "fridge",
-    "imageFile": "images/frigorifico.webp"
+    "imageFile": "images/frigorifico.webp",
+    "audioPt": "audio/raquel/frigorifico/word.mp3",
+    "audioExamplePt": "audio/raquel/frigorifico/example.mp3"
   },
   {
     "id": "fogao",
@@ -897,7 +1015,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "stove",
-    "imageFile": "images/fogao.webp"
+    "imageFile": "images/fogao.webp",
+    "audioPt": "audio/raquel/fogao/word.mp3",
+    "audioExamplePt": "audio/raquel/fogao/example.mp3"
   },
   {
     "id": "televisao",
@@ -912,7 +1032,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "television",
-    "imageFile": "images/televisao.webp"
+    "imageFile": "images/televisao.webp",
+    "audioPt": "audio/raquel/televisao/word.mp3",
+    "audioExamplePt": "audio/raquel/televisao/example.mp3"
   },
   {
     "id": "telemovel",
@@ -927,7 +1049,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "mobile phone",
-    "imageFile": "images/telemovel.webp"
+    "imageFile": "images/telemovel.webp",
+    "audioPt": "audio/raquel/telemovel/word.mp3",
+    "audioExamplePt": "audio/raquel/telemovel/example.mp3"
   },
   {
     "id": "computador",
@@ -942,7 +1066,9 @@
     "tier": 1000,
     "imageStrategy": "literal",
     "enHint": "computer",
-    "imageFile": "images/computador.webp"
+    "imageFile": "images/computador.webp",
+    "audioPt": "audio/raquel/computador/word.mp3",
+    "audioExamplePt": "audio/raquel/computador/example.mp3"
   },
   {
     "id": "acordar",
@@ -956,7 +1082,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to wake up",
-    "imageFile": "images/acordar.webp"
+    "imageFile": "images/acordar.webp",
+    "audioPt": "audio/raquel/acordar/word.mp3",
+    "audioExamplePt": "audio/raquel/acordar/example.mp3"
   },
   {
     "id": "vestir",
@@ -971,7 +1099,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to dress",
-    "imageFile": "images/vestir.webp"
+    "imageFile": "images/vestir.webp",
+    "audioPt": "audio/raquel/vestir/word.mp3",
+    "audioExamplePt": "audio/raquel/vestir/example.mp3"
   },
   {
     "id": "lavar",
@@ -985,7 +1115,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to wash",
-    "imageFile": "images/lavar.webp"
+    "imageFile": "images/lavar.webp",
+    "audioPt": "audio/raquel/lavar/word.mp3",
+    "audioExamplePt": "audio/raquel/lavar/example.mp3"
   },
   {
     "id": "vender",
@@ -999,7 +1131,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to sell",
-    "imageFile": "images/vender.webp"
+    "imageFile": "images/vender.webp",
+    "audioPt": "audio/raquel/vender/word.mp3",
+    "audioExamplePt": "audio/raquel/vender/example.mp3"
   },
   {
     "id": "nadar",
@@ -1013,7 +1147,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to swim",
-    "imageFile": "images/nadar.webp"
+    "imageFile": "images/nadar.webp",
+    "audioPt": "audio/raquel/nadar/word.mp3",
+    "audioExamplePt": "audio/raquel/nadar/example.mp3"
   },
   {
     "id": "cozinhar",
@@ -1027,7 +1163,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to cook",
-    "imageFile": "images/cozinhar.webp"
+    "imageFile": "images/cozinhar.webp",
+    "audioPt": "audio/raquel/cozinhar/word.mp3",
+    "audioExamplePt": "audio/raquel/cozinhar/example.mp3"
   },
   {
     "id": "limpar",
@@ -1041,7 +1179,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to clean",
-    "imageFile": "images/limpar.webp"
+    "imageFile": "images/limpar.webp",
+    "audioPt": "audio/raquel/limpar/word.mp3",
+    "audioExamplePt": "audio/raquel/limpar/example.mp3"
   },
   {
     "id": "estudar",
@@ -1055,7 +1195,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to study",
-    "imageFile": "images/estudar.webp"
+    "imageFile": "images/estudar.webp",
+    "audioPt": "audio/raquel/estudar/word.mp3",
+    "audioExamplePt": "audio/raquel/estudar/example.mp3"
   },
   {
     "id": "cantar",
@@ -1069,7 +1211,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to sing",
-    "imageFile": "images/cantar.webp"
+    "imageFile": "images/cantar.webp",
+    "audioPt": "audio/raquel/cantar/word.mp3",
+    "audioExamplePt": "audio/raquel/cantar/example.mp3"
   },
   {
     "id": "dancar",
@@ -1083,7 +1227,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to dance",
-    "imageFile": "images/dancar.webp"
+    "imageFile": "images/dancar.webp",
+    "audioPt": "audio/raquel/dancar/word.mp3",
+    "audioExamplePt": "audio/raquel/dancar/example.mp3"
   },
   {
     "id": "brincar",
@@ -1097,7 +1243,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to play (kids)",
-    "imageFile": "images/brincar.webp"
+    "imageFile": "images/brincar.webp",
+    "audioPt": "audio/raquel/brincar/word.mp3",
+    "audioExamplePt": "audio/raquel/brincar/example.mp3"
   },
   {
     "id": "conduzir",
@@ -1112,7 +1260,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to drive",
-    "imageFile": "images/conduzir.webp"
+    "imageFile": "images/conduzir.webp",
+    "audioPt": "audio/raquel/conduzir/word.mp3",
+    "audioExamplePt": "audio/raquel/conduzir/example.mp3"
   },
   {
     "id": "subir",
@@ -1126,7 +1276,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to go up",
-    "imageFile": "images/subir.webp"
+    "imageFile": "images/subir.webp",
+    "audioPt": "audio/raquel/subir/word.mp3",
+    "audioExamplePt": "audio/raquel/subir/example.mp3"
   },
   {
     "id": "descer",
@@ -1140,7 +1292,9 @@
     "tier": 1000,
     "imageStrategy": "scene",
     "enHint": "to go down",
-    "imageFile": "images/descer.webp"
+    "imageFile": "images/descer.webp",
+    "audioPt": "audio/raquel/descer/word.mp3",
+    "audioExamplePt": "audio/raquel/descer/example.mp3"
   },
   {
     "id": "levantar",

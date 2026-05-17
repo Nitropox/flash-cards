@@ -10,7 +10,9 @@
     "frequencyRank": 11,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "of/from"
+    "enHint": "of/from",
+    "audioPt": "audio/raquel/de/word.mp3",
+    "audioExamplePt": "audio/raquel/de/example.mp3"
   },
   {
     "id": "que",
@@ -23,7 +25,9 @@
     "frequencyRank": 12,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "that/which"
+    "enHint": "that/which",
+    "audioPt": "audio/raquel/que/word.mp3",
+    "audioExamplePt": "audio/raquel/que/example.mp3"
   },
   {
     "id": "e",
@@ -36,7 +40,9 @@
     "frequencyRank": 13,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "and"
+    "enHint": "and",
+    "audioPt": "audio/raquel/e/word.mp3",
+    "audioExamplePt": "audio/raquel/e/example.mp3"
   },
   {
     "id": "a",
@@ -50,7 +56,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "the (feminine)",
-    "notes": "Rodzajnik określony żeński. Brak odpowiednika w polskim."
+    "notes": "Rodzajnik określony żeński. Brak odpowiednika w polskim.",
+    "audioPt": "audio/raquel/a/word.mp3",
+    "audioExamplePt": "audio/raquel/a/example.mp3"
   },
   {
     "id": "o",
@@ -64,7 +72,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "the (masculine)",
-    "notes": "Rodzajnik określony męski. Brak odpowiednika w polskim."
+    "notes": "Rodzajnik określony męski. Brak odpowiednika w polskim.",
+    "audioPt": "audio/raquel/o/word.mp3",
+    "audioExamplePt": "audio/raquel/o/example.mp3"
   },
   {
     "id": "em",
@@ -77,7 +87,9 @@
     "frequencyRank": 16,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "in/on"
+    "enHint": "in/on",
+    "audioPt": "audio/raquel/em/word.mp3",
+    "audioExamplePt": "audio/raquel/em/example.mp3"
   },
   {
     "id": "ser",
@@ -92,7 +104,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "to be (permanent)",
-    "notes": "'Ser' = cechy trwałe. 'Estar' = stany przejściowe."
+    "notes": "'Ser' = cechy trwałe. 'Estar' = stany przejściowe.",
+    "audioPt": "audio/raquel/ser/word.mp3",
+    "audioExamplePt": "audio/raquel/ser/example.mp3"
   },
   {
     "id": "ter",
@@ -107,7 +121,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to have",
-    "imageFile": "images/ter.webp"
+    "imageFile": "images/ter.webp",
+    "audioPt": "audio/raquel/ter/word.mp3",
+    "audioExamplePt": "audio/raquel/ter/example.mp3"
   },
   {
     "id": "para",
@@ -120,7 +136,9 @@
     "frequencyRank": 19,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "for/to"
+    "enHint": "for/to",
+    "audioPt": "audio/raquel/para/word.mp3",
+    "audioExamplePt": "audio/raquel/para/example.mp3"
   },
   {
     "id": "com",
@@ -133,7 +151,9 @@
     "frequencyRank": 20,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "with"
+    "enHint": "with",
+    "audioPt": "audio/raquel/com/word.mp3",
+    "audioExamplePt": "audio/raquel/com/example.mp3"
   },
   {
     "id": "um",
@@ -148,7 +168,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "a/one",
-    "notes": "Rodzajnik nieokreślony męski. Żeński: 'uma'."
+    "notes": "Rodzajnik nieokreślony męski. Żeński: 'uma'.",
+    "audioPt": "audio/raquel/um/word.mp3",
+    "audioExamplePt": "audio/raquel/um/example.mp3"
   },
   {
     "id": "estar",
@@ -163,7 +185,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "to be (temporary)",
-    "notes": "'Estar' = stany przejściowe, lokalizacja. 'Ser' = cechy trwałe."
+    "notes": "'Estar' = stany przejściowe, lokalizacja. 'Ser' = cechy trwałe.",
+    "audioPt": "audio/raquel/estar/word.mp3",
+    "audioExamplePt": "audio/raquel/estar/example.mp3"
   },
   {
     "id": "eu",
@@ -176,7 +200,9 @@
     "frequencyRank": 23,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "I"
+    "enHint": "I",
+    "audioPt": "audio/raquel/eu/word.mp3",
+    "audioExamplePt": "audio/raquel/eu/example.mp3"
   },
   {
     "id": "ele",
@@ -189,7 +215,9 @@
     "frequencyRank": 24,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "he"
+    "enHint": "he",
+    "audioPt": "audio/raquel/ele/word.mp3",
+    "audioExamplePt": "audio/raquel/ele/example.mp3"
   },
   {
     "id": "mas",
@@ -202,7 +230,9 @@
     "frequencyRank": 25,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "but"
+    "enHint": "but",
+    "audioPt": "audio/raquel/mas/word.mp3",
+    "audioExamplePt": "audio/raquel/mas/example.mp3"
   },
   {
     "id": "como",
@@ -215,7 +245,9 @@
     "frequencyRank": 26,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "how/like"
+    "enHint": "how/like",
+    "audioPt": "audio/raquel/como/word.mp3",
+    "audioExamplePt": "audio/raquel/como/example.mp3"
   },
   {
     "id": "por",
@@ -228,7 +260,9 @@
     "frequencyRank": 27,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "by/through"
+    "enHint": "by/through",
+    "audioPt": "audio/raquel/por/word.mp3",
+    "audioExamplePt": "audio/raquel/por/example.mp3"
   },
   {
     "id": "se",
@@ -241,7 +275,9 @@
     "frequencyRank": 28,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "if/oneself"
+    "enHint": "if/oneself",
+    "audioPt": "audio/raquel/se/word.mp3",
+    "audioExamplePt": "audio/raquel/se/example.mp3"
   },
   {
     "id": "mais",
@@ -254,7 +290,9 @@
     "frequencyRank": 29,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "more"
+    "enHint": "more",
+    "audioPt": "audio/raquel/mais/word.mp3",
+    "audioExamplePt": "audio/raquel/mais/example.mp3"
   },
   {
     "id": "muito",
@@ -267,7 +305,9 @@
     "frequencyRank": 30,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "very/much"
+    "enHint": "very/much",
+    "audioPt": "audio/raquel/muito/word.mp3",
+    "audioExamplePt": "audio/raquel/muito/example.mp3"
   },
   {
     "id": "poder",
@@ -282,7 +322,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "can/to be able",
-    "imageFile": "images/poder.webp"
+    "imageFile": "images/poder.webp",
+    "audioPt": "audio/raquel/poder/word.mp3",
+    "audioExamplePt": "audio/raquel/poder/example.mp3"
   },
   {
     "id": "fazer",
@@ -297,7 +339,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to do/make",
-    "imageFile": "images/fazer.webp"
+    "imageFile": "images/fazer.webp",
+    "audioPt": "audio/raquel/fazer/word.mp3",
+    "audioExamplePt": "audio/raquel/fazer/example.mp3"
   },
   {
     "id": "ir",
@@ -312,7 +356,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to go",
-    "imageFile": "images/ir.webp"
+    "imageFile": "images/ir.webp",
+    "audioPt": "audio/raquel/ir/word.mp3",
+    "audioExamplePt": "audio/raquel/ir/example.mp3"
   },
   {
     "id": "bem",
@@ -325,7 +371,9 @@
     "frequencyRank": 34,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "well"
+    "enHint": "well",
+    "audioPt": "audio/raquel/bem/word.mp3",
+    "audioExamplePt": "audio/raquel/bem/example.mp3"
   },
   {
     "id": "tambem",
@@ -338,7 +386,9 @@
     "frequencyRank": 35,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "also"
+    "enHint": "also",
+    "audioPt": "audio/raquel/tambem/word.mp3",
+    "audioExamplePt": "audio/raquel/tambem/example.mp3"
   },
   {
     "id": "tu",
@@ -351,7 +401,9 @@
     "frequencyRank": 36,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "you (informal)"
+    "enHint": "you (informal)",
+    "audioPt": "audio/raquel/tu/word.mp3",
+    "audioExamplePt": "audio/raquel/tu/example.mp3"
   },
   {
     "id": "ja",
@@ -364,7 +416,9 @@
     "frequencyRank": 37,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "already"
+    "enHint": "already",
+    "audioPt": "audio/raquel/ja/word.mp3",
+    "audioExamplePt": "audio/raquel/ja/example.mp3"
   },
   {
     "id": "ou",
@@ -377,7 +431,9 @@
     "frequencyRank": 38,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "or"
+    "enHint": "or",
+    "audioPt": "audio/raquel/ou/word.mp3",
+    "audioExamplePt": "audio/raquel/ou/example.mp3"
   },
   {
     "id": "todo",
@@ -391,7 +447,9 @@
     "frequencyRank": 39,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "all/every"
+    "enHint": "all/every",
+    "audioPt": "audio/raquel/todo/word.mp3",
+    "audioExamplePt": "audio/raquel/todo/example.mp3"
   },
   {
     "id": "ela",
@@ -404,7 +462,9 @@
     "frequencyRank": 40,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "she"
+    "enHint": "she",
+    "audioPt": "audio/raquel/ela/word.mp3",
+    "audioExamplePt": "audio/raquel/ela/example.mp3"
   },
   {
     "id": "isso",
@@ -417,7 +477,9 @@
     "frequencyRank": 41,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "that/this"
+    "enHint": "that/this",
+    "audioPt": "audio/raquel/isso/word.mp3",
+    "audioExamplePt": "audio/raquel/isso/example.mp3"
   },
   {
     "id": "dizer",
@@ -432,7 +494,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to say/tell",
-    "imageFile": "images/dizer.webp"
+    "imageFile": "images/dizer.webp",
+    "audioPt": "audio/raquel/dizer/word.mp3",
+    "audioExamplePt": "audio/raquel/dizer/example.mp3"
   },
   {
     "id": "dar",
@@ -447,7 +511,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to give",
-    "imageFile": "images/dar.webp"
+    "imageFile": "images/dar.webp",
+    "audioPt": "audio/raquel/dar/word.mp3",
+    "audioExamplePt": "audio/raquel/dar/example.mp3"
   },
   {
     "id": "bom",
@@ -461,7 +527,9 @@
     "frequencyRank": 44,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "good"
+    "enHint": "good",
+    "audioPt": "audio/raquel/bom/word.mp3",
+    "audioExamplePt": "audio/raquel/bom/example.mp3"
   },
   {
     "id": "saber",
@@ -476,7 +544,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to know",
-    "imageFile": "images/saber.webp"
+    "imageFile": "images/saber.webp",
+    "audioPt": "audio/raquel/saber/word.mp3",
+    "audioExamplePt": "audio/raquel/saber/example.mp3"
   },
   {
     "id": "querer",
@@ -491,7 +561,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to want",
-    "imageFile": "images/querer.webp"
+    "imageFile": "images/querer.webp",
+    "audioPt": "audio/raquel/querer/word.mp3",
+    "audioExamplePt": "audio/raquel/querer/example.mp3"
   },
   {
     "id": "aqui",
@@ -504,7 +576,9 @@
     "frequencyRank": 47,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "here"
+    "enHint": "here",
+    "audioPt": "audio/raquel/aqui/word.mp3",
+    "audioExamplePt": "audio/raquel/aqui/example.mp3"
   },
   {
     "id": "agora",
@@ -517,7 +591,9 @@
     "frequencyRank": 48,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "now"
+    "enHint": "now",
+    "audioPt": "audio/raquel/agora/word.mp3",
+    "audioExamplePt": "audio/raquel/agora/example.mp3"
   },
   {
     "id": "ver",
@@ -532,7 +608,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to see",
-    "imageFile": "images/ver.webp"
+    "imageFile": "images/ver.webp",
+    "audioPt": "audio/raquel/ver/word.mp3",
+    "audioExamplePt": "audio/raquel/ver/example.mp3"
   },
   {
     "id": "grande",
@@ -546,7 +624,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "big/large",
-    "imageFile": "images/grande.webp"
+    "imageFile": "images/grande.webp",
+    "audioPt": "audio/raquel/grande/word.mp3",
+    "audioExamplePt": "audio/raquel/grande/example.mp3"
   },
   {
     "id": "coisa",
@@ -561,7 +641,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "thing",
-    "imageFile": "images/coisa.webp"
+    "imageFile": "images/coisa.webp",
+    "audioPt": "audio/raquel/coisa/word.mp3",
+    "audioExamplePt": "audio/raquel/coisa/example.mp3"
   },
   {
     "id": "onde",
@@ -574,7 +656,9 @@
     "frequencyRank": 52,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "where"
+    "enHint": "where",
+    "audioPt": "audio/raquel/onde/word.mp3",
+    "audioExamplePt": "audio/raquel/onde/example.mp3"
   },
   {
     "id": "dia",
@@ -589,7 +673,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "day",
-    "imageFile": "images/dia.webp"
+    "imageFile": "images/dia.webp",
+    "audioPt": "audio/raquel/dia/word.mp3",
+    "audioExamplePt": "audio/raquel/dia/example.mp3"
   },
   {
     "id": "ano",
@@ -604,7 +690,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "year",
-    "imageFile": "images/ano.webp"
+    "imageFile": "images/ano.webp",
+    "audioPt": "audio/raquel/ano/word.mp3",
+    "audioExamplePt": "audio/raquel/ano/example.mp3"
   },
   {
     "id": "outro",
@@ -618,7 +706,9 @@
     "frequencyRank": 55,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "other/another"
+    "enHint": "other/another",
+    "audioPt": "audio/raquel/outro/word.mp3",
+    "audioExamplePt": "audio/raquel/outro/example.mp3"
   },
   {
     "id": "casa",
@@ -633,7 +723,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "house",
-    "imageFile": "images/casa.webp"
+    "imageFile": "images/casa.webp",
+    "audioPt": "audio/raquel/casa/word.mp3",
+    "audioExamplePt": "audio/raquel/casa/example.mp3"
   },
   {
     "id": "tempo",
@@ -648,7 +740,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "time/weather",
-    "imageFile": "images/tempo.webp"
+    "imageFile": "images/tempo.webp",
+    "audioPt": "audio/raquel/tempo/word.mp3",
+    "audioExamplePt": "audio/raquel/tempo/example.mp3"
   },
   {
     "id": "depois",
@@ -661,7 +755,9 @@
     "frequencyRank": 58,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "after/later"
+    "enHint": "after/later",
+    "audioPt": "audio/raquel/depois/word.mp3",
+    "audioExamplePt": "audio/raquel/depois/example.mp3"
   },
   {
     "id": "ficar",
@@ -676,7 +772,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to stay/remain",
-    "imageFile": "images/ficar.webp"
+    "imageFile": "images/ficar.webp",
+    "audioPt": "audio/raquel/ficar/word.mp3",
+    "audioExamplePt": "audio/raquel/ficar/example.mp3"
   },
   {
     "id": "quando",
@@ -689,7 +787,9 @@
     "frequencyRank": 60,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "when"
+    "enHint": "when",
+    "audioPt": "audio/raquel/quando/word.mp3",
+    "audioExamplePt": "audio/raquel/quando/example.mp3"
   },
   {
     "id": "homem",
@@ -704,7 +804,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "man",
-    "imageFile": "images/homem.webp"
+    "imageFile": "images/homem.webp",
+    "audioPt": "audio/raquel/homem/word.mp3",
+    "audioExamplePt": "audio/raquel/homem/example.mp3"
   },
   {
     "id": "vida",
@@ -719,7 +821,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "life",
-    "imageFile": "images/vida.webp"
+    "imageFile": "images/vida.webp",
+    "audioPt": "audio/raquel/vida/word.mp3",
+    "audioExamplePt": "audio/raquel/vida/example.mp3"
   },
   {
     "id": "vir",
@@ -734,7 +838,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to come",
-    "imageFile": "images/vir.webp"
+    "imageFile": "images/vir.webp",
+    "audioPt": "audio/raquel/vir/word.mp3",
+    "audioExamplePt": "audio/raquel/vir/example.mp3"
   },
   {
     "id": "ainda",
@@ -747,7 +853,9 @@
     "frequencyRank": 64,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "still/yet"
+    "enHint": "still/yet",
+    "audioPt": "audio/raquel/ainda/word.mp3",
+    "audioExamplePt": "audio/raquel/ainda/example.mp3"
   },
   {
     "id": "novo",
@@ -762,7 +870,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "new",
-    "imageFile": "images/novo.webp"
+    "imageFile": "images/novo.webp",
+    "audioPt": "audio/raquel/novo/word.mp3",
+    "audioExamplePt": "audio/raquel/novo/example.mp3"
   },
   {
     "id": "so",
@@ -775,7 +885,9 @@
     "frequencyRank": 66,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "only/alone"
+    "enHint": "only/alone",
+    "audioPt": "audio/raquel/so/word.mp3",
+    "audioExamplePt": "audio/raquel/so/example.mp3"
   },
   {
     "id": "nos",
@@ -788,7 +900,9 @@
     "frequencyRank": 67,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "we"
+    "enHint": "we",
+    "audioPt": "audio/raquel/nos/word.mp3",
+    "audioExamplePt": "audio/raquel/nos/example.mp3"
   },
   {
     "id": "primeiro",
@@ -802,7 +916,9 @@
     "frequencyRank": 68,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "first"
+    "enHint": "first",
+    "audioPt": "audio/raquel/primeiro/word.mp3",
+    "audioExamplePt": "audio/raquel/primeiro/example.mp3"
   },
   {
     "id": "mesmo",
@@ -815,7 +931,9 @@
     "frequencyRank": 69,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "really/same"
+    "enHint": "really/same",
+    "audioPt": "audio/raquel/mesmo/word.mp3",
+    "audioExamplePt": "audio/raquel/mesmo/example.mp3"
   },
   {
     "id": "trabalho",
@@ -830,7 +948,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "work/job",
-    "imageFile": "images/trabalho.webp"
+    "imageFile": "images/trabalho.webp",
+    "audioPt": "audio/raquel/trabalho/word.mp3",
+    "audioExamplePt": "audio/raquel/trabalho/example.mp3"
   },
   {
     "id": "meu",
@@ -844,7 +964,9 @@
     "frequencyRank": 71,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "my/mine"
+    "enHint": "my/mine",
+    "audioPt": "audio/raquel/meu/word.mp3",
+    "audioExamplePt": "audio/raquel/meu/example.mp3"
   },
   {
     "id": "achar",
@@ -859,7 +981,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to think/find",
-    "imageFile": "images/achar.webp"
+    "imageFile": "images/achar.webp",
+    "audioPt": "audio/raquel/achar/word.mp3",
+    "audioExamplePt": "audio/raquel/achar/example.mp3"
   },
   {
     "id": "falar",
@@ -874,7 +998,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to speak/talk",
-    "imageFile": "images/falar.webp"
+    "imageFile": "images/falar.webp",
+    "audioPt": "audio/raquel/falar/word.mp3",
+    "audioExamplePt": "audio/raquel/falar/example.mp3"
   },
   {
     "id": "mulher",
@@ -889,7 +1015,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "woman",
-    "imageFile": "images/mulher.webp"
+    "imageFile": "images/mulher.webp",
+    "audioPt": "audio/raquel/mulher/word.mp3",
+    "audioExamplePt": "audio/raquel/mulher/example.mp3"
   },
   {
     "id": "ali",
@@ -902,7 +1030,9 @@
     "frequencyRank": 75,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "there"
+    "enHint": "there",
+    "audioPt": "audio/raquel/ali/word.mp3",
+    "audioExamplePt": "audio/raquel/ali/example.mp3"
   },
   {
     "id": "pouco",
@@ -915,7 +1045,9 @@
     "frequencyRank": 76,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "little/few"
+    "enHint": "little/few",
+    "audioPt": "audio/raquel/pouco/word.mp3",
+    "audioExamplePt": "audio/raquel/pouco/example.mp3"
   },
   {
     "id": "pois",
@@ -929,7 +1061,9 @@
     "tier": 100,
     "imageStrategy": "none",
     "enHint": "indeed/right",
-    "notes": "Typowe pt-PT. W rozmowie potwierdza wypowiedź rozmówcy."
+    "notes": "Typowe pt-PT. W rozmowie potwierdza wypowiedź rozmówcy.",
+    "audioPt": "audio/raquel/pois/word.mp3",
+    "audioExamplePt": "audio/raquel/pois/example.mp3"
   },
   {
     "id": "nada",
@@ -942,7 +1076,9 @@
     "frequencyRank": 78,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "nothing"
+    "enHint": "nothing",
+    "audioPt": "audio/raquel/nada/word.mp3",
+    "audioExamplePt": "audio/raquel/nada/example.mp3"
   },
   {
     "id": "agua",
@@ -957,7 +1093,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "water",
-    "imageFile": "images/agua.webp"
+    "imageFile": "images/agua.webp",
+    "audioPt": "audio/raquel/agua/word.mp3",
+    "audioExamplePt": "audio/raquel/agua/example.mp3"
   },
   {
     "id": "sempre",
@@ -970,7 +1108,9 @@
     "frequencyRank": 80,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "always"
+    "enHint": "always",
+    "audioPt": "audio/raquel/sempre/word.mp3",
+    "audioExamplePt": "audio/raquel/sempre/example.mp3"
   },
   {
     "id": "hora",
@@ -985,7 +1125,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "hour/time",
-    "imageFile": "images/hora.webp"
+    "imageFile": "images/hora.webp",
+    "audioPt": "audio/raquel/hora/word.mp3",
+    "audioExamplePt": "audio/raquel/hora/example.mp3"
   },
   {
     "id": "comer",
@@ -1000,7 +1142,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to eat",
-    "imageFile": "images/comer.webp"
+    "imageFile": "images/comer.webp",
+    "audioPt": "audio/raquel/comer/word.mp3",
+    "audioExamplePt": "audio/raquel/comer/example.mp3"
   },
   {
     "id": "mundo",
@@ -1015,7 +1159,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "world",
-    "imageFile": "images/mundo.webp"
+    "imageFile": "images/mundo.webp",
+    "audioPt": "audio/raquel/mundo/word.mp3",
+    "audioExamplePt": "audio/raquel/mundo/example.mp3"
   },
   {
     "id": "pai",
@@ -1030,7 +1176,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "father",
-    "imageFile": "images/pai.webp"
+    "imageFile": "images/pai.webp",
+    "audioPt": "audio/raquel/pai/word.mp3",
+    "audioExamplePt": "audio/raquel/pai/example.mp3"
   },
   {
     "id": "amigo",
@@ -1045,7 +1193,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "friend",
-    "imageFile": "images/amigo.webp"
+    "imageFile": "images/amigo.webp",
+    "audioPt": "audio/raquel/amigo/word.mp3",
+    "audioExamplePt": "audio/raquel/amigo/example.mp3"
   },
   {
     "id": "precisar",
@@ -1060,7 +1210,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to need",
-    "imageFile": "images/precisar.webp"
+    "imageFile": "images/precisar.webp",
+    "audioPt": "audio/raquel/precisar/word.mp3",
+    "audioExamplePt": "audio/raquel/precisar/example.mp3"
   },
   {
     "id": "entao",
@@ -1073,7 +1225,9 @@
     "frequencyRank": 87,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "so/then"
+    "enHint": "so/then",
+    "audioPt": "audio/raquel/entao/word.mp3",
+    "audioExamplePt": "audio/raquel/entao/example.mp3"
   },
   {
     "id": "noite",
@@ -1088,7 +1242,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "night",
-    "imageFile": "images/noite.webp"
+    "imageFile": "images/noite.webp",
+    "audioPt": "audio/raquel/noite/word.mp3",
+    "audioExamplePt": "audio/raquel/noite/example.mp3"
   },
   {
     "id": "olhar",
@@ -1103,7 +1259,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to look",
-    "imageFile": "images/olhar.webp"
+    "imageFile": "images/olhar.webp",
+    "audioPt": "audio/raquel/olhar/word.mp3",
+    "audioExamplePt": "audio/raquel/olhar/example.mp3"
   },
   {
     "id": "pensar",
@@ -1118,7 +1276,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to think",
-    "imageFile": "images/pensar.webp"
+    "imageFile": "images/pensar.webp",
+    "audioPt": "audio/raquel/pensar/word.mp3",
+    "audioExamplePt": "audio/raquel/pensar/example.mp3"
   },
   {
     "id": "obrigada",
@@ -1133,7 +1293,9 @@
     "imageStrategy": "scene",
     "enHint": "thank you (female)",
     "notes": "Forma żeńska. Mężczyzna mówi 'obrigado'.",
-    "imageFile": "images/obrigada.webp"
+    "imageFile": "images/obrigada.webp",
+    "audioPt": "audio/raquel/obrigada/word.mp3",
+    "audioExamplePt": "audio/raquel/obrigada/example.mp3"
   },
   {
     "id": "hoje",
@@ -1147,7 +1309,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "today",
-    "imageFile": "images/hoje.webp"
+    "imageFile": "images/hoje.webp",
+    "audioPt": "audio/raquel/hoje/word.mp3",
+    "audioExamplePt": "audio/raquel/hoje/example.mp3"
   },
   {
     "id": "ate",
@@ -1160,7 +1324,9 @@
     "frequencyRank": 93,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "until/see you"
+    "enHint": "until/see you",
+    "audioPt": "audio/raquel/ate/word.mp3",
+    "audioExamplePt": "audio/raquel/ate/example.mp3"
   },
   {
     "id": "la",
@@ -1173,7 +1339,9 @@
     "frequencyRank": 94,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "there"
+    "enHint": "there",
+    "audioPt": "audio/raquel/la/word.mp3",
+    "audioExamplePt": "audio/raquel/la/example.mp3"
   },
   {
     "id": "nome",
@@ -1187,7 +1355,9 @@
     "frequencyRank": 95,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "name"
+    "enHint": "name",
+    "audioPt": "audio/raquel/nome/word.mp3",
+    "audioExamplePt": "audio/raquel/nome/example.mp3"
   },
   {
     "id": "gostar",
@@ -1202,7 +1372,9 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "to like",
-    "imageFile": "images/gostar.webp"
+    "imageFile": "images/gostar.webp",
+    "audioPt": "audio/raquel/gostar/word.mp3",
+    "audioExamplePt": "audio/raquel/gostar/example.mp3"
   },
   {
     "id": "cidade",
@@ -1217,7 +1389,9 @@
     "tier": 100,
     "imageStrategy": "literal",
     "enHint": "city",
-    "imageFile": "images/cidade.webp"
+    "imageFile": "images/cidade.webp",
+    "audioPt": "audio/raquel/cidade/word.mp3",
+    "audioExamplePt": "audio/raquel/cidade/example.mp3"
   },
   {
     "id": "tudo",
@@ -1230,7 +1404,9 @@
     "frequencyRank": 98,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "everything"
+    "enHint": "everything",
+    "audioPt": "audio/raquel/tudo/word.mp3",
+    "audioExamplePt": "audio/raquel/tudo/example.mp3"
   },
   {
     "id": "nunca",
@@ -1243,7 +1419,9 @@
     "frequencyRank": 99,
     "tier": 100,
     "imageStrategy": "none",
-    "enHint": "never"
+    "enHint": "never",
+    "audioPt": "audio/raquel/nunca/word.mp3",
+    "audioExamplePt": "audio/raquel/nunca/example.mp3"
   },
   {
     "id": "senhor",
@@ -1258,6 +1436,8 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "sir/mister",
-    "imageFile": "images/senhor.webp"
+    "imageFile": "images/senhor.webp",
+    "audioPt": "audio/raquel/senhor/word.mp3",
+    "audioExamplePt": "audio/raquel/senhor/example.mp3"
   }
 ]
