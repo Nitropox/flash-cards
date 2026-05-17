@@ -61,13 +61,33 @@ pt-cards/
 
 | Phase | Goal | Status |
 |-------|------|--------|
-| 1 | Working SPA with FSRS, 10 hardcoded words, self-rate mode | Not started |
-| 2 | Content pipelines (images, translations), tier 1+100 live | Not started |
+| 1 | Working SPA with FSRS, 10 hardcoded words, self-rate mode | Done |
+| 2 | Content pipelines (images, translations), tier 1+100 live | Done |
 | 3 | Tiers 300/500/1000, browse & detail pages, onboarding | Not started |
 | 4 | Typed + spoken answer modes | Not started |
 | 5 | Stats page, PWA, polish | Not started |
 | 6 | Tiers 3000 and 10000, on-demand generation | Not started |
 | 7 | Azure TTS audio generation for all tiers | Not started |
+
+## Card Layout (established, do not change in later phases)
+
+- Image: 640×640, clickable to toggle reveal (Space also toggles)
+- Word: `text-5xl` below image with `mt-10` gap
+- No direction label (PT→PL / PL→PT) — implicit from context
+- No reveal button — click image or press Space
+- On reveal: prompt word replaced by answer word (blue for Polish, green for Portuguese)
+- Audio icon: only shown when answer is Portuguese
+- Example panel: toggled with E key, absolutely positioned to the left (does not shift layout), `text-2xl` sentences
+- Rating buttons shown only when revealed
+- "Show example (E)" link shown below ratings only
+- One direction per word per session (never both pt_to_pl and pl_to_pt together)
+
+## Image Generation Rules
+
+- Never include translatable words in image prompts — Flux renders them as visible text
+- Every prompt starts with "textless image, no text anywhere, no words, no letters..."
+- Use explicit visual scene descriptions (stored in SCENE_DESCRIPTIONS map in script)
+- Style: flat vector illustration, soft pastel colors, minimalist, off-white background
 
 ## Development Rules
 

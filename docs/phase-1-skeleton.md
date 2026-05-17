@@ -307,21 +307,25 @@ Minimal styling — clean, centered card, single column, max-width ~640px.
 
 On mount, build the session queue once (call `buildSessionQueue()` from `lib/session.ts`). Store queue + cursor in `useSessionStore`.
 
-Card states in UI: **front**, **back**.
+Card states in UI: **front**, **back**. Toggle with `Space` or click on image.
 
 **Front view shows:**
-- Image area (240×240 placeholder for Phase 1 — colored div with first letter of prompt)
-- Prompt word in large type (Portuguese if direction is `pt_to_pl`, Polish if `pl_to_pt`)
-- Direction indicator (small label: `PT → PL` or `PL → PT`)
-- "Reveal" button (also `Space`)
+- Image area (640×640, full width on smaller screens). Click to reveal.
+- Prompt word in large type (`text-5xl`) below the image (Portuguese if `pt_to_pl`, Polish if `pl_to_pt`)
+- No direction label, no reveal button — interaction is implicit (Space / click image)
 
 **Back view shows:**
-- Same image
-- Both words (PT on top, PL below), large
-- Example sentence (PT + PL beneath, smaller)
-- `notes` field if present
+- Same image (click toggles back to front)
+- Answer word only (`text-5xl`): blue for Polish, green for Portuguese
+- Audio icon (🔊) only when answer is Portuguese (`pl_to_pt` direction)
 - Rating buttons: **Again** (red), **Hard** (orange), **Good** (green), **Easy** (blue). Keyboard: `1` `2` `3` `4`.
-- After rating: advance to next card. When queue empties, show "All caught up — see you tomorrow" screen with a button to return to dashboard.
+- "Show example (E)" button below ratings — toggles example panel
+- Example panel: absolutely positioned to the left of the card (does not shift layout), shows `examplePt`, `examplePl`, and `notes` in large font (`text-2xl`)
+- After rating: advance to next card. When queue empties, show "All caught up" screen.
+
+**Session queue rules:**
+- Only one direction per word per session (never both `pt_to_pl` and `pl_to_pt` for the same word)
+- `pl_to_pt` cards are not introduced until their `pt_to_pl` counterpart has been reviewed at least once
 
 ### 7.3 Settings (`/settings`)
 
@@ -341,8 +345,11 @@ In `/learn`:
 
 | Key | Action |
 |---|---|
-| `Space` | Reveal (front) / Next (back, after rating) |
+| `Space` | Toggle reveal (front ↔ back) |
 | `1` `2` `3` `4` | Again / Hard / Good / Easy (only when revealed) |
+| `E` | Toggle example sentence panel |
+| `P` | Play Portuguese word audio (when revealed) |
+| `Shift+P` | Play example sentence audio (when revealed) |
 | `Esc` | Exit session (confirm if mid-card) |
 
 ---

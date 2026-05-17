@@ -115,21 +115,29 @@ Cost ≈ USD 0.003/image. 1024×1024 PNG output.
 
 ### 3.3 Prompt templates
 
-For `literal`:
+**Critical:** Never include translatable words (English, Portuguese, or Polish) as the subject of the prompt — Flux will render them as visible text on the image. Instead, describe the visual scene explicitly.
 
+Every prompt starts with:
 ```
-flat illustration, single subject: {EN_TRANSLATION}, centered, soft pastel colors, minimalist, plain off-white background, no text, no letters, no border, vector style, even lighting, no shadows
+textless image, no text anywhere, no words, no letters, no writing, no characters, no symbols, no typography, no labels, no captions
+```
+
+For `literal` (when no custom scene description):
+```
+{NO_TEXT_PREFIX}, flat vector illustration, soft pastel colors, minimalist, plain off-white background, no border, even lighting, single centered object: a {VISUAL_DESCRIPTION}, no shadows
 ```
 
 For `scene`:
-
 ```
-flat illustration, minimal scene depicting "{EN_TRANSLATION}" ({SHORT_DESCRIPTION}), one human figure (silhouette), soft pastel colors, minimalist, plain off-white background, no text, no letters, no border, vector style, even lighting
+{NO_TEXT_PREFIX}, flat vector illustration, soft pastel colors, minimalist, plain off-white background, no border, even lighting, {VISUAL_SCENE_DESCRIPTION}
 ```
 
-`EN_TRANSLATION` is the English gloss — translate `pt` → English once during ingestion via Claude API (not Polish; English prompts produce much better results from Flux). Store as `entry.enHint` for reuse.
+Each word should have a hand-crafted `VISUAL_SCENE_DESCRIPTION` stored in the script (a `SCENE_DESCRIPTIONS` map). Examples:
+- `por-favor` → "a person with hands together in polite request gesture"
+- `comer` → "a person at a table eating a meal with fork and knife"
+- `casa` → "a cozy small house with chimney and garden"
 
-`SHORT_DESCRIPTION` is a 5–10-word disambiguating phrase from the example sentence (e.g. for *estar com fome* → "a person looking hungry and waiting for food").
+Do NOT use `enHint` or word translations directly in prompts. The `enHint` field is kept for reference only.
 
 ### 3.4 Idempotency
 

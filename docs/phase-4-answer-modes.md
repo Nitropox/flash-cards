@@ -10,7 +10,7 @@ Add typed-answer and spoken-answer modes to the session player, with automatic g
 
 ## 1. Mode Switching UI
 
-In the session player, above the card, add a 3-button toggle group:
+In the session player, add a small mode toggle below the rating buttons (do NOT add above the card — preserve the current clean layout: image → word → ratings):
 
 ```
 [ 👁 Reveal ]   [ ⌨ Type ]   [ 🎤 Speak ]
@@ -25,6 +25,8 @@ Keyboard:
 - `T` switches to type mode
 - `M` switches to speak mode
 - `R` switches to reveal/self-rate mode
+
+**Layout preservation:** The existing card layout (640×640 image, word below, example panel absolutely positioned to the left) must not change. Type/speak modes add their input below the word, not above or beside.
 
 ---
 
