@@ -11,11 +11,16 @@ export function Layout() {
     <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
       {!isSession && (
         <nav className="border-b border-stone-200 dark:border-stone-800 px-4 py-3">
-          <div className="max-w-2xl mx-auto flex items-center justify-between">
+          <div className="max-w-6xl mx-auto flex items-center justify-between">
             <Link to="/" className="text-lg font-semibold">pt-cards</Link>
-            <Link to="/settings" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
-              Settings
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link to="/browse" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
+                Browse
+              </Link>
+              <Link to="/settings" className="text-sm text-stone-500 hover:text-stone-700 dark:hover:text-stone-300">
+                Settings
+              </Link>
+            </div>
           </div>
         </nav>
       )}
