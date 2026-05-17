@@ -104,12 +104,16 @@ export function Dashboard() {
         Tier {settings?.currentTier ?? 100}
       </span>
 
-      <Link
-        to="/learn"
-        className="mt-4 px-10 py-4 bg-stone-800 dark:bg-stone-200 text-white dark:text-stone-900 rounded-xl text-lg font-semibold hover:opacity-90 transition-opacity"
-      >
-        Start session
-      </Link>
+      {due + newAvailable > 0 ? (
+        <Link
+          to="/learn"
+          className="mt-4 px-10 py-4 bg-stone-800 dark:bg-stone-200 text-white dark:text-stone-900 rounded-xl text-lg font-semibold hover:opacity-90 transition-opacity"
+        >
+          Start session
+        </Link>
+      ) : (
+        <p className="mt-4 text-stone-400 dark:text-stone-500">No cards due right now. Check back later!</p>
+      )}
 
       {settings && settings.currentTier >= 1000 && <BudgetTracker />}
     </div>
