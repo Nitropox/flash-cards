@@ -75,8 +75,9 @@ export async function buildSessionQueue(): Promise<Card[]> {
   }
 
   const evening = isEveningSession();
+  const allowNewCards = !evening || queue.length === 0;
 
-  if (!evening && queue.length < maxReviews) {
+  if (allowNewCards && queue.length < maxReviews) {
     const newCardsToday = await countNewCardsIntroducedToday();
     const remaining = settings.newCardsPerDay - newCardsToday;
 
@@ -155,7 +156,8 @@ export async function getDueCount(): Promise<{ due: number; newAvailable: number
     .filter(c => !c.suspended)
     .count();
 
-  if (isEveningSession()) {
+  const hasDueCards = learningDue + relearningDue + reviewDue > 0;
+  if (isEveningSession() && hasDueCards) {
     return { due: learningDue + relearningDue + reviewDue, newAvailable: 0 };
   }
 
