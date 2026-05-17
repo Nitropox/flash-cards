@@ -146,13 +146,15 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
         )}
       </div>
 
-      <button
-        onClick={() => setShowExample(v => !v)}
-        className="mt-4 text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
-        title="Toggle example (E)"
-      >
-        {showExample ? 'Hide example' : 'Show example (E)'}
-      </button>
+      {isRevealed && (
+        <button
+          onClick={() => setShowExample(v => !v)}
+          className="mt-4 text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
+          title="Toggle example (E)"
+        >
+          {showExample ? 'Hide example' : 'Show example (E)'}
+        </button>
+      )}
     </div>
   );
 }
