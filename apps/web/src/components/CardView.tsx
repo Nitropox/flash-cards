@@ -130,7 +130,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
         ) : (
           <div className="w-full text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
+              <h2 className={`text-5xl font-semibold ${card.direction === 'pt_to_pl' ? 'text-blue-600 dark:text-blue-400' : 'text-emerald-600 dark:text-emerald-400'}`}>{answerWord}</h2>
               {card.direction === 'pl_to_pt' && (
                 <button
                   onClick={() => playAudio(word.audioPt)}
