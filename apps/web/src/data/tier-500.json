@@ -10,7 +10,8 @@
     "frequencyRank": 345,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "to call (phone)"
+    "enHint": "to call (phone)",
+    "imageFile": "images/ligar.webp"
   },
   {
     "id": "filha",
@@ -24,7 +25,8 @@
     "frequencyRank": 350,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "daughter"
+    "enHint": "daughter",
+    "imageFile": "images/filha.webp"
   },
   {
     "id": "irma",
@@ -38,7 +40,8 @@
     "frequencyRank": 353,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "sister"
+    "enHint": "sister",
+    "imageFile": "images/irma.webp"
   },
   {
     "id": "viagem",
@@ -52,7 +55,8 @@
     "frequencyRank": 366,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "trip / journey"
+    "enHint": "trip / journey",
+    "imageFile": "images/viagem.webp"
   },
   {
     "id": "autocarro",
@@ -66,7 +70,8 @@
     "frequencyRank": 368,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "bus"
+    "enHint": "bus",
+    "imageFile": "images/autocarro.webp"
   },
   {
     "id": "estacao",
@@ -80,7 +85,8 @@
     "frequencyRank": 369,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "station"
+    "enHint": "station",
+    "imageFile": "images/estacao.webp"
   },
   {
     "id": "loja",
@@ -94,7 +100,8 @@
     "frequencyRank": 370,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "shop"
+    "enHint": "shop",
+    "imageFile": "images/loja.webp"
   },
   {
     "id": "restaurante",
@@ -108,7 +115,8 @@
     "frequencyRank": 371,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "restaurant"
+    "enHint": "restaurant",
+    "imageFile": "images/restaurante.webp"
   },
   {
     "id": "hospital",
@@ -122,7 +130,8 @@
     "frequencyRank": 372,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "hospital"
+    "enHint": "hospital",
+    "imageFile": "images/hospital.webp"
   },
   {
     "id": "medico",
@@ -136,7 +145,8 @@
     "frequencyRank": 373,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "doctor"
+    "enHint": "doctor",
+    "imageFile": "images/medico.webp"
   },
   {
     "id": "rapariga",
@@ -150,7 +160,8 @@
     "frequencyRank": 378,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "girl / young woman"
+    "enHint": "girl / young woman",
+    "imageFile": "images/rapariga.webp"
   },
   {
     "id": "telemóvel",
@@ -164,7 +175,8 @@
     "frequencyRank": 379,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "mobile phone"
+    "enHint": "mobile phone",
+    "imageFile": "images/telemóvel.webp"
   },
   {
     "id": "chave",
@@ -178,7 +190,8 @@
     "frequencyRank": 380,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "key"
+    "enHint": "key",
+    "imageFile": "images/chave.webp"
   },
   {
     "id": "mes",
@@ -206,7 +219,8 @@
     "frequencyRank": 385,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "summer"
+    "enHint": "summer",
+    "imageFile": "images/verao.webp"
   },
   {
     "id": "inverno",
@@ -220,7 +234,8 @@
     "frequencyRank": 386,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "winter"
+    "enHint": "winter",
+    "imageFile": "images/inverno.webp"
   },
   {
     "id": "filme",
@@ -234,7 +249,8 @@
     "frequencyRank": 398,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "film / movie"
+    "enHint": "film / movie",
+    "imageFile": "images/filme.webp"
   },
   {
     "id": "jogo",
@@ -248,7 +264,8 @@
     "frequencyRank": 399,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "game"
+    "enHint": "game",
+    "imageFile": "images/jogo.webp"
   },
   {
     "id": "lento",
@@ -261,7 +278,8 @@
     "frequencyRank": 406,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "slow"
+    "enHint": "slow",
+    "imageFile": "images/lento.webp"
   },
   {
     "id": "errado",
@@ -287,7 +305,8 @@
     "frequencyRank": 409,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "hot"
+    "enHint": "hot",
+    "imageFile": "images/quente.webp"
   },
   {
     "id": "frio",
@@ -300,7 +319,8 @@
     "frequencyRank": 410,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "cold"
+    "enHint": "cold",
+    "imageFile": "images/frio.webp"
   },
   {
     "id": "cheio",
@@ -313,7 +333,8 @@
     "frequencyRank": 411,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "full"
+    "enHint": "full",
+    "imageFile": "images/cheio.webp"
   },
   {
     "id": "vazio",
@@ -326,7 +347,8 @@
     "frequencyRank": 412,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "empty"
+    "enHint": "empty",
+    "imageFile": "images/vazio.webp"
   },
   {
     "id": "aberto",
@@ -339,7 +361,8 @@
     "frequencyRank": 413,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "open"
+    "enHint": "open",
+    "imageFile": "images/aberto.webp"
   },
   {
     "id": "fechado",
@@ -352,7 +375,8 @@
     "frequencyRank": 414,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "closed"
+    "enHint": "closed",
+    "imageFile": "images/fechado.webp"
   },
   {
     "id": "possivel",
@@ -613,7 +637,8 @@
     "frequencyRank": 451,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "beautiful"
+    "enHint": "beautiful",
+    "imageFile": "images/lindo.webp"
   },
   {
     "id": "simpatico",
@@ -626,7 +651,8 @@
     "frequencyRank": 453,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "nice / friendly"
+    "enHint": "nice / friendly",
+    "imageFile": "images/simpatico.webp"
   },
   {
     "id": "contente",
@@ -639,7 +665,8 @@
     "frequencyRank": 454,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "pleased"
+    "enHint": "pleased",
+    "imageFile": "images/contente.webp"
   },
   {
     "id": "cansado",
@@ -652,7 +679,8 @@
     "frequencyRank": 455,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "tired"
+    "enHint": "tired",
+    "imageFile": "images/cansado.webp"
   },
   {
     "id": "barato",
@@ -665,7 +693,8 @@
     "frequencyRank": 457,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "cheap"
+    "enHint": "cheap",
+    "imageFile": "images/barato.webp"
   },
   {
     "id": "caro",
@@ -678,7 +707,8 @@
     "frequencyRank": 458,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "expensive"
+    "enHint": "expensive",
+    "imageFile": "images/caro.webp"
   },
   {
     "id": "largo",
@@ -691,7 +721,8 @@
     "frequencyRank": 459,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "wide"
+    "enHint": "wide",
+    "imageFile": "images/largo.webp"
   },
   {
     "id": "estreito",
@@ -704,7 +735,8 @@
     "frequencyRank": 460,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "narrow"
+    "enHint": "narrow",
+    "imageFile": "images/estreito.webp"
   },
   {
     "id": "seguir",
@@ -718,7 +750,8 @@
     "frequencyRank": 461,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "to follow"
+    "enHint": "to follow",
+    "imageFile": "images/seguir.webp"
   },
   {
     "id": "explicar",
@@ -731,7 +764,8 @@
     "frequencyRank": 469,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "to explain"
+    "enHint": "to explain",
+    "imageFile": "images/explicar.webp"
   },
   {
     "id": "continuar",
@@ -783,7 +817,8 @@
     "frequencyRank": 478,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "to use"
+    "enHint": "to use",
+    "imageFile": "images/utilizar.webp"
   },
   {
     "id": "mandar",
@@ -796,7 +831,8 @@
     "frequencyRank": 480,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "to send / order"
+    "enHint": "to send / order",
+    "imageFile": "images/mandar.webp"
   },
   {
     "id": "roupa",
@@ -810,7 +846,8 @@
     "frequencyRank": 481,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "clothes"
+    "enHint": "clothes",
+    "imageFile": "images/roupa.webp"
   },
   {
     "id": "sapato",
@@ -824,7 +861,8 @@
     "frequencyRank": 482,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "shoe"
+    "enHint": "shoe",
+    "imageFile": "images/sapato.webp"
   },
   {
     "id": "cor",
@@ -838,7 +876,8 @@
     "frequencyRank": 483,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "colour"
+    "enHint": "colour",
+    "imageFile": "images/cor.webp"
   },
   {
     "id": "preto",
@@ -851,7 +890,8 @@
     "frequencyRank": 485,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "black"
+    "enHint": "black",
+    "imageFile": "images/preto.webp"
   },
   {
     "id": "verde",
@@ -864,7 +904,8 @@
     "frequencyRank": 487,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "green"
+    "enHint": "green",
+    "imageFile": "images/verde.webp"
   },
   {
     "id": "azul",
@@ -877,7 +918,8 @@
     "frequencyRank": 488,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "blue"
+    "enHint": "blue",
+    "imageFile": "images/azul.webp"
   },
   {
     "id": "arvore",
@@ -891,7 +933,8 @@
     "frequencyRank": 491,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "tree"
+    "enHint": "tree",
+    "imageFile": "images/arvore.webp"
   },
   {
     "id": "jardim",
@@ -905,7 +948,8 @@
     "frequencyRank": 493,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "garden"
+    "enHint": "garden",
+    "imageFile": "images/jardim.webp"
   },
   {
     "id": "correio",
@@ -919,7 +963,8 @@
     "frequencyRank": 495,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "post office / mail"
+    "enHint": "post office / mail",
+    "imageFile": "images/correio.webp"
   },
   {
     "id": "jornal",
@@ -933,7 +978,8 @@
     "frequencyRank": 497,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "newspaper"
+    "enHint": "newspaper",
+    "imageFile": "images/jornal.webp"
   },
   {
     "id": "noticia",
@@ -961,7 +1007,8 @@
     "frequencyRank": 499,
     "tier": 500,
     "imageStrategy": "literal",
-    "enHint": "company"
+    "enHint": "company",
+    "imageFile": "images/empresa.webp"
   },
   {
     "id": "emprego",
@@ -975,6 +1022,7 @@
     "frequencyRank": 500,
     "tier": 500,
     "imageStrategy": "scene",
-    "enHint": "job / employment"
+    "enHint": "job / employment",
+    "imageFile": "images/emprego.webp"
   }
 ]

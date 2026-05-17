@@ -10,7 +10,8 @@
     "frequencyRank": 101,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to leave / let"
+    "enHint": "to leave / let",
+    "imageFile": "images/deixar.webp"
   },
   {
     "id": "vez",
@@ -51,7 +52,8 @@
     "frequencyRank": 104,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to pass"
+    "enHint": "to pass",
+    "imageFile": "images/passar.webp"
   },
   {
     "id": "mao",
@@ -65,7 +67,8 @@
     "frequencyRank": 105,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "hand"
+    "enHint": "hand",
+    "imageFile": "images/mao.webp"
   },
   {
     "id": "filho",
@@ -79,7 +82,8 @@
     "frequencyRank": 106,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "son"
+    "enHint": "son",
+    "imageFile": "images/filho.webp"
   },
   {
     "id": "pedir",
@@ -93,7 +97,8 @@
     "frequencyRank": 107,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to ask for"
+    "enHint": "to ask for",
+    "imageFile": "images/pedir.webp"
   },
   {
     "id": "contar",
@@ -106,7 +111,8 @@
     "frequencyRank": 108,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to count / tell"
+    "enHint": "to count / tell",
+    "imageFile": "images/contar.webp"
   },
   {
     "id": "sem",
@@ -145,7 +151,8 @@
     "frequencyRank": 111,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to arrive"
+    "enHint": "to arrive",
+    "imageFile": "images/chegar.webp"
   },
   {
     "id": "mae",
@@ -159,7 +166,8 @@
     "frequencyRank": 112,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "mother"
+    "enHint": "mother",
+    "imageFile": "images/mae.webp"
   },
   {
     "id": "conhecer",
@@ -173,7 +181,8 @@
     "frequencyRank": 113,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to know / meet"
+    "enHint": "to know / meet",
+    "imageFile": "images/conhecer.webp"
   },
   {
     "id": "lado",
@@ -213,7 +222,8 @@
     "frequencyRank": 116,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to find"
+    "enHint": "to find",
+    "imageFile": "images/encontrar.webp"
   },
   {
     "id": "forma",
@@ -241,7 +251,8 @@
     "frequencyRank": 118,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "person"
+    "enHint": "person",
+    "imageFile": "images/pessoa.webp"
   },
   {
     "id": "tipo",
@@ -283,7 +294,8 @@
     "frequencyRank": 121,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to feel"
+    "enHint": "to feel",
+    "imageFile": "images/sentir.webp"
   },
   {
     "id": "livro",
@@ -297,7 +309,8 @@
     "frequencyRank": 122,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "book"
+    "enHint": "book",
+    "imageFile": "images/livro.webp"
   },
   {
     "id": "parecer",
@@ -325,7 +338,8 @@
     "frequencyRank": 124,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "door"
+    "enHint": "door",
+    "imageFile": "images/porta.webp"
   },
   {
     "id": "voltar",
@@ -338,7 +352,8 @@
     "frequencyRank": 125,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to return"
+    "enHint": "to return",
+    "imageFile": "images/voltar.webp"
   },
   {
     "id": "dois",
@@ -364,7 +379,8 @@
     "frequencyRank": 127,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to take / carry"
+    "enHint": "to take / carry",
+    "imageFile": "images/levar.webp"
   },
   {
     "id": "meio",
@@ -391,7 +407,8 @@
     "frequencyRank": 129,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to finish / end"
+    "enHint": "to finish / end",
+    "imageFile": "images/acabar.webp"
   },
   {
     "id": "terra",
@@ -405,7 +422,8 @@
     "frequencyRank": 130,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "land / earth"
+    "enHint": "land / earth",
+    "imageFile": "images/terra.webp"
   },
   {
     "id": "momento",
@@ -432,7 +450,8 @@
     "frequencyRank": 132,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to enter"
+    "enHint": "to enter",
+    "imageFile": "images/entrar.webp"
   },
   {
     "id": "crianca",
@@ -446,7 +465,8 @@
     "frequencyRank": 133,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "child"
+    "enHint": "child",
+    "imageFile": "images/crianca.webp"
   },
   {
     "id": "problema",
@@ -488,7 +508,8 @@
     "frequencyRank": 136,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "bill / account"
+    "enHint": "bill / account",
+    "imageFile": "images/conta.webp"
   },
   {
     "id": "tirar",
@@ -501,7 +522,8 @@
     "frequencyRank": 137,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to take out / remove"
+    "enHint": "to take out / remove",
+    "imageFile": "images/tirar.webp"
   },
   {
     "id": "lugar",
@@ -515,7 +537,8 @@
     "frequencyRank": 138,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "place"
+    "enHint": "place",
+    "imageFile": "images/lugar.webp"
   },
   {
     "id": "olho",
@@ -529,7 +552,8 @@
     "frequencyRank": 139,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "eye"
+    "enHint": "eye",
+    "imageFile": "images/olho.webp"
   },
   {
     "id": "esperar",
@@ -542,7 +566,8 @@
     "frequencyRank": 140,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to wait / hope"
+    "enHint": "to wait / hope",
+    "imageFile": "images/esperar.webp"
   },
   {
     "id": "perguntar",
@@ -555,7 +580,8 @@
     "frequencyRank": 141,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to ask"
+    "enHint": "to ask",
+    "imageFile": "images/perguntar.webp"
   },
   {
     "id": "nenhum",
@@ -582,7 +608,8 @@
     "frequencyRank": 143,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "head"
+    "enHint": "head",
+    "imageFile": "images/cabeca.webp"
   },
   {
     "id": "pais",
@@ -596,7 +623,8 @@
     "frequencyRank": 144,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "country"
+    "enHint": "country",
+    "imageFile": "images/pais.webp"
   },
   {
     "id": "trabalhar",
@@ -609,7 +637,8 @@
     "frequencyRank": 145,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to work"
+    "enHint": "to work",
+    "imageFile": "images/trabalhar.webp"
   },
   {
     "id": "tres",
@@ -635,7 +664,8 @@
     "frequencyRank": 147,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to sit"
+    "enHint": "to sit",
+    "imageFile": "images/sentar.webp"
   },
   {
     "id": "cada",
@@ -662,7 +692,8 @@
     "frequencyRank": 149,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to hear"
+    "enHint": "to hear",
+    "imageFile": "images/ouvir.webp"
   },
   {
     "id": "rapaz",
@@ -676,7 +707,8 @@
     "frequencyRank": 150,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "boy / young man"
+    "enHint": "boy / young man",
+    "imageFile": "images/rapaz.webp"
   },
   {
     "id": "dinheiro",
@@ -690,7 +722,8 @@
     "frequencyRank": 151,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "money"
+    "enHint": "money",
+    "imageFile": "images/dinheiro.webp"
   },
   {
     "id": "correr",
@@ -703,7 +736,8 @@
     "frequencyRank": 152,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to run"
+    "enHint": "to run",
+    "imageFile": "images/correr.webp"
   },
   {
     "id": "entre",
@@ -729,7 +763,8 @@
     "frequencyRank": 154,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to open"
+    "enHint": "to open",
+    "imageFile": "images/abrir.webp"
   },
   {
     "id": "escola",
@@ -743,7 +778,8 @@
     "frequencyRank": 155,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "school"
+    "enHint": "school",
+    "imageFile": "images/escola.webp"
   },
   {
     "id": "responder",
@@ -756,7 +792,8 @@
     "frequencyRank": 156,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to answer"
+    "enHint": "to answer",
+    "imageFile": "images/responder.webp"
   },
   {
     "id": "melhor",
@@ -783,7 +820,8 @@
     "frequencyRank": 158,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to lose"
+    "enHint": "to lose",
+    "imageFile": "images/perder.webp"
   },
   {
     "id": "mesa",
@@ -797,7 +835,8 @@
     "frequencyRank": 159,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "table"
+    "enHint": "table",
+    "imageFile": "images/mesa.webp"
   },
   {
     "id": "entender",
@@ -810,7 +849,8 @@
     "frequencyRank": 160,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to understand"
+    "enHint": "to understand",
+    "imageFile": "images/entender.webp"
   },
   {
     "id": "morrer",
@@ -823,7 +863,8 @@
     "frequencyRank": 161,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to die"
+    "enHint": "to die",
+    "imageFile": "images/morrer.webp"
   },
   {
     "id": "pequeno",
@@ -849,7 +890,8 @@
     "frequencyRank": 163,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to write"
+    "enHint": "to write",
+    "imageFile": "images/escrever.webp"
   },
   {
     "id": "dentro",
@@ -876,7 +918,8 @@
     "frequencyRank": 165,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "word"
+    "enHint": "word",
+    "imageFile": "images/palavra.webp"
   },
   {
     "id": "velho",
@@ -916,7 +959,8 @@
     "frequencyRank": 168,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to begin"
+    "enHint": "to begin",
+    "imageFile": "images/comecar.webp"
   },
   {
     "id": "caminho",
@@ -930,7 +974,8 @@
     "frequencyRank": 169,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "path / way"
+    "enHint": "path / way",
+    "imageFile": "images/caminho.webp"
   },
   {
     "id": "irmao",
@@ -944,7 +989,8 @@
     "frequencyRank": 170,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "brother"
+    "enHint": "brother",
+    "imageFile": "images/irmao.webp"
   },
   {
     "id": "alguns",
@@ -983,7 +1029,8 @@
     "frequencyRank": 173,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to remember"
+    "enHint": "to remember",
+    "imageFile": "images/lembrar.webp"
   },
   {
     "id": "exemplo",
@@ -1011,7 +1058,8 @@
     "frequencyRank": 175,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "car"
+    "enHint": "car",
+    "imageFile": "images/carro.webp"
   },
   {
     "id": "dormir",
@@ -1025,7 +1073,8 @@
     "frequencyRank": 176,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to sleep"
+    "enHint": "to sleep",
+    "imageFile": "images/dormir.webp"
   },
   {
     "id": "resto",
@@ -1053,7 +1102,8 @@
     "frequencyRank": 178,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "letter"
+    "enHint": "letter",
+    "imageFile": "images/carta.webp"
   },
   {
     "id": "viajar",
@@ -1066,7 +1116,8 @@
     "frequencyRank": 179,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to travel"
+    "enHint": "to travel",
+    "imageFile": "images/viajar.webp"
   },
   {
     "id": "bonito",
@@ -1093,7 +1144,8 @@
     "frequencyRank": 181,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "body"
+    "enHint": "body",
+    "imageFile": "images/corpo.webp"
   },
   {
     "id": "conseguir",
@@ -1107,7 +1159,8 @@
     "frequencyRank": 182,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to manage / achieve"
+    "enHint": "to manage / achieve",
+    "imageFile": "images/conseguir.webp"
   },
   {
     "id": "cafe",
@@ -1121,7 +1174,8 @@
     "frequencyRank": 183,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "coffee / café"
+    "enHint": "coffee / café",
+    "imageFile": "images/cafe.webp"
   },
   {
     "id": "rua",
@@ -1135,7 +1189,8 @@
     "frequencyRank": 184,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "street"
+    "enHint": "street",
+    "imageFile": "images/rua.webp"
   },
   {
     "id": "maneira",
@@ -1162,7 +1217,8 @@
     "frequencyRank": 186,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to live (reside)"
+    "enHint": "to live (reside)",
+    "imageFile": "images/morar.webp"
   },
   {
     "id": "comida",
@@ -1176,7 +1232,8 @@
     "frequencyRank": 187,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "food"
+    "enHint": "food",
+    "imageFile": "images/comida.webp"
   },
   {
     "id": "verdade",
@@ -1204,7 +1261,8 @@
     "frequencyRank": 189,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "sea"
+    "enHint": "sea",
+    "imageFile": "images/mar.webp"
   },
   {
     "id": "manter",
@@ -1218,7 +1276,8 @@
     "frequencyRank": 190,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to keep / maintain"
+    "enHint": "to keep / maintain",
+    "imageFile": "images/manter.webp"
   },
   {
     "id": "sol",
@@ -1232,7 +1291,8 @@
     "frequencyRank": 191,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "sun"
+    "enHint": "sun",
+    "imageFile": "images/sol.webp"
   },
   {
     "id": "pegar",
@@ -1245,7 +1305,8 @@
     "frequencyRank": 192,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to grab / pick up"
+    "enHint": "to grab / pick up",
+    "imageFile": "images/pegar.webp"
   },
   {
     "id": "razao",
@@ -1285,7 +1346,8 @@
     "frequencyRank": 195,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "good evening / night"
+    "enHint": "good evening / night",
+    "imageFile": "images/boa-noite.webp"
   },
   {
     "id": "comprar",
@@ -1298,7 +1360,8 @@
     "frequencyRank": 196,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to buy"
+    "enHint": "to buy",
+    "imageFile": "images/comprar.webp"
   },
   {
     "id": "coracao",
@@ -1312,7 +1375,8 @@
     "frequencyRank": 197,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "heart"
+    "enHint": "heart",
+    "imageFile": "images/coracao.webp"
   },
   {
     "id": "quanto",
@@ -1338,7 +1402,8 @@
     "frequencyRank": 199,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to walk / floor"
+    "enHint": "to walk / floor",
+    "imageFile": "images/andar.webp"
   },
   {
     "id": "ideia",
@@ -1379,7 +1444,8 @@
     "frequencyRank": 202,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "bank / bench"
+    "enHint": "bank / bench",
+    "imageFile": "images/banco.webp"
   },
   {
     "id": "chamar",
@@ -1392,7 +1458,8 @@
     "frequencyRank": 203,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to call / be named"
+    "enHint": "to call / be named",
+    "imageFile": "images/chamar.webp"
   },
   {
     "id": "janela",
@@ -1406,7 +1473,8 @@
     "frequencyRank": 204,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "window"
+    "enHint": "window",
+    "imageFile": "images/janela.webp"
   },
   {
     "id": "feliz",
@@ -1419,7 +1487,8 @@
     "frequencyRank": 205,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "happy"
+    "enHint": "happy",
+    "imageFile": "images/feliz.webp"
   },
   {
     "id": "ajudar",
@@ -1432,7 +1501,8 @@
     "frequencyRank": 206,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to help"
+    "enHint": "to help",
+    "imageFile": "images/ajudar.webp"
   },
   {
     "id": "pao",
@@ -1446,7 +1516,8 @@
     "frequencyRank": 207,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "bread"
+    "enHint": "bread",
+    "imageFile": "images/pao.webp"
   },
   {
     "id": "quase",
@@ -1472,7 +1543,8 @@
     "frequencyRank": 209,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to change / move"
+    "enHint": "to change / move",
+    "imageFile": "images/mudar.webp"
   },
   {
     "id": "historia",
@@ -1512,7 +1584,8 @@
     "frequencyRank": 212,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to live"
+    "enHint": "to live",
+    "imageFile": "images/viver.webp"
   },
   {
     "id": "telefone",
@@ -1526,7 +1599,8 @@
     "frequencyRank": 213,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "phone"
+    "enHint": "phone",
+    "imageFile": "images/telefone.webp"
   },
   {
     "id": "tentar",
@@ -1539,7 +1613,8 @@
     "frequencyRank": 214,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to try"
+    "enHint": "to try",
+    "imageFile": "images/tentar.webp"
   },
   {
     "id": "certeza",
@@ -1566,7 +1641,8 @@
     "frequencyRank": 216,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to smile"
+    "enHint": "to smile",
+    "imageFile": "images/sorrir.webp"
   },
   {
     "id": "cama",
@@ -1580,7 +1656,8 @@
     "frequencyRank": 217,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "bed"
+    "enHint": "bed",
+    "imageFile": "images/cama.webp"
   },
   {
     "id": "sair",
@@ -1594,7 +1671,8 @@
     "frequencyRank": 218,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to leave / go out"
+    "enHint": "to leave / go out",
+    "imageFile": "images/sair.webp"
   },
   {
     "id": "servir",
@@ -1608,7 +1686,8 @@
     "frequencyRank": 219,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to serve"
+    "enHint": "to serve",
+    "imageFile": "images/servir.webp"
   },
   {
     "id": "frente",
@@ -1648,7 +1727,8 @@
     "frequencyRank": 222,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to receive"
+    "enHint": "to receive",
+    "imageFile": "images/receber.webp"
   },
   {
     "id": "chuva",
@@ -1662,7 +1742,8 @@
     "frequencyRank": 223,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "rain"
+    "enHint": "rain",
+    "imageFile": "images/chuva.webp"
   },
   {
     "id": "pergunta",
@@ -1689,7 +1770,8 @@
     "frequencyRank": 225,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to happen"
+    "enHint": "to happen",
+    "imageFile": "images/acontecer.webp"
   },
   {
     "id": "tarde",
@@ -1703,7 +1785,8 @@
     "frequencyRank": 226,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "afternoon / late"
+    "enHint": "afternoon / late",
+    "imageFile": "images/tarde.webp"
   },
   {
     "id": "perto",
@@ -1743,7 +1826,8 @@
     "frequencyRank": 229,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to read"
+    "enHint": "to read",
+    "imageFile": "images/ler.webp"
   },
   {
     "id": "numero",
@@ -1784,7 +1868,8 @@
     "frequencyRank": 232,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "back (body)"
+    "enHint": "back (body)",
+    "imageFile": "images/costas.webp"
   },
   {
     "id": "partir",
@@ -1797,7 +1882,8 @@
     "frequencyRank": 233,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to depart / break"
+    "enHint": "to depart / break",
+    "imageFile": "images/partir.webp"
   },
   {
     "id": "deus",
@@ -1824,7 +1910,8 @@
     "frequencyRank": 235,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to use"
+    "enHint": "to use",
+    "imageFile": "images/usar.webp"
   },
   {
     "id": "junto",
@@ -1851,7 +1938,8 @@
     "frequencyRank": 237,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "river"
+    "enHint": "river",
+    "imageFile": "images/rio.webp"
   },
   {
     "id": "jogar",
@@ -1864,7 +1952,8 @@
     "frequencyRank": 238,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to play (game)"
+    "enHint": "to play (game)",
+    "imageFile": "images/jogar.webp"
   },
   {
     "id": "quarto",
@@ -1878,7 +1967,8 @@
     "frequencyRank": 239,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "room / fourth"
+    "enHint": "room / fourth",
+    "imageFile": "images/quarto.webp"
   },
   {
     "id": "aceitar",
@@ -1891,7 +1981,8 @@
     "frequencyRank": 240,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to accept"
+    "enHint": "to accept",
+    "imageFile": "images/aceitar.webp"
   },
   {
     "id": "praia",
@@ -1905,7 +1996,8 @@
     "frequencyRank": 241,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "beach"
+    "enHint": "beach",
+    "imageFile": "images/praia.webp"
   },
   {
     "id": "ultimo",
@@ -1945,7 +2037,8 @@
     "frequencyRank": 244,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "cat"
+    "enHint": "cat",
+    "imageFile": "images/gato.webp"
   },
   {
     "id": "obter",
@@ -1959,7 +2052,8 @@
     "frequencyRank": 245,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to obtain"
+    "enHint": "to obtain",
+    "imageFile": "images/obter.webp"
   },
   {
     "id": "as-vezes",
@@ -1985,7 +2079,8 @@
     "frequencyRank": 247,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "sad"
+    "enHint": "sad",
+    "imageFile": "images/triste.webp"
   },
   {
     "id": "mostrar",
@@ -1998,7 +2093,8 @@
     "frequencyRank": 248,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to show"
+    "enHint": "to show",
+    "imageFile": "images/mostrar.webp"
   },
   {
     "id": "cozinha",
@@ -2012,7 +2108,8 @@
     "frequencyRank": 249,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "kitchen"
+    "enHint": "kitchen",
+    "imageFile": "images/cozinha.webp"
   },
   {
     "id": "medo",
@@ -2026,7 +2123,8 @@
     "frequencyRank": 250,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "fear"
+    "enHint": "fear",
+    "imageFile": "images/medo.webp"
   },
   {
     "id": "pagar",
@@ -2039,7 +2137,8 @@
     "frequencyRank": 251,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to pay"
+    "enHint": "to pay",
+    "imageFile": "images/pagar.webp"
   },
   {
     "id": "namorada",
@@ -2053,7 +2152,8 @@
     "frequencyRank": 252,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "girlfriend"
+    "enHint": "girlfriend",
+    "imageFile": "images/namorada.webp"
   },
   {
     "id": "conversa",
@@ -2067,7 +2167,8 @@
     "frequencyRank": 253,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "conversation"
+    "enHint": "conversation",
+    "imageFile": "images/conversa.webp"
   },
   {
     "id": "segundo",
@@ -2106,7 +2207,8 @@
     "frequencyRank": 256,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to touch / play"
+    "enHint": "to touch / play",
+    "imageFile": "images/tocar.webp"
   },
   {
     "id": "devagar",
@@ -2133,7 +2235,8 @@
     "frequencyRank": 258,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "dog"
+    "enHint": "dog",
+    "imageFile": "images/cao.webp"
   },
   {
     "id": "trazer",
@@ -2147,7 +2250,8 @@
     "frequencyRank": 259,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to bring"
+    "enHint": "to bring",
+    "imageFile": "images/trazer.webp"
   },
   {
     "id": "aprender",
@@ -2160,7 +2264,8 @@
     "frequencyRank": 260,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to learn"
+    "enHint": "to learn",
+    "imageFile": "images/aprender.webp"
   },
   {
     "id": "direito",
@@ -2228,7 +2333,8 @@
     "frequencyRank": 265,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "party / celebration"
+    "enHint": "party / celebration",
+    "imageFile": "images/festa.webp"
   },
   {
     "id": "nascer",
@@ -2242,7 +2348,8 @@
     "frequencyRank": 266,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to be born"
+    "enHint": "to be born",
+    "imageFile": "images/nascer.webp"
   },
   {
     "id": "parede",
@@ -2256,7 +2363,8 @@
     "frequencyRank": 267,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "wall"
+    "enHint": "wall",
+    "imageFile": "images/parede.webp"
   },
   {
     "id": "interesse",
@@ -2283,7 +2391,8 @@
     "frequencyRank": 269,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to close"
+    "enHint": "to close",
+    "imageFile": "images/fechar.webp"
   },
   {
     "id": "depressa",
@@ -2310,7 +2419,8 @@
     "frequencyRank": 271,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "train"
+    "enHint": "train",
+    "imageFile": "images/comboio.webp"
   },
   {
     "id": "limpo",
@@ -2336,7 +2446,8 @@
     "frequencyRank": 273,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to choose"
+    "enHint": "to choose",
+    "imageFile": "images/escolher.webp"
   },
   {
     "id": "flor",
@@ -2350,7 +2461,8 @@
     "frequencyRank": 274,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "flower"
+    "enHint": "flower",
+    "imageFile": "images/flor.webp"
   },
   {
     "id": "manha",
@@ -2364,7 +2476,8 @@
     "frequencyRank": 275,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "morning"
+    "enHint": "morning",
+    "imageFile": "images/manha.webp"
   },
   {
     "id": "parar",
@@ -2377,7 +2490,8 @@
     "frequencyRank": 276,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to stop"
+    "enHint": "to stop",
+    "imageFile": "images/parar.webp"
   },
   {
     "id": "dever",
@@ -2418,7 +2532,8 @@
     "frequencyRank": 279,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "music"
+    "enHint": "music",
+    "imageFile": "images/musica.webp"
   },
   {
     "id": "esquerda",
@@ -2460,7 +2575,8 @@
     "frequencyRank": 282,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "photo"
+    "enHint": "photo",
+    "imageFile": "images/foto.webp"
   },
   {
     "id": "professor",
@@ -2474,7 +2590,8 @@
     "frequencyRank": 283,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "teacher"
+    "enHint": "teacher",
+    "imageFile": "images/professor.webp"
   },
   {
     "id": "lingua",
@@ -2488,7 +2605,8 @@
     "frequencyRank": 284,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "language / tongue"
+    "enHint": "language / tongue",
+    "imageFile": "images/lingua.webp"
   },
   {
     "id": "crescer",
@@ -2502,7 +2620,8 @@
     "frequencyRank": 285,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to grow"
+    "enHint": "to grow",
+    "imageFile": "images/crescer.webp"
   },
   {
     "id": "branco",
@@ -2555,7 +2674,8 @@
     "frequencyRank": 289,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to prefer"
+    "enHint": "to prefer",
+    "imageFile": "images/preferir.webp"
   },
   {
     "id": "supermercado",
@@ -2569,7 +2689,8 @@
     "frequencyRank": 290,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "supermarket"
+    "enHint": "supermarket",
+    "imageFile": "images/supermercado.webp"
   },
   {
     "id": "semana",
@@ -2623,7 +2744,8 @@
     "frequencyRank": 294,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "ticket"
+    "enHint": "ticket",
+    "imageFile": "images/bilhete.webp"
   },
   {
     "id": "acreditar",
@@ -2636,7 +2758,8 @@
     "frequencyRank": 295,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to believe"
+    "enHint": "to believe",
+    "imageFile": "images/acreditar.webp"
   },
   {
     "id": "talvez",
@@ -2676,7 +2799,8 @@
     "frequencyRank": 298,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "church"
+    "enHint": "church",
+    "imageFile": "images/igreja.webp"
   },
   {
     "id": "ensinar",
@@ -2689,7 +2813,8 @@
     "frequencyRank": 299,
     "tier": 300,
     "imageStrategy": "scene",
-    "enHint": "to teach"
+    "enHint": "to teach",
+    "imageFile": "images/ensinar.webp"
   },
   {
     "id": "vizinho",
@@ -2703,6 +2828,7 @@
     "frequencyRank": 300,
     "tier": 300,
     "imageStrategy": "literal",
-    "enHint": "neighbour"
+    "enHint": "neighbour",
+    "imageFile": "images/vizinho.webp"
   }
 ]
