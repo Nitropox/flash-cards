@@ -50,12 +50,17 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
   const promptWord = card.direction === 'pt_to_pl' ? word.pt : word.pl;
   const answerWord = card.direction === 'pt_to_pl' ? word.pl : word.pt;
-  const directionLabel = card.direction === 'pt_to_pl' ? 'PT → PL' : 'PL → PT';
 
   const renderImage = () => {
+    const clickHandler = !isRevealed ? onReveal : undefined;
+    const cursorClass = !isRevealed ? 'cursor-pointer' : '';
+
     if (word.imageStrategy === 'none') {
       return (
-        <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6">
+        <div
+          onClick={clickHandler}
+          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6 ${cursorClass}`}
+        >
           <span className="text-5xl font-semibold text-stone-600 dark:text-stone-300 text-center px-4 leading-tight">
             {word.pt}
           </span>
@@ -65,7 +70,10 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
 
     if (word.imageFile) {
       return (
-        <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden mb-6 bg-stone-100 dark:bg-stone-800">
+        <div
+          onClick={clickHandler}
+          className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl overflow-hidden mb-6 bg-stone-100 dark:bg-stone-800 ${cursorClass}`}
+        >
           <img
             src={`/${word.imageFile}`}
             alt=""
@@ -83,7 +91,10 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     }
 
     return (
-      <div className="w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center mb-6">
+      <div
+        onClick={clickHandler}
+        className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-200 dark:bg-stone-800 flex items-center justify-center mb-6 ${cursorClass}`}
+      >
         <span className="text-6xl font-light text-stone-400 dark:text-stone-600 select-none">
           {word.pt.charAt(0).toUpperCase()}
         </span>
@@ -95,27 +106,15 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     <div className="flex flex-col items-center">
       {renderImage()}
 
-      <span className="text-xs text-stone-400 dark:text-stone-500 uppercase tracking-wide mb-2">
-        {directionLabel}
-      </span>
-
       {!isRevealed ? (
-        <>
-          <h2 className="text-3xl font-semibold mb-2">{promptWord}</h2>
-          <button
-            onClick={onReveal}
-            className="mt-8 px-8 py-3 bg-stone-800 dark:bg-stone-200 text-white dark:text-stone-900 rounded-lg font-medium hover:opacity-90 transition-opacity"
-          >
-            Reveal <span className="opacity-60 ml-1">Space</span>
-          </button>
-        </>
+        <h2 className="text-5xl font-semibold">{promptWord}</h2>
       ) : (
         <div className="mt-2 w-full text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <h2 className="text-3xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
+            <h2 className="text-5xl font-semibold text-emerald-600 dark:text-emerald-400">{answerWord}</h2>
             <button
               onClick={() => playAudio(word.audioPt)}
-              className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-lg"
+              className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 text-xl"
               title="Play word (P)"
             >
               🔊
