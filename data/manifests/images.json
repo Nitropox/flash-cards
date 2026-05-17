@@ -8932,5 +8932,35 @@
     "file": "reboque.webp",
     "generatedAt": "2026-05-17T13:21:19.933Z",
     "costUsd": 0.003
+  },
+  "padeiro": {
+    "promptHash": "420e5bf48210e8e8",
+    "file": "padeiro.webp",
+    "generatedAt": "2026-05-17T13:21:21.805Z",
+    "costUsd": 0.003
+  },
+  "talhante": {
+    "promptHash": "c1649120a5282223",
+    "file": "talhante.webp",
+    "generatedAt": "2026-05-17T13:21:23.753Z",
+    "costUsd": 0.003
+  },
+  "sapateiro": {
+    "promptHash": "21219b52eb17db55",
+    "file": "sapateiro.webp",
+    "generatedAt": "2026-05-17T13:21:25.458Z",
+    "costUsd": 0.003
+  },
+  "costureira": {
+    "promptHash": "c7440c3030c65dd8",
+    "file": "costureira.webp",
+    "generatedAt": "2026-05-17T13:21:27.195Z",
+    "costUsd": 0.003
+  },
+  "fralda": {
+    "promptHash": "283c3c40b35dc581",
+    "file": "fralda.webp",
+    "generatedAt": "2026-05-17T13:21:28.850Z",
+    "costUsd": 0.003
   }
 }
