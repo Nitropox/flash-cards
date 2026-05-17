@@ -8962,5 +8962,59 @@
     "file": "fralda.webp",
     "generatedAt": "2026-05-17T13:21:28.850Z",
     "costUsd": 0.003
+  },
+  "biberao": {
+    "promptHash": "c0fedfbe05a4347b",
+    "file": "biberao.webp",
+    "generatedAt": "2026-05-17T13:21:30.618Z",
+    "costUsd": 0.003
+  },
+  "chupeta": {
+    "promptHash": "9cab7ceaff315b83",
+    "file": "chupeta.webp",
+    "generatedAt": "2026-05-17T13:21:32.182Z",
+    "costUsd": 0.003
+  },
+  "berco": {
+    "promptHash": "160d37048cf2c296",
+    "file": "berco.webp",
+    "generatedAt": "2026-05-17T13:21:34.010Z",
+    "costUsd": 0.003
+  },
+  "carrinho": {
+    "promptHash": "4651db23c1fa6d71",
+    "file": "carrinho.webp",
+    "generatedAt": "2026-05-17T13:21:35.846Z",
+    "costUsd": 0.003
+  },
+  "babete": {
+    "promptHash": "ee6e366b47fb3193",
+    "file": "babete.webp",
+    "generatedAt": "2026-05-17T13:21:37.593Z",
+    "costUsd": 0.003
+  },
+  "brinquedo": {
+    "promptHash": "f9fdc8c5918b254e",
+    "file": "brinquedo.webp",
+    "generatedAt": "2026-05-17T13:21:39.925Z",
+    "costUsd": 0.003
+  },
+  "balanco": {
+    "promptHash": "b4ac02692a7025d1",
+    "file": "balanco.webp",
+    "generatedAt": "2026-05-17T13:21:41.548Z",
+    "costUsd": 0.003
+  },
+  "escorrega": {
+    "promptHash": "31a069bea0b7517d",
+    "file": "escorrega.webp",
+    "generatedAt": "2026-05-17T13:21:43.407Z",
+    "costUsd": 0.003
+  },
+  "trampolim": {
+    "promptHash": "8ebb0239a31ee534",
+    "file": "trampolim.webp",
+    "generatedAt": "2026-05-17T13:21:44.960Z",
+    "costUsd": 0.003
   }
 }
