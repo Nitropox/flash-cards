@@ -18,26 +18,23 @@ Run the Phase 2 pipelines:
 
 ```
 npm run data:wordlist                          # produces words-raw with all tiers
-npm run data:translate                         # translates all untranslated entries
+npm run data:translate                         # translates all untranslated entries (Claude Code in-session)
 npm run data:images -- --tier 1000             # generates images for tiers ≤ 1000
-npm run data:audio   -- --tier 1000            # generates audio for tiers ≤ 1000
 npm run data:bundle                            # emits tier-{300,500,1000}.json
 ```
 
 ### Expected cost
 
-| Tier | Entries | Images (≠none) | Image cost | Audio chars (both voices) | Audio cost |
-|---|---|---|---|---|---|
-| 10 | 10 | ~8 | $0.024 | ~3K | free |
-| 100 | 90 | ~70 | $0.21 | ~22K | free |
-| 300 | 200 | ~180 | $0.54 | ~50K | free |
-| 500 | 200 | ~190 | $0.57 | ~50K | free |
-| 1000 | 500 | ~480 | $1.44 | ~125K | free |
-| **Subtotal Phase 3** | **900** | **~850** | **~$2.55** | **~225K** | **free (under 500K monthly)** |
+| Tier | Entries | Images (≠none) | Image cost |
+|---|---|---|---|
+| 10 | 10 | ~8 | $0.024 |
+| 100 | 90 | ~70 | $0.21 |
+| 300 | 200 | ~180 | $0.54 |
+| 500 | 200 | ~190 | $0.57 |
+| 1000 | 500 | ~480 | $1.44 |
+| **Subtotal Phase 3** | **900** | **~850** | **~$2.55** |
 
-Cumulative through Phase 3: ~$2.80 in content costs. Well under budget.
-
-If R2 storage cost matters (it's ~$0.015/GB/month): 1000 entries × 4 files × ~40 KB ≈ 160 MB → free tier (10 GB).
+Cumulative through Phase 3: ~$2.80 in image generation costs. Well under budget. Audio is deferred to Phase 7.
 
 ---
 

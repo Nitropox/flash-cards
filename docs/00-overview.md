@@ -27,11 +27,12 @@ A single-user, browser-based vocabulary learning application for **European Port
 | Phase | File | Goal |
 |---|---|---|
 | 1 | `phase-1-skeleton.md` | Working SPA with FSRS, 10 hardcoded words, self-rate mode |
-| 2 | `phase-2-tier1-content.md` | Content pipelines (images, audio, translations), tier 1+100 live |
+| 2 | `phase-2-tier1-content.md` | Content pipelines (images, translations), tier 1+100 live |
 | 3 | `phase-3-tier-expansion.md` | Tiers 300/500/1000, browse & detail pages |
 | 4 | `phase-4-answer-modes.md` | Typed + spoken answer modes |
 | 5 | `phase-5-stats-polish.md` | Stats page, PWA, polish |
 | 6 | `phase-6-higher-tiers.md` | Tiers 3000 and 10000, on-demand generation |
+| 7 | `phase-7-audio.md` | Azure TTS audio generation for all tiers |
 
 Each phase is independently deployable.
 

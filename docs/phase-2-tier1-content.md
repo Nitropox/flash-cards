@@ -4,7 +4,7 @@
 
 ## Goal
 
-Build the four Node.js scripts that generate content (word list, translations, images, audio), and run them for tiers 1 and 100. After this phase, the app has 100 real words with real images and real audio, and audio plays in the session player.
+Build the content pipelines (word list, translations, images) and run them for tiers 1 and 100. After this phase, the app has 100 real words with real images. Audio comes later (Phase 7).
 
 ---
 
@@ -223,73 +223,9 @@ Emit `data/assembled/words-translated.json` — full `WordEntry` shape minus aud
 
 ---
 
-## 4. Audio Generation (`scripts/04-generate-audio.ts`)
+## 4. Bundle Script (`scripts/05-bundle-data.ts`)
 
-### 4.1 Provider
-
-**Azure Cognitive Services Speech**, REST API. Free tier: 0.5 M neural characters/month for first 12 months, then 500K free-tier voices.
-
-For full 10000 entries × 2 voices × 2 texts (word + example) at avg 8 chars for word and 50 chars for example → ~2.3 M characters total — exceeds monthly free tier. **Solution:** generate progressively (tier by tier, spread over months), or pay-as-you-go ($16/1M chars for neural).
-
-For Phase 2, only tier 1 + 100 = ~100 entries × ~120 chars × 2 voices ≈ 24 K chars. Free.
-
-### 4.2 Voices
-
-- `pt-PT-RaquelNeural` (female, default)
-- `pt-PT-DuarteNeural` (male, alternate)
-
-Generate **both** for every entry so user can switch in settings without regenerating.
-
-### 4.3 SSML
-
-```xml
-<speak version="1.0" xml:lang="pt-PT">
-  <voice name="pt-PT-RaquelNeural">
-    <prosody rate="-10%">
-      {WORD_OR_PHRASE}
-    </prosody>
-  </voice>
-</speak>
-```
-
-For example sentences, use normal rate (no `<prosody>`).
-
-### 4.4 Output
-
-MP3 16 kHz mono, ~32 kbps. Files at `apps/web/public/audio/{voice}/{wordId}/word.mp3` and `.../example.mp3`.
-
-### 4.5 Idempotency
-
-Manifest at `data/manifests/audio.json`:
-
-```ts
-type AudioManifest = {
-  [key: string]: {            // key = `{voice}/{wordId}/{kind}`
-    textHash: string;
-    file: string;
-    generatedAt: string;
-    charCount: number;
-  };
-};
-```
-
-Skip on rerun if textHash matches.
-
-### 4.6 Flags
-
-```
---tier <N>
---voice <Raquel|Duarte|both>     default: both
---regen <wordId>
---dry-run
---max-chars <number>             safety cap, default 100000 per run
-```
-
----
-
-## 5. Bundle Script (`scripts/05-bundle-data.ts`)
-
-Combines `data/assembled/words-translated.json` with `data/manifests/{images,audio}.json` into the final per-tier JSON files the app consumes:
+Combines `data/assembled/words-translated.json` with `data/manifests/images.json` (and `audio.json` when available from Phase 7) into the final per-tier JSON files the app consumes:
 
 ```
 apps/web/src/data/
@@ -306,16 +242,16 @@ Each file contains only entries with that tier value. The app loads them lazily 
 
 ---
 
-## 6. App Integration
+## 5. App Integration
 
-### 6.1 Update seed/ingest logic
+### 5.1 Update seed/ingest logic
 
 `src/lib/ingest.ts`:
 - On first run, ingest `tier-10.json` into `words` and create cards.
 - After user advances tier (or in Phase 2, automatically), ingest the new tier's JSON.
 - Detect already-ingested words by `id` — never duplicate.
 
-### 6.2 Audio playback in session
+### 5.2 Audio playback in session
 
 In `CardView.tsx`, when card flips to back:
 - Read `Settings.ttsVoice` and `Settings.ttsAutoPlay`.
@@ -324,9 +260,9 @@ In `CardView.tsx`, when card flips to back:
 - Second speaker button (with example icon) plays `example.mp3`.
 - Keyboard: `P` replays word, `Shift+P` replays example.
 
-Handle audio errors gracefully (file missing → toast "Audio not yet available for this word").
+Handle audio errors gracefully (file missing → toast "Audio not yet available for this word"). Audio files won't exist until Phase 7 — the app must work fine without them.
 
-### 6.3 Image rendering
+### 5.3 Image rendering
 
 In `CardView.tsx`:
 - If `imageStrategy === "none"`, render the word itself huge (text-6xl) in place of an image with a subtle decoration.
@@ -335,31 +271,29 @@ In `CardView.tsx`:
 
 ---
 
-## 7. Acceptance Criteria
+## 6. Acceptance Criteria
 
-- [ ] All four scripts (01, 02, 03, 04) run from `npm run data:*` and are idempotent.
+- [ ] Scripts (01-wordlist, 02-translate via Claude Code, 03-images, 05-bundle) run and are idempotent.
 - [ ] Manifests in `data/manifests/` are valid JSON and survive re-runs without duplication.
 - [ ] `data:bundle` produces `tier-10.json` and `tier-100.json` with ≥100 valid entries combined.
 - [ ] Every entry has either a valid `imageFile` or `imageStrategy === "none"`.
-- [ ] Every entry has `audioPt` and `audioExamplePt` pointing to files that exist in `public/audio/`.
-- [ ] Total Phase 2 generation cost recorded ≤ USD 5 (target ≤ $1 for tier 100).
+- [ ] Total Phase 2 generation cost recorded ≤ USD 1 for tier 100 (images only).
 - [ ] App ingests tier 1 + 100 cards on first load.
-- [ ] Audio plays correctly in session player for both voices.
 - [ ] Images render correctly; function words show large text instead.
-- [ ] At least 80% of tier-100 entries pass user spot-check (image clearly represents word, audio sounds correct).
+- [ ] Audio playback UI is wired up but gracefully handles missing files (no audio until Phase 7).
+- [ ] At least 80% of tier-100 entries pass user spot-check (image clearly represents word, translation correct).
 
 ---
 
-## 8. Risks / Things to Watch
+## 7. Risks / Things to Watch
 
 - **Sense ambiguity** (banco = bank/bench, vela = sail/candle). Translation script must emit suffixed IDs (`banco-1`, `banco-2`) when both senses are common. Use Claude to detect.
 - **Phrase image quality**: Flux Schnell can struggle with multi-element scenes. If results are poor for a phrase, set `imageStrategy = "none"` for that entry.
-- **Rate limits**: fal.ai is forgiving; Azure has region-specific limits. Throttle to 5 req/s for both.
+- **Rate limits**: fal.ai is forgiving. Throttle to 5 req/s.
 - **PT spelling variants**: pt-PT accepted both pre-1990 and post-1990 spellings (e.g. *acção* vs *ação*, *facto* vs *fato*). Use post-1990 (current standard). If a source has old spelling, normalize.
-- **Audio file size**: at full scale (10000 words), `public/audio/` can grow large. Consider `.gitignore`ing it and regenerating from manifests.
 
 ---
 
-## 9. Definition of Done
+## 8. Definition of Done
 
-Tier 10 + 100 = 100 words and phrases are fully populated with translations, images (where applicable), and audio in both voices. App locally plays audio and shows images during sessions. Cost stays well under $5. Stop here, await user approval, before moving to Phase 3.
+Tier 10 + 100 = 100 words and phrases are fully populated with translations and images (where applicable). App shows images during sessions and gracefully handles missing audio. Cost stays well under $5. Stop here, await user approval, before moving to Phase 3.

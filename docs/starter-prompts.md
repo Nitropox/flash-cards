@@ -37,24 +37,24 @@ When you're done, run through the acceptance criteria in phase-1-skeleton.md §1
 ## Phase 2 — Content pipelines (tier 1 + 100)
 
 ```
-Read `00-overview.md` and `phase-2-tier1-content.md`. Phase 1 is complete and deployed; you can see the current state of the repo.
+Read `00-overview.md` and `phase-2-tier1-content.md`. Phase 1 is complete; you can see the current state of the repo.
 
 Implement Phase 2 in this order:
-1. Cloudflare R2 setup — I'll provide credentials in .env.local.
-2. Script 01 (assemble-wordlist) — get it working with sources I'll point you to.
-3. Script 02 (translate) — wire to Anthropic API.
-4. Script 03 (generate-images) — wire to fal.ai. STOP after running with `--tier 10` so I can review the first images before generating tier 100.
-5. Script 04 (generate-audio) — wire to Azure Speech.
-6. Script 05 (bundle-data).
-7. App integration (audio playback, image rendering with `imageStrategy === "none"` handling).
+1. Script 01 (assemble-wordlist) — get it working with sources I'll point you to.
+2. Translations + imageStrategy classification — done in-session (see below).
+3. Script 03 (generate-images) — wire to fal.ai. STOP after running with `--tier 10` so I can review the first images before generating tier 100.
+4. Script 05 (bundle-data).
+5. App integration (image rendering with `imageStrategy === "none"` handling, audio playback UI wired but gracefully handling missing files).
 
-For the tier-10 hand-curated set from Phase 1, generate proper images and audio so those 10 cards become "real". Then generate tier-100 fresh.
+For the tier-10 hand-curated set from Phase 1, generate proper images so those 10 cards become "real". Then generate tier-100 fresh.
 
 Część pracy z fazy 2 to tłumaczenia polskie i klasyfikacja imageStrategy. Nie używaj Anthropic API do tego (nie mam klucza). Zamiast tego rób tłumaczenia jako agentic task wewnątrz tej sesji Claude Code - batchami po 50 słów, zapisując wynik do JSON. Pokazuj mi co 50 słów próbkę, żebym mógł poprawić styl jeśli trzeba.
 
 Before each script run that costs money, print the cost estimate and ask me to confirm. Show running totals.
 
-After implementing, run through acceptance criteria in phase-2-tier1-content.md §7.
+Note: Audio generation (Azure TTS) is deferred to Phase 7. The app must work without audio files present.
+
+After implementing, run through acceptance criteria in phase-2-tier1-content.md §6.
 ```
 
 ---
@@ -143,16 +143,36 @@ Acceptance criteria for Phase 6a in phase-6-higher-tiers.md §5.
 ```
 Read `00-overview.md` and `phase-6-higher-tiers.md`. Phase 6a is complete; I've spent meaningful time in tier 3000.
 
-Implement Phase 6b: generate tier 10000 content.
+Implement Phase 6b: generate tier 10000 content (images + translations only, no audio yet).
 
 Critical: this is the largest run by far. Specifically:
-- Spread Azure audio generation across multiple months if needed to stay in the free tier.
 - Apply tighter pt-PT filtering at this scale.
 - Manual review on 200 random samples before bundling.
 - Validate performance at full scale (10000 words, 20000 cards).
-- Verify cumulative content cost ≤ $45.
+- Verify cumulative content cost ≤ $30.
 
 Acceptance criteria for Phase 6b in phase-6-higher-tiers.md §5.
+```
+
+---
+
+## Phase 7 — Audio generation
+
+```
+Read `00-overview.md` and `phase-7-audio.md`. Phases 1–6 are complete; all tiers have translations and images.
+
+Implement Phase 7: Azure TTS audio generation.
+
+1. Set up script 04-generate-audio with Azure Speech Service.
+2. Start with `--tier 100` to verify quality of both voices (Raquel + Duarte).
+3. Generate progressively tier by tier. Use `--max-chars` to stay within Azure free tier per month.
+4. After each tier, re-run `data:bundle` and rebuild the PWA.
+
+I'll provide AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in .env.local when ready.
+
+Spread generation across months if needed to stay in the free tier (500K chars/month). Print char usage after each run.
+
+Acceptance criteria in phase-7-audio.md §7.
 ```
 
 ---

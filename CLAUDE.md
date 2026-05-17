@@ -62,11 +62,12 @@ pt-cards/
 | Phase | Goal | Status |
 |-------|------|--------|
 | 1 | Working SPA with FSRS, 10 hardcoded words, self-rate mode | Not started |
-| 2 | Content pipelines (images, audio, translations), tier 1+100 live | Not started |
+| 2 | Content pipelines (images, translations), tier 1+100 live | Not started |
 | 3 | Tiers 300/500/1000, browse & detail pages, onboarding | Not started |
 | 4 | Typed + spoken answer modes | Not started |
 | 5 | Stats page, PWA, polish | Not started |
 | 6 | Tiers 3000 and 10000, on-demand generation | Not started |
+| 7 | Azure TTS audio generation for all tiers | Not started |
 
 ## Development Rules
 
@@ -88,6 +89,6 @@ pt-cards/
 
 ```
 FAL_API_KEY          # fal.ai image generation
-AZURE_SPEECH_KEY     # Azure Speech Service TTS
-AZURE_SPEECH_REGION  # e.g. westeurope
+AZURE_SPEECH_KEY     # Azure Speech Service TTS (Phase 7 only)
+AZURE_SPEECH_REGION  # e.g. westeurope (Phase 7 only)
 ```
