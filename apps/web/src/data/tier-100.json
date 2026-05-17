@@ -106,7 +106,8 @@
     "frequencyRank": 18,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to have"
+    "enHint": "to have",
+    "imageFile": "images/ter.webp"
   },
   {
     "id": "para",
@@ -280,7 +281,8 @@
     "frequencyRank": 31,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "can/to be able"
+    "enHint": "can/to be able",
+    "imageFile": "images/poder.webp"
   },
   {
     "id": "fazer",
@@ -294,7 +296,8 @@
     "frequencyRank": 32,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to do/make"
+    "enHint": "to do/make",
+    "imageFile": "images/fazer.webp"
   },
   {
     "id": "ir",
@@ -308,7 +311,8 @@
     "frequencyRank": 33,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to go"
+    "enHint": "to go",
+    "imageFile": "images/ir.webp"
   },
   {
     "id": "bem",
@@ -427,7 +431,8 @@
     "frequencyRank": 42,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to say/tell"
+    "enHint": "to say/tell",
+    "imageFile": "images/dizer.webp"
   },
   {
     "id": "dar",
@@ -441,7 +446,8 @@
     "frequencyRank": 43,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to give"
+    "enHint": "to give",
+    "imageFile": "images/dar.webp"
   },
   {
     "id": "bom",
@@ -469,7 +475,8 @@
     "frequencyRank": 45,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to know"
+    "enHint": "to know",
+    "imageFile": "images/saber.webp"
   },
   {
     "id": "querer",
@@ -483,7 +490,8 @@
     "frequencyRank": 46,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to want"
+    "enHint": "to want",
+    "imageFile": "images/querer.webp"
   },
   {
     "id": "aqui",
@@ -523,7 +531,8 @@
     "frequencyRank": 49,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to see"
+    "enHint": "to see",
+    "imageFile": "images/ver.webp"
   },
   {
     "id": "grande",
@@ -536,7 +545,8 @@
     "frequencyRank": 50,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "big/large"
+    "enHint": "big/large",
+    "imageFile": "images/grande.webp"
   },
   {
     "id": "coisa",
@@ -550,7 +560,8 @@
     "frequencyRank": 51,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "thing"
+    "enHint": "thing",
+    "imageFile": "images/coisa.webp"
   },
   {
     "id": "onde",
@@ -577,7 +588,8 @@
     "frequencyRank": 53,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "day"
+    "enHint": "day",
+    "imageFile": "images/dia.webp"
   },
   {
     "id": "ano",
@@ -591,7 +603,8 @@
     "frequencyRank": 54,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "year"
+    "enHint": "year",
+    "imageFile": "images/ano.webp"
   },
   {
     "id": "outro",
@@ -619,7 +632,8 @@
     "frequencyRank": 56,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "house"
+    "enHint": "house",
+    "imageFile": "images/casa.webp"
   },
   {
     "id": "tempo",
@@ -633,7 +647,8 @@
     "frequencyRank": 57,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "time/weather"
+    "enHint": "time/weather",
+    "imageFile": "images/tempo.webp"
   },
   {
     "id": "depois",
@@ -660,7 +675,8 @@
     "frequencyRank": 59,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to stay/remain"
+    "enHint": "to stay/remain",
+    "imageFile": "images/ficar.webp"
   },
   {
     "id": "quando",
@@ -687,7 +703,8 @@
     "frequencyRank": 61,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "man"
+    "enHint": "man",
+    "imageFile": "images/homem.webp"
   },
   {
     "id": "vida",
@@ -701,7 +718,8 @@
     "frequencyRank": 62,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "life"
+    "enHint": "life",
+    "imageFile": "images/vida.webp"
   },
   {
     "id": "vir",
@@ -715,7 +733,8 @@
     "frequencyRank": 63,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to come"
+    "enHint": "to come",
+    "imageFile": "images/vir.webp"
   },
   {
     "id": "ainda",
@@ -742,7 +761,8 @@
     "frequencyRank": 65,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "new"
+    "enHint": "new",
+    "imageFile": "images/novo.webp"
   },
   {
     "id": "so",
@@ -809,7 +829,8 @@
     "frequencyRank": 70,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "work/job"
+    "enHint": "work/job",
+    "imageFile": "images/trabalho.webp"
   },
   {
     "id": "meu",
@@ -837,7 +858,8 @@
     "frequencyRank": 72,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to think/find"
+    "enHint": "to think/find",
+    "imageFile": "images/achar.webp"
   },
   {
     "id": "falar",
@@ -851,7 +873,8 @@
     "frequencyRank": 73,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to speak/talk"
+    "enHint": "to speak/talk",
+    "imageFile": "images/falar.webp"
   },
   {
     "id": "mulher",
@@ -865,7 +888,8 @@
     "frequencyRank": 74,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "woman"
+    "enHint": "woman",
+    "imageFile": "images/mulher.webp"
   },
   {
     "id": "ali",
@@ -932,7 +956,8 @@
     "frequencyRank": 79,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "water"
+    "enHint": "water",
+    "imageFile": "images/agua.webp"
   },
   {
     "id": "sempre",
@@ -959,7 +984,8 @@
     "frequencyRank": 81,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "hour/time"
+    "enHint": "hour/time",
+    "imageFile": "images/hora.webp"
   },
   {
     "id": "comer",
@@ -973,7 +999,8 @@
     "frequencyRank": 82,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to eat"
+    "enHint": "to eat",
+    "imageFile": "images/comer.webp"
   },
   {
     "id": "mundo",
@@ -987,7 +1014,8 @@
     "frequencyRank": 83,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "world"
+    "enHint": "world",
+    "imageFile": "images/mundo.webp"
   },
   {
     "id": "pai",
@@ -1001,7 +1029,8 @@
     "frequencyRank": 84,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "father"
+    "enHint": "father",
+    "imageFile": "images/pai.webp"
   },
   {
     "id": "amigo",
@@ -1015,7 +1044,8 @@
     "frequencyRank": 85,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "friend"
+    "enHint": "friend",
+    "imageFile": "images/amigo.webp"
   },
   {
     "id": "precisar",
@@ -1029,7 +1059,8 @@
     "frequencyRank": 86,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to need"
+    "enHint": "to need",
+    "imageFile": "images/precisar.webp"
   },
   {
     "id": "entao",
@@ -1056,7 +1087,8 @@
     "frequencyRank": 88,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "night"
+    "enHint": "night",
+    "imageFile": "images/noite.webp"
   },
   {
     "id": "olhar",
@@ -1070,7 +1102,8 @@
     "frequencyRank": 89,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to look"
+    "enHint": "to look",
+    "imageFile": "images/olhar.webp"
   },
   {
     "id": "pensar",
@@ -1084,7 +1117,8 @@
     "frequencyRank": 90,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to think"
+    "enHint": "to think",
+    "imageFile": "images/pensar.webp"
   },
   {
     "id": "obrigada",
@@ -1098,7 +1132,8 @@
     "tier": 100,
     "imageStrategy": "scene",
     "enHint": "thank you (female)",
-    "notes": "Forma żeńska. Mężczyzna mówi 'obrigado'."
+    "notes": "Forma żeńska. Mężczyzna mówi 'obrigado'.",
+    "imageFile": "images/obrigada.webp"
   },
   {
     "id": "hoje",
@@ -1111,7 +1146,8 @@
     "frequencyRank": 92,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "today"
+    "enHint": "today",
+    "imageFile": "images/hoje.webp"
   },
   {
     "id": "ate",
@@ -1165,7 +1201,8 @@
     "frequencyRank": 96,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "to like"
+    "enHint": "to like",
+    "imageFile": "images/gostar.webp"
   },
   {
     "id": "cidade",
@@ -1179,7 +1216,8 @@
     "frequencyRank": 97,
     "tier": 100,
     "imageStrategy": "literal",
-    "enHint": "city"
+    "enHint": "city",
+    "imageFile": "images/cidade.webp"
   },
   {
     "id": "tudo",
@@ -1219,6 +1257,7 @@
     "frequencyRank": 100,
     "tier": 100,
     "imageStrategy": "scene",
-    "enHint": "sir/mister"
+    "enHint": "sir/mister",
+    "imageFile": "images/senhor.webp"
   }
 ]

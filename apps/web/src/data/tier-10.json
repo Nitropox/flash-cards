@@ -12,7 +12,8 @@
     "imageStrategy": "scene",
     "enHint": "hello greeting",
     "audioPt": "audio/raquel/ola/word.mp3",
-    "audioExamplePt": "audio/raquel/ola/example.mp3"
+    "audioExamplePt": "audio/raquel/ola/example.mp3",
+    "imageFile": "images/ola.webp"
   },
   {
     "id": "obrigado",
@@ -28,7 +29,8 @@
     "enHint": "thank you",
     "audioPt": "audio/raquel/obrigado/word.mp3",
     "audioExamplePt": "audio/raquel/obrigado/example.mp3",
-    "notes": "Forma męska. Kobieta mówi 'obrigada'."
+    "notes": "Forma męska. Kobieta mówi 'obrigada'.",
+    "imageFile": "images/obrigado.webp"
   },
   {
     "id": "por-favor",
@@ -43,7 +45,8 @@
     "imageStrategy": "scene",
     "enHint": "please",
     "audioPt": "audio/raquel/por-favor/word.mp3",
-    "audioExamplePt": "audio/raquel/por-favor/example.mp3"
+    "audioExamplePt": "audio/raquel/por-favor/example.mp3",
+    "imageFile": "images/por-favor.webp"
   },
   {
     "id": "sim",
@@ -58,7 +61,8 @@
     "imageStrategy": "scene",
     "enHint": "yes",
     "audioPt": "audio/raquel/sim/word.mp3",
-    "audioExamplePt": "audio/raquel/sim/example.mp3"
+    "audioExamplePt": "audio/raquel/sim/example.mp3",
+    "imageFile": "images/sim.webp"
   },
   {
     "id": "nao",
@@ -74,7 +78,8 @@
     "enHint": "no",
     "audioPt": "audio/raquel/nao/word.mp3",
     "audioExamplePt": "audio/raquel/nao/example.mp3",
-    "notes": "Nasalność końcowa. Akcent (~) ma znaczenie."
+    "notes": "Nasalność końcowa. Akcent (~) ma znaczenie.",
+    "imageFile": "images/nao.webp"
   },
   {
     "id": "bom-dia",
@@ -89,7 +94,8 @@
     "imageStrategy": "scene",
     "enHint": "good morning",
     "audioPt": "audio/raquel/bom-dia/word.mp3",
-    "audioExamplePt": "audio/raquel/bom-dia/example.mp3"
+    "audioExamplePt": "audio/raquel/bom-dia/example.mp3",
+    "imageFile": "images/bom-dia.webp"
   },
   {
     "id": "desculpe",
@@ -104,7 +110,8 @@
     "imageStrategy": "scene",
     "enHint": "excuse me",
     "audioPt": "audio/raquel/desculpe/word.mp3",
-    "audioExamplePt": "audio/raquel/desculpe/example.mp3"
+    "audioExamplePt": "audio/raquel/desculpe/example.mp3",
+    "imageFile": "images/desculpe.webp"
   },
   {
     "id": "eu-sou",
@@ -120,7 +127,8 @@
     "enHint": "I am",
     "audioPt": "audio/raquel/eu-sou/word.mp3",
     "audioExamplePt": "audio/raquel/eu-sou/example.mp3",
-    "notes": "Forma 1 os. l. poj. czasownika 'ser' (być, trwale)."
+    "notes": "Forma 1 os. l. poj. czasownika 'ser' (być, trwale).",
+    "imageFile": "images/eu-sou.webp"
   },
   {
     "id": "como-estas",
@@ -136,7 +144,8 @@
     "enHint": "how are you",
     "audioPt": "audio/raquel/como-estas/word.mp3",
     "audioExamplePt": "audio/raquel/como-estas/example.mp3",
-    "notes": "Forma 'tu' (nieformalna). Formalnie: 'como está?'."
+    "notes": "Forma 'tu' (nieformalna). Formalnie: 'como está?'.",
+    "imageFile": "images/como-estas.webp"
   },
   {
     "id": "adeus",
@@ -152,6 +161,7 @@
     "enHint": "goodbye",
     "audioPt": "audio/raquel/adeus/word.mp3",
     "audioExamplePt": "audio/raquel/adeus/example.mp3",
-    "notes": "Można też 'até logo' (do zobaczenia)."
+    "notes": "Można też 'até logo' (do zobaczenia).",
+    "imageFile": "images/adeus.webp"
   }
 ]
