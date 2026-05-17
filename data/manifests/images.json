@@ -10270,5 +10270,47 @@
     "file": "acabar-por.webp",
     "generatedAt": "2026-05-17T13:28:04.127Z",
     "costUsd": 0.003
+  },
+  "conta-corrente": {
+    "promptHash": "ff73cb8f83cca57e",
+    "file": "conta-corrente.webp",
+    "generatedAt": "2026-05-17T13:28:06.006Z",
+    "costUsd": 0.003
+  },
+  "deposito": {
+    "promptHash": "79246ffd85af8eb7",
+    "file": "deposito.webp",
+    "generatedAt": "2026-05-17T13:28:07.878Z",
+    "costUsd": 0.003
+  },
+  "saldo": {
+    "promptHash": "6e75b50c9efbfd83",
+    "file": "saldo.webp",
+    "generatedAt": "2026-05-17T13:28:09.656Z",
+    "costUsd": 0.003
+  },
+  "extrato": {
+    "promptHash": "2d3b700655be550c",
+    "file": "extrato.webp",
+    "generatedAt": "2026-05-17T13:28:11.216Z",
+    "costUsd": 0.003
+  },
+  "trocar-dinheiro": {
+    "promptHash": "52c96763b9913b28",
+    "file": "trocar-dinheiro.webp",
+    "generatedAt": "2026-05-17T13:28:12.997Z",
+    "costUsd": 0.003
+  },
+  "tratar-de": {
+    "promptHash": "f1e1e378b632c418",
+    "file": "tratar-de.webp",
+    "generatedAt": "2026-05-17T13:28:15.403Z",
+    "costUsd": 0.003
+  },
+  "encarregar-se": {
+    "promptHash": "9f3ad41a5511105a",
+    "file": "encarregar-se.webp",
+    "generatedAt": "2026-05-17T13:28:17.071Z",
+    "costUsd": 0.003
   }
 }
