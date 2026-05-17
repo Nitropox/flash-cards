@@ -8860,5 +8860,77 @@
     "file": "inspecao.webp",
     "generatedAt": "2026-05-17T13:20:57.568Z",
     "costUsd": 0.003
+  },
+  "travao": {
+    "promptHash": "5edb2b7320370b6d",
+    "file": "travao.webp",
+    "generatedAt": "2026-05-17T13:21:00.013Z",
+    "costUsd": 0.003
+  },
+  "volante": {
+    "promptHash": "dede1982d0d52c14",
+    "file": "volante.webp",
+    "generatedAt": "2026-05-17T13:21:01.846Z",
+    "costUsd": 0.003
+  },
+  "embraiagem": {
+    "promptHash": "98f8db559a7ab919",
+    "file": "embraiagem.webp",
+    "generatedAt": "2026-05-17T13:21:03.590Z",
+    "costUsd": 0.003
+  },
+  "acelerador": {
+    "promptHash": "ef6ec9b776a6c6ef",
+    "file": "acelerador.webp",
+    "generatedAt": "2026-05-17T13:21:05.451Z",
+    "costUsd": 0.003
+  },
+  "retrovisor": {
+    "promptHash": "85edf8916953a04a",
+    "file": "retrovisor.webp",
+    "generatedAt": "2026-05-17T13:21:07.221Z",
+    "costUsd": 0.003
+  },
+  "pisca": {
+    "promptHash": "a377f2cd1a9900de",
+    "file": "pisca.webp",
+    "generatedAt": "2026-05-17T13:21:09.077Z",
+    "costUsd": 0.003
+  },
+  "para-brisas": {
+    "promptHash": "05ca6b797fa2366b",
+    "file": "para-brisas.webp",
+    "generatedAt": "2026-05-17T13:21:10.681Z",
+    "costUsd": 0.003
+  },
+  "limpa-para-brisas": {
+    "promptHash": "b4fe80e1ad3da8ac",
+    "file": "limpa-para-brisas.webp",
+    "generatedAt": "2026-05-17T13:21:12.409Z",
+    "costUsd": 0.003
+  },
+  "mala-do-carro": {
+    "promptHash": "a7a5f15772210357",
+    "file": "mala-do-carro.webp",
+    "generatedAt": "2026-05-17T13:21:14.314Z",
+    "costUsd": 0.003
+  },
+  "capot": {
+    "promptHash": "2e4cf337946fca09",
+    "file": "capot.webp",
+    "generatedAt": "2026-05-17T13:21:16.207Z",
+    "costUsd": 0.003
+  },
+  "berma": {
+    "promptHash": "0eec5def9ea9995c",
+    "file": "berma.webp",
+    "generatedAt": "2026-05-17T13:21:17.862Z",
+    "costUsd": 0.003
+  },
+  "reboque": {
+    "promptHash": "543ccb48b0a0039d",
+    "file": "reboque.webp",
+    "generatedAt": "2026-05-17T13:21:19.933Z",
+    "costUsd": 0.003
   }
 }
