@@ -152,7 +152,7 @@ export function CardView({ card, isRevealed, onReveal, onRate }: Props) {
     if (word.imageStrategy === 'none') {
       return (
         <div onClick={clickHandler} className={`w-[640px] h-[640px] max-w-full aspect-square rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center ${cursorClass}`}>
-          <span className="text-5xl font-semibold text-stone-600 dark:text-stone-300 text-center px-4 leading-tight">{word.pt}</span>
+          <span className="text-5xl font-semibold text-stone-600 dark:text-stone-300 text-center px-4 leading-tight">{promptWord}</span>
         </div>
       );
     }
